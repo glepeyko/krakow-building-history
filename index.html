@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Historia Twojego Domu — Kraków</title>
+<meta name="description" content="Sprawdź historię swojego domu w Krakowie: kiedy powstał, w jakim stylu i kto go zaprojektował.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <header class="hero">
+    <p class="eyebrow">Kraków, dom po domu</p>
+    <h1>Historia Twojego Domu</h1>
+    <p class="lede">
+      Wpisz adres budynku w Krakowie i sprawdź, czy figuruje w gminnej ewidencji
+      zabytków — kiedy powstał, w jakim stylu i kto go zaprojektował.
+    </p>
+  </header>
+
+  <main>
+    <section class="search-section" aria-label="Wyszukiwarka adresu">
+      <form id="search-form" autocomplete="off">
+        <div class="field field-street">
+          <label for="street-input">Ulica</label>
+          <input
+            type="text"
+            id="street-input"
+            name="street"
+            placeholder="np. Konopnickiej"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="street-listbox"
+            aria-autocomplete="list"
+          >
+          <ul id="street-listbox" class="autocomplete-list" role="listbox" hidden></ul>
+        </div>
+
+        <div class="field field-number">
+          <label for="number-input">Numer budynku</label>
+          <input
+            type="text"
+            id="number-input"
+            name="number"
+            placeholder="np. 5"
+          >
+        </div>
+
+        <button type="submit" class="btn-primary">Szukaj</button>
+      </form>
+      <p class="hint">Baza obejmuje na razie budynki z gminnej ewidencji zabytków — nie każdy adres jest jeszcze opisany.</p>
+    </section>
+
+    <section id="results" class="results" aria-live="polite"></section>
+
+    <section class="contact-section" id="contact">
+      <h2>Zgłoś błąd lub brakujący adres</h2>
+      <p>Twojego domu nie ma w bazie albo widzisz nieścisłość? Daj nam znać.</p>
+
+      <form id="contact-form">
+        <div class="field">
+          <label for="contact-name">Imię <span class="optional">(opcjonalnie)</span></label>
+          <input type="text" id="contact-name" name="name">
+        </div>
+        <div class="field">
+          <label for="contact-email">E-mail <span class="optional">(opcjonalnie, jeśli chcesz odpowiedź)</span></label>
+          <input type="email" id="contact-email" name="email">
+        </div>
+        <div class="field">
+          <label for="contact-message">Wiadomość</label>
+          <textarea id="contact-message" name="message" rows="4" required
+            placeholder="Adres, którego dotyczy zgłoszenie, i opis problemu"></textarea>
+        </div>
+        <button type="submit" class="btn-secondary">Wyślij zgłoszenie</button>
+      </form>
+      <p class="hint" id="contact-hint">
+        To wersja testowa: przycisk otworzy Twój program pocztowy z gotową wiadomością.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Źródło danych: Gminna Ewidencja Zabytków Miasta Krakowa. Wersja testowa —
+      dane mogą być niekompletne lub zawierać błędy.
+    </p>
+  </footer>
+
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
