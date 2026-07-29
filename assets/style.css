@@ -1,0 +1,312 @@
+/* ---------------------------------------------------------------
+   Token system
+   Subject: a municipal heritage register — old address plaques,
+   ledger cards, oxidised copper roofing (a very Kraków material).
+   ------------------------------------------------------------- */
+:root {
+  --paper: #E9E1CE;
+  --card: #F6F1E4;
+  --ink: #241F1A;
+  --ink-soft: #5B5142;
+  --patina: #3F6E5F;
+  --patina-dark: #2B4E42;
+  --brass: #9C6F2B;
+  --line: #C9BC9C;
+  --danger: #8C3B2E;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+a { color: var(--patina-dark); }
+
+/* ---------------------------------------------------------------
+   Header
+   ------------------------------------------------------------- */
+.hero { margin-bottom: 40px; }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--patina);
+  margin: 0 0 8px;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  margin: 0 0 16px;
+  line-height: 1.1;
+}
+
+.lede {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  max-width: 46ch;
+  margin: 0;
+}
+
+/* ---------------------------------------------------------------
+   Search form
+   ------------------------------------------------------------- */
+.search-section {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 28px 0;
+  margin-bottom: 32px;
+}
+
+#search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.field { display: flex; flex-direction: column; position: relative; }
+.field-street { flex: 1 1 240px; }
+.field-number { flex: 0 1 140px; }
+
+label {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+
+.optional { font-weight: 400; opacity: 0.75; }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--ink);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--line);
+  padding: 8px 2px;
+  outline: none;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  border-bottom-color: var(--patina);
+}
+
+.btn-primary,
+.btn-secondary {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 22px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--patina);
+  color: var(--card);
+}
+.btn-primary:hover { background: var(--patina-dark); }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--patina-dark);
+  border: 2px solid var(--patina);
+  padding: 8px 20px;
+}
+.btn-secondary:hover { background: var(--patina); color: var(--card); }
+
+.hint {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 14px 0 0;
+}
+
+/* ---------------------------------------------------------------
+   Autocomplete dropdown
+   ------------------------------------------------------------- */
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 2px 0 0;
+  padding: 4px 0;
+  list-style: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  max-height: 260px;
+  overflow-y: auto;
+  box-shadow: 0 6px 16px rgba(36, 31, 26, 0.12);
+}
+
+.autocomplete-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.autocomplete-list li mark {
+  background: none;
+  color: var(--patina-dark);
+  font-weight: 600;
+}
+
+.autocomplete-list li.active,
+.autocomplete-list li:hover {
+  background: var(--paper);
+}
+
+/* ---------------------------------------------------------------
+   Results
+   ------------------------------------------------------------- */
+.results { margin-bottom: 48px; }
+
+.result-card {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 20px 22px;
+  margin-bottom: 16px;
+}
+
+.result-card .tag {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.03em;
+}
+
+.result-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 6px 0 4px;
+  text-transform: lowercase;
+}
+.result-card h3::first-letter { text-transform: uppercase; }
+
+.result-card .address {
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  font-size: 0.95rem;
+}
+
+.meta-grid dt {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  align-self: baseline;
+  padding-top: 2px;
+}
+
+.meta-grid dd { margin: 0; }
+
+.badge-protected {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  color: var(--brass);
+  border: 1px solid var(--brass);
+  border-radius: 3px;
+  padding: 3px 8px;
+}
+
+.no-result {
+  background: var(--card);
+  border: 1px dashed var(--line);
+  border-radius: 4px;
+  padding: 22px;
+  color: var(--ink-soft);
+}
+.no-result strong { color: var(--ink); }
+
+.result-message { color: var(--danger); font-size: 0.95rem; }
+
+/* ---------------------------------------------------------------
+   Contact section
+   ------------------------------------------------------------- */
+.contact-section {
+  border-top: 1px solid var(--line);
+  padding-top: 32px;
+}
+
+.contact-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 480px;
+  margin-top: 20px;
+}
+
+/* ---------------------------------------------------------------
+   Footer
+   ------------------------------------------------------------- */
+footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+/* ---------------------------------------------------------------
+   Motion + accessibility
+   ------------------------------------------------------------- */
+.result-card, .no-result {
+  animation: fade-in 0.2s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .result-card, .no-result { animation: none; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  #search-form { flex-direction: column; align-items: stretch; }
+  .btn-primary { width: 100%; }
+}
