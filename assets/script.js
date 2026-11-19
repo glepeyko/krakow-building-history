@@ -328,7 +328,7 @@
   function aiBlock(e) {
     if (!e.ai_description || !e.ai_sources || !e.ai_sources.length) return "";
     const n = e.ai_sources.length;
-    const text = esc(e.ai_description).replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (m, nums) => {
+    const text = esc(e.ai_description).replace(/\s*\[(\d+(?:\s*,\s*\d+)*)\]/g, (m, nums) => {
       const refs = nums.split(",").map((x) => parseInt(x, 10)).filter((x) => x >= 1 && x <= n);
       if (!refs.length) return "";
       return "<sup>" + refs.map((r) => `<a href="${esc(e.ai_sources[r - 1].url)}" target="_blank" rel="noopener" title="${esc(e.ai_sources[r - 1].title)}">[${r}]</a>`).join("") + "</sup>";
@@ -341,7 +341,7 @@
         <ol>${list}</ol>
         <p class="ai-note">Tekst napisał model AI na podstawie powyższych źródeł; osobny automatyczny
         weryfikator sprawdził każde zdanie ze źródłem, ale nie sprawdził go jeszcze człowiek.
-        To nie są dane z rejestru zabytków${e.ai_researched_at ? ` (opracowano ${esc(e.ai_researched_at)})` : ""}.</p>
+        To nie są dane z rejestru zabytków${e.ai_researched_at ? ` (opracowano ${esc(e.ai_researched_at.split("-").reverse().join("."))})` : ""}.</p>
       </section>`;
   }
 

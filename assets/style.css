@@ -384,7 +384,7 @@ footer {
   margin: 0 0 8px;
 }
 
-.street-story p { margin: 0 0 6px; font-size: 0.95rem; }
+.street-story p:not(.source):not(.links) { margin: 0 0 6px; font-size: 0.95rem; }
 
 .ai-draft {
   border-left: 3px solid var(--brass);

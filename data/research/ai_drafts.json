@@ -1,0 +1,660 @@
+[
+ {
+  "entry_id": 4458,
+  "address": "Rynek Główny 10",
+  "text": "W XVI wieku dom przechodził kolejno w ręce zamożnych rodów kupieckich: do 1545 roku należał do Morsztynów, później do Wanzamów, a pod koniec stulecia do Gutteterów. [1,2] W 1602 roku mieszkał w nim włoski malarz Tomasz Dolabella, a w XVII wieku właściciel Teodozjusz Śrubin zapisał kamienicę Bractwu Włoskiemu. [1,2] Około 1830 roku Jan Wincenty Kopff ozdobił pomieszczenia pierwszego piętra klasycystycznymi malowidłami z widokami, które przetrwały do dziś. [1,2] Nazwa domu pochodzi od złoconej płaskorzeźby karpia – na początku XX wieku przeniesiono ją na podwórze sąsiedniej kamienicy nr 11, a na swoje miejsce wróciła w 2002 roku. [2]",
+  "sources": [
+   {
+    "title": "Kamienica Pod Złotym Karpiem w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82otym_Karpiem_w_Krakowie"
+   },
+   {
+    "title": "kamienica Pod Złotym Karpiem – Zabytek.pl (NID)",
+    "url": "https://zabytek.pl/pl/obiekty/krakow-dom-pod-zlotym-karpiem"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82otym_Karpiem_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Z%C5%82otym_Karpiem_w_Krakowie&action=raw",
+    "https://zabytek.pl/pl/obiekty/krakow-dom-pod-zlotym-karpiem"
+   ]
+  }
+ },
+ {
+  "entry_id": 4461,
+  "address": "Rynek Główny 13",
+  "text": "W latach 1847–1848 połączono dwa odrębne domy, Pod Złotą Głową i Pod Opatrznością, należące do Józefa Louisa, który urządził tu romantyczny dom-muzeum z galerią portretów królewskich. [2] Wcześniej w domu Pod Złotą Głową od XVI wieku działała apteka, a w domu Pod Opatrznością od końca XVII wieku księgarnia, do której Ignacy Groebel w 1783 roku dołączył drukarnię. [2] W 1853 roku mieszkał tu generał Józef Chłopicki. [1,2] Po pożarze w 1990 roku kamienicę przebudowano w latach 1995–2003 na pasaż handlowy. [2]",
+  "sources": [
+   {
+    "title": "Kamienica Pod Złotą Głową w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82ot%C4%85_G%C5%82ow%C4%85_w_Krakowie"
+   },
+   {
+    "title": "kamienica Louisów – Zabytek.pl (NID)",
+    "url": "https://zabytek.pl/pl/obiekty/krakow-kamienica-louisow"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82ot%C4%85_G%C5%82ow%C4%85_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'Dzisiejszy budynek powstał ... przez Józefa Louisa': zabytek.pl says only that the merger was carried out in 1847–1848 (passive voice), without saying Louis did it, and the building was rebuilt many times afterwards. Rephrased to 'połączono ... należące do Józefa Louisa' (he bought both houses, in 1836 and 1847)."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Z%C5%82ot%C4%85_G%C5%82ow%C4%85_w_Krakowie&action=raw",
+    "https://zabytek.pl/pl/obiekty/krakow-kamienica-louisow"
+   ]
+  }
+ },
+ {
+  "entry_id": 4481,
+  "address": "Rynek Główny 33",
+  "text": "Dom należał pierwotnie do bogatego kupca Stanisława Jedwatha, którego córkę poślubił Ciemowicz; w XVII wieku kamienicę zmodernizowano na potrzeby rodziny Ciemowiczów, nadając jej barokową stylistykę. [2] W połowie XVIII wieku właścicielem był podkanclerzy koronny Stanisław Sołtyk. [2] W 1864 roku fasadę zwieńczono attyką według projektu Pawła Barańskiego. [1,2] W 1932 roku parter przystosowano według projektu Franciszka Mączyńskiego na sklep firmowy fabryki czekolady Adama Piaseckiego, przejętej po wojnie przez Zakłady Cukiernicze „Wawel”; oryginalny wystrój sklepu z witrynami, ladami, witrażami i zegarem zachował się do dziś. [1,2]",
+  "sources": [
+   {
+    "title": "Kamienica Ciemowiczowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Ciemowiczowska_w_Krakowie"
+   },
+   {
+    "title": "kamienica Ciemowiczowska – Zabytek.pl (NID)",
+    "url": "https://zabytek.pl/pl/obiekty/krakow-kamienica-ciemowiczowska-2"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Ciemowiczowska_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'od tej rodziny wzięła się nazwa kamienicy': neither source says the name comes from the Ciemowicz family. Clause removed.",
+    "'przebudowanej przez Ciemowiczów': the source says the house was modernised 'na potrzeby rodziny Ciemowiczów', not by them. Rephrased.",
+    "'Mączyński urządził ... sklep ..., przejęty ... przez Wawel': Mączyński designed the adaptation (WP) and the façade and shop window (zabytek). It was the chocolate firm, not the shop, that 'Wawel' took over. Rephrased."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Ciemowiczowska_w_Krakowie&action=raw",
+    "https://zabytek.pl/pl/obiekty/krakow-kamienica-ciemowiczowska-2"
+   ]
+  }
+ },
+ {
+  "entry_id": 4489,
+  "address": "Rynek Główny 43",
+  "text": "Murowany dom stał tu już w pierwszej połowie XIV wieku; z tego czasu pochodzi sklepiona piwnica dawnego przedproża, a z powodu podnoszenia się terenu pierwotny parter jest dziś częścią piwnic. [2] W 1475 roku od pożaru tej kamienicy zajęło się ponad sto domów. [2] Kolejne nazwy – Gehanowska, Helblinkowska, Korycińskich – pochodzą od dawnych właścicieli. [1,2] W XVIII wieku lekarz Jan Szaster założył tu aptekę „Pod Słońcem”, a w latach 1783–1793 odbywały się w budynku wykłady i ćwiczenia dla studentów farmacji. [1,2]",
+  "sources": [
+   {
+    "title": "Kamienica Pod Słońcem w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Pod_S%C5%82o%C5%84cem_w_Krakowie"
+   },
+   {
+    "title": "kamienica Pod Słońcem – Zabytek.pl (NID)",
+    "url": "https://zabytek.pl/pl/obiekty/krakow-kamienica-pod-sloncem-2"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_S%C5%82o%C5%84cem_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_S%C5%82o%C5%84cem_w_Krakowie&action=raw",
+    "https://zabytek.pl/pl/obiekty/krakow-kamienica-pod-sloncem-2"
+   ]
+  }
+ },
+ {
+  "entry_id": 4492,
+  "address": "Rynek Główny 45",
+  "text": "W 1544 roku dom należał do Bartłomieja Kromera, brata kronikarza Marcina Kromera, a w 1569 roku otwarto w nim aptekę; apteka działająca tu w XIX wieku nosiła nazwę „Pod Białym Orłem”. [2] W 1775 roku mieszkał tu Tadeusz Kościuszko – tablicę z jego medalionem odsłonięto w 1892 roku, a po zniszczeniu jej przez Niemców w czasie wojny umieszczono nową w 1946 roku. [1,2] Obecną, regotycyzowaną fasadę zaprojektował pod koniec XIX wieku Władysław Ekielski, a rzeźbę feniksa pod okapem, branego za orła, zaprojektował Stanisław Wyspiański. [1,2] We wnętrzach częściowo zachowały się renesansowe stropy kasetonowe. [1,2]",
+  "sources": [
+   {
+    "title": "Kamienica Pod Orłem w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Or%C5%82em_w_Krakowie"
+   },
+   {
+    "title": "kamienica Pod Orłem – Zabytek.pl (NID)",
+    "url": "https://zabytek.pl/pl/obiekty/krakow-kamienica-kromerowska-druga"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Or%C5%82em_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'od 1569 roku działała w nim apteka': zabytek.pl says a pharmacy opened in 1569. Later the ground floor housed a café and billiard room, and the pharmacy named 'Pod Białym Orłem' (1809) was set up again by a later owner, so it did not run without a break. Rephrased; marker changed to [2], since WP gives no 1569 date or pharmacy name.",
+    "'często branego za orła': the source says 'pochopnie', not 'often'. 'często' removed.",
+    "'zachowały się renesansowe stropy': WP says 'częściowo zachowały się', so the hedge 'częściowo' was restored."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Or%C5%82em_w_Krakowie&action=raw",
+    "https://zabytek.pl/pl/obiekty/krakow-kamienica-kromerowska-druga"
+   ]
+  }
+ },
+ {
+  "entry_id": 1363,
+  "address": "Floriańska 5",
+  "text": "Kamienicę wzniesiono w drugiej połowie XIV wieku, a od drugiej ćwierci XVI do połowy XVII wieku należała do rodziny Wanzamów, za której czasów przebudowano ją w duchu renesansu. [1] W latach 1797–1834 właścicielem był F. Niedzielski, który nadał jej klasycystyczny charakter – z tego okresu pochodzi fasada z trójkątnymi frontonami nad oknami pierwszego piętra i wieńcami zboża w niszach drugiego. [1] Przy wejściu przetrwał kamienny portal z XVI wieku o formach gotycko-renesansowych. [1,2] Od połowy XIX wieku do 1930 roku dom należał do rodziny Launerów. [1]",
+  "sources": [
+   {
+    "title": "Kamienica Wanzamowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Wanzamowska_w_Krakowie"
+   },
+   {
+    "title": "Ulica Floriańska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Floria%C5%84ska_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Wanzamowska_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Wanzamowska_w_Krakowie&action=raw",
+    "https://pl.wikipedia.org/w/index.php?title=Ulica_Floria%C5%84ska_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 1385,
+  "address": "Floriańska 26",
+  "text": "Wejście do kamienicy, ujęte między dwiema masywnymi szkarpami, prowadzi przez portal zwieńczony trójkątnym przyczółkiem – według Wikipedii jedyny taki w Krakowie. [1]",
+  "sources": [
+   {
+    "title": "Ulica Floriańska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Floria%C5%84ska_w_Krakowie"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Ulica_Floria%C5%84ska_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 1637,
+  "address": "Grodzka 19",
+  "text": "Na tej wąskiej działce stała kamienica „Pod Lipką”, którą rozebrano w 1939 r.; dziś w tym miejscu, na rogu placu Wszystkich Świętych, stoi Pawilon Wyspiańskiego. [1,2] Ideę budowy pawilonu przedstawił w 1998 r. Andrzej Wajda w ramach Festiwalu Kraków 2000, proponując, by w fasadę wstawić trzy witraże Stanisława Wyspiańskiego, których dotąd nie wykonano. [1] Prace zaczęto w 2005 r. od badań archeologicznych, a budynek otwarto 2 czerwca 2007 r. podczas obchodów 750-lecia lokacji Krakowa. [1]",
+  "sources": [
+   {
+    "title": "Pawilon Wyspiańskiego – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Pawilon_Wyspia%C5%84skiego"
+   },
+   {
+    "title": "Ulica Grodzka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Grodzka_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pawilon_Wyspia%C5%84skiego",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [
+    "editor: dropped the stained-glass sentence; Wikipedia marks it [potrzebny przypis]"
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Pawilon_Wyspia%C5%84skiego&action=raw",
+    "https://pl.wikipedia.org/w/index.php?title=Ulica_Grodzka_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 1668,
+  "address": "Grodzka 51",
+  "text": "Zabytkowa kamienica, której początki sięgają XVI wieku, mieści dziś Hotel Senacki. [1] Pierwotnie miała tylko jedną kondygnację, a kolejne piętra nadbudowywano stopniowo; dekoracje wokół okien i motywy roślinne na fasadzie pochodzą z XIX wieku. [1] W podziemiach przechowywano w średniowieczu beczki z winem i miodem królewskim, później w piwnicach działały kramy, a obecnie są tam sale restauracyjne. [1]",
+  "sources": [
+   {
+    "title": "Hotel Senacki w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Hotel_Senacki_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Senacki_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'beczki królewskiego wina i miodu': WP says 'beczek z winem i miodem królewskim', so 'royal' is not clearly said of the wine. Wording brought back to the source."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Hotel_Senacki_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 1669,
+  "address": "Grodzka 52",
+  "text": "W 1595 r. jezuici zwrócili się do senatora Joachima Ocieskiego o odkupienie działki z jego dworem – do sprzedaży nakłonił go Piotr Skarga, oferując 12 tys. złotych – a w 1623 r. Zygmunt III Waza wystawił akt erekcyjny kolegium. [1] Jezuicka szkoła wywołała ostry spór z Akademią Krakowską, który skończył się w 1634 r. nakazem zamknięcia kolegium wydanym przez papieża Urbana VIII i króla; obecny gmach wzniesiono ostatecznie w latach 1668–1680. [1] Po kasacie zakonu budynek przechodził z rąk do rąk, w latach 1815–1846 obradował w nim Senat Wolnego Miasta Krakowa, a potem aż do 1971 r. mieściły się tu sądy. [1,2] Od 1970 r. należy do Uniwersytetu Jagiellońskiego, który nazwał go na cześć matematyka i astronoma Jana Brożka; 23 września 1980 r. założono tu krakowskie Niezależne Zrzeszenie Studentów. [1]",
+  "sources": [
+   {
+    "title": "Collegium Broscianum Uniwersytetu Jagiellońskiego – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Collegium_Broscianum_Uniwersytetu_Jagiello%C5%84skiego"
+   },
+   {
+    "title": "Ulica Grodzka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Grodzka_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Collegium_Broscianum_Uniwersytetu_Jagiello%C5%84skiego",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'kupili w 1595 r. za 12 tys. złotych': WP dates the jesuits' approach to Ocieski to 1595 and names Skarga's offer of 12,000 zł, but gives no date for the purchase. Rephrased."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Collegium_Broscianum_Uniwersytetu_Jagiello%C5%84skiego&action=raw",
+    "https://pl.wikipedia.org/w/index.php?title=Ulica_Grodzka_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 1685,
+  "address": "Grodzka 65",
+  "text": "Pałac stoi na rogu ul. Grodzkiej i Podzamcza, a od 1531 do 1805 roku, czyli przez blisko cztery stulecia, służył za krakowską siedzibę arcybiskupów gnieźnieńskich, prymasów Polski; nazywany jest też „pałacem prymasowskim” lub „kamienicą prymasowską”. [1] Murowana kamienica powstała w drugiej połowie XIV wieku, a w połowie XVI wieku przekształcono ją w piętrowy, trójskrzydłowy pałac renesansowy. [1] W 1943 roku budynek połączono z sąsiednią kamienicą nr 63; dziś mieści się w nim Urząd Skarbowy Kraków–Stare Miasto. [1]",
+  "sources": [
+   {
+    "title": "Pałac arcybiskupów gnieźnieńskich w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_arcybiskup%C3%B3w_gnie%C5%BAnie%C5%84skich_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_arcybiskup%C3%B3w_gnie%C5%BAnie%C5%84skich_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'stąd nazwy': the causal link is not stated. WP only lists the alternative names. Changed to a plain statement of the names."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Pa%C5%82ac_arcybiskup%C3%B3w_gnie%C5%BAnie%C5%84skich_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 2085,
+  "address": "Kanonicza 1",
+  "text": "Pałac zbudował w latach 1531–1532 kanonik Samuel Maciejowski, późniejszy biskup, w miejscu drewnianego domu nazywanego kaplicą św. Grzegorza. [1,2] Od strony dziedzińca odkryto arkadowy podcień przypisywany Bartłomiejowi Berrecciemu lub jego warsztatowi, a wejście zdobi barokowy portal z hermami brodatych atlantów. [1,2] Do końca XVIII wieku budynek był rezydencją kanoników, później władze Wolnego Miasta Krakowa urządziły w nim Inkwizytoriat, a w oficynie więzienie; obecny wygląd zawdzięcza nadbudowie drugiego piętra i nowej fasadzie zaprojektowanej przed 1854 rokiem przez Augusta Plasqude. [1,2] Dziś mieści się tu Wydział Architektury Politechniki Krakowskiej. [1,2]",
+  "sources": [
+   {
+    "title": "Pałac Samuela Maciejowskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Samuela_Maciejowskiego_w_Krakowie"
+   },
+   {
+    "title": "Ulica Kanonicza w Krakowie – Wikipedia (sekcja: Kamienica nr 1)",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kanonicza_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Samuela_Maciejowskiego_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Pa%C5%82ac_Samuela_Maciejowskiego_w_Krakowie&action=raw",
+    "https://pl.wikipedia.org/w/index.php?title=Ulica_Kanonicza_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 2098,
+  "address": "Kanonicza 17",
+  "text": "W 1505 roku biskup płocki Erazm Ciołek połączył tu dwa domy w okazały dwór, który w XVI wieku uchodził za najokazalszy przy ulicy Kanoniczej. [1] Kolejni gospodarze, biskup Piotr Tomicki i kardynał Jerzy Radziwiłł, dobudowali oficyny i podwyższyli gmach do trzech kondygnacji, a w drugiej połowie XVI wieku powstały mur obronny i baszta artyleryjska. [1] W XIX wieku budynek przejęły władze austriackie; mieściły się w nim później m.in. komisja poborowa i urząd probierczy, a na potrzeby tych funkcji został zdewastowany. [1] W 1996 roku pałac przekazano Muzeum Narodowemu w Krakowie, które po odnowie w latach 1999–2006 otworzyło tu w październiku 2007 roku galerie sztuki dawnej Polski i sztuki cerkiewnej. [1]",
+  "sources": [
+   {
+    "title": "Pałac biskupa Erazma Ciołka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_biskupa_Erazma_Cio%C5%82ka_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_biskupa_Erazma_Cio%C5%82ka_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'Austriacy ... urządzili ... co zniszczyło wnętrza': WP says the building was later used as the conscription commission and assay office, and that it (the building, not specifically the interiors) was devastated for these uses. Rephrased."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/w/index.php?title=Pa%C5%82ac_biskupa_Erazma_Cio%C5%82ka_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 2105,
+  "address": "Kanonicza 24",
+  "text": "Około 1400 roku stał tu gotycki murowany dom Klemensa Moskarzewskiego, który od 1407 roku należał do Kurozwęckich; ci w drugiej połowie XVI wieku połączyli dwie XV-wieczne kamienice w gotycko-renesansowy pałac. [1] Budynek był własnością prymasa Andrzeja Krzyckiego, sekretarza królowej Bony, a po jego śmierci sprzedano go Andrzejowi Górce – rodzina Górków przebudowała go w duchu manieryzmu, z krużgankami wokół dziedzińca. [1,2] W 1806 roku budynek przejęli Austriacy; mieściły się tu m.in. koszary, areszt policji i biuro telegraficzne, od którego wzięła się nazwa „Dom pod Telegrafem”; latem 1903 roku w tutejszym areszcie osadzono za włóczęgostwo czeskiego pisarza Jaroslava Haška, co upamiętnia tablica od strony ul. Podzamcze. [1,2] Od 2004 roku pałac jest siedzibą Wojewódzkiego Urzędu Ochrony Zabytków. [1,2]",
+  "sources": [
+   {
+    "title": "Pałac Górków w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_G%C3%B3rk%C3%B3w_w_Krakowie"
+   },
+   {
+    "title": "Ulica Kanonicza w Krakowie – Wikipedia (sekcja: Kamienica nr 24)",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kanonicza_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_G%C3%B3rk%C3%B3w_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'Po 1806 roku Austriacy umieścili tu...' changed to 'W 1806 roku budynek przejęli Austriacy' – source [1] says the Austrians took the building over in 1806.",
+    "'w XVI wieku' made precise ('w drugiej połowie XVI wieku', two 15th-c. houses) per [1]; 'trafił do' changed to 'po jego śmierci sprzedano' per [1,2]. No facts added beyond the sources."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/wiki/Pa%C5%82ac_G%C3%B3rk%C3%B3w_w_Krakowie",
+    "https://pl.wikipedia.org/wiki/Ulica_Kanonicza_w_Krakowie"
+   ]
+  }
+ },
+ {
+  "entry_id": 1878,
+  "address": "Świętego Jana 8-10",
+  "text": "Grand Hotel zajmuje narożny zespół budynków między ulicami Sławkowską (nr 5–7), św. Tomasza (12–14) i św. Jana (8–10). [1] W drugiej połowie XIX wieku dom przy Sławkowskiej kupili książę Aleksander i Marcelina Czartoryscy na swoją miejską rezydencję, przebudowaną w 1875 roku przez Maksymiliana Nitscha; w marmurowej sali księżna Marcelina dawała środowe koncerty fortepianowe dla gości. [1] Rezydencja pozostawała w rękach Czartoryskich przez 10 lat, a w 1886 roku przebudowano ją na reprezentacyjny hotel. [1] W hotelowej restauracji pracował w młodości jako kelner Henryk Worcell, który opisał te doświadczenia w powieści „Zaklęte rewiry” z 1936 roku. [1]",
+  "sources": [
+   {
+    "title": "Grand Hotel w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Grand_Hotel_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Grand_Hotel_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [
+    "No claim removed; sentence 3 reworded to match the source exactly ('przez 10 lat' instead of 'po około dziesięciu latach')."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/wiki/Grand_Hotel_w_Krakowie"
+   ]
+  }
+ },
+ {
+  "entry_id": 1894,
+  "address": "Świętego Jana 32",
+  "text": "Wcześniej stała w tym miejscu kamienica z XV wieku, należąca do karczmarzy i piwowarów, z wyszynkiem od frontu oraz stajniami i browarem w oficynach. [1] W 1911 roku z inicjatywy współwłaściciela Aleksandra Rittermana dawne zabudowania rozebrano, a w latach 1911–1912 wzniesiono na ich miejscu eklektyczno-modernistyczny Hotel Francuski według projektu Zbigniewa Odrzywolskiego. [1] Otwarty 1 czerwca 1912 roku hotel miał m.in. windy, telefony, elektryczne oświetlenie, centralne ogrzewanie i pocztę pneumatyczną, a gości przywoził z dworca samochód. [1] W 1945 roku hotel upaństwowiono, a od 1950 roku zarządzało nim Orbis. [1]",
+  "sources": [
+   {
+    "title": "Hotel Francuski w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Hotel_Francuski_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Francuski_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'Po 1945 roku hotel upaństwowiono' changed to 'W 1945 roku' – the source gives 1945.",
+    "Note (not removed): the article names Odrzywolski and Bronisław Colonna-Czosnowski (later extension) as designers; the article's main address is Pijarska 13, on the corner of św. Jana 32."
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/wiki/Hotel_Francuski_w_Krakowie"
+   ]
+  }
+ },
+ {
+  "entry_id": 4780,
+  "address": "Sławkowska 10",
+  "text": "Kamienica o pałacowym charakterze stoi na rogu ul. Sławkowskiej i św. Tomasza (nr 10). [1] Jej początki sięgają pierwszej połowy XIV wieku; po wielu przebudowach dwupiętrowy dom otrzymał rokokową fasadę i klasycystyczną attykę. [1] Od 1710 roku należał do rodziny Badenich, od której wziął nazwę. [1] Aż do lat 90. XX wieku na parterze działał antykwariat naukowy, określany jako największy w Krakowie. [1]",
+  "sources": [
+   {
+    "title": "Kamienica Badeniowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie"
+   ]
+  }
+ },
+ {
+  "entry_id": 1944,
+  "address": "Józefa 36",
+  "text": "Według Bogusława Krasnowolskiego pod tym adresem stała kamienica Jonasza syna Abrahama, wzniesiona w 1536 roku przez włoskich współpracowników Bartłomieja Berrecciego – jedna z najokazalszych w dawnym Mieście Żydowskim, które programem dorównywały kamienicom chrześcijańskiego Krakowa i Kazimierza; autor określa ją jako dziś niezachowaną. [1] Najprawdopodobniej około 1890 roku na parterze budynku, który wchodził dawniej w skład zespołu Synagogi Wysokiej, urządzono modlitewnię bractwa Chewra Ner Tamid („Bractwa Wiecznego Światła”). [2,3] Podczas II wojny światowej Niemcy zdewastowali to wnętrze, a obecnie mieszczą się tu biura Festiwalu Kultury Żydowskiej. [2]",
+  "sources": [
+   {
+    "title": "B. Krasnowolski, Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku, „Krzysztofory. Zeszyty Naukowe Muzeum Historycznego Miasta Krakowa” 35 (2017) – PDF",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   },
+   {
+    "title": "Synagoga Chewra Ner Tamid w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Synagoga_Chewra_Ner_Tamid_w_Krakowie"
+   },
+   {
+    "title": "Synagoga Wysoka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Synagoga_Wysoka_w_Krakowie"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "Restored the hedge 'najprawdopodobniej' before 'około 1890 roku' – source [2] says 'najprawdopodobniej około 1890'; [3] says only 'pod koniec lat 80. XIX w.'.",
+    "'jedna z nielicznych ... które rozmachem dorównywały' changed to 'jedna z najokazalszych ... które programem dorównywały' – Krasnowolski says only the most splendid houses, such as this one, matched Christian houses 'programem'."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109",
+    "https://pl.wikipedia.org/wiki/Synagoga_Chewra_Ner_Tamid_w_Krakowie",
+    "https://pl.wikipedia.org/wiki/Synagoga_Wysoka_w_Krakowie"
+   ]
+  }
+ },
+ {
+  "entry_id": 5275,
+  "address": "Szeroka 7",
+  "text": "W połowie XVII wieku na tej posesji stał jeden z nielicznych już wtedy przy ulicy Szerokiej domów drewnianych; należał do kupca Jelenia Mędlowicza, wymienionego w 1642 roku wśród 24 żydowskich kupców, którzy wspólnie ustanowili swojego pełnomocnika. [1] W indeksie mieszkańców ulicy, sporządzonym przez Bogusława Krasnowolskiego na podstawie akt hipotecznych Wolnego Miasta Krakowa, pod tym numerem figurują m.in. Lazar i Sela Karsznikowie, Izaak Kirsz i Lewek Wolf Szreyber (1799) oraz Izaak Futer (1824). [1]",
+  "sources": [
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'właścicielami części domu byli' removed – these names come only from the article's index of residents ('hip., 1799, Szeroka 7'), which does not say they owned parts of the house; reworded to what the index states."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ },
+ {
+  "entry_id": 5277,
+  "address": "Szeroka 9",
+  "text": "W połowie XVII wieku w południowej części dzisiejszej posesji stała kamienica sędziego żydowskiego Jelenia, którego Bogusław Krasnowolski utożsamia z synem lekarza Samuela Doktora albo Wolfa Bociana (Poppera). [1] Według tego badacza budynek mógł powstać wraz z sąsiednim, północnym, z podziału starszej kamienicy, istniejącej jeszcze przed utworzeniem Miasta Żydowskiego (być może w XIV wieku); był zapewne piętrowy, o dwuosiowym układzie wnętrza. [1] Zachował się plan restauracji kamienicy sprzed 1846 roku, przechowywany w Archiwum Narodowym w Krakowie. [1]",
+  "sources": [
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ },
+ {
+  "entry_id": 5278,
+  "address": "Szeroka 10",
+  "text": "Kamienica powstała w 1899 roku według projektu Władysława Steinbergera. [1] Wcześniej stał tu starszy dom – na początku XIX wieku kamienica pod tym numerem była podzielona między kilku właścicieli: w 1802 roku Abraham Jozue Herszel sprzedał swoją część Gelclowi Lewkowiczowi, w 1813 roku część kupił Berl Inhauser, a w 1818 roku części odziedziczyli Getzl i Maier Horowitzowie. [2] W 1823 roku tamtą kamienicę restaurowano i przebudowano – zachował się plan tych prac. [2]",
+  "sources": [
+   {
+    "title": "Ulica Szeroka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Szeroka_w_Krakowie"
+   },
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "kept",
+   "removed": [
+    "No claim removed; sources reordered so markers run 1..n in order of first citation (Wikipedia gallery caption: 'Kamienica (proj. Władysław Steinberger, 1899)')."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109",
+    "https://pl.wikipedia.org/wiki/Ulica_Szeroka_w_Krakowie"
+   ]
+  }
+ },
+ {
+  "entry_id": 5279,
+  "address": "Szeroka 12",
+  "text": "W XVII wieku w północnej części tej posesji stała zapewne kamienica Lythmanowska, należąca do zamożnej rodziny Littmanów przybyłej z Moraw, której wybitnym przedstawicielem był Littman Morawczyk. [1] Badania architektoniczne udokumentowały bogaty manierystyczny wystrój z pierwszej ćwierci XVII wieku, zwłaszcza we frontowej izbie na piętrze: kolumnę między oknami, podwójną arkadę na rzeźbionej konsoli, belkowy strop zdobiony kołtrynami i ornamentalny fryz. [1] Z kamienicy pochodzi też filarek z ornamentem arabeskowym, być może wykonany przez ten sam warsztat, który około 1615 roku tworzył wnęki ołtarzowe w kościele Bożego Ciała. [1] Na początku XIX wieku budynek był podzielony na trzy własności; jedną z nich w latach 1813–1824 miał Berl Feintuch, w 1810 roku wybrany jednym z czterech pierwszych seniorów kahału. [1]",
+  "sources": [
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "Restored the hedge 'zapewne' – Krasnowolski places the Lythmanowska house 'zapewne w obrębie północnej części dzisiejszej posesji'.",
+    "'odsłoniły' changed to 'udokumentowały', and 'od 1810 roku jeden z ...' changed to 'w 1810 roku wybrany jednym z ...', to follow the source wording."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ },
+ {
+  "entry_id": 5283,
+  "address": "Szeroka 17",
+  "text": "Już w spisie podatkowym z 1653 roku kamienicę wiązano z Łazarzem Doktorem – zapewne lekarzem, który przejął zawód po ojcu Samuelu, lekarzu królowej Bony. [1] Była to stosunkowo okazała, dwupiętrowa kamienica, powstała zapewne z połączenia dwóch starszych kamienic. [1] Na początku XIX wieku jej właścicielem był Samuel Goldstof, w 1810 roku wybrany na jednego z czterech seniorów kahału; na mocy jego testamentu z 1824 roku pierwsze i drugie piętro odziedziczyli jego spadkobiercy. [1]",
+  "sources": [
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'węższych' removed – the source says the two older houses had single-bay (jednopasmowe) plans, not that they were narrower; 'prawdopodobnie' changed to the source's 'zapewne'.",
+    "'od 1810 roku jeden z czterech seniorów' changed to 'w 1810 roku wybrany na jednego z czterech seniorów' to match the source."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ },
+ {
+  "entry_id": 5284,
+  "address": "Szeroka 18",
+  "text": "Na początku XIX wieku kamienica pod tym numerem od 1800 roku należała do Rafaela Goldmana, członka władz gminy żydowskiej; piętro odkupił on wówczas od Józefa Wincentego Gołuchowskiego. [1] W 1837 roku ówczesny właściciel Józef Rozet uzyskał zatwierdzenie projektu drobnych przeróbek parteru, a w 1843 roku władze budowlane odrzuciły projekt nadbudowy trzeciego piętra. [1]",
+  "sources": [
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'stała starsza kamienica' removed – the source does not say the early 19th-century house was a different, older building than today's."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ },
+ {
+  "entry_id": 5293,
+  "address": "Szeroka 33",
+  "text": "W połowie XVII wieku kamienica pod tym numerem należała do złotnika Janasa, członka niższego organu władz kahalnych, tzw. czternastu mężów reprezentujących pospólstwo. [1] W 1833 roku część kamienicy kupił Jakub Landau z rodziny Landauów, związanej z kamienicą pod nr 2. [1] Zachowało się zdjęcie kamienic nr 32 i 33 z około 1885 roku, opublikowane w „Przeglądzie Technicznym” w 1909 roku. [1]",
+  "sources": [
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'właścicieli kamienicy pod nr 2' changed to 'związanej z kamienicą pod nr 2' – the source says the family was associated with no. 2 (one member, Saul Rafał Landau, owned a share)."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ },
+ {
+  "entry_id": 5296,
+  "address": "Szeroka 38",
+  "text": "Kamienicę tę można utożsamiać z wzmiankowanym w 1644 roku domem słynnego rabina Joela Sirkesa, zwanego BaCh (1561–1640), który działał w Krakowie od 1618 roku. [1] Był to zapewne dość okazały, być może dwupiętrowy budynek. [1] Na początku XIX wieku oba piętra kupił w dwóch ratach (1802 i 1809) Zachariasz Fränkel, z rodziny wywodzącej się z Pragi, w 1811 roku wybrany seniorem kahału, a parter od 1801 roku należał do Joachima Gumplowicza z rodziny zwolenników asymilacji; dzięki działalności Abrahama Gumplowicza rodzina ta od 1840 roku współtworzyła Stowarzyszenie Religijno-Cywilizacyjne, które dało początek Gminie Izraelitów Postępowych. [1]",
+  "sources": [
+   {
+    "title": "Bogusław Krasnowolski, „Społeczny i urbanistyczny obraz ulicy Szerokiej na krakowskim Kazimierzu do połowy XIX wieku”, Krzysztofory. Zeszyty Naukowe Muzeum Krakowa 35 (2017), Muzeum Krakowa (PDF)",
+    "url": "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   }
+  ],
+  "wikipedia": null,
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'do której należał Abraham Gumplowicz – jego działalność dała początek krakowskiej Gminie Izraelitów Postępowych' reworded: the source says Abraham's work led to the Religious-Civilisational Association (from 1840), which in turn gave rise to the Progressive community; 'krakowskiej' dropped as not stated."
+   ],
+   "checked_urls": [
+    "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ }
+]

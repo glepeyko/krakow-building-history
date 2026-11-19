@@ -16,7 +16,7 @@ to see what an iteration changed.
 | … with none within 150 m but some within 600 m (shown instead) | 35479 | 50.0% |
 | … with a district (dzielnica) | 67557 | 95.2% |
 | … on a street with a street story ("O ulicy") | 17893 | 25.2% |
-| … with an AI-drafted description (unverified) | 0 | 0.0% |
+| … with an AI-drafted description (unverified) | 27 | 0.0% |
 
 ## Streets ("O ulicy")
 
@@ -45,10 +45,10 @@ Excel rows: 7333, cross-reference rows skipped: 959.
 | Architect (from Wikidata, GEZ empty) | 19 | 0.3% |
 | Linked to Wikidata | 1305 | 20.5% |
 | Proper name (e.g. "Kamienica Pod Jaszczurką") | 453 | 7.1% |
-| Wikipedia article | 668 | 10.5% |
+| Wikipedia article | 684 | 10.7% |
 | Photo (Wikimedia Commons) | 1205 | 18.9% |
 | Linked to the NID register (official name, register date, zabytek.pl) | 1038 | 16.3% |
-| AI-drafted description (unverified, labelled) | 0 | 0.0% |
+| AI-drafted description (unverified, labelled) | 26 | 0.4% |
 
 District check (GEZ district column vs. OSM boundary, records with coordinates): agree 5685, disagree 19. Entries that got their district from OSM: 552. Addresses outside every district polygon: 2968.
 
