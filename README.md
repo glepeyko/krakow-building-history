@@ -8,13 +8,20 @@ not yet the production architecture from the full plan.
 ## What's in here
 
 ```
-index.html                    the page
-assets/style.css              styling
+index.html                     the page
+assets/style.css               styling
 assets/script.js               autocomplete + search logic
-data/buildings.json            6,364 building records (generated)
-data/streets.json              1,192 unique street names, for the autocomplete (generated)
-scripts/convert_excel_to_json.py   turns the source Excel into the two JSON files above
-source-data/Buildings_in_Krakow_EXCEL.xlsx   your original file, kept for reproducibility
+data/streets.json              all streets, for the autocomplete (generated)
+data/streets/*.json            one data file per street (generated)
+scripts/sources/gez.py         reads the GEZ Excel register
+scripts/sources/fetch_wikidata.py   downloads Wikidata items in Kraków
+scripts/sources/fetch_osm.py   extracts Kraków addresses from OpenStreetMap
+scripts/lib/address.py         address normalization + street matching
+scripts/build.py               merges all sources into data/
+tests/                         unit tests (python -m unittest discover tests)
+reports/coverage.md            how much we know (generated)
+source-data/Buildings_in_Krakow_EXCEL.xlsx   the GEZ register
+PLAN.md                        development plan
 CLAUDE.md                      project brief for Claude Code
 ```
 
@@ -50,34 +57,15 @@ python3 -m http.server 8000
 
 ## Updating the data
 
-If you correct or extend `source-data/Buildings_in_Krakow_EXCEL.xlsx` (or add
-a new Excel with the same columns), regenerate the JSON with:
-
 ```bash
-python3 -m pip install pandas openpyxl   # first time only
-python3 scripts/convert_excel_to_json.py source-data/Buildings_in_Krakow_EXCEL.xlsx
+python -m pip install -r requirements.txt     # first time only
+python scripts/sources/fetch_wikidata.py      # ~2 min
+python scripts/sources/fetch_osm.py           # downloads ~200 MB, ~3 min
+python scripts/build.py                       # ~10 s, writes data/ and reports/
 ```
 
-This overwrites `data/buildings.json` and `data/streets.json`. If your future
-column names differ, edit `COLUMN_MAP` at the top of the script — nothing
-else needs to change.
-
-## Known limitations of this test version
-
-- **Contact form has no backend.** It currently opens the visitor's email
-  client via a `mailto:` link (edit `CONTACT_EMAIL` in `assets/script.js`).
-  For a real deployment, swap this for a form service like Formspree, or a
-  small serverless function — no code changes needed elsewhere on the page.
-- **~5% of addresses (328 of 6,364) have no cleanly parsed building number** —
-  these are entries like "wiadukt" or "bateria fortu" that describe a
-  structure rather than a standard street address. They're still in the data
-  but won't surface through the number-based search.
-- **`buildings.json` is ~2.4 MB.** Fine for a test/demo load, but worth
-  splitting (e.g. by first letter of street) if the dataset grows a lot once
-  you start adding AI-researched entries for non-heritage buildings.
-- **No AI-enrichment pipeline yet.** This version only surfaces what's
-  already in your Excel file. The next step, per the earlier plan, is adding
-  the research pipeline for addresses not covered by this heritage register.
+Sources: GEZ (city register), Wikidata (CC0), OpenStreetMap
+(© OpenStreetMap contributors, ODbL — the footer credits it).
 
 ## Working with Claude Code
 

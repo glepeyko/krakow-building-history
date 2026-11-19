@@ -4,7 +4,19 @@ Goal: a visitor types any Kraków address and finds **something interesting**
 about that building — and, when we know nothing about the building itself,
 about its street, its block, and what stands nearby.
 
-## Where we start (Nov 2026)
+## Progress
+
+- **Iteration 1 — done (2026-11-19).** Phase 0 complete; Phase 1 partly
+  (Wikidata + OSM; NID register, Wikipedia street articles and photos on the
+  page still open); Phase 2 partly (all OSM addresses searchable, "nearby"
+  places; street history and districts still open).
+  Numbers: see `reports/coverage.md`.
+- **Next (iteration 2 proposal):** street stories (patron, former names)
+  from Wikidata/Wikipedia street items; district for every address;
+  NID register data; first batch of AI-researched, sourced entries for
+  Stare Miasto (labelled), with a verifier pass.
+
+## Where we started (Nov 2026)
 
 - 6,364 records from the Gminna Ewidencja Zabytków (GEZ). Per record we only
   have: type/name (~23 chars), dating, architect (44% of records), register

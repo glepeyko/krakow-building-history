@@ -1,0 +1,6 @@
+# Raw downloads: re-created by scripts/sources/fetch_*.py (the OSM extract is ~200 MB)
+source-data/raw/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
