@@ -360,10 +360,16 @@
     if (e.image) links.push(`<a href="${esc(commonsLink(e.image))}" target="_blank" rel="noopener">Zdjęcie (Wikimedia Commons)</a>`);
     if (e.lat) links.push(`<a href="${esc(mapLink(e.lat, e.lon))}" target="_blank" rel="noopener">Na mapie</a>`);
     if (e.wikidata) links.push(`<a href="https://www.wikidata.org/wiki/${esc(e.wikidata)}" target="_blank" rel="noopener">Wikidane</a>`);
+    if (e.nid_url) links.push(extLink(e.nid_url, "Karta w rejestrze zabytków (zabytek.pl)"));
 
     const sources = [SOURCE_LABELS[e.source] || e.source];
     if (e.wikidata && e.source !== "Wikidata") sources.push("Wikidane");
+    if (e.nid_name) sources.push("Rejestr zabytków NID");
     if (e.district_source === "OpenStreetMap") sources.push("dzielnica: OpenStreetMap");
+    const nidName = e.nid_name && ![title, subtitle, e.type_and_name].some((t) => normalize(t) === normalize(e.nid_name))
+      ? e.nid_name : "";
+    const nidDate = /^\d{4}-\d{2}-\d{2}$/.test(e.nid_register_date || "")
+      ? e.nid_register_date.split("-").reverse().join(".") : (e.nid_register_date || "");
 
     card.innerHTML = `
       ${districtLine ? `<div class="tag">${esc(districtLine)}</div>` : ""}
@@ -375,11 +381,14 @@
         ${e.dating ? `<dt>Datowanie</dt><dd>${esc(e.dating)}</dd>` : ""}
         ${author ? `<dt>Autor</dt><dd>${esc(author)}</dd>` : ""}
         ${e.styles ? `<dt>Styl</dt><dd>${esc(e.styles.join(", "))}</dd>` : ""}
+        ${!e.styles && e.nid_style ? `<dt>Styl</dt><dd>${esc(e.nid_style)} (wg NID)</dd>` : ""}
+        ${nidName ? `<dt>Nazwa w rejestrze</dt><dd>${esc(nidName)}</dd>` : ""}
+        ${nidDate ? `<dt>Wpis do rejestru</dt><dd>${esc(nidDate)} (wg NID)</dd>` : ""}
         ${e.alt_address ? `<dt>Adres narożny</dt><dd>${esc(e.alt_address)}</dd>` : ""}
       </dl>
       ${e.register_number
         ? `<div class="badge-protected">Zabytek w rejestrze — nr ${esc(e.register_number)}</div>`
-        : ""}
+        : e.nid_register ? `<div class="badge-protected">Zabytek w rejestrze — ${esc(e.nid_register)}</div>` : ""}
       ${links.length ? `<p class="links">${links.join(" · ")}</p>` : ""}
       <p class="source">Źródło: ${esc(sources.join(", "))}</p>
       ${aiBlock(e)}

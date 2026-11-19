@@ -45,6 +45,7 @@ Excel rows: 7333, cross-reference rows skipped: 959.
 | Proper name (e.g. "Kamienica Pod Jaszczurką") | 453 | 7.1% |
 | Wikipedia article | 668 | 10.5% |
 | Photo (Wikimedia Commons) | 1205 | 18.9% |
+| Linked to the NID register (official name, register date, zabytek.pl) | 1038 | 16.3% |
 | AI-drafted description (unverified, labelled) | 0 | 0.0% |
 
 District check (GEZ district column vs. OSM boundary, records with coordinates): agree 5685, disagree 19. Entries that got their district from OSM: 552. Addresses outside every district polygon: 2968.
@@ -55,3 +56,4 @@ District check (GEZ district column vs. OSM boundary, records with coordinates):
 - Wikidata items with coordinates in the Kraków area: 5490
 - Wikidata → GEZ links: linked_by_address 409, linked_by_coords 215, linked_by_register 681
 - New building entries from Wikidata (not in GEZ): 555
+- NID register (dane.gov.pl): address_not_in_entries 166, ambiguous_address 89, entries_linked 1113, linked_by_address 151, linked_by_address+register 902, linked_by_address+type 35, linked_by_register 25, no_address_no_unique_register 255, rows 1953

@@ -11,6 +11,7 @@ Inputs:
     source-data/raw/wikidata_streets.json        street name origins, former names
     source-data/raw/osm_streets.json             OSM name:etymology / old_name tags
     source-data/raw/osm_districts.json           dzielnica boundaries (OSM)
+    source-data/raw/nid_krakow.json              NID register of monuments (Kraków rows)
     data/research/ai_drafts.json                 AI-researched texts (labelled)
 
 Outputs:
@@ -317,6 +318,103 @@ def load_districts():
     return DistrictIndex([d for d in raw if d["number"]]), {d["number"]: d for d in raw if d["number"]}
 
 
+# ---------------------------------------------------------------- NID register
+A_NUM = re.compile(r"A-\s*(\d+)\s*(/M)?")
+
+
+# NID lists documents as "A-185 z 1931-06-25, 262 z 1968-03-26, I-4-9/48 z ..."
+# and often omits the "A-" prefix of the Kraków register.
+NID_DOC = re.compile(r"(?:^|,)\s*(?:A-\s*)?(\d+)\s*(/M)?\s+z\s+\d{4}")
+
+
+def a_numbers(text: str) -> set:
+    """All register numbers in a text: 'A- 185 25.06.1931; A-1431/M' -> {'A-185', 'A-1431/M'}."""
+    return {f"A-{m.group(1)}{m.group(2) or ''}" for m in A_NUM.finditer(text or "")}
+
+
+def nid_numbers(text: str) -> set:
+    return a_numbers(text) | {f"A-{m.group(1)}{m.group(2) or ''}" for m in NID_DOC.finditer(text or "")}
+
+
+NID_STYLE_SKIP = {"", "nieznany", "inny"}
+
+
+def link_nid(entries, index: StreetIndex):
+    """Attach NID register rows (official name, register entry, date, style,
+    zabytek.pl link) to entries: by address (confirmed by register number or
+    by type), else by a register number unique on both sides."""
+    stats = Counter()
+    path = RAW / "nid_krakow.json"
+    if not path.exists():
+        print("! NID register skipped: run scripts/sources/fetch_nid.py")
+        return stats
+    rows = load_json(path)["rows"]
+    stats["rows"] = len(rows)
+    by_key = defaultdict(list)
+    by_anum = defaultdict(list)
+    for e in entries:
+        for p in number_parts(e["building_number"]):
+            by_key[(e["street"], p)].append(e)
+        for a in a_numbers(e.get("register_number", "")):
+            by_anum[a].append(e)
+    nid_by_anum = defaultdict(list)
+    for r in rows:
+        for a in nid_numbers(r["WYKAZ_DOKUMENTOW"]):
+            nid_by_anum[a].append(r)
+
+    links = {}  # entry id -> (rank, row, how)
+
+    def offer(e, r, rank, how):
+        cur = links.get(id(e))
+        if cur is None or rank > cur[0]:
+            links[id(e)] = (rank, r, how, e)
+
+    for r in rows:
+        anums = nid_numbers(r["WYKAZ_DOKUMENTOW"])
+        street = index.resolve(r["ULICA"]) if r["ULICA"] else None
+        parts = number_parts(r["NR_ADRESOWY"]) if r["NR_ADRESOWY"] else []
+        cands = []
+        if street:
+            for p in parts:
+                cands.extend(by_key.get((street, p), []))
+            cands = list({id(c): c for c in cands}.values())
+        if cands:
+            confirmed = [c for c in cands if a_numbers(c.get("register_number", "")) & anums]
+            typed = [c for c in cands if compatible(c, {"label": r["NAZWA"], "types": []})]
+            if len(confirmed) == 1:
+                offer(confirmed[0], r, 3, "address+register")
+            elif len(cands) == 1 and (typed or not cands[0].get("register_number")):
+                offer(cands[0], r, 2, "address")
+            elif len(typed) == 1:
+                offer(typed[0], r, 2, "address+type")
+            else:
+                stats["ambiguous_address"] += 1
+            continue
+        if street and parts:
+            stats["address_not_in_entries"] += 1
+            continue
+        unique = [a for a in anums if len(by_anum.get(a, [])) == 1 and len(nid_by_anum[a]) == 1]
+        if len(unique) == 1:
+            offer(by_anum[unique[0]][0], r, 1, "register")
+        else:
+            stats["no_address_no_unique_register"] += 1
+
+    for rank, r, how, e in links.values():
+        stats[f"linked_by_{how}"] += 1
+        url = r["LINK"] if r["LINK"].startswith("https://zabytek.pl/") else ""
+        e["nid_name"] = r["NAZWA"]
+        e["nid_register"] = r["WYKAZ_DOKUMENTOW"]
+        e["nid_register_date"] = r["DATA_WPISU"]
+        e["nid_chronology"] = r["CHRONOLOGIA"]
+        if r["STYL_ARCHITEKTONICZNY"] not in NID_STYLE_SKIP:
+            e["nid_style"] = r["STYL_ARCHITEKTONICZNY"]
+        if url:
+            e["nid_url"] = url
+        e["nid_inspire_id"] = r["INSPIRE_ID"]
+    stats["entries_linked"] = len(links)
+    return stats
+
+
 # ---------------------------------------------------------------- AI drafts
 def load_ai_drafts():
     path = RESEARCH / "ai_drafts.json"
@@ -495,6 +593,7 @@ def main():
                 slot[dst] = a[src]
 
     all_entries = records + wd_entries
+    nid_stats = link_nid(all_entries, index)
 
     # ---- AI drafts (labelled, unverified) merged into their entries
     drafts = load_ai_drafts()
@@ -599,7 +698,7 @@ def main():
     if old.exists():
         old.unlink()
 
-    extra = {"stories": stories, "story_stats": story_stats, "district_stats": district_stats,
+    extra = {"nid_stats": nid_stats, "stories": stories, "story_stats": story_stats, "district_stats": district_stats,
              "draft_stats": draft_stats, "street_list": street_list}
     write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets, extra)
 
@@ -741,6 +840,7 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| Proper name (e.g. \"Kamienica Pod Jaszczurką\") | {c(lambda r: r.get('name'))} | {pct(c(lambda r: r.get('name')), n)} |",
         f"| Wikipedia article | {c(lambda r: r.get('wikipedia'))} | {pct(c(lambda r: r.get('wikipedia')), n)} |",
         f"| Photo (Wikimedia Commons) | {c(lambda r: r.get('image'))} | {pct(c(lambda r: r.get('image')), n)} |",
+        f"| Linked to the NID register (official name, register date, zabytek.pl) | {c(lambda r: r.get('nid_name'))} | {pct(c(lambda r: r.get('nid_name')), n)} |",
         f"| AI-drafted description (unverified, labelled) | {c(lambda r: r.get('ai_description'))} | {pct(c(lambda r: r.get('ai_description')), n)} |",
         "",
         f"District check (GEZ district column vs. OSM boundary, records with coordinates): "
@@ -754,6 +854,7 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"- Wikidata items with coordinates in the Kraków area: {len(wd)}",
         f"- Wikidata → GEZ links: " + ", ".join(f"{k} {v}" for k, v in sorted(wd_stats.items()) if k.startswith("linked")),
         f"- New building entries from Wikidata (not in GEZ): {len(wd_entries)}",
+        f"- NID register (dane.gov.pl): " + ", ".join(f"{k} {v}" for k, v in sorted(extra["nid_stats"].items())),
         "",
     ]
     (REPORTS / "coverage.md").write_text("\n".join(lines), encoding="utf-8")
