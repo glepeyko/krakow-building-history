@@ -15,6 +15,7 @@ data/buildings.json            6,364 building records (generated)
 data/streets.json              1,192 unique street names, for the autocomplete (generated)
 scripts/convert_excel_to_json.py   turns the source Excel into the two JSON files above
 source-data/Buildings_in_Krakow_EXCEL.xlsx   your original file, kept for reproducibility
+CLAUDE.md                      project brief for Claude Code
 ```
 
 ## Where the current data comes from
@@ -77,3 +78,8 @@ else needs to change.
 - **No AI-enrichment pipeline yet.** This version only surfaces what's
   already in your Excel file. The next step, per the earlier plan, is adding
   the research pipeline for addresses not covered by this heritage register.
+
+## Working with Claude Code
+
+`CLAUDE.md` in this folder is a project brief written for Claude Code, so it
+has working context without you re-explaining the project each session.
