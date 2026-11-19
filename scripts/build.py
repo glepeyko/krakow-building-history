@@ -46,6 +46,10 @@ RESEARCH = DATA / "research"
 
 NEARBY_RADIUS_M = 150
 NEARBY_MAX = 6
+# When nothing notable is within NEARBY_RADIUS_M (outer districts), show the
+# few closest places within this wider radius instead of an empty list.
+NEARBY_FALLBACK_M = 600
+NEARBY_FALLBACK_MAX = 3
 WD_COORD_MATCH_M = 20
 
 # Wikidata item types that are not a single building or monument.
@@ -666,7 +670,13 @@ def main():
             if "lat" not in slot:
                 continue
             near, seen = [], set()
-            for d, p in poi_grid.near(slot["lat"], slot["lon"], NEARBY_RADIUS_M):
+            found = poi_grid.near(slot["lat"], slot["lon"], NEARBY_RADIUS_M)
+            limit = NEARBY_MAX
+            if not any(not ((name, num) in p["self"] or any((name, q) in p["self"] for q in number_parts(num)))
+                       for _, p in found):
+                found = poi_grid.near(slot["lat"], slot["lon"], NEARBY_FALLBACK_M)
+                limit = NEARBY_FALLBACK_MAX
+            for d, p in found:
                 if (name, num) in p["self"] or any((name, q) in p["self"] for q in number_parts(num)):
                     continue
                 # Two GEZ rows for one address (e.g. a house and its annex with
@@ -677,11 +687,14 @@ def main():
                 seen.add(key)
                 near.append([p["pid"], round(d)])
                 shard_pois[p["pid"]] = p
-                if len(near) >= NEARBY_MAX:
+                if len(near) >= limit:
                     break
             if near:
                 slot["nearby"] = near
-            nearby_counts["with_nearby" if near else "without_nearby"] += 1
+            if near and limit == NEARBY_FALLBACK_MAX:
+                nearby_counts["with_fallback"] += 1
+            else:
+                nearby_counts["with_nearby" if near else "without_nearby"] += 1
 
         story = dict(stories.get(name, {}))
         if street_districts:
@@ -817,6 +830,7 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| … with at least something to show (entry, nearby place, OSM fact) | {numbers_with_any} | {pct(numbers_with_any, numbers_total)} |",
         f"| … with something to show incl. the street story (district not counted) | {numbers_with_any_story} | {pct(numbers_with_any_story, numbers_total)} |",
         f"| … with notable places within {NEARBY_RADIUS_M} m | {nearby_counts['with_nearby']} | {pct(nearby_counts['with_nearby'], numbers_total)} |",
+        f"| … with none within {NEARBY_RADIUS_M} m but some within {NEARBY_FALLBACK_M} m (shown instead) | {nearby_counts['with_fallback']} | {pct(nearby_counts['with_fallback'], numbers_total)} |",
         f"| … with a district (dzielnica) | {ds['numbers_with_district']} | {pct(ds['numbers_with_district'], numbers_total)} |",
         f"| … on a street with a street story (\"O ulicy\") | {numbers_story} | {pct(numbers_story, numbers_total)} |",
         f"| … with an AI-drafted description (unverified) | {numbers_ai} | {pct(numbers_ai, numbers_total)} |",

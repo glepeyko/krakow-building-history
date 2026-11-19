@@ -437,7 +437,7 @@
     }).join("");
     return `
       <section class="nearby">
-        <h4>W pobliżu</h4>
+        <h4>${slot.nearby[0][1] > 150 ? "Najbliższe ciekawe miejsca (w promieniu 600 m)" : "W pobliżu"}</h4>
         <ul>${items}</ul>
         <p class="source">Źródła: Gminna Ewidencja Zabytków, Wikidane, OpenStreetMap</p>
       </section>`;
