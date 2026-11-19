@@ -1,1 +1,1 @@
-{"name":"Gacki","search":"gacki","entries":[],"numbers":{"8":{"lat":49.984506,"lon":19.992952,"osm":"w708519887"},"15":{"lat":49.984558,"lon":19.992332,"osm":"w708519889"}},"pois":{}}
+{"name":"Gacki","search":"gacki","story":{"districts":[10]},"districts":{"10":"Swoszowice"},"entries":[],"numbers":{"8":{"lat":49.984506,"lon":19.992952,"osm":"w708519887","district":10},"15":{"lat":49.984558,"lon":19.992332,"osm":"w708519889","district":10}},"pois":{}}

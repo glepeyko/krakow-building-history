@@ -237,11 +237,119 @@
     return `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(file.replace(/ /g, "_"))}`;
   }
 
+  const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
+    "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII"];
+
+  function districtName(num, name) {
+    return `${ROMAN[num] || num} ${name}`;
+  }
+
+  function extLink(url, text) {
+    return `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+  }
+
+  function yearSpan(n) {
+    if (n.from && n.to) return `${n.from}–${n.to}`;
+    if (n.from) return `od ${n.from}`;
+    if (n.to) return `do ${n.to}`;
+    return "";
+  }
+
+  // "O ulicy": facts about the street name, written as short sentences from
+  // structured data (Wikidata, OSM). No Wikipedia text is copied; the
+  // article is linked instead.
+  function storyBlock(shard) {
+    const st = shard.story || {};
+    const parts = [];
+    const sources = new Set();
+
+    const patrons = st.named_after || [];
+    if (patrons.length) {
+      const people = patrons.filter((p) => p.person);
+      const label = people.length === patrons.length
+        ? (patrons.length > 1 ? "Patroni ulicy" : "Patron ulicy")
+        : people.length ? "Nazwa ulicy upamiętnia" : "Nazwa ulicy pochodzi od";
+      const items = patrons.map((p) => {
+        const name = p.wikipedia ? extLink(p.wikipedia, p.label) : esc(p.label);
+        const years = p.years && !/\d{4}/.test(p.description || "") ? ` (${esc(p.years)})` : "";
+        const desc = p.description ? ` — ${esc(p.description)}` : "";
+        (p.via || []).forEach((v) => sources.add(v === "osm" ? "OpenStreetMap (name:etymology)" : "Wikidane"));
+        sources.add("Wikidane");
+        return `${name}${years}${desc}`;
+      });
+      parts.push(`<p>${esc(label)}: ${items.join("; ")}.</p>`);
+    }
+
+    if (st.names && st.names.length) {
+      const hist = st.names.map((n) => {
+        const span = yearSpan(n);
+        return `${esc(n.name)}${span ? ` (${esc(span)})` : ""}`;
+      });
+      parts.push(`<p>Historia nazwy: ${hist.join(", ")}.</p>`);
+      sources.add("Wikidane");
+    }
+
+    if (st.old_names && st.old_names.length) {
+      parts.push(`<p>${st.old_names.length > 1 ? "Dawne nazwy" : "Dawna nazwa"}: ${st.old_names.map(esc).join(", ")}.</p>`);
+      sources.add("OpenStreetMap (old_name)");
+    }
+
+    if (st.districts && st.districts.length && shard.districts) {
+      const names = st.districts.map((n) => districtName(n, shard.districts[n] || ""));
+      parts.push(`<p>${names.length > 1 ? "Dzielnice" : "Dzielnica"}: ${names.map(esc).join(", ")}.</p>`);
+      sources.add("OpenStreetMap (granice dzielnic)");
+    }
+
+    const links = [];
+    if (st.wikipedia) links.push(extLink(st.wikipedia, "Artykuł o ulicy w Wikipedii"));
+    if (st.wikidata) links.push(extLink(`https://www.wikidata.org/wiki/${st.wikidata}`, "Wikidane"));
+    if (st.wikipedia) sources.add("Wikipedia (link)");
+
+    if (!parts.length && !links.length) return "";
+    return `
+      <section class="street-story">
+        <h4>O ulicy ${esc(shard.name)}</h4>
+        ${parts.join("")}
+        ${links.length ? `<p class="links">${links.join(" · ")}</p>` : ""}
+        <p class="source">Źródła: ${esc([...sources].join(", "))}</p>
+      </section>`;
+  }
+
+  function prependStory(shard) {
+    const html = storyBlock(shard);
+    if (!html) return;
+    const wrap = document.createElement("div");
+    wrap.innerHTML = html;
+    resultsEl.prepend(wrap.firstElementChild);
+  }
+
+  // AI-researched text: always in its own clearly labelled block, with the
+  // numbered sources it cites. Never mixed with register data.
+  function aiBlock(e) {
+    if (!e.ai_description || !e.ai_sources || !e.ai_sources.length) return "";
+    const n = e.ai_sources.length;
+    const text = esc(e.ai_description).replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (m, nums) => {
+      const refs = nums.split(",").map((x) => parseInt(x, 10)).filter((x) => x >= 1 && x <= n);
+      if (!refs.length) return "";
+      return "<sup>" + refs.map((r) => `<a href="${esc(e.ai_sources[r - 1].url)}" target="_blank" rel="noopener" title="${esc(e.ai_sources[r - 1].title)}">[${r}]</a>`).join("") + "</sup>";
+    });
+    const list = e.ai_sources.map((src) => `<li>${extLink(src.url, src.title || src.url)}</li>`).join("");
+    return `
+      <section class="ai-draft">
+        <p class="ai-label">Opis przygotowany przez AI — niezweryfikowany</p>
+        <p>${text}</p>
+        <ol>${list}</ol>
+        <p class="ai-note">Tekst napisał model AI na podstawie powyższych źródeł; osobny automatyczny
+        weryfikator sprawdził każde zdanie ze źródłem, ale nie sprawdził go jeszcze człowiek.
+        To nie są dane z rejestru zabytków${e.ai_researched_at ? ` (opracowano ${esc(e.ai_researched_at)})` : ""}.</p>
+      </section>`;
+  }
+
   function entryCard(e) {
     const card = document.createElement("article");
     card.className = "result-card";
 
-    const districtLine = e.district_name ? `Dzielnica ${e.district_number} — ${e.district_name}` : "";
+    const districtLine = e.district_name ? `Dzielnica ${districtName(e.district_number, e.district_name)}` : "";
     const title = capitalize(e.name || e.type_and_name || "Budynek bez opisu typu");
     const subtitle = e.name && e.type_and_name && normalize(e.name) !== normalize(e.type_and_name)
       ? e.type_and_name : "";
@@ -255,6 +363,7 @@
 
     const sources = [SOURCE_LABELS[e.source] || e.source];
     if (e.wikidata && e.source !== "Wikidata") sources.push("Wikidane");
+    if (e.district_source === "OpenStreetMap") sources.push("dzielnica: OpenStreetMap");
 
     card.innerHTML = `
       ${districtLine ? `<div class="tag">${esc(districtLine)}</div>` : ""}
@@ -273,8 +382,19 @@
         : ""}
       ${links.length ? `<p class="links">${links.join(" · ")}</p>` : ""}
       <p class="source">Źródło: ${esc(sources.join(", "))}</p>
+      ${aiBlock(e)}
     `;
     return card;
+  }
+
+  function districtBlock(slot, shard) {
+    if (!slot.lat) return "";
+    if (slot.district && shard.districts && shard.districts[slot.district]) {
+      return `<p class="district-line">Dzielnica ${esc(districtName(slot.district, shard.districts[slot.district]))}</p>
+        <p class="source">Źródło: granice dzielnic z OpenStreetMap</p>`;
+    }
+    return `<p class="district-line">Adres leży poza granicami dzielnic Krakowa (sąsiednia gmina z krakowskim kodem pocztowym lub punkt na granicy).</p>
+      <p class="source">Źródło: granice dzielnic z OpenStreetMap</p>`;
   }
 
   function osmFactsBlock(slot) {
@@ -330,11 +450,13 @@
           <strong>Przy ul. ${esc(shard.name)} nie mamy jeszcze opisanych budynków.</strong>
           <p>Wpisz numer budynku, aby zobaczyć, co wiemy o samym adresie i jego okolicy.</p>
         </div>`;
+      prependStory(shard);
       return;
     }
     resultsEl.appendChild(note(`Znaleziono ${entries.length} ${pluralWpis(entries.length)} przy ul. ${shard.name}` +
       (entries.length > 30 ? " (pokazano pierwsze 30 — wpisz numer budynku, aby zawęzić wyniki)." : ".")));
     entries.slice(0, 30).forEach((e) => resultsEl.appendChild(entryCard(e)));
+    prependStory(shard);
   }
 
   function renderAddress(shard, rawNumber) {
@@ -370,6 +492,7 @@
           resultsEl.appendChild(wrap.firstElementChild);
         }
       }
+      prependStory(shard);
       return;
     }
 
@@ -390,6 +513,7 @@
         <p>Nie ma go w gminnej ewidencji zabytków ani w Wikidanych. Oto, co wiemy
         o samym budynku i jego okolicy. Znasz jego historię?
         <a href="#contact">Napisz do nas</a>.</p>
+        ${districtBlock(slot, shard)}
         ${osmFactsBlock(slot)}`;
       resultsEl.appendChild(box);
     }
@@ -400,6 +524,7 @@
       wrap.innerHTML = near;
       resultsEl.appendChild(wrap.firstElementChild);
     }
+    prependStory(shard);
   }
 
   form.addEventListener("submit", async (e) => {

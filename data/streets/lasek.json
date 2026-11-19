@@ -1,1 +1,1 @@
-{"name":"Lasek","search":"lasek","entries":[],"numbers":{"1":{"lat":50.029302,"lon":19.933835,"osm":"w171434195","building":"detached","levels":"2"}},"pois":{}}
+{"name":"Lasek","search":"lasek","story":{"districts":[9]},"districts":{"9":"Łagiewniki-Borek Fałęcki"},"entries":[],"numbers":{"1":{"lat":50.029302,"lon":19.933835,"osm":"w171434195","building":"detached","levels":"2","district":9}},"pois":{}}

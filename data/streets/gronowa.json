@@ -1,1 +1,1 @@
-{"name":"Gronowa","search":"gronowa","entries":[],"numbers":{"3":{"lat":50.032125,"lon":19.856869,"osm":"w233373827"},"6":{"lat":50.032592,"lon":19.856555,"osm":"w703326270"}},"pois":{}}
+{"name":"Gronowa","search":"gronowa","story":{"districts":[8]},"districts":{"8":"Dębniki"},"entries":[],"numbers":{"3":{"lat":50.032125,"lon":19.856869,"osm":"w233373827","district":8},"6":{"lat":50.032592,"lon":19.856555,"osm":"w703326270","district":8}},"pois":{}}

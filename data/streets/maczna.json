@@ -1,1 +1,1 @@
-{"name":"Mączna","search":"maczna","entries":[],"numbers":{"4":{"lat":50.096094,"lon":19.928945,"osm":"w164035240","building":"detached"}},"pois":{}}
+{"name":"Mączna","search":"maczna","story":{"districts":[4]},"districts":{"4":"Prądnik Biały"},"entries":[],"numbers":{"4":{"lat":50.096094,"lon":19.928945,"osm":"w164035240","building":"detached","district":4}},"pois":{}}

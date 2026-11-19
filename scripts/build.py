@@ -8,6 +8,10 @@ Inputs:
     source-data/raw/osm_addresses.json           every address in Kraków (OSM)
     source-data/raw/osm_notable.json             memorials, plaques, monuments (OSM)
     source-data/raw/wikidata.json                Wikidata items with coordinates
+    source-data/raw/wikidata_streets.json        street name origins, former names
+    source-data/raw/osm_streets.json             OSM name:etymology / old_name tags
+    source-data/raw/osm_districts.json           dzielnica boundaries (OSM)
+    data/research/ai_drafts.json                 AI-researched texts (labelled)
 
 Outputs:
     data/streets.json            [{name, search, file, entries}] for the autocomplete
@@ -28,7 +32,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.stdout.reconfigure(encoding="utf-8")
 
-from lib.address import StreetIndex, normalize, normalize_number, number_parts, split_street_number  # noqa: E402
+from lib.address import StreetIndex, normalize, normalize_number, number_parts, split_street_number, street_key  # noqa: E402
+from lib.geo import DistrictIndex  # noqa: E402
 from sources import gez  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +41,7 @@ RAW = ROOT / "source-data" / "raw"
 DATA = ROOT / "data"
 SHARDS = DATA / "streets"
 REPORTS = ROOT / "reports"
+RESEARCH = DATA / "research"
 
 NEARBY_RADIUS_M = 150
 NEARBY_MAX = 6
@@ -184,6 +190,144 @@ def parse_wd_address(item, index: StreetIndex):
         if canonical and number:
             return canonical, number
     return None, ""
+
+
+# ---------------------------------------------------------------- street stories
+def wiki_url(tag: str) -> str:
+    """OSM wikipedia tag 'pl:Ulica X w Krakowie' -> article URL."""
+    from urllib.parse import quote
+    lang, _, title = tag.partition(":")
+    if not title or lang != "pl":
+        return ""
+    return "https://pl.wikipedia.org/wiki/" + quote(title.replace(" ", "_"))
+
+
+def street_label(label: str) -> str:
+    return re.sub(r"\s+w Krakowie$", "", label or "").strip()
+
+
+def load_street_stories(index: StreetIndex):
+    """{canonical street: story} from Wikidata street items and OSM tags.
+    A story holds facts only (named after, historical names, article link);
+    the page writes the sentences, so no Wikipedia text is copied."""
+    stats = Counter()
+    wd_path, osm_path = RAW / "wikidata_streets.json", RAW / "osm_streets.json"
+    if not wd_path.exists() or not osm_path.exists():
+        print("! street stories skipped: run fetch_osm.py and fetch_wikidata_streets.py")
+        return {}, stats
+    wd = load_json(wd_path)
+    patrons = wd["patrons"]
+    items = {s["qid"]: s for s in wd["streets"]}
+    stories = defaultdict(lambda: {"named_after": {}, "names": [], "old_names": [], "wikidata": "", "wikipedia": ""})
+
+    def add_patron(story, qid, via):
+        p = patrons.get(qid)
+        if not p or not p.get("label"):
+            return
+        if qid in story["named_after"]:
+            story["named_after"][qid]["via"] = sorted(set(story["named_after"][qid]["via"]) | {via})
+            return
+        years = ""
+        if p.get("human") and p.get("birth") and p["birth"] > 0:
+            years = f'{p["birth"]}–{p["death"]}' if p.get("death") else f'ur. {p["birth"]}'
+        story["named_after"][qid] = {"wikidata": qid, "label": p["label"], "description": p.get("description", ""),
+                                     "years": years, "wikipedia": p.get("wikipedia", ""),
+                                     "person": bool(p.get("human")), "via": [via]}
+
+    def add_item(story, item):
+        if not story["wikidata"]:
+            story["wikidata"] = item["qid"]
+        if item.get("wikipedia") and not story["wikipedia"]:
+            story["wikipedia"] = item["wikipedia"]
+        for q in item["named_after"]:
+            add_patron(story, q, "wikidata")
+        for n in item["names"]:
+            if n not in story["names"]:
+                story["names"].append(n)
+
+    linked = set()
+    # 1. OSM street ways carry the strongest links: wikidata=<street item>.
+    for o in load_json(osm_path):
+        canonical = index.resolve(o["name"])
+        if not canonical:
+            continue
+        story = stories[canonical]
+        for q in o.get("wikidata", {}):
+            if q in items:
+                add_item(story, items[q])
+                linked.add(q)
+        for v in o.get("name:etymology:wikidata", {}):
+            for q in v.split(";"):
+                add_patron(story, q.strip(), "osm")
+        for v in o.get("old_name", {}):
+            for n in v.split(";"):
+                n = n.strip()
+                if n and normalize(n) != normalize(canonical) and n not in story["old_names"]:
+                    story["old_names"].append(n)
+        for v in o.get("wikipedia", {}):
+            if not story["wikipedia"] and wiki_url(v):
+                story["wikipedia"] = wiki_url(v)
+    # 2. Remaining Wikidata street items, matched by name.
+    for q, item in items.items():
+        if q in linked:
+            continue
+        canonical = index.resolve(street_label(item["label"]))
+        if canonical:
+            add_item(stories[canonical], item)
+            stats["wd_items_matched_by_name"] += 1
+        else:
+            stats["wd_items_unmatched"] += 1
+    stats["wd_items_linked_from_osm"] = len(linked)
+
+    out = {}
+    for canonical, st in stories.items():
+        names = sorted(st["names"], key=lambda n: (n["from"] is None, n["from"] or 0, n["to"] or 9999))
+        # Only a name history says something; a single undated current name does not.
+        if not any(n["from"] or n["to"] for n in names) and all(
+                normalize(street_label(n["name"])).replace("ulica ", "") == normalize(canonical) for n in names):
+            names = []
+        # OSM old_name values already in the dated history add nothing.
+        hist_keys = [street_key(n["name"]) for n in names]
+        old_names = [o for o in st["old_names"]
+                     if not any(street_key(o) <= k or k <= street_key(o) for k in hist_keys if k)]
+        story = {k: v for k, v in {
+            "named_after": list(st["named_after"].values()),
+            "names": names,
+            "old_names": old_names,
+            "wikidata": st["wikidata"],
+            "wikipedia": st["wikipedia"],
+        }.items() if v}
+        if story.get("named_after") or story.get("names") or story.get("old_names") or story.get("wikipedia"):
+            out[canonical] = story
+    return out, stats
+
+
+# ---------------------------------------------------------------- districts
+def load_districts():
+    path = RAW / "osm_districts.json"
+    if not path.exists():
+        print("! districts skipped: run fetch_osm.py")
+        return None, {}
+    raw = load_json(path)
+    by_name = {normalize(v): k for k, v in gez.DISTRICT_NAMES.items()}
+    for d in raw:
+        d["number"] = by_name.get(normalize(d["name"]))
+        if d["number"] is None:
+            print(f'! unknown district name in OSM: {d["name"]!r}')
+    return DistrictIndex([d for d in raw if d["number"]]), {d["number"]: d for d in raw if d["number"]}
+
+
+# ---------------------------------------------------------------- AI drafts
+def load_ai_drafts():
+    path = RESEARCH / "ai_drafts.json"
+    if not path.exists():
+        return {}
+    drafts = {}
+    for d in load_json(path):
+        if d.get("status") != "ai_draft_unverified" or not d.get("text") or not d.get("sources"):
+            continue
+        drafts[str(d["entry_id"])] = d
+    return drafts
 
 
 # ---------------------------------------------------------------- build
@@ -351,6 +495,39 @@ def main():
                 slot[dst] = a[src]
 
     all_entries = records + wd_entries
+
+    # ---- AI drafts (labelled, unverified) merged into their entries
+    drafts = load_ai_drafts()
+    draft_stats = Counter()
+    for e in all_entries:
+        d = drafts.get(str(e["id"]))
+        if d:
+            e["ai_description"] = d["text"]
+            e["ai_sources"] = d["sources"]
+            e["ai_researched_at"] = d.get("researched_at", "")
+            e["status"] = "ai_draft_unverified"
+            if d.get("wikipedia") and not e.get("wikipedia"):
+                e["wikipedia"] = d["wikipedia"]
+            draft_stats["merged"] += 1
+    draft_stats["unmatched"] = len(drafts) - draft_stats["merged"]
+
+    # ---- District for every entry without one (Wikidata-only entries,
+    # GEZ rows with an empty district column); compare where GEZ has one.
+    district_index, districts_by_number = load_districts()
+    district_stats = Counter()
+    if district_index:
+        for e in all_entries:
+            if "lat" not in e:
+                continue
+            d = district_index.find(e["lat"], e["lon"])
+            if not d:
+                continue
+            if e.get("district_number"):
+                district_stats["gez_agree" if e["district_number"] == d["number"] else "gez_disagree"] += 1
+            else:
+                e["district_number"], e["district_name"] = d["number"], gez.DISTRICT_NAMES[d["number"]]
+                e["district_source"] = "OpenStreetMap"
+                district_stats["entries_filled"] += 1
     for e in all_entries:
         st = streets[e["street"]]
         st["entries"].append(e)
@@ -365,10 +542,22 @@ def main():
     SHARDS.mkdir(parents=True)
     street_list, used_slugs = [], set()
     nearby_counts = Counter()
+    stories, story_stats = load_street_stories(index)
     for name, st in sorted(streets.items()):
         if not name:
             continue
         slug = slugify(name)
+        street_districts = Counter()
+        if district_index:
+            for slot in st["numbers"].values():
+                if "lat" in slot:
+                    d = district_index.find(slot["lat"], slot["lon"])
+                    if d:
+                        slot["district"] = d["number"]
+                        street_districts[d["number"]] += 1
+                        district_stats["numbers_with_district"] += 1
+                    else:
+                        district_stats["numbers_outside"] += 1
         while slug in used_slugs:
             slug += "-2"
         used_slugs.add(slug)
@@ -389,9 +578,14 @@ def main():
                 slot["nearby"] = near
             nearby_counts["with_nearby" if near else "without_nearby"] += 1
 
+        story = dict(stories.get(name, {}))
+        if street_districts:
+            story["districts"] = [n for n, _ in street_districts.most_common()]
         out = {
             "name": name,
             "search": normalize(name),
+            "story": story,
+            "districts": {str(n): gez.DISTRICT_NAMES[n] for n in street_districts},
             "entries": [public_entry(e) for e in st["entries"]],
             "numbers": st["numbers"],
             "pois": {str(pid): {k: v for k, v in p.items() if k not in ("self", "pid") and v != ""}
@@ -405,7 +599,9 @@ def main():
     if old.exists():
         old.unlink()
 
-    write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets)
+    extra = {"stories": stories, "story_stats": story_stats, "district_stats": district_stats,
+             "draft_stats": draft_stats, "street_list": street_list}
+    write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets, extra)
 
 
 def enrich_from_wd(r, item):
@@ -481,7 +677,7 @@ def pct(a, b):
     return f"{(100 * a / b):.1f}%" if b else "–"
 
 
-def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets):
+def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets, extra):
     REPORTS.mkdir(exist_ok=True)
     n = len(records)
     c = lambda f: sum(1 for r in records if f(r))
@@ -489,6 +685,14 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
     numbers_with_entry = sum(1 for s in streets.values() for v in s["numbers"].values() if v.get("entries"))
     numbers_with_any = sum(1 for s in streets.values() for v in s["numbers"].values()
                            if v.get("entries") or v.get("nearby") or v.get("start_date") or v.get("name"))
+    ds = extra["district_stats"]
+    stories = extra["stories"]
+    story_streets = [s for s in street_list if s["name"] in stories]
+    sc = lambda k: sum(1 for s in story_streets if stories[s["name"]].get(k))
+    numbers_story = sum(len(s["numbers"]) for name, s in streets.items() if name in stories)
+    ai_ids = {str(e["id"]) for e in records + wd_entries if e.get("ai_description")}
+    numbers_ai = sum(1 for s in streets.values() for v in s["numbers"].values()
+                     if any(str(i) in ai_ids for i in v.get("entries", [])))
     lines = [
         f"# Coverage report — {date.today().isoformat()}",
         "",
@@ -504,6 +708,21 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| … with a building entry (GEZ or Wikidata) | {numbers_with_entry} | {pct(numbers_with_entry, numbers_total)} |",
         f"| … with at least something to show (entry, nearby place, OSM fact) | {numbers_with_any} | {pct(numbers_with_any, numbers_total)} |",
         f"| … with notable places within {NEARBY_RADIUS_M} m | {nearby_counts['with_nearby']} | {pct(nearby_counts['with_nearby'], numbers_total)} |",
+        f"| … with a district (dzielnica) | {ds['numbers_with_district']} | {pct(ds['numbers_with_district'], numbers_total)} |",
+        f"| … on a street with a street story (\"O ulicy\") | {numbers_story} | {pct(numbers_story, numbers_total)} |",
+        f"| … with an AI-drafted description (unverified) | {numbers_ai} | {pct(numbers_ai, numbers_total)} |",
+        "",
+        "## Streets (\"O ulicy\")",
+        "",
+        "| Measure | Streets | Share |",
+        "|---|---:|---:|",
+        f"| Streets with any street story | {len(story_streets)} | {pct(len(story_streets), len(street_list))} |",
+        f"| … named after a person/place/event (Wikidata P138 or OSM name:etymology) | {sc('named_after')} | {pct(sc('named_after'), len(street_list))} |",
+        f"| … with dated name history (Wikidata) | {sc('names')} | {pct(sc('names'), len(street_list))} |",
+        f"| … with a former name (OSM old_name) | {sc('old_names')} | {pct(sc('old_names'), len(street_list))} |",
+        f"| … with a Wikipedia article about the street | {sc('wikipedia')} | {pct(sc('wikipedia'), len(street_list))} |",
+        "",
+        "Street items from Wikidata: " + ", ".join(f"{k} {v}" for k, v in sorted(extra["story_stats"].items())) + ".",
         "",
         "## GEZ register records",
         "",
@@ -522,6 +741,12 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| Proper name (e.g. \"Kamienica Pod Jaszczurką\") | {c(lambda r: r.get('name'))} | {pct(c(lambda r: r.get('name')), n)} |",
         f"| Wikipedia article | {c(lambda r: r.get('wikipedia'))} | {pct(c(lambda r: r.get('wikipedia')), n)} |",
         f"| Photo (Wikimedia Commons) | {c(lambda r: r.get('image'))} | {pct(c(lambda r: r.get('image')), n)} |",
+        f"| AI-drafted description (unverified, labelled) | {c(lambda r: r.get('ai_description'))} | {pct(c(lambda r: r.get('ai_description')), n)} |",
+        "",
+        f"District check (GEZ district column vs. OSM boundary, records with coordinates): "
+        f"agree {ds['gez_agree']}, disagree {ds['gez_disagree']}. "
+        f"Entries that got their district from OSM: {ds['entries_filled']}. "
+        f"Addresses outside every district polygon: {ds['numbers_outside']}.",
         "",
         "## Other sources",
         "",

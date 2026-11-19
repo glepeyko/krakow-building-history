@@ -1,1 +1,1 @@
-{"name":"Na Ustroniu","search":"na ustroniu","entries":[],"numbers":{"4":{"lat":50.045789,"lon":19.932133,"osm":"w1091089051","building":"apartments"},"3":{"lat":50.045777,"lon":19.931683,"osm":"n2255631029"}},"pois":{}}
+{"name":"Na Ustroniu","search":"na ustroniu","story":{"districts":[8]},"districts":{"8":"Dębniki"},"entries":[],"numbers":{"4":{"lat":50.045789,"lon":19.932133,"osm":"w1091089051","building":"apartments","district":8},"3":{"lat":50.045777,"lon":19.931683,"osm":"n2255631029","district":8}},"pois":{}}

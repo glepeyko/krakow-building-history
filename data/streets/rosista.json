@@ -1,1 +1,1 @@
-{"name":"Rosista","search":"rosista","entries":[],"numbers":{"5":{"lat":50.008553,"lon":19.871222,"osm":"w233372578"},"8":{"lat":50.008315,"lon":19.871135,"osm":"n8209583783"}},"pois":{}}
+{"name":"Rosista","search":"rosista","story":{"districts":[8]},"districts":{"8":"Dębniki"},"entries":[],"numbers":{"5":{"lat":50.008553,"lon":19.871222,"osm":"w233372578","district":8},"8":{"lat":50.008315,"lon":19.871135,"osm":"n8209583783","district":8}},"pois":{}}

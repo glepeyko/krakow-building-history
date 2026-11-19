@@ -12,6 +12,21 @@ to see what an iteration changed.
 | … with a building entry (GEZ or Wikidata) | 6568 | 9.3% |
 | … with at least something to show (entry, nearby place, OSM fact) | 32466 | 45.8% |
 | … with notable places within 150 m | 31149 | 43.9% |
+| … with a district (dzielnica) | 67557 | 95.2% |
+| … on a street with a street story ("O ulicy") | 17893 | 25.2% |
+| … with an AI-drafted description (unverified) | 0 | 0.0% |
+
+## Streets ("O ulicy")
+
+| Measure | Streets | Share |
+|---|---:|---:|
+| Streets with any street story | 550 | 19.5% |
+| … named after a person/place/event (Wikidata P138 or OSM name:etymology) | 394 | 14.0% |
+| … with dated name history (Wikidata) | 5 | 0.2% |
+| … with a former name (OSM old_name) | 60 | 2.1% |
+| … with a Wikipedia article about the street | 360 | 12.8% |
+
+Street items from Wikidata: wd_items_linked_from_osm 121, wd_items_matched_by_name 384, wd_items_unmatched 144.
 
 ## GEZ register records
 
@@ -30,6 +45,9 @@ Excel rows: 7333, cross-reference rows skipped: 959.
 | Proper name (e.g. "Kamienica Pod Jaszczurką") | 453 | 7.1% |
 | Wikipedia article | 668 | 10.5% |
 | Photo (Wikimedia Commons) | 1205 | 18.9% |
+| AI-drafted description (unverified, labelled) | 0 | 0.0% |
+
+District check (GEZ district column vs. OSM boundary, records with coordinates): agree 5685, disagree 19. Entries that got their district from OSM: 552. Addresses outside every district polygon: 2968.
 
 ## Other sources
 

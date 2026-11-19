@@ -1,1 +1,1 @@
-{"name":"Płaska","search":"plaska","entries":[],"numbers":{"4":{"lat":50.101632,"lon":20.077826,"osm":"n2766009087"},"5":{"lat":50.101822,"lon":20.078011,"osm":"n2766022316"}},"pois":{}}
+{"name":"Płaska","search":"plaska","story":{"districts":[17]},"districts":{"17":"Wzgórza Krzesławickie"},"entries":[],"numbers":{"4":{"lat":50.101632,"lon":20.077826,"osm":"n2766009087","district":17},"5":{"lat":50.101822,"lon":20.078011,"osm":"n2766022316","district":17}},"pois":{}}

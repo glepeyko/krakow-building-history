@@ -2,7 +2,9 @@
 
 Input:  the Małopolska extract (downloaded if missing) from Geofabrik, or
         from the openstreetmap.fr mirror if Geofabrik is unreachable.
-Output: source-data/raw/osm_addresses.json
+Output: source-data/raw/osm_addresses.json, osm_notable.json,
+        osm_streets.json (name-origin tags of streets),
+        osm_districts.json (dzielnica boundaries, admin_level=9)
 
 The public Overpass API often times out for a whole-city query, so we parse
 the regional extract locally with pyosmium. An element counts as "in Kraków"
@@ -47,11 +49,33 @@ def in_krakow(tags, lat, lon):
     return city == "Kraków" or pc.startswith(("30-", "31-"))
 
 
+# Street-level tags used for the "O ulicy" block (street name origin).
+STREET_TAGS = ("name:etymology:wikidata", "name:etymology", "old_name", "wikidata", "wikipedia")
+
+
 class Handler(osmium.SimpleHandler):
     def __init__(self):
         super().__init__()
         self.addresses = []
         self.notable = []
+        self.streets = {}
+
+    def _street(self, w):
+        """Collect name-origin tags of named streets (highway ways) in the bbox."""
+        name = w.tags.get("name")
+        if not name:
+            return
+        found = {k: w.tags[k] for k in STREET_TAGS if k in w.tags}
+        if not found:
+            return
+        nd = next((n for n in w.nodes if n.location.valid()), None)
+        if nd is None or not (BBOX[0] <= nd.lon <= BBOX[2] and BBOX[1] <= nd.lat <= BBOX[3]):
+            return
+        s = self.streets.setdefault(name, {"name": name, "ways": 0})
+        s["ways"] += 1
+        for k, v in found.items():
+            vals = s.setdefault(k, {})
+            vals[v] = vals.get(v, 0) + 1
 
     def _add(self, kind, oid, tags, lat, lon):
         t = {k: v for k, v in tags if k in KEEP or k in ("memorial", "inscription")}
@@ -67,6 +91,8 @@ class Handler(osmium.SimpleHandler):
             self._add("n", n.id, n.tags, n.location.lat, n.location.lon)
 
     def way(self, w):
+        if w.tags and "highway" in w.tags:
+            self._street(w)
         if not w.tags or not ("addr:housenumber" in w.tags or "historic" in w.tags):
             return
         pts = [(nd.lat, nd.lon) for nd in w.nodes if nd.location.valid()]
@@ -74,6 +100,34 @@ class Handler(osmium.SimpleHandler):
             lat = sum(p[0] for p in pts) / len(pts)
             lon = sum(p[1] for p in pts) / len(pts)
             self._add("w", w.id, w.tags, lat, lon)
+
+
+class DistrictHandler(osmium.SimpleHandler):
+    """Kraków's 18 dzielnice: boundary=administrative, admin_level=9 relations."""
+
+    def __init__(self):
+        super().__init__()
+        self.districts = []
+
+    def area(self, a):
+        t = a.tags
+        if a.from_way() or t.get("boundary") != "administrative" or t.get("admin_level") != "9":
+            return
+        polys = []
+        for outer in a.outer_rings():
+            rings = [[[round(n.lon, 6), round(n.lat, 6)] for n in outer]]
+            for inner in a.inner_rings(outer):
+                rings.append([[round(n.lon, 6), round(n.lat, 6)] for n in inner])
+            polys.append(rings)
+        if not polys:
+            return
+        lons = [p[0] for poly in polys for p in poly[0]]
+        lats = [p[1] for poly in polys for p in poly[0]]
+        if not (BBOX[0] <= sum(lons) / len(lons) <= BBOX[2] and BBOX[1] <= sum(lats) / len(lats) <= BBOX[3]):
+            return
+        self.districts.append({"osm": f"r{a.orig_id()}", "name": t.get("name", ""),
+                               "ref": t.get("ref", ""), "wikidata": t.get("wikidata", ""),
+                               "wikipedia": t.get("wikipedia", ""), "polygons": polys})
 
 
 def download_extract():
@@ -103,6 +157,14 @@ def main():
     (RAW / "osm_notable.json").write_text(json.dumps(h.notable, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"OSM addresses in Krakow: {len(h.addresses)} -> {OUT}")
     print(f"OSM notable historic features: {len(h.notable)}")
+    streets = sorted(h.streets.values(), key=lambda s: s["name"])
+    (RAW / "osm_streets.json").write_text(json.dumps(streets, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"OSM named streets with name-origin tags: {len(streets)}")
+
+    d = DistrictHandler()
+    d.apply_file(str(PBF), locations=True, idx="flex_mem")
+    (RAW / "osm_districts.json").write_text(json.dumps(d.districts, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"OSM admin_level=9 areas in the Krakow bbox: {len(d.districts)}")
 
 
 if __name__ == "__main__":
