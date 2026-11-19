@@ -1,7 +1,7 @@
 """Extract every address point and addressed building in Kraków from OpenStreetMap.
 
-Input:  the Geofabrik Małopolska extract (downloaded if missing):
-        https://download.geofabrik.de/europe/poland/malopolskie-latest.osm.pbf
+Input:  the Małopolska extract (downloaded if missing) from Geofabrik, or
+        from the openstreetmap.fr mirror if Geofabrik is unreachable.
 Output: source-data/raw/osm_addresses.json
 
 The public Overpass API often times out for a whole-city query, so we parse
@@ -21,7 +21,11 @@ import requests
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "source-data" / "raw"
 PBF = RAW / "malopolskie-latest.osm.pbf"
-PBF_URL = "https://download.geofabrik.de/europe/poland/malopolskie-latest.osm.pbf"
+PBF_URLS = [
+    "https://download.geofabrik.de/europe/poland/malopolskie-latest.osm.pbf",
+    # Mirror of the same regional extract, used when Geofabrik is unreachable.
+    "https://download.openstreetmap.fr/extracts/europe/poland/malopolskie-latest.osm.pbf",
+]
 OUT = RAW / "osm_addresses.json"
 BBOX = (19.79, 49.96, 20.22, 50.13)  # lon_min, lat_min, lon_max, lat_max
 
@@ -72,14 +76,27 @@ class Handler(osmium.SimpleHandler):
             self._add("w", w.id, w.tags, lat, lon)
 
 
+def download_extract():
+    tmp = PBF.with_suffix(".part")
+    for url in PBF_URLS:
+        print(f"Downloading {url} ...")
+        try:
+            with requests.get(url, stream=True, timeout=600) as r:
+                r.raise_for_status()
+                with open(tmp, "wb") as f:
+                    for chunk in r.iter_content(1 << 20):
+                        f.write(chunk)
+            tmp.replace(PBF)
+            (RAW / "osm_source.txt").write_text(url + "\n", encoding="utf-8")
+            return
+        except requests.RequestException as err:
+            print(f"  failed: {err}")
+    raise SystemExit("Could not download the OSM extract from any mirror.")
+
+
 def main():
     if not PBF.exists():
-        print(f"Downloading {PBF_URL} ...")
-        with requests.get(PBF_URL, stream=True, timeout=600) as r:
-            r.raise_for_status()
-            with open(PBF, "wb") as f:
-                for chunk in r.iter_content(1 << 20):
-                    f.write(chunk)
+        download_extract()
     h = Handler()
     h.apply_file(str(PBF), locations=True, idx="flex_mem")
     OUT.write_text(json.dumps(h.addresses, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

@@ -7,11 +7,11 @@ to see what an iteration changed.
 
 | Measure | Count | Share |
 |---|---:|---:|
-| Streets in autocomplete | 2824 | |
-| Searchable addresses (street + number) | 70951 | 100% |
-| … with a building entry (GEZ or Wikidata) | 6571 | 9.3% |
-| … with at least something to show (entry, nearby place, OSM fact) | 32468 | 45.8% |
-| … with notable places within 150 m | 31150 | 43.9% |
+| Streets in autocomplete | 2823 | |
+| Searchable addresses (street + number) | 70947 | 100% |
+| … with a building entry (GEZ or Wikidata) | 6568 | 9.3% |
+| … with at least something to show (entry, nearby place, OSM fact) | 32466 | 45.8% |
+| … with notable places within 150 m | 31149 | 43.9% |
 
 ## GEZ register records
 
@@ -22,18 +22,18 @@ Excel rows: 7333, cross-reference rows skipped: 959.
 | Total | 6364 | 100% |
 | Street matched to an OSM street | 6150 | 96.6% |
 | Building number parsed | 6141 | 96.5% |
-| Coordinates | 5745 | 90.3% |
+| Coordinates | 5746 | 90.3% |
 | Dating | 6172 | 97.0% |
 | Architect (GEZ) | 2805 | 44.1% |
 | Architect (from Wikidata, GEZ empty) | 19 | 0.3% |
-| Linked to Wikidata | 1303 | 20.5% |
+| Linked to Wikidata | 1305 | 20.5% |
 | Proper name (e.g. "Kamienica Pod Jaszczurką") | 453 | 7.1% |
-| Wikipedia article | 665 | 10.4% |
-| Photo (Wikimedia Commons) | 1203 | 18.9% |
+| Wikipedia article | 668 | 10.5% |
+| Photo (Wikimedia Commons) | 1205 | 18.9% |
 
 ## Other sources
 
-- OSM address points in Kraków: 74954
+- OSM address points in Kraków: 74950
 - Wikidata items with coordinates in the Kraków area: 5490
-- Wikidata → GEZ links: linked_by_address 406, linked_by_coords 215, linked_by_register 682
-- New building entries from Wikidata (not in GEZ): 558
+- Wikidata → GEZ links: linked_by_address 409, linked_by_coords 215, linked_by_register 681
+- New building entries from Wikidata (not in GEZ): 555
