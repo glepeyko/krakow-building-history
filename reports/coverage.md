@@ -11,6 +11,7 @@ to see what an iteration changed.
 | Searchable addresses (street + number) | 70947 | 100% |
 | … with a building entry (GEZ or Wikidata) | 6568 | 9.3% |
 | … with at least something to show (entry, nearby place, OSM fact) | 32466 | 45.8% |
+| … with something to show incl. the street story (district not counted) | 38157 | 53.8% |
 | … with notable places within 150 m | 31149 | 43.9% |
 | … with a district (dzielnica) | 67557 | 95.2% |
 | … on a street with a street story ("O ulicy") | 17893 | 25.2% |

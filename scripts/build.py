@@ -665,10 +665,16 @@ def main():
         for num, slot in st["numbers"].items():
             if "lat" not in slot:
                 continue
-            near = []
+            near, seen = [], set()
             for d, p in poi_grid.near(slot["lat"], slot["lon"], NEARBY_RADIUS_M):
                 if (name, num) in p["self"] or any((name, q) in p["self"] for q in number_parts(num)):
                     continue
+                # Two GEZ rows for one address (e.g. a house and its annex with
+                # the same title) would otherwise show as identical lines.
+                key = (normalize(p["title"]), p["street"], p["number"])
+                if key in seen:
+                    continue
+                seen.add(key)
                 near.append([p["pid"], round(d)])
                 shard_pois[p["pid"]] = p
                 if len(near) >= NEARBY_MAX:
@@ -786,6 +792,9 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
                            if v.get("entries") or v.get("nearby") or v.get("start_date") or v.get("name"))
     ds = extra["district_stats"]
     stories = extra["stories"]
+    numbers_with_any_story = sum(1 for name, s in streets.items() for v in s["numbers"].values()
+                                 if v.get("entries") or v.get("nearby") or v.get("start_date") or v.get("name")
+                                 or name in stories)
     story_streets = [s for s in street_list if s["name"] in stories]
     sc = lambda k: sum(1 for s in story_streets if stories[s["name"]].get(k))
     numbers_story = sum(len(s["numbers"]) for name, s in streets.items() if name in stories)
@@ -806,6 +815,7 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| Searchable addresses (street + number) | {numbers_total} | 100% |",
         f"| … with a building entry (GEZ or Wikidata) | {numbers_with_entry} | {pct(numbers_with_entry, numbers_total)} |",
         f"| … with at least something to show (entry, nearby place, OSM fact) | {numbers_with_any} | {pct(numbers_with_any, numbers_total)} |",
+        f"| … with something to show incl. the street story (district not counted) | {numbers_with_any_story} | {pct(numbers_with_any_story, numbers_total)} |",
         f"| … with notable places within {NEARBY_RADIUS_M} m | {nearby_counts['with_nearby']} | {pct(nearby_counts['with_nearby'], numbers_total)} |",
         f"| … with a district (dzielnica) | {ds['numbers_with_district']} | {pct(ds['numbers_with_district'], numbers_total)} |",
         f"| … on a street with a street story (\"O ulicy\") | {numbers_story} | {pct(numbers_story, numbers_total)} |",
