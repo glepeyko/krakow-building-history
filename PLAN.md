@@ -15,7 +15,8 @@ about its street, its block, and what stands nearby.
   (1,113 entries). Phase 2: street stories for 550 streets (named after,
   former names, article link), a district for 95% of addresses, nearby
   places for ~95% of addresses (600 m fallback). Phase 3 started: pilot of
-  26 AI-drafted, source-cited, verifier-checked descriptions (labelled).
+  27 AI-drafted, source-cited, verifier-checked descriptions (labelled,
+  public; owner reviewing them in a Claude doc).
   Numbers: `reports/coverage.md`.
 - **Next (iteration 3 proposal):**
   1. More street stories: parse former names and naming dates from the
@@ -29,8 +30,12 @@ about its street, its block, and what stands nearby.
   4. AI research batch 2 (~50–100 buildings: Kazimierz, Podgórze, Kleparz),
      same research → verifier flow; owner review of batch 1.
   5. Deduplicate "nearby" across sources (same object from GEZ/Wikidata/OSM).
-  6. Drop addresses outside Kraków (postcode filter leaks neighbours) or
-     label them with their municipality.
+  6. Done 2026-11-20: addresses outside Kraków keep showing and name their
+     gmina (owner decision). Next: split same-named streets that exist both
+     in Kraków and in a neighbouring gmina into separate street files.
+  7. Use Chmiel's "Domy krakowskie" (dbc.wroc.pl, public domain, text
+     layer) systematically for Stare Miasto houses — it covers the
+     Floriańska/Grodzka houses that had no source in batch 1.
 
 ## Where we started (Nov 2026)
 

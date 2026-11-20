@@ -25,12 +25,16 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
       person, via: ["wikidata"|"osm"]}], names: [{name, from, to}] (dated
       name history, Wikidata P1448), old_names: [..] (OSM old_name),
       wikidata, wikipedia (street article, linked not copied),
-      districts: [district numbers the street runs through]}`.
+      districts: [district numbers the street runs through],
+      municipalities: [neighbouring gminy, for streets that leave Kraków]}`.
     - `districts`: `{"<number>": "<name>"}` for the numbers used in this file.
     - `entries`: building records (schema below).
     - `numbers`: every known house number on the street (~71k in total)
       → `{lat, lon, osm, building, levels, start_date, architect, name,
-      district (1–18), entries: [entry ids], nearby: [[poi id, metres], ...]}`.
+      district (1–18) or municipality ("gmina Zielonki", for the ~3k
+      addresses outside Kraków), entries: [entry ids], nearby: [[poi id,
+      metres], ...]}`. A slot `{moved_to: "6"}` redirects a number the
+      register gives wrongly (see corrections).
       `nearby` = up to 6 places within 150 m; if none, up to 3 within 600 m.
     - `pois`: the notable places referenced by `nearby` in this file.
   - `data/research/ai_drafts.json` — AI-researched texts (committed, edited
@@ -38,7 +42,14 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
     sources: [{title, url}], wikipedia, status: "ai_draft_unverified",
     researched_at, verification: {verdict, removed[], checked_urls[]}}`.
     Every sentence ends with citation markers `[1]`, `[1,2]` (1-based into
-    `sources`); `tests/test_data.py` enforces this.
+    `sources`); `tests/test_data.py` enforces this. The owner's review copy
+    is a Claude doc "Opisy AI do sprawdzenia — iteracja 2"
+    (https://claude.ai/artifact/PujNgMBMoB1S9aJiHntC9o); carry edits made
+    there back into this file.
+  - `data/research/corrections.json` — owner-approved fixes to register data
+    (`{entry_id, field: "building_number", from, to, reason, decided_by,
+    decided_at, sources[]}`), applied by build.py; the entry gets
+    `correction{}` and the page shows the change with its sources.
 - Data pipeline (Python 3.10+, `pip install -r requirements.txt`):
   1. `python scripts/sources/fetch_wikidata.py` → `source-data/raw/wikidata.json`
   2. `python scripts/sources/fetch_osm.py` → downloads the Małopolska extract
@@ -46,7 +57,8 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
      mirror — Geofabrik drops connections from the cloud environment) and
      writes `osm_addresses.json`, `osm_notable.json`, `osm_streets.json`
      (street name:etymology / old_name / wikidata tags) and
-     `osm_districts.json` (the 18 dzielnice, admin_level=9). (The public
+     `osm_districts.json` (the 18 dzielnice, admin_level=9) and
+     `osm_municipalities.json` (31 neighbouring gminy, admin_level=7). (The public
      Overpass API timed out for a whole-city query; do not go back to it for
      the bulk import.)
   3. `python scripts/sources/fetch_wikidata_streets.py` (after step 2) →
@@ -63,7 +75,10 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
 - The cloud environment `krakow-building-history` allows the hosts these
   fetchers and the research agents need (Wikidata, Wikipedia, OSM mirror,
   dane.gov.pl, zabytek.pl, muzeumkrakowa.pl, mnk.pl, visitmalopolska.pl …).
-  sztetl.org.pl answers 403 and krakow.travel is unreachable from it.
+  It also allows dbc.wroc.pl (Chmiel, "Domy krakowskie" — public-domain
+  DjVu with a text layer; `apt-get install djvulibre-bin` for `djvutxt`)
+  and bazhum.muzhp.pl. sztetl.org.pl answers 403 and krakow.travel is
+  unreachable from it.
 - `scripts/lib/address.py` — the one place for address normalization and
   street matching. `scripts/lib/geo.py` — point-in-polygon district lookup.
   Tests: `python -m unittest discover tests`.
@@ -75,6 +90,8 @@ Original GEZ fields — keep these names:
 `id, street, street_search, building_number, address_raw, alt_address,
 district_number, district_name, type_and_name, dating, author,
 register_number, source, status`.
+- `id`: the GEZ sheet reuses 52 ids; build.py renames later duplicates to
+  `"<id>-2"` so ids are unique (the page looks entries up by id).
 - `street` is now the canonical OSM street name (e.g. "aleja Juliusza
   Słowackiego"); the register's own spelling stays in `address_raw`.
 - `building_number` is normalized ("1 a" → "1a", "14/16" → "14-16").
@@ -89,6 +106,7 @@ Optional fields (omitted when empty):
   (register documents, e.g. "A-185 z 1931-06-25"), `nid_register_date`,
   `nid_chronology`, `nid_style` (skipped when "nieznany"/"inny"),
   `nid_url` (zabytek.pl record), `nid_inspire_id`.
+- iteration 2, corrections: `correction {field, from, to, reason, sources}`.
 - iteration 2, AI drafts: `ai_description`, `ai_sources [{title, url}]`,
   `ai_researched_at`. The page shows these only inside the block
   "Opis przygotowany przez AI — niezweryfikowany".
@@ -99,8 +117,8 @@ AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
 (its GEZ/Wikidata fields are still register data). Planned: `not_researched`.
 
 ## Known limitations
-- Building descriptions exist for ~9% of addresses (GEZ + Wikidata) plus 26
-  AI drafts. Thanks to the 600 m fallback, ~95% of addresses show at least
+- Building descriptions exist for ~9% of addresses (GEZ + Wikidata) plus 27
+  AI drafts (shown publicly, labelled; owner reviewing them in the doc). Thanks to the 600 m fallback, ~95% of addresses show at least
   a nearby place; outer-district fallback places can be 400–600 m away.
 - Street stories cover 550 of 2,823 streets (25% of addresses): only
   streets with a Wikidata item or OSM name:etymology/old_name tags. Dated
@@ -108,18 +126,17 @@ AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
   dates); former names from Wikipedia articles are not parsed yet. Patron
   birth/death years come from Wikidata and can be imprecise for early
   saints.
-- 2,968 addresses (4%) lie outside every dzielnica polygon: mostly
-  neighbouring municipalities with Kraków postcodes (Golkowice, Zgodna,
-  same-named streets in Zielonki etc.). They are in the data because the
-  OSM filter uses postcodes 30-/31-. The page says the address is outside
-  the districts. 19 GEZ records disagree with the OSM district (not checked).
+- 2,968 addresses (4%) lie outside Kraków: neighbouring gminy with Kraków
+  postcodes (the OSM filter uses postcodes 30-/31-). Owner decision: keep
+  them; the page names the gmina. Same-named streets in Kraków and in a
+  neighbouring gmina (e.g. "Krakowska") share one street file. 19 GEZ
+  records disagree with the OSM district (not checked).
 - NID register: 1,113 entries linked. 166 NID rows have an address that is
   not in our entries (could become new entries), 89 are ambiguous at their
   address, 255 have neither an address nor a unique register number
   (ensembles, parks).
-- Szeroka 5 vs 6: GEZ puts "d. mykwa zw. Wielką" (A-306) at Szeroka 5;
-  Wikipedia, VisitMalopolska and Wikidata put Mykwa Wielka at Szeroka 6.
-  Its AI draft is held back until the owner decides.
+- Mykwa Wielka: GEZ says Szeroka 5; owner decided Szeroka 6 (as Wikipedia,
+  VisitMalopolska, Wikidata). Fixed via corrections.json; no. 5 redirects.
 - The same object can appear 2–3 times in "W pobliżu" when GEZ, Wikidata
   and OSM name it differently (e.g. Fort 48a Mistrzejowice).
 - 223 GEZ records have no parsed building number (forts, viaducts, parks,
@@ -137,8 +154,10 @@ AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
 - AI drafts: the subagents' WebFetch tool did not see network changes made
   mid-session, so research and verification fetched pages with `curl`
   (owner approved). Wikipedia rate-limits parallel agents (HTTP 429): pace
-  requests ~4 s apart. Sources not reachable: sztetl.org.pl (403),
-  dbc.wroc.pl (Chmiel, "Domy krakowskie"), bazhum.muzhp.pl.
+  requests ~4 s apart. sztetl.org.pl still answers 403. The verifier is
+  not perfect: the editor pass caught 3 slips it let through (a wrong
+  "nearly four centuries", a date contradicting the next owner, an
+  inferred name origin) — keep a human/editor read after verification.
 - Photos: only a link to the Commons file, no image on the page (design
   decision pending with the owner).
 - Contact form still opens `mailto:`; placeholder `CONTACT_EMAIL` in
@@ -176,3 +195,9 @@ AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
   pilot: 26 labelled, source-cited, verifier-checked descriptions in
   `data/research/ai_drafts.json`; tests for register parsing and the drafts
   file. New cloud environment `krakow-building-history` with the needed hosts.
+- 2026-11-20 — Iteration 2, owner feedback: AI texts public; review doc
+  created; Mykwa Wielka moved to Szeroka 6 (corrections.json, no. 5
+  redirects); Floriańska 26 re-researched from Chmiel 1920 (dbc.wroc.pl);
+  3 editorial fixes to drafts; addresses outside Kraków name their gmina;
+  duplicate GEZ ids made unique; Wikidata links at one address tie-broken
+  by name words (fixes a mikveh/kamienica mix-up and Floriańska 5).
