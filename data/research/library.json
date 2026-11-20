@@ -1,0 +1,482 @@
+{
+ "about": "Historians' texts cached page by page in source-data/raw/library/<id>/p0001.txt (git-ignored) by scripts/sources/fetch_library.py. Citation: page_url with {scan} = 1-based scan number, {scan0} = scan - 1. Licence 'PD' = public domain (author died before 1956 or anonymous work older than 70 years); others: facts restated in our own words with a citation, never copied.",
+ "sources": [
+  {
+   "id": "chmiel-florianska-1",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57)",
+   "short": "Chmiel, Domy krakowskie: Floriańska cz. 1",
+   "year": 1917,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "50db8941-9445-4c8f-82a1-592381887c0f",
+   "item_url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f",
+   "page_url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page={scan0}",
+   "covers": {
+    "streets": [
+     "Floriańska"
+    ],
+    "numbers": "odd 1-57"
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "ok",
+    "pages": 265,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-florianska-2",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14)",
+   "short": "Chmiel, Domy krakowskie: Floriańska cz. 2",
+   "year": 1919,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "31b7a477-c974-4ebb-ad41-c7b4640c9e5b",
+   "item_url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b",
+   "page_url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page={scan0}",
+   "covers": {
+    "streets": [
+     "Floriańska"
+    ],
+    "numbers": "even 2-14"
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "ok",
+    "pages": 66,
+    "fetched_at": "2026-11-20"
+   },
+   "note": "Polona's record says 2-44, but this copy holds only nos. 2-14; 16-44 is chmiel-florianska-2b."
+  },
+  {
+   "id": "chmiel-slawkowska-1",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Sławkowska, cz. 1 (liczby or. nieparzyste 1–25)",
+   "short": "Chmiel, Domy krakowskie: Sławkowska cz. 1",
+   "year": 1931,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "52d1945f-f916-486f-8d0e-e67054d0286c",
+   "item_url": "https://polona.pl/item-view/52d1945f-f916-486f-8d0e-e67054d0286c",
+   "page_url": "https://polona.pl/item-view/52d1945f-f916-486f-8d0e-e67054d0286c?page={scan0}",
+   "covers": {
+    "streets": [
+     "Sławkowska"
+    ],
+    "numbers": "odd 1-25"
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "ok",
+    "pages": 141,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-slawkowska-2",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Sławkowska, cz. 2 (liczby or. parzyste 2–32)",
+   "short": "Chmiel, Domy krakowskie: Sławkowska cz. 2",
+   "year": 1932,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "db15e53d-3db9-48cb-99b1-5d7d06bb6896",
+   "item_url": "https://polona.pl/item-view/db15e53d-3db9-48cb-99b1-5d7d06bb6896",
+   "page_url": "https://polona.pl/item-view/db15e53d-3db9-48cb-99b1-5d7d06bb6896?page={scan0}",
+   "covers": {
+    "streets": [
+     "Sławkowska"
+    ],
+    "numbers": "even 2-32"
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "ok",
+    "pages": 204,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-florianska-2b",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44)",
+   "short": "Chmiel, Domy krakowskie: Floriańska cz. 2 (16–44)",
+   "year": 1920,
+   "licence": "PD",
+   "route": "djvu",
+   "url": "https://dbc.wroc.pl/Content/13908/download?format_id=1",
+   "item_url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908",
+   "page_url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan={scan}",
+   "covers": {
+    "streets": [
+     "Floriańska"
+    ],
+    "numbers": "even 16-44"
+   },
+   "kind": "house histories",
+   "note": "Polona copy c2f2006e-3412-4b87-819a-4656384c045f has no OCR; DBC DjVu text layer used. DBC has no page-level links: cite the scan number in the title.",
+   "fetch": {
+    "status": "ok",
+    "pages": 158,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-jana-1",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica św. Jana, cz. 1 (liczby or. nieparzyste 1–19)",
+   "short": "Chmiel, Domy krakowskie: św. Jana cz. 1",
+   "year": 1924,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "9924bd5e-2f35-4865-af8b-4dbc598ceba0",
+   "item_url": "https://polona.pl/item-view/9924bd5e-2f35-4865-af8b-4dbc598ceba0",
+   "page_url": "https://polona.pl/item-view/9924bd5e-2f35-4865-af8b-4dbc598ceba0?page={scan0}",
+   "covers": {
+    "streets": [
+     "Świętego Jana"
+    ],
+    "numbers": "odd 1-19"
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "ok",
+    "pages": 129,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-jana-2",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica św. Jana, cz. 2 (liczby or. parzyste 2–32)",
+   "short": "Chmiel, Domy krakowskie: św. Jana cz. 2",
+   "year": 1924,
+   "licence": "PD",
+   "route": "djvu",
+   "url": "https://dbc.wroc.pl/Content/5956/download?format_id=1",
+   "item_url": "https://dbc.wroc.pl/dlibra/publication/6421/edition/5956",
+   "page_url": "https://dbc.wroc.pl/dlibra/publication/6421/edition/5956/content#scan={scan}",
+   "covers": {
+    "streets": [
+     "Świętego Jana"
+    ],
+    "numbers": "even 2-32"
+   },
+   "kind": "house histories",
+   "note": "Polona copy (7ef3ff1a-e739-476d-a5e7-98d5fa5257f0) has no OCR; the DBC DjVu has a text layer.",
+   "fetch": {
+    "status": "ok",
+    "pages": 221,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-grodzka-1",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Grodzka, cz. 1 (liczby or. nieparzyste 1–17)",
+   "short": "Chmiel, Domy krakowskie: Grodzka cz. 1",
+   "year": 1934,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "25b3fe29-6555-4f5d-96f4-e48de63ec5b5",
+   "item_url": "https://polona.pl/item-view/25b3fe29-6555-4f5d-96f4-e48de63ec5b5",
+   "page_url": "https://polona.pl/item-view/25b3fe29-6555-4f5d-96f4-e48de63ec5b5?page={scan0}",
+   "covers": {
+    "streets": [
+     "Grodzka"
+    ],
+    "numbers": "odd 1-17"
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "ok",
+    "pages": 153,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-grodzka-2",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Grodzka, cz. 2 (liczby or. nieparzyste 19–37)",
+   "short": "Chmiel, Domy krakowskie: Grodzka cz. 2",
+   "year": 1935,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "c6178b08-8a4c-4a29-ae37-679e1dad6953",
+   "item_url": "https://polona.pl/item-view/c6178b08-8a4c-4a29-ae37-679e1dad6953",
+   "page_url": "https://polona.pl/item-view/c6178b08-8a4c-4a29-ae37-679e1dad6953?page={scan0}",
+   "covers": {
+    "streets": [
+     "Grodzka"
+    ],
+    "numbers": "odd 19-37"
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "ok",
+    "pages": 141,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "nowolecki-1878",
+   "author": "Aleksander Nowolecki",
+   "title": "Wykaz ulic, placów, kościołów i domów miasta Krakowa",
+   "short": "Nowolecki, Wykaz ulic… (1878)",
+   "year": 1878,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "1543c6ff-7fbc-4d5a-a4b9-d50b3e6e702d",
+   "item_url": "https://polona.pl/item-view/1543c6ff-7fbc-4d5a-a4b9-d50b3e6e702d",
+   "page_url": "https://polona.pl/item-view/1543c6ff-7fbc-4d5a-a4b9-d50b3e6e702d?page={scan0}",
+   "covers": {
+    "area": "whole city"
+   },
+   "kind": "street and house list",
+   "fetch": {
+    "status": "ok",
+    "pages": 340,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "nowolecki-1880",
+   "author": "Aleksander Nowolecki",
+   "title": "Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych",
+   "short": "Nowolecki, Wykaz ulic… (1880)",
+   "year": 1880,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "d01c8711-8acb-4c77-9fce-d7225282250d",
+   "item_url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d",
+   "page_url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page={scan0}",
+   "covers": {
+    "area": "whole city + Podgórze"
+   },
+   "kind": "street and house list",
+   "fetch": {
+    "status": "ok",
+    "pages": 291,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "nowolecki-1884",
+   "author": "Aleksander Nowolecki",
+   "title": "Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść",
+   "short": "Nowolecki, Nowy wykaz ulic… (1884)",
+   "year": 1884,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "9ee2b213-1bd9-4b66-87bb-c489c0a987d4",
+   "item_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4",
+   "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page={scan0}",
+   "covers": {
+    "area": "whole city + suburbs"
+   },
+   "kind": "street and house list",
+   "fetch": {
+    "status": "ok",
+    "pages": 204,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "tomkowicz-ulice-1926",
+   "author": "Stanisław Tomkowicz",
+   "title": "Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci",
+   "short": "Tomkowicz, Ulice i place Krakowa (1926)",
+   "year": 1926,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "199fcdeb-c01d-4c30-8874-a5296572674b",
+   "item_url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b",
+   "page_url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page={scan0}",
+   "covers": {
+    "area": "Old Town and inner suburbs"
+   },
+   "kind": "street history",
+   "fetch": {
+    "status": "ok",
+    "pages": 256,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "balaban-1",
+   "author": "Majer Bałaban",
+   "title": "Historja Żydów w Krakowie i na Kazimierzu 1304–1868, t. 1 (1304–1655)",
+   "short": "Bałaban, Historja Żydów w Krakowie i na Kazimierzu, t. 1",
+   "year": 1931,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "50e2db2c-a4c8-4bd8-b1af-05b381186fcb",
+   "item_url": "https://polona.pl/item-view/50e2db2c-a4c8-4bd8-b1af-05b381186fcb",
+   "page_url": "https://polona.pl/item-view/50e2db2c-a4c8-4bd8-b1af-05b381186fcb?page={scan0}",
+   "covers": {
+    "area": "Kazimierz"
+   },
+   "kind": "history",
+   "fetch": {
+    "status": "ok",
+    "pages": 640,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "balaban-2",
+   "author": "Majer Bałaban",
+   "title": "Historja Żydów w Krakowie i na Kazimierzu 1304–1868, t. 2 (1656–1868)",
+   "short": "Bałaban, Historja Żydów w Krakowie i na Kazimierzu, t. 2",
+   "year": 1936,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "4f595d2a-1107-4c4f-a829-a572c4e44e51",
+   "item_url": "https://polona.pl/item-view/4f595d2a-1107-4c4f-a829-a572c4e44e51",
+   "page_url": "https://polona.pl/item-view/4f595d2a-1107-4c4f-a829-a572c4e44e51?page={scan0}",
+   "covers": {
+    "area": "Kazimierz"
+   },
+   "kind": "history",
+   "fetch": {
+    "status": "ok",
+    "pages": 862,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "grabowski-1900",
+   "author": "Ambroży Grabowski",
+   "title": "Kraków i jego okolice (wyd. 1900)",
+   "short": "Grabowski, Kraków i jego okolice (1900)",
+   "year": 1900,
+   "licence": "PD",
+   "route": "polona",
+   "polona_uuid": "285d55bc-70d2-4a60-b8ab-1eaa56d49951",
+   "item_url": "https://polona.pl/item-view/285d55bc-70d2-4a60-b8ab-1eaa56d49951",
+   "page_url": "https://polona.pl/item-view/285d55bc-70d2-4a60-b8ab-1eaa56d49951?page={scan0}",
+   "covers": {
+    "area": "whole city"
+   },
+   "kind": "description",
+   "fetch": {
+    "status": "ok",
+    "pages": 450,
+    "fetched_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "kzs-iv-10",
+   "author": "Instytut Sztuki PAN (red.)",
+   "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny",
+   "short": "Katalog Zabytków Sztuki, t. IV cz. 10",
+   "year": 2016,
+   "licence": "© Instytut Sztuki PAN, open access",
+   "route": "pdf",
+   "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf",
+   "item_url": "https://repozytorium.ispan.pl/dlibra/publication/edition/31773",
+   "page_url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page={scan}",
+   "covers": {
+    "streets": [
+     "Rynek Główny"
+    ]
+   },
+   "kind": "house histories",
+   "fetch": {
+    "status": "blocked",
+    "error": "host repozytorium.ispan.pl not reachable from this environment",
+    "checked_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "klas-nowa-huta-2018",
+   "author": "Jarosław Klaś (red.)",
+   "title": "Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku",
+   "short": "Klaś (red.), Nowa Huta (2018)",
+   "year": 2018,
+   "licence": "CC BY-NC-ND 3.0",
+   "route": "pdf",
+   "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content",
+   "item_url": "https://ruj.uj.edu.pl/handle/item/63868",
+   "page_url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page={scan}",
+   "covers": {
+    "area": "Nowa Huta"
+   },
+   "kind": "building portraits",
+   "fetch": {
+    "status": "blocked",
+    "error": "host ruj.uj.edu.pl not reachable from this environment",
+    "checked_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "chmiel-florianska-2-ia",
+   "author": "Adam Chmiel",
+   "title": "Domy krakowskie: ulica Floryańska, cz. 2 (16–44) — Internet Archive OCR of the DBC copy",
+   "short": "Chmiel, Domy krakowskie: Floriańska cz. 2 (IA)",
+   "year": 1920,
+   "licence": "PD",
+   "route": "ia",
+   "ia_id": "dbc.wroc.pl.006422",
+   "item_url": "https://archive.org/details/dbc.wroc.pl.006422",
+   "page_url": "https://archive.org/details/dbc.wroc.pl.006422/page/n{scan0}",
+   "covers": {
+    "streets": [
+     "Floriańska"
+    ],
+    "numbers": "even 16-44"
+   },
+   "kind": "house histories",
+   "note": "Duplicate route; the Polona copy is used when this host is blocked.",
+   "fetch": {
+    "status": "blocked",
+    "error": "host archive.org not reachable from this environment",
+    "checked_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "ksiega-adresowa-1913",
+   "author": "(wydawca miejski)",
+   "title": "Księga adresowa Królewskiego Stołecznego Miasta Krakowa i Podgórza 1913",
+   "short": "Księga adresowa Krakowa 1913",
+   "year": 1913,
+   "licence": "PD",
+   "route": "pdf",
+   "url": "https://www.mtg-malopolska.org.pl/images/skany/ksiegaadresowa1913djvu/ksiegaadresowa1913.pdf",
+   "item_url": "https://www.mtg-malopolska.org.pl/images/skany/ksiegaadresowa1913djvu/ksiegaadresowa1913.pdf",
+   "page_url": "https://www.mtg-malopolska.org.pl/images/skany/ksiegaadresowa1913djvu/ksiegaadresowa1913.pdf#page={scan}",
+   "covers": {
+    "area": "whole city"
+   },
+   "kind": "address book",
+   "fetch": {
+    "status": "blocked",
+    "error": "host www.mtg-malopolska.org.pl not reachable from this environment",
+    "checked_at": "2026-11-20"
+   }
+  },
+  {
+   "id": "rocznik-krakowski-akademicka",
+   "author": "TMHiZK",
+   "title": "Rocznik Krakowski t. 85+ (journals.akademicka.pl)",
+   "short": "Rocznik Krakowski",
+   "year": 2019,
+   "licence": "CC BY-NC-ND 4.0",
+   "route": "pdf",
+   "url": "https://journals.akademicka.pl/rocznikkrakowski/article/download/5645/5258/7642",
+   "item_url": "https://journals.akademicka.pl/rocznikkrakowski/issue/archive",
+   "page_url": "https://journals.akademicka.pl/rocznikkrakowski/article/download/5645/5258/7642#page={scan}",
+   "covers": {
+    "area": "Krowodrza villas (Dettloff 2023)"
+   },
+   "kind": "article",
+   "fetch": {
+    "status": "blocked",
+    "error": "host journals.akademicka.pl not reachable from this environment",
+    "checked_at": "2026-11-20"
+   }
+  }
+ ]
+}
