@@ -41,7 +41,11 @@ def main():
     else:
         if not (a.street and a.number):
             ap.error("give STREET NUMBER, --name, --old or --page")
-        for r in lib.old_numbers(a.street, a.number):
+        olds = lib.old_numbers(a.street, a.number)
+        if olds:
+            print("[old number] NOTE: 1884 street numbering; some streets were renumbered later "
+                  "(odd side of Sławkowska, Szeroka). Confirm with the lc. number in the house chapter.")
+        for r in olds:
             print(f"[old number] lc. {r['old_number']} — owner 1884: {r['owner']} ({r['confidence']}) {r['page_url']}")
         hits = lib.find_address(a.street, a.number, limit=a.limit)
     for h in hits:

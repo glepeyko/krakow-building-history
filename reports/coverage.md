@@ -7,28 +7,38 @@ to see what an iteration changed.
 
 | Measure | Count | Share |
 |---|---:|---:|
-| Streets in autocomplete | 2823 | |
-| Searchable addresses (street + number) | 70947 | 100% |
-| … with a building entry (GEZ or Wikidata) | 6567 | 9.3% |
-| … with at least something to show (entry, nearby place, OSM fact) | 67109 | 94.6% |
-| … with something to show incl. the street story (district not counted) | 67291 | 94.8% |
-| … with notable places within 150 m | 31149 | 43.9% |
-| … with none within 150 m but some within 600 m (shown instead) | 35479 | 50.0% |
-| … with a district (dzielnica) | 67557 | 95.2% |
-| … on a street with a street story ("O ulicy") | 17893 | 25.2% |
-| … with an AI-drafted description (unverified) | 28 | 0.0% |
+| Streets in autocomplete | 2874 | |
+| Searchable addresses (street + number) | 71297 | 100% |
+| … with a building entry (GEZ or Wikidata) | 6696 | 9.4% |
+| … with at least something to show (entry, nearby place, OSM fact) | 67129 | 94.2% |
+| … with something to show incl. the street story (district not counted) | 67281 | 94.4% |
+| … with notable places within 150 m | 31250 | 43.8% |
+| … with none within 150 m but some within 600 m (shown instead) | 35385 | 49.6% |
+| … with a district (dzielnica) | 67685 | 94.9% |
+| … on a street with a street story ("O ulicy") | 17586 | 24.7% |
+| … with an AI-researched description (labelled until the owner approves it) | 28 | 0.0% |
+| … with a historian-sourced text (cites a page of the historians' library) | 1 | 0.0% |
 
 ## Streets ("O ulicy")
 
 | Measure | Streets | Share |
 |---|---:|---:|
-| Streets with any street story | 550 | 19.5% |
-| … named after a person/place/event (Wikidata P138 or OSM name:etymology) | 394 | 14.0% |
+| Streets with any street story | 550 | 19.1% |
+| … named after a person/place/event (Wikidata P138 or OSM name:etymology) | 394 | 13.7% |
 | … with dated name history (Wikidata) | 5 | 0.2% |
 | … with a former name (OSM old_name) | 60 | 2.1% |
-| … with a Wikipedia article about the street | 360 | 12.8% |
+| … with a Wikipedia article about the street | 360 | 12.5% |
+| … with former names from historians / street articles (data/research/street_history.json) | 0 | 0.0% |
+| … of which citing Tomkowicz (1926) or another library book | 0 | 0.0% |
 
 Street items from Wikidata: wd_items_linked_from_osm 121, wd_items_matched_by_name 384, wd_items_unmatched 144.
+
+Same-named streets outside Kraków split into their own street files: 51 (addresses moved: 972).
+
+## Historians' library (iteration 3)
+
+- Old-number index (Nowolecki 1884, `data/research/old_numbers.json`): 1650 rows, 1272 distinct modern addresses, matched to a current OSM address: 1352 rows (81.9%); confidence high 1132, medium 452, low 66.
+- Entries with a historian-sourced text: 1.
 
 ## GEZ register records
 
@@ -39,25 +49,26 @@ Excel rows: 7333, cross-reference rows skipped: 959, duplicate ids renamed ("<id
 | Total | 6364 | 100% |
 | Street matched to an OSM street | 6150 | 96.6% |
 | Building number parsed | 6141 | 96.5% |
-| Coordinates | 5747 | 90.3% |
+| Coordinates | 5745 | 90.3% |
 | Dating | 6172 | 97.0% |
 | Architect (GEZ) | 2805 | 44.1% |
-| Architect (from Wikidata, GEZ empty) | 19 | 0.3% |
-| Linked to Wikidata | 1307 | 20.5% |
-| Proper name (e.g. "Kamienica Pod Jaszczurką") | 455 | 7.1% |
-| Wikipedia article | 684 | 10.7% |
-| Photo (Wikimedia Commons) | 1207 | 19.0% |
-| … shown on the page (author + licence known) | 1203 | 18.9% |
+| Architect (from Wikidata, GEZ empty) | 20 | 0.3% |
+| Linked to Wikidata | 1344 | 21.1% |
+| Proper name (e.g. "Kamienica Pod Jaszczurką") | 486 | 7.6% |
+| Wikipedia article | 717 | 11.3% |
+| Photo (Wikimedia Commons) | 1239 | 19.5% |
+| … shown on the page (author + licence known) | 1235 | 19.4% |
 | Linked to the NID register (official name, register date, zabytek.pl) | 1039 | 16.3% |
 | AI-drafted description (unverified, labelled) | 27 | 0.4% |
 | … of which approved by the owner (no AI label) | 27 | 0.4% |
 
-District check (GEZ district column vs. OSM boundary, records with coordinates): agree 5686, disagree 19. Entries that got their district from OSM: 550. Addresses outside every district polygon: 2968, of which in a neighbouring gmina: 2968 (named on the page).
+District check (GEZ district column vs. OSM boundary, records with coordinates): agree 5690, disagree 19. Entries that got their district from OSM: 692. Addresses outside every district polygon: 3174, of which in a neighbouring gmina: 3174 (named on the page).
 
 ## Other sources
 
 - OSM address points in Kraków: 74950
-- Wikidata items with coordinates in the Kraków area: 5490
-- Wikidata → GEZ links: linked_by_address 411, linked_by_coords 215, linked_by_register 681
-- New building entries from Wikidata (not in GEZ): 553
-- NID register (dane.gov.pl): address_not_in_entries 166, ambiguous_address 88, entries_linked 1114, linked_by_address 150, linked_by_address+register 904, linked_by_address+type 35, linked_by_register 25, no_address_no_unique_register 255, rows 1953
+- Wikidata items with coordinates in the Kraków area: 5491
+- Wikidata → GEZ links: linked_by_address 412, linked_by_coords 215, linked_by_register 681
+- Wikidata → GEZ gap pass (article title / NID register number): ambiguous 8, linked_by_article_title 34, linked_by_nid_register 2, wd_entries_merged 14
+- New building entries from Wikidata or the NID register (not in GEZ): 711 (of which from NID: 172)
+- NID register (dane.gov.pl): address_not_in_entries 172, ambiguous_address 86, entries_linked 1110, linked_by_address 146, linked_by_address+register 904, linked_by_address+type 35, linked_by_register 25, new_entries 172, new_entries_with_coordinates 156, no_address_no_unique_register 255, rows 1953

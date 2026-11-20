@@ -1,18 +1,18 @@
 {
-"about": "Old hypothecary/conscription numbers (lc.) and owners in 1884, from A. Nowolecki, Nowy wykaz ulic… (1884), owner list; parsed from Polona OCR by scripts/sources/parse_old_numbers.py. lc. numbers restart in each district. OCR is imperfect: check low/medium rows against the page image (page_url).",
+"about": "Old hypothecary/conscription numbers (lc.) and owners in 1884, from A. Nowolecki, Nowy wykaz ulic… (1884), owner list; parsed from Polona OCR by scripts/sources/parse_old_numbers.py. lc. numbers restart in each district. OCR is imperfect: check low/medium rows against the page image (page_url). Numbers are 1884 street numbers: some streets were renumbered later (e.g. the odd side of Sławkowska after the 1912 demolitions; parts of Szeroka), so a 'matched' row can point to a different house today - confirm with the old lc. number in the house history.",
 "stats": {
 "rows": 1650,
 "unparsed_fragments": 1005,
-"street_resolved": 1584,
-"matched_modern_address": 1352,
-"distinct_modern_addresses": 1272,
-"distinct_matched_addresses": 1099,
+"street_resolved": 1556,
+"matched_modern_address": 1299,
+"distinct_modern_addresses": 1249,
+"distinct_matched_addresses": 1067,
 "by_confidence": {
-"high": 1132,
-"medium": 452,
-"low": 66
+"high": 1100,
+"medium": 456,
+"low": 94
 },
-"match_rate": 0.819
+"match_rate": 0.787
 },
 "rows": [
 {
@@ -226,7 +226,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "5",
 "old_number": "45",
@@ -236,11 +236,11 @@
 "scan": 23,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=22",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "25",
 "old_number": "52",
@@ -250,11 +250,11 @@
 "scan": 23,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=22",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "17",
 "old_number": "282",
@@ -264,8 +264,8 @@
 "scan": 23,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=22",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Sławkowska",
@@ -460,8 +460,8 @@
 "scan": 23,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=22",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Kolejowa",
@@ -1147,7 +1147,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=23",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Krakowska",
@@ -1164,7 +1164,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "20",
 "old_number": "33",
@@ -1174,11 +1174,11 @@
 "scan": 24,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=23",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "10",
 "old_number": "28",
@@ -1188,8 +1188,8 @@
 "scan": 25,
 "page": 26,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=24",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Świętej Gertrudy",
@@ -1273,7 +1273,7 @@
 "page": 26,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=24",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -2382,7 +2382,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "18",
 "old_number": "32",
@@ -2392,7 +2392,7 @@
 "scan": 27,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=26",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
@@ -2448,8 +2448,8 @@
 "scan": 27,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=26",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Pawia",
@@ -2770,8 +2770,8 @@
 "scan": 27,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=26",
-"confidence": "medium",
-"matched": false
+"confidence": "high",
+"matched": true
 },
 {
 "street": "Podzamcze",
@@ -3093,7 +3093,7 @@
 "page": 29,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=27",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Świętego Tomasza",
@@ -3274,8 +3274,8 @@
 "scan": 28,
 "page": 29,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=27",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Józefa",
@@ -3387,7 +3387,7 @@
 "page": 29,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=27",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -3723,7 +3723,7 @@
 "page": 30,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=28",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Podwale",
@@ -3905,7 +3905,7 @@
 "page": 30,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=28",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -5136,11 +5136,11 @@
 "scan": 31,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=30",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "3",
 "old_number": "44",
@@ -5150,11 +5150,11 @@
 "scan": 31,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=30",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "12",
 "old_number": "29",
@@ -5164,8 +5164,8 @@
 "scan": 31,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=30",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Sławkowska",
@@ -5808,8 +5808,8 @@
 "scan": 33,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=32",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Piekarska",
@@ -6103,7 +6103,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=32",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Wielopole",
@@ -6369,7 +6369,7 @@
 "page": 35,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=33",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -6760,8 +6760,8 @@
 "scan": 34,
 "page": 35,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=33",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Stradomska",
@@ -7782,8 +7782,8 @@
 "scan": 36,
 "page": 37,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=35",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Rynek Główny",
@@ -7951,7 +7951,7 @@
 "page": 37,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=35",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -8286,8 +8286,8 @@
 "scan": 37,
 "page": 38,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=36",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Poselska",
@@ -8440,8 +8440,8 @@
 "scan": 37,
 "page": 38,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=36",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Garncarska",
@@ -8668,7 +8668,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "26",
 "old_number": "34/5",
@@ -8678,8 +8678,8 @@
 "scan": 38,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=37",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Basztowa",
@@ -8748,8 +8748,8 @@
 "scan": 38,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=37",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": null,
@@ -9771,7 +9771,7 @@
 "page": 40,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=38",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Plac Szczepański",
@@ -9840,8 +9840,8 @@
 "scan": 40,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=39",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Krakowska",
@@ -10936,7 +10936,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "28",
 "old_number": "36",
@@ -10946,7 +10946,7 @@
 "scan": 43,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=42",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
@@ -11255,7 +11255,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=42",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -11804,7 +11804,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "4",
 "old_number": "26",
@@ -11814,7 +11814,7 @@
 "scan": 44,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=43",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
@@ -12322,7 +12322,7 @@
 "matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "30",
 "old_number": "37",
@@ -12332,8 +12332,8 @@
 "scan": 45,
 "page": 46,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=44",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Szewska",
@@ -12490,7 +12490,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "8",
 "old_number": "27",
@@ -12500,8 +12500,8 @@
 "scan": 45,
 "page": 46,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=44",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Krupnicza",
@@ -13470,7 +13470,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "42",
 "old_number": "41",
@@ -13480,8 +13480,8 @@
 "scan": 47,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=46",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Stolarska",
@@ -13719,7 +13719,7 @@
 "page": 49,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=47",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Floriańska",
@@ -14058,7 +14058,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "16",
 "old_number": "31",
@@ -14068,8 +14068,8 @@
 "scan": 48,
 "page": 49,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=47",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Krowoderska",
@@ -14446,8 +14446,8 @@
 "scan": 49,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=48",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Świętej Katarzyny",
@@ -14828,7 +14828,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "13",
 "old_number": "54",
@@ -14838,7 +14838,7 @@
 "scan": 50,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=49",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
@@ -15164,7 +15164,7 @@
 "matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "23",
 "old_number": "51",
@@ -15174,8 +15174,8 @@
 "scan": 50,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=49",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Floriana Straszewskiego",
@@ -15626,7 +15626,7 @@
 "matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "7",
 "old_number": "46",
@@ -15636,11 +15636,11 @@
 "scan": 51,
 "page": 52,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=50",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "9",
 "old_number": "47",
@@ -15650,8 +15650,8 @@
 "scan": 51,
 "page": 52,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=50",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": null,
@@ -15973,7 +15973,7 @@
 "page": 52,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=50",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Świętej Gertrudy",
@@ -16043,7 +16043,7 @@
 "page": 53,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=51",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Krakowska",
@@ -16532,8 +16532,8 @@
 "scan": 52,
 "page": 53,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=51",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Wąska",
@@ -16547,7 +16547,7 @@
 "page": 53,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=51",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Ciemna",
@@ -16673,7 +16673,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=52",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Floriańska",
@@ -17037,7 +17037,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=52",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -17723,7 +17723,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=53",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -18199,7 +18199,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=54",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Wąska",
@@ -18227,7 +18227,7 @@
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=54",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Szeroka",
@@ -19235,7 +19235,7 @@
 "page": 58,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=56",
 "confidence": "medium",
-"matched": true
+"matched": false
 },
 {
 "street": "Świętego Filipa",
@@ -19854,7 +19854,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "15",
 "old_number": "48",
@@ -19864,11 +19864,11 @@
 "scan": 58,
 "page": 59,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=57",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "17",
 "old_number": "49",
@@ -19878,11 +19878,11 @@
 "scan": 58,
 "page": 59,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=57",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "19",
 "old_number": "50",
@@ -19892,8 +19892,8 @@
 "scan": 58,
 "page": 59,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=57",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Szpitalna",
@@ -20410,11 +20410,11 @@
 "scan": 59,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=58",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "11",
 "old_number": "84",
@@ -20424,7 +20424,7 @@
 "scan": 59,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=58",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
@@ -21432,8 +21432,8 @@
 "scan": 61,
 "page": 62,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=60",
-"confidence": "high",
-"matched": true
+"confidence": "medium",
+"matched": false
 },
 {
 "street": "Grodzka",
@@ -21632,7 +21632,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "4",
 "old_number": "26",
@@ -21642,11 +21642,11 @@
 "scan": 62,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=61",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "6",
 "old_number": "26",
@@ -21656,8 +21656,8 @@
 "scan": 62,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=61",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Kupa",
@@ -22440,8 +22440,8 @@
 "scan": 64,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=63",
-"confidence": "medium",
-"matched": false
+"confidence": "high",
+"matched": true
 },
 {
 "street": "Karmelicka",
@@ -22612,7 +22612,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "18",
 "old_number": "32",
@@ -22622,7 +22622,7 @@
 "scan": 166,
 "page": null,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=165",
-"confidence": "medium",
+"confidence": "low",
 "matched": false
 },
 {
@@ -22654,7 +22654,7 @@
 "matched": false
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "8",
 "old_number": "27a",
@@ -22664,8 +22664,8 @@
 "scan": 167,
 "page": 172,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=166",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Pawia",
@@ -22878,7 +22878,7 @@
 "matched": true
 },
 {
-"street": "Mikołaja Kopernika",
+"street": null,
 "street_1884": "Kopernika",
 "number": "26",
 "old_number": "34",
@@ -22888,8 +22888,8 @@
 "scan": 167,
 "page": 172,
 "page_url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=166",
-"confidence": "high",
-"matched": true
+"confidence": "low",
+"matched": false
 },
 {
 "street": "Józefa",

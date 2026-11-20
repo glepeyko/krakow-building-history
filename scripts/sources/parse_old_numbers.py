@@ -218,7 +218,10 @@ def main():
         "about": ("Old hypothecary/conscription numbers (lc.) and owners in 1884, from "
                   "A. Nowolecki, Nowy wykaz ulic… (1884), owner list; parsed from Polona OCR by "
                   "scripts/sources/parse_old_numbers.py. lc. numbers restart in each district. "
-                  "OCR is imperfect: check low/medium rows against the page image (page_url)."),
+                  "OCR is imperfect: check low/medium rows against the page image (page_url). "
+                  "Numbers are 1884 street numbers: some streets were renumbered later (e.g. the odd side "
+                  "of Sławkowska after the 1912 demolitions; parts of Szeroka), so a 'matched' row can "
+                  "point to a different house today - confirm with the old lc. number in the house history."),
         "stats": stats,
         "rows": rows,
     }
