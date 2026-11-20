@@ -16,26 +16,86 @@ about its street, its block, and what stands nearby.
   former names, article link), a district for 95% of addresses, nearby
   places for ~95% of addresses (600 m fallback). Phase 3 started: pilot of
   27 AI-drafted, source-cited, verifier-checked descriptions (labelled,
-  public; owner reviewing them in a Claude doc).
+  public). Merged 2026-11-20 (PR #1); the owner approved all 27 texts the
+  same day (shown without the AI label). Szeroka 5 shows a link to no. 6
+  instead of redirecting.
   Numbers: `reports/coverage.md`.
-- **Next (iteration 3 proposal):**
-  1. More street stories: parse former names and naming dates from the
-     "Ulica X w Krakowie" articles (facts only, own wording), and link
-     street articles that have no Wikidata P131 Kraków.
-  2. Fix the Wikidata ↔ GEZ gap the pilot exposed (famous Rynek houses
-     with an article but no link): match by Wikipedia article title /
-     NID inspire id.
-  3. 166 NID rows whose address has no entry → new entries
-     (`source: "Rejestr zabytków NID"`).
-  4. AI research batch 2 (~50–100 buildings: Kazimierz, Podgórze, Kleparz),
-     same research → verifier flow; owner review of batch 1.
-  5. Deduplicate "nearby" across sources (same object from GEZ/Wikidata/OSM).
-  6. Done 2026-11-20: addresses outside Kraków keep showing and name their
-     gmina (owner decision). Next: split same-named streets that exist both
-     in Kraków and in a neighbouring gmina into separate street files.
-  7. Use Chmiel's "Domy krakowskie" (dbc.wroc.pl, public domain, text
-     layer) systematically for Stare Miasto houses — it covers the
-     Floriańska/Grodzka houses that had no source in batch 1.
+- **Source survey — done (2026-11-20):** `research/sources-books.md`, 27
+  checked, freely readable historians' works (ranked), plus 18 unusable
+  ones with reasons. Iteration 3 is built around it.
+
+### Iteration 3 plan — a historical source library + research batch 2
+
+Goal: move from "a few famous houses" to systematic, sourced histories,
+starting with the parts of Kraków the free sources cover best (Stare Miasto,
+Kazimierz, Stradom, Kleparz, Podgórze), and give outer districts real content
+(Nowa Huta).
+
+**A. Source library (foundation, do first)**
+1. `scripts/sources/fetch_library.py`: download the texts named in
+   `research/sources-books.md` into git-ignored `source-data/raw/library/`,
+   with one record per source in a committed manifest `data/research/library.json`
+   (author, title, year, licence, citation URL pattern, local file).
+   Fetch routes: Polona search + OCR text API, Internet Archive
+   `_djvu.txt`, direct PDFs (IS PAN Katalog, akademicka.pl, ruj.uj.edu.pl,
+   MTG address books) → `pdftotext -enc UTF-8 -layout`, one text file per page
+   so every claim can cite a page (`…pdf#page=N`, Polona/IA page link).
+   First batch: Katalog Zabytków t. IV (Rynek, Sławkowska, św. Jana,
+   Kazimierz parts), Nowolecki 1878/1880/1884, Chmiel (Floriańska, św. Jana,
+   Sławkowska), Tomkowicz "Ulice i place" (1926), Bałaban t. 1–2,
+   Klaś "Nowa Huta" (2018).
+2. **Old-number ↔ modern-address index** from Nowolecki's lists:
+   `data/research/old_numbers.json` → `{street, number, old_number (lc.),
+   owner, year, source page}`. Parsed by script, low-confidence rows
+   checked by an agent against the page image. This is the key that lets
+   agents find a house in Chmiel, the Katalog, Rocznik and address books.
+3. `scripts/lib/library.py`: search the cached texts for an address (modern
+   number, old number, house name, owner) → candidate pages with citation
+   URLs. Unit-tested on 5 known houses.
+
+**B. Street stories from historians**
+4. Former names and naming dates from Tomkowicz (1926) and the
+   "Ulica X w Krakowie" articles, facts only, own wording, cited by page.
+5. Split same-named streets inside and outside Kraków (e.g. "Krakowska")
+   into separate street files.
+
+**C. Research batch 2 (AI, same research → verifier → owner flow)**
+6. ~100 buildings, chosen by how much the library has on them: the 13
+   houses batch 1 could not source (Floriańska 19, 23, 31, 32, 47, 53;
+   Grodzka 4, 8, 13, 14, 60a; Józefa 40; Szeroka 34), the rest of Rynek
+   Główny, Sławkowska, św. Jana, Kazimierz (Bałaban), and ~15 Nowa Huta
+   buildings (Klaś). Agents get the matching library pages, write 2–5
+   sentences in their own words, cite page-level URLs. The verifier re-opens
+   each cited page. Owner approval via a checkbox doc, as for batch 1.
+7. Optional, per house: "who lived here" lines from the address books
+   (1906–1934), only when the name is confirmed on the page image (the
+   OCR is noisy).
+
+**D. Data fixes carried over**
+8. Wikidata ↔ GEZ gap (famous houses with an article but no link): match by
+   article title / NID id.
+9. 166 NID rows whose address has no entry → new entries
+   (`source: "Rejestr zabytków NID"`).
+10. Deduplicate "nearby" across GEZ / Wikidata / OSM.
+
+**Licences (from the survey):** public-domain works (authors died before
+1956, address books, Nowolecki) may be quoted briefly; the IS PAN Katalog and
+CC BY-NC-ND journals: facts restated in our own words, always cited. Never
+store copyrighted full texts in the repo — only in `source-data/raw/`.
+
+**Blocked sources:** sztetl.org.pl (403), Google Books, HathiTrust, RCIN and
+the federated library search (FBC) block scripts; encyklopedia.krakow.pl no
+longer exists. Do not plan on them.
+
+**Where it runs:** the library download (several GB of PDFs at most, mostly
+tens of MB) and research batch run best in a cloud session, like iteration 2.
+Check first that the cloud environment allows polona.pl, archive.org,
+repozytorium.ispan.pl / the IS PAN host, journals.akademicka.pl,
+ruj.uj.edu.pl and the MTG host.
+
+**Done means:** coverage report before/after (new row: addresses with a
+historian-sourced text), the old-number index size and match rate, a checkbox
+review doc for the new texts, 10 spot-check addresses, CLAUDE.md updated.
 
 ## Where we started (Nov 2026)
 
