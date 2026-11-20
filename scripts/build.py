@@ -476,7 +476,9 @@ def load_ai_drafts():
         return {}
     drafts = {}
     for d in load_json(path):
-        if d.get("status") != "ai_draft_unverified" or not d.get("text") or not d.get("sources"):
+        # "verified" = the owner approved the text; it is then shown without
+        # the AI label (sources stay visible).
+        if d.get("status") not in ("ai_draft_unverified", "verified") or not d.get("text") or not d.get("sources"):
             continue
         drafts[str(d["entry_id"])] = d
     return drafts
@@ -667,12 +669,13 @@ def main():
     nid_stats = link_nid(all_entries, index)
     photo_count = attach_photos(all_entries)
 
-    # A corrected number stays findable under the register's number.
+    # The register's old number keeps its own page (whatever we know about
+    # it) plus a suggestion to look at the corrected number. No redirect.
     for r in records:
         c = r.get("correction")
         if c and c["field"] == "building_number":
             for p in number_parts(c["from"]):
-                streets[r["street"]]["numbers"].setdefault(p, {"moved_to": c["to"]})
+                streets[r["street"]]["numbers"].setdefault(p, {})["moved_to"] = c["to"]
 
     # ---- AI drafts (labelled, unverified) merged into their entries
     drafts = load_ai_drafts()
@@ -683,7 +686,9 @@ def main():
             e["ai_description"] = d["text"]
             e["ai_sources"] = d["sources"]
             e["ai_researched_at"] = d.get("researched_at", "")
-            e["status"] = "ai_draft_unverified"
+            e["status"] = d["status"]
+            if d["status"] == "verified":
+                e["ai_approved"] = True
             if d.get("wikipedia") and not e.get("wikipedia"):
                 e["wikipedia"] = d["wikipedia"]
             draft_stats["merged"] += 1
@@ -952,6 +957,7 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| … shown on the page (author + licence known) | {c(lambda r: r.get('photo'))} | {pct(c(lambda r: r.get('photo')), n)} |",
         f"| Linked to the NID register (official name, register date, zabytek.pl) | {c(lambda r: r.get('nid_name'))} | {pct(c(lambda r: r.get('nid_name')), n)} |",
         f"| AI-drafted description (unverified, labelled) | {c(lambda r: r.get('ai_description'))} | {pct(c(lambda r: r.get('ai_description')), n)} |",
+        f"| … of which approved by the owner (no AI label) | {c(lambda r: r.get('ai_approved'))} | {pct(c(lambda r: r.get('ai_approved')), n)} |",
         "",
         f"District check (GEZ district column vs. OSM boundary, records with coordinates): "
         f"agree {ds['gez_agree']}, disagree {ds['gez_disagree']}. "

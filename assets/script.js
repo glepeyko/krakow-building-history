@@ -209,6 +209,20 @@
     return d >= 2 && d <= 4 && !(t >= 12 && t <= 14) ? "wpisy" : "wpisów";
   }
 
+  // "Did you mean no. X?" line with a link that runs that search.
+  function suggestNumber(shard, number, target) {
+    const p = document.createElement("p");
+    p.className = "hint";
+    p.innerHTML = `Ewidencja zabytków podaje pod nr ${esc(number)} obiekt, który według źródeł stoi pod nr ${esc(target)}.
+      <a href="#" class="goto-number">Zobacz ${esc(shard.name)} ${esc(target)}</a>.`;
+    p.querySelector("a").addEventListener("click", (ev) => {
+      ev.preventDefault();
+      numberInput.value = target;
+      form.requestSubmit();
+    });
+    return p;
+  }
+
   function capitalize(text) {
     return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
   }
@@ -339,6 +353,14 @@
       return "<sup>" + refs.map((r) => `<a href="${esc(e.ai_sources[r - 1].url)}" target="_blank" rel="noopener" title="${esc(e.ai_sources[r - 1].title)}">[${r}]</a>`).join("") + "</sup>";
     });
     const list = e.ai_sources.map((src) => `<li>${extLink(src.url, src.title || src.url)}</li>`).join("");
+    // Approved by the site owner: a normal description, no AI label.
+    if (e.ai_approved) {
+      return `
+      <section class="description-block">
+        <p>${text}</p>
+        <ol class="sources-list">${list}</ol>
+      </section>`;
+    }
     return `
       <section class="ai-draft">
         <p class="ai-label">Opis przygotowany przez AI — niezweryfikowany</p>
@@ -506,19 +528,23 @@
       if (key) { slot = shard.numbers[key]; shownNumber = key; }
     }
 
-    if (!slot) {
+    const onlyHint = slot && slot.moved_to && Object.keys(slot).length === 1;
+    if (!slot || onlyHint) {
       const similar = Object.keys(shard.numbers)
         .filter((k) => k.startsWith(num.replace(/[a-z]$/, "")) && shard.numbers[k].entries)
         .slice(0, 8);
       const neighbour = nearestKnownNumber(shard, num);
       resultsEl.innerHTML = `
         <div class="no-result">
-          <strong>Nie znamy adresu ${esc(shard.name)} ${esc(rawNumber)}.</strong>
-          <p>Tego numeru nie ma ani w ewidencji zabytków, ani w OpenStreetMap.
+          <strong>${onlyHint ? `${esc(shard.name)} ${esc(rawNumber)}: nie mamy jeszcze opisu tego budynku.` : `Nie znamy adresu ${esc(shard.name)} ${esc(rawNumber)}.`}</strong>
+          <p>${onlyHint ? "Tego numeru nie ma w OpenStreetMap, a obiekt, który ewidencja zabytków przypisuje temu numerowi, według źródeł stoi pod innym numerem." : "Tego numeru nie ma ani w ewidencji zabytków, ani w OpenStreetMap."}
           Sprawdź numer lub <a href="#contact">zgłoś ten adres</a>.</p>
           ${similar.length ? `<p>Opisane adresy o podobnym numerze: ${similar.map((k) => esc(k)).join(", ")}.</p>` : ""}
           ${neighbour && neighbour.slot.nearby ? `<p>Poniżej: ciekawe miejsca w pobliżu sąsiedniego adresu ${esc(shard.name)} ${esc(neighbour.k)}.</p>` : ""}
         </div>`;
+      if (onlyHint && shard.numbers[slot.moved_to]) {
+        resultsEl.prepend(suggestNumber(shard, num, slot.moved_to));
+      }
       if (neighbour) {
         const near = nearbyBlock(neighbour.slot, shard);
         if (near) {
@@ -531,10 +557,10 @@
       return;
     }
 
+    // The register lists an object here that sources place at another
+    // number: show what we know about this number and suggest the other.
     if (slot.moved_to && shard.numbers[slot.moved_to]) {
-      resultsEl.appendChild(note(`Obiekt podany w ewidencji zabytków pod nr ${shownNumber} stoi według źródeł pod nr ${slot.moved_to} — pokazujemy ${shard.name} ${slot.moved_to}.`));
-      shownNumber = slot.moved_to;
-      slot = shard.numbers[slot.moved_to];
+      resultsEl.appendChild(suggestNumber(shard, shownNumber, slot.moved_to));
     }
 
     const byId = new Map(shard.entries.map((e) => [String(e.id), e]));

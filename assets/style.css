@@ -440,3 +440,14 @@ footer {
   color: var(--ink-soft);
   margin-top: 6px;
 }
+
+/* Owner-approved description: plain text with its sources, no AI label. */
+.description-block { margin: 16px 0 0; }
+.description-block p { margin: 0 0 8px; }
+.description-block sup a { text-decoration: none; font-family: var(--font-mono); font-size: 0.7rem; }
+.description-block .sources-list {
+  margin: 4px 0 0;
+  padding-left: 22px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
