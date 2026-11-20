@@ -50,6 +50,7 @@ Excel rows: 7333, cross-reference rows skipped: 959, duplicate ids renamed ("<id
 | … shown on the page (author + licence known) | 1203 | 18.9% |
 | Linked to the NID register (official name, register date, zabytek.pl) | 1039 | 16.3% |
 | AI-drafted description (unverified, labelled) | 27 | 0.4% |
+| … of which approved by the owner (no AI label) | 27 | 0.4% |
 
 District check (GEZ district column vs. OSM boundary, records with coordinates): agree 5686, disagree 19. Entries that got their district from OSM: 550. Addresses outside every district polygon: 2968, of which in a neighbouring gmina: 2968 (named on the page).
 

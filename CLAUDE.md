@@ -132,7 +132,8 @@ promote their own texts.
 
 ## Known limitations
 - Building descriptions exist for ~9% of addresses (GEZ + Wikidata) plus 27
-  AI drafts (shown publicly, labelled; owner reviewing them in the doc). Thanks to the 600 m fallback, ~95% of addresses show at least
+  AI-researched texts (all approved by the owner on 2026-11-20, shown
+  without the AI label). Thanks to the 600 m fallback, ~95% of addresses show at least
   a nearby place; outer-district fallback places can be 400–600 m away.
 - Street stories cover 550 of 2,823 streets (25% of addresses): only
   streets with a Wikidata item or OSM name:etymology/old_name tags. Dated
@@ -225,6 +226,8 @@ promote their own texts.
 - 2026-11-20 — Iteration 2 merged into main (PR #1). Then: Szeroka 5 no
   longer redirects (shows what we know + "Zobacz Szeroka 6" link);
   owner-approved AI texts (`status: "verified"` in ai_drafts.json) render
-  without the AI label. No text approved yet. Note: the local
+  without the AI label. The owner approved all 27 texts the same day
+  (ai_drafts.json `status: "verified"`, approved_by/approved_at); the
+  street files were patched directly, not rebuilt. Note: the local
   `source-data/raw/` may be older than the committed data; re-run all
   fetchers before a full rebuild.

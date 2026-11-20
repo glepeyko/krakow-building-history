@@ -34,7 +34,11 @@ class AiDraftsFileTests(unittest.TestCase):
         ids = set()
         for d in drafts:
             with self.subTest(entry=d.get("entry_id")):
-                self.assertEqual(d["status"], "ai_draft_unverified")
+                self.assertIn(d["status"], ("ai_draft_unverified", "verified"))
+                if d["status"] == "verified":
+                    # Only the owner approves AI texts (CLAUDE.md).
+                    self.assertEqual(d.get("approved_by"), "owner")
+                    self.assertRegex(d.get("approved_at", ""), r"^\d{4}-\d{2}-\d{2}$")
                 self.assertRegex(d["researched_at"], r"^\d{4}-\d{2}-\d{2}$")
                 self.assertTrue(d["text"].strip())
                 self.assertNotIn(d["entry_id"], ids)

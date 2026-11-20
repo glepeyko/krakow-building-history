@@ -14,7 +14,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82otym_Karpiem_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -23,7 +23,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Z%C5%82otym_Karpiem_w_Krakowie&action=raw",
     "https://zabytek.pl/pl/obiekty/krakow-dom-pod-zlotym-karpiem"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 4461,
@@ -40,7 +42,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82ot%C4%85_G%C5%82ow%C4%85_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -51,7 +53,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Z%C5%82ot%C4%85_G%C5%82ow%C4%85_w_Krakowie&action=raw",
     "https://zabytek.pl/pl/obiekty/krakow-kamienica-louisow"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 4481,
@@ -68,7 +72,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Ciemowiczowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -81,7 +85,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Kamienica_Ciemowiczowska_w_Krakowie&action=raw",
     "https://zabytek.pl/pl/obiekty/krakow-kamienica-ciemowiczowska-2"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 4489,
@@ -98,7 +104,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_S%C5%82o%C5%84cem_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -107,7 +113,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_S%C5%82o%C5%84cem_w_Krakowie&action=raw",
     "https://zabytek.pl/pl/obiekty/krakow-kamienica-pod-sloncem-2"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 4492,
@@ -124,7 +132,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Or%C5%82em_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -137,7 +145,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Or%C5%82em_w_Krakowie&action=raw",
     "https://zabytek.pl/pl/obiekty/krakow-kamienica-kromerowska-druga"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1363,
@@ -154,7 +164,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Wanzamowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -163,7 +173,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Kamienica_Wanzamowska_w_Krakowie&action=raw",
     "https://pl.wikipedia.org/w/index.php?title=Ulica_Floria%C5%84ska_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1385,
@@ -180,7 +192,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "verification": {
    "verdict": "trimmed",
@@ -195,7 +207,9 @@
     "https://dbc.wroc.pl/Content/13908/download?format_id=1",
     "https://pl.wikipedia.org/w/index.php?title=Ulica_Floria%C5%84ska_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1637,
@@ -212,7 +226,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pawilon_Wyspia%C5%84skiego",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -223,7 +237,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Pawilon_Wyspia%C5%84skiego&action=raw",
     "https://pl.wikipedia.org/w/index.php?title=Ulica_Grodzka_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1668,
@@ -236,7 +252,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Senacki_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -246,7 +262,9 @@
    "checked_urls": [
     "https://pl.wikipedia.org/w/index.php?title=Hotel_Senacki_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1669,
@@ -263,7 +281,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Collegium_Broscianum_Uniwersytetu_Jagiello%C5%84skiego",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -274,7 +292,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Collegium_Broscianum_Uniwersytetu_Jagiello%C5%84skiego&action=raw",
     "https://pl.wikipedia.org/w/index.php?title=Ulica_Grodzka_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1685,
@@ -287,7 +307,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_arcybiskup%C3%B3w_gnie%C5%BAnie%C5%84skich_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -298,7 +318,9 @@
    "checked_urls": [
     "https://pl.wikipedia.org/w/index.php?title=Pa%C5%82ac_arcybiskup%C3%B3w_gnie%C5%BAnie%C5%84skich_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 2085,
@@ -315,7 +337,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Samuela_Maciejowskiego_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -324,7 +346,9 @@
     "https://pl.wikipedia.org/w/index.php?title=Pa%C5%82ac_Samuela_Maciejowskiego_w_Krakowie&action=raw",
     "https://pl.wikipedia.org/w/index.php?title=Ulica_Kanonicza_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 2098,
@@ -337,7 +361,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_biskupa_Erazma_Cio%C5%82ka_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -347,7 +371,9 @@
    "checked_urls": [
     "https://pl.wikipedia.org/w/index.php?title=Pa%C5%82ac_biskupa_Erazma_Cio%C5%82ka_w_Krakowie&action=raw"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 2105,
@@ -364,7 +390,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_G%C3%B3rk%C3%B3w_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -377,7 +403,9 @@
     "https://pl.wikipedia.org/wiki/Pa%C5%82ac_G%C3%B3rk%C3%B3w_w_Krakowie",
     "https://pl.wikipedia.org/wiki/Ulica_Kanonicza_w_Krakowie"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1878,
@@ -390,7 +418,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Grand_Hotel_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -400,7 +428,9 @@
    "checked_urls": [
     "https://pl.wikipedia.org/wiki/Grand_Hotel_w_Krakowie"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1894,
@@ -413,7 +443,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Francuski_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -424,7 +454,9 @@
    "checked_urls": [
     "https://pl.wikipedia.org/wiki/Hotel_Francuski_w_Krakowie"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 4780,
@@ -437,7 +469,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -447,7 +479,9 @@
    "checked_urls": [
     "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 1944,
@@ -468,7 +502,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -481,7 +515,9 @@
     "https://pl.wikipedia.org/wiki/Synagoga_Chewra_Ner_Tamid_w_Krakowie",
     "https://pl.wikipedia.org/wiki/Synagoga_Wysoka_w_Krakowie"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5275,
@@ -494,7 +530,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -504,7 +540,9 @@
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5277,
@@ -517,7 +555,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -525,7 +563,9 @@
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5278,
@@ -542,7 +582,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
@@ -553,7 +593,9 @@
     "https://muzeumkrakowa.pl/plik-do-pobrania/109",
     "https://pl.wikipedia.org/wiki/Ulica_Szeroka_w_Krakowie"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5279,
@@ -566,7 +608,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -577,7 +619,9 @@
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5283,
@@ -590,7 +634,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -601,7 +645,9 @@
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5284,
@@ -614,7 +660,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -624,7 +670,9 @@
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5293,
@@ -637,7 +685,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -647,7 +695,9 @@
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5296,
@@ -660,7 +710,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -670,7 +720,9 @@
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  },
  {
   "entry_id": 5273,
@@ -687,7 +739,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Mykwa_Wielka_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "trimmed",
@@ -701,6 +753,8 @@
     "https://pl.wikipedia.org/wiki/Mykwa_Wielka_w_Krakowie",
     "https://visitmalopolska.pl/obiekt/-/poi/mykwa-wielka"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-20"
  }
 ]
