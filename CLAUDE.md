@@ -160,8 +160,8 @@ AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
   inferred name origin) — keep a human/editor read after verification.
 - Photos: only a link to the Commons file, no image on the page (design
   decision pending with the owner).
-- Contact form still opens `mailto:`; placeholder `CONTACT_EMAIL` in
-  `script.js`.
+- Contact form still opens the visitor's mail program (`mailto:` to
+  `CONTACT_EMAIL` = contact@krakowhleb.pl in `script.js`); no form service.
 
 ## Working conventions — please follow these
 - Keep the site in Polish. Keep it text-focused. Keep it one page.

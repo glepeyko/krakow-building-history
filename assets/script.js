@@ -588,7 +588,7 @@
   // ---------------------------------------------------------------
   // Contact form (test version: opens the visitor's email client)
   // ---------------------------------------------------------------
-  const CONTACT_EMAIL = "twoj-adres@example.com"; // TODO: replace with a real address
+  const CONTACT_EMAIL = "contact@krakowhleb.pl";
 
   document.getElementById("contact-form").addEventListener("submit", (e) => {
     e.preventDefault();
