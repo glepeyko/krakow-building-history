@@ -1,1 +1,1 @@
-{"name":"inż. Adama Bielańskiego","search":"inz. adama bielanskiego","entries":[],"numbers":{"29":{"lat":50.039947,"lon":19.816336,"osm":"w232082131","building":"detached","levels":"2"}},"pois":{}}
+{"name":"inż. Adama Bielańskiego","search":"inz. adama bielanskiego","story":{"districts":[7]},"districts":{"7":"Zwierzyniec"},"entries":[],"numbers":{"29":{"lat":50.039947,"lon":19.816336,"osm":"w232082131","building":"detached","levels":"2","district":7,"nearby":[[8004,453]]}},"pois":{"8004":{"lat":50.043372,"lon":19.819819,"kind":"osm","title":"Jak-23","label":"pomnik"}}}

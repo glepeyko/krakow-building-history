@@ -1,1 +1,1 @@
-{"name":"Janasówka","search":"janasowka","entries":[],"numbers":{"17":{"lat":49.99856,"lon":19.813457,"osm":"w719264904"},"21":{"lat":49.998187,"lon":19.812087,"osm":"n9547216410"}},"pois":{}}
+{"name":"Janasówka","search":"janasowka","story":{"districts":[8]},"districts":{"8":"Dębniki"},"entries":[],"numbers":{"17":{"lat":49.99856,"lon":19.813457,"osm":"w719264904","district":8},"21":{"lat":49.998187,"lon":19.812087,"osm":"n9547216410","district":8}},"pois":{}}

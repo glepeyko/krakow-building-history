@@ -15,7 +15,11 @@ data/streets.json              all streets, for the autocomplete (generated)
 data/streets/*.json            one data file per street (generated)
 scripts/sources/gez.py         reads the GEZ Excel register
 scripts/sources/fetch_wikidata.py   downloads Wikidata items in Kraków
-scripts/sources/fetch_osm.py   extracts Kraków addresses from OpenStreetMap
+scripts/sources/fetch_osm.py   extracts Kraków addresses, street tags and district boundaries from OpenStreetMap
+scripts/sources/fetch_wikidata_streets.py   street name origins and former names (Wikidata)
+scripts/sources/fetch_nid.py   NID register of monuments, Kraków rows (dane.gov.pl)
+scripts/sources/fetch_commons.py   photo thumbnails + author/licence (Wikimedia Commons)
+data/research/ai_drafts.json   AI-researched, source-cited texts (labelled, unverified)
 scripts/lib/address.py         address normalization + street matching
 scripts/build.py               merges all sources into data/
 tests/                         unit tests (python -m unittest discover tests)
@@ -60,7 +64,10 @@ python3 -m http.server 8000
 ```bash
 python -m pip install -r requirements.txt     # first time only
 python scripts/sources/fetch_wikidata.py      # ~2 min
-python scripts/sources/fetch_osm.py           # downloads ~200 MB, ~3 min
+python scripts/sources/fetch_osm.py           # downloads ~220 MB, ~4 min
+python scripts/sources/fetch_wikidata_streets.py  # ~2 min, after fetch_osm
+python scripts/sources/fetch_nid.py           # ~30 MB CSV, <1 min
+python scripts/sources/fetch_commons.py       # ~3 min, after fetch_wikidata
 python scripts/build.py                       # ~10 s, writes data/ and reports/
 ```
 

@@ -11,10 +11,31 @@ about its street, its block, and what stands nearby.
   page still open); Phase 2 partly (all OSM addresses searchable, "nearby"
   places; street history and districts still open).
   Numbers: see `reports/coverage.md`.
-- **Next (iteration 2 proposal):** street stories (patron, former names)
-  from Wikidata/Wikipedia street items; district for every address;
-  NID register data; first batch of AI-researched, sourced entries for
-  Stare Miasto (labelled), with a verifier pass.
+- **Iteration 2 — done (2026-11-19).** Phase 1: NID register linked
+  (1,113 entries). Phase 2: street stories for 550 streets (named after,
+  former names, article link), a district for 95% of addresses, nearby
+  places for ~95% of addresses (600 m fallback). Phase 3 started: pilot of
+  27 AI-drafted, source-cited, verifier-checked descriptions (labelled,
+  public; owner reviewing them in a Claude doc).
+  Numbers: `reports/coverage.md`.
+- **Next (iteration 3 proposal):**
+  1. More street stories: parse former names and naming dates from the
+     "Ulica X w Krakowie" articles (facts only, own wording), and link
+     street articles that have no Wikidata P131 Kraków.
+  2. Fix the Wikidata ↔ GEZ gap the pilot exposed (famous Rynek houses
+     with an article but no link): match by Wikipedia article title /
+     NID inspire id.
+  3. 166 NID rows whose address has no entry → new entries
+     (`source: "Rejestr zabytków NID"`).
+  4. AI research batch 2 (~50–100 buildings: Kazimierz, Podgórze, Kleparz),
+     same research → verifier flow; owner review of batch 1.
+  5. Deduplicate "nearby" across sources (same object from GEZ/Wikidata/OSM).
+  6. Done 2026-11-20: addresses outside Kraków keep showing and name their
+     gmina (owner decision). Next: split same-named streets that exist both
+     in Kraków and in a neighbouring gmina into separate street files.
+  7. Use Chmiel's "Domy krakowskie" (dbc.wroc.pl, public domain, text
+     layer) systematically for Stare Miasto houses — it covers the
+     Floriańska/Grodzka houses that had no source in batch 1.
 
 ## Where we started (Nov 2026)
 

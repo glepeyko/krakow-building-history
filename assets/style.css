@@ -367,3 +367,76 @@ footer {
   #search-form { flex-direction: column; align-items: stretch; }
   .btn-primary { width: 100%; }
 }
+
+/* ---------------------------------------------------------------
+   Street story ("O ulicy") and AI drafts — existing palette only
+   ------------------------------------------------------------- */
+.street-story {
+  border-bottom: 1px solid var(--line);
+  padding: 0 0 16px;
+  margin-bottom: 20px;
+}
+
+.street-story h4 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.street-story p:not(.source):not(.links) { margin: 0 0 6px; font-size: 0.95rem; }
+
+.ai-draft {
+  border-left: 3px solid var(--brass);
+  padding: 4px 0 4px 14px;
+  margin: 16px 0 0;
+}
+
+.ai-draft .ai-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  color: var(--brass);
+  margin: 0 0 6px;
+}
+
+.ai-draft p { margin: 0 0 8px; }
+
+.ai-draft sup a { text-decoration: none; font-family: var(--font-mono); font-size: 0.7rem; }
+
+.ai-draft ol {
+  margin: 4px 0 0;
+  padding-left: 22px;
+  font-size: 0.85rem;
+}
+
+.ai-draft .ai-note { font-size: 0.8rem; color: var(--ink-soft); }
+
+.district-line { margin: 10px 0 0; font-size: 0.95rem; }
+
+/* ---------------------------------------------------------------
+   Photo (Wikimedia Commons, with credit) — medium size
+   ------------------------------------------------------------- */
+.photo {
+  margin: 4px 0 14px;
+  max-width: 520px;
+}
+
+.photo img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 520px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+
+.photo figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+  margin-top: 6px;
+}

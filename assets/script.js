@@ -237,11 +237,138 @@
     return `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(file.replace(/ /g, "_"))}`;
   }
 
+  const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
+    "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII"];
+
+  function districtName(num, name) {
+    return `${ROMAN[num] || num} ${name}`;
+  }
+
+  function extLink(url, text) {
+    return `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+  }
+
+  function yearSpan(n) {
+    if (n.from && n.to) return `${n.from}–${n.to}`;
+    if (n.from) return `od ${n.from}`;
+    if (n.to) return `do ${n.to}`;
+    return "";
+  }
+
+  // "O ulicy": facts about the street name, written as short sentences from
+  // structured data (Wikidata, OSM). No Wikipedia text is copied; the
+  // article is linked instead.
+  function storyBlock(shard) {
+    const st = shard.story || {};
+    const parts = [];
+    const sources = new Set();
+
+    const patrons = st.named_after || [];
+    if (patrons.length) {
+      const people = patrons.filter((p) => p.person);
+      const label = people.length === patrons.length
+        ? (patrons.length > 1 ? "Patroni ulicy" : "Patron ulicy")
+        : people.length ? "Nazwa ulicy upamiętnia" : "Nazwa ulicy pochodzi od";
+      const items = patrons.map((p) => {
+        const name = p.wikipedia ? extLink(p.wikipedia, p.label) : esc(p.label);
+        const years = p.years && !/\d{4}/.test(p.description || "") ? ` (${esc(p.years)})` : "";
+        const desc = p.description ? ` — ${esc(p.description)}` : "";
+        (p.via || []).forEach((v) => sources.add(v === "osm" ? "OpenStreetMap (name:etymology)" : "Wikidane"));
+        sources.add("Wikidane");
+        return `${name}${years}${desc}`;
+      });
+      parts.push(`<p>${esc(label)}: ${items.join("; ")}.</p>`);
+    }
+
+    if (st.names && st.names.length) {
+      const hist = st.names.map((n) => {
+        const span = yearSpan(n);
+        return `${esc(n.name)}${span ? ` (${esc(span)})` : ""}`;
+      });
+      parts.push(`<p>Historia nazwy: ${hist.join(", ")}.</p>`);
+      sources.add("Wikidane");
+    }
+
+    if (st.old_names && st.old_names.length) {
+      parts.push(`<p>${st.old_names.length > 1 ? "Dawne nazwy" : "Dawna nazwa"}: ${st.old_names.map(esc).join(", ")}.</p>`);
+      sources.add("OpenStreetMap (old_name)");
+    }
+
+    if (st.districts && st.districts.length && shard.districts) {
+      const names = st.districts.map((n) => districtName(n, shard.districts[n] || ""));
+      parts.push(`<p>${names.length > 1 ? "Dzielnice" : "Dzielnica"}: ${names.map(esc).join(", ")}.</p>`);
+      sources.add("OpenStreetMap (granice dzielnic)");
+    }
+
+    if (st.municipalities && st.municipalities.length) {
+      parts.push(`<p>${st.districts && st.districts.length ? "Część adresów leży poza Krakowem" : "Poza Krakowem"}: ${st.municipalities.map(esc).join(", ")}.</p>`);
+      sources.add("OpenStreetMap (granice gmin)");
+    }
+
+    const links = [];
+    if (st.wikipedia) links.push(extLink(st.wikipedia, "Artykuł o ulicy w Wikipedii"));
+    if (st.wikidata) links.push(extLink(`https://www.wikidata.org/wiki/${st.wikidata}`, "Wikidane"));
+    if (st.wikipedia) sources.add("Wikipedia (link)");
+
+    if (!parts.length && !links.length) return "";
+    return `
+      <section class="street-story">
+        <h4>O ulicy ${esc(shard.name)}</h4>
+        ${parts.join("")}
+        ${links.length ? `<p class="links">${links.join(" · ")}</p>` : ""}
+        <p class="source">Źródła: ${esc([...sources].join(", "))}</p>
+      </section>`;
+  }
+
+  function prependStory(shard) {
+    const html = storyBlock(shard);
+    if (!html) return;
+    const wrap = document.createElement("div");
+    wrap.innerHTML = html;
+    resultsEl.prepend(wrap.firstElementChild);
+  }
+
+  // AI-researched text: always in its own clearly labelled block, with the
+  // numbered sources it cites. Never mixed with register data.
+  function aiBlock(e) {
+    if (!e.ai_description || !e.ai_sources || !e.ai_sources.length) return "";
+    const n = e.ai_sources.length;
+    const text = esc(e.ai_description).replace(/\s*\[(\d+(?:\s*,\s*\d+)*)\]/g, (m, nums) => {
+      const refs = nums.split(",").map((x) => parseInt(x, 10)).filter((x) => x >= 1 && x <= n);
+      if (!refs.length) return "";
+      return "<sup>" + refs.map((r) => `<a href="${esc(e.ai_sources[r - 1].url)}" target="_blank" rel="noopener" title="${esc(e.ai_sources[r - 1].title)}">[${r}]</a>`).join("") + "</sup>";
+    });
+    const list = e.ai_sources.map((src) => `<li>${extLink(src.url, src.title || src.url)}</li>`).join("");
+    return `
+      <section class="ai-draft">
+        <p class="ai-label">Opis przygotowany przez AI — niezweryfikowany</p>
+        <p>${text}</p>
+        <ol>${list}</ol>
+        <p class="ai-note">Tekst napisał model AI na podstawie powyższych źródeł; osobny automatyczny
+        weryfikator sprawdził każde zdanie ze źródłem, ale nie sprawdził go jeszcze człowiek.
+        To nie są dane z rejestru zabytków${e.ai_researched_at ? ` (opracowano ${esc(e.ai_researched_at.split("-").reverse().join("."))})` : ""}.</p>
+      </section>`;
+  }
+
+  // Medium photo from Wikimedia Commons, always with author and licence
+  // (required by the CC licences). Only https URLs from the data are used.
+  function photoBlock(e) {
+    const p = e.photo;
+    if (!p || !/^https:\/\//.test(p.thumb || "")) return "";
+    const lic = p.license_url && /^https?:\/\//.test(p.license_url) ? extLink(p.license_url, p.license) : esc(p.license);
+    const alt = `${e.name || e.type_and_name || "Budynek"}, ${e.address_raw || ""}`;
+    return `
+      <figure class="photo">
+        <img src="${esc(p.thumb)}" width="${esc(p.width)}" height="${esc(p.height)}" loading="lazy" decoding="async" alt="${esc(alt)}">
+        <figcaption>Fot. ${esc(p.author)}, ${lic}, ${p.page ? extLink(p.page, "Wikimedia Commons") : "Wikimedia Commons"}</figcaption>
+      </figure>`;
+  }
+
   function entryCard(e) {
     const card = document.createElement("article");
     card.className = "result-card";
 
-    const districtLine = e.district_name ? `Dzielnica ${e.district_number} — ${e.district_name}` : "";
+    const districtLine = e.district_name ? `Dzielnica ${districtName(e.district_number, e.district_name)}` : "";
     const title = capitalize(e.name || e.type_and_name || "Budynek bez opisu typu");
     const subtitle = e.name && e.type_and_name && normalize(e.name) !== normalize(e.type_and_name)
       ? e.type_and_name : "";
@@ -249,32 +376,60 @@
 
     const links = [];
     if (e.wikipedia) links.push(`<a href="${esc(e.wikipedia)}" target="_blank" rel="noopener">Artykuł w Wikipedii</a>`);
-    if (e.image) links.push(`<a href="${esc(commonsLink(e.image))}" target="_blank" rel="noopener">Zdjęcie (Wikimedia Commons)</a>`);
+    if (e.image && !e.photo) links.push(`<a href="${esc(commonsLink(e.image))}" target="_blank" rel="noopener">Zdjęcie (Wikimedia Commons)</a>`);
     if (e.lat) links.push(`<a href="${esc(mapLink(e.lat, e.lon))}" target="_blank" rel="noopener">Na mapie</a>`);
     if (e.wikidata) links.push(`<a href="https://www.wikidata.org/wiki/${esc(e.wikidata)}" target="_blank" rel="noopener">Wikidane</a>`);
+    if (e.nid_url) links.push(extLink(e.nid_url, "Karta w rejestrze zabytków (zabytek.pl)"));
 
     const sources = [SOURCE_LABELS[e.source] || e.source];
     if (e.wikidata && e.source !== "Wikidata") sources.push("Wikidane");
+    if (e.nid_name) sources.push("Rejestr zabytków NID");
+    if (e.district_source === "OpenStreetMap") sources.push("dzielnica: OpenStreetMap");
+    if (e.photo) sources.push("zdjęcie: Wikimedia Commons");
+    const nidName = e.nid_name && ![title, subtitle, e.type_and_name].some((t) => normalize(t) === normalize(e.nid_name))
+      ? e.nid_name : "";
+    const nidDate = /^\d{4}-\d{2}-\d{2}$/.test(e.nid_register_date || "")
+      ? e.nid_register_date.split("-").reverse().join(".") : (e.nid_register_date || "");
 
     card.innerHTML = `
       ${districtLine ? `<div class="tag">${esc(districtLine)}</div>` : ""}
       <h3>${esc(title)}</h3>
       ${subtitle ? `<p class="subtitle">${esc(subtitle)}</p>` : ""}
       <p class="address">${esc(e.address_raw)}</p>
+      ${e.correction ? `<p class="subtitle">Numer poprawiony: w ewidencji zabytków nr ${esc(e.correction.from)}, według źródeł nr ${esc(e.correction.to)} (${(e.correction.sources || []).map((src) => extLink(src.url, src.title)).join(", ")}).</p>` : ""}
+      ${photoBlock(e)}
       ${e.wd_description ? `<p class="description">${esc(e.wd_description)}</p>` : ""}
       <dl class="meta-grid">
         ${e.dating ? `<dt>Datowanie</dt><dd>${esc(e.dating)}</dd>` : ""}
         ${author ? `<dt>Autor</dt><dd>${esc(author)}</dd>` : ""}
         ${e.styles ? `<dt>Styl</dt><dd>${esc(e.styles.join(", "))}</dd>` : ""}
+        ${!e.styles && e.nid_style ? `<dt>Styl</dt><dd>${esc(e.nid_style)} (wg NID)</dd>` : ""}
+        ${nidName ? `<dt>Nazwa w rejestrze</dt><dd>${esc(nidName)}</dd>` : ""}
+        ${nidDate ? `<dt>Wpis do rejestru</dt><dd>${esc(nidDate)} (wg NID)</dd>` : ""}
         ${e.alt_address ? `<dt>Adres narożny</dt><dd>${esc(e.alt_address)}</dd>` : ""}
       </dl>
       ${e.register_number
         ? `<div class="badge-protected">Zabytek w rejestrze — nr ${esc(e.register_number)}</div>`
-        : ""}
+        : e.nid_register ? `<div class="badge-protected">Zabytek w rejestrze — ${esc(e.nid_register)}</div>` : ""}
       ${links.length ? `<p class="links">${links.join(" · ")}</p>` : ""}
       <p class="source">Źródło: ${esc(sources.join(", "))}</p>
+      ${aiBlock(e)}
     `;
     return card;
+  }
+
+  function districtBlock(slot, shard) {
+    if (!slot.lat) return "";
+    if (slot.district && shard.districts && shard.districts[slot.district]) {
+      return `<p class="district-line">Dzielnica ${esc(districtName(slot.district, shard.districts[slot.district]))}</p>
+        <p class="source">Źródło: granice dzielnic z OpenStreetMap</p>`;
+    }
+    if (slot.municipality) {
+      return `<p class="district-line">Adres leży poza Krakowem: ${esc(slot.municipality)} (ma krakowski kod pocztowy).</p>
+        <p class="source">Źródło: granice gmin z OpenStreetMap</p>`;
+    }
+    return `<p class="district-line">Adres leży poza granicami dzielnic Krakowa (punkt na granicy lub poza mapą gmin).</p>
+      <p class="source">Źródło: granice dzielnic z OpenStreetMap</p>`;
   }
 
   function osmFactsBlock(slot) {
@@ -308,7 +463,7 @@
     }).join("");
     return `
       <section class="nearby">
-        <h4>W pobliżu</h4>
+        <h4>${slot.nearby[0][1] > 150 ? "Najbliższe ciekawe miejsca (w promieniu 600 m)" : "W pobliżu"}</h4>
         <ul>${items}</ul>
         <p class="source">Źródła: Gminna Ewidencja Zabytków, Wikidane, OpenStreetMap</p>
       </section>`;
@@ -330,11 +485,13 @@
           <strong>Przy ul. ${esc(shard.name)} nie mamy jeszcze opisanych budynków.</strong>
           <p>Wpisz numer budynku, aby zobaczyć, co wiemy o samym adresie i jego okolicy.</p>
         </div>`;
+      prependStory(shard);
       return;
     }
     resultsEl.appendChild(note(`Znaleziono ${entries.length} ${pluralWpis(entries.length)} przy ul. ${shard.name}` +
       (entries.length > 30 ? " (pokazano pierwsze 30 — wpisz numer budynku, aby zawęzić wyniki)." : ".")));
     entries.slice(0, 30).forEach((e) => resultsEl.appendChild(entryCard(e)));
+    prependStory(shard);
   }
 
   function renderAddress(shard, rawNumber) {
@@ -370,7 +527,14 @@
           resultsEl.appendChild(wrap.firstElementChild);
         }
       }
+      prependStory(shard);
       return;
+    }
+
+    if (slot.moved_to && shard.numbers[slot.moved_to]) {
+      resultsEl.appendChild(note(`Obiekt podany w ewidencji zabytków pod nr ${shownNumber} stoi według źródeł pod nr ${slot.moved_to} — pokazujemy ${shard.name} ${slot.moved_to}.`));
+      shownNumber = slot.moved_to;
+      slot = shard.numbers[slot.moved_to];
     }
 
     const byId = new Map(shard.entries.map((e) => [String(e.id), e]));
@@ -390,6 +554,7 @@
         <p>Nie ma go w gminnej ewidencji zabytków ani w Wikidanych. Oto, co wiemy
         o samym budynku i jego okolicy. Znasz jego historię?
         <a href="#contact">Napisz do nas</a>.</p>
+        ${districtBlock(slot, shard)}
         ${osmFactsBlock(slot)}`;
       resultsEl.appendChild(box);
     }
@@ -400,6 +565,7 @@
       wrap.innerHTML = near;
       resultsEl.appendChild(wrap.firstElementChild);
     }
+    prependStory(shard);
   }
 
   form.addEventListener("submit", async (e) => {
@@ -438,7 +604,7 @@
   // ---------------------------------------------------------------
   // Contact form (test version: opens the visitor's email client)
   // ---------------------------------------------------------------
-  const CONTACT_EMAIL = "twoj-adres@example.com"; // TODO: replace with a real address
+  const CONTACT_EMAIL = "contact@krakowhleb.pl";
 
   document.getElementById("contact-form").addEventListener("submit", (e) => {
     e.preventDefault();
