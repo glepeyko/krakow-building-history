@@ -168,8 +168,12 @@
  {
   "entry_id": 1385,
   "address": "Floriańska 26",
-  "text": "Wejście do kamienicy, ujęte między dwiema masywnymi szkarpami, prowadzi przez portal zwieńczony trójkątnym przyczółkiem – według Wikipedii jedyny taki w Krakowie. [1]",
+  "text": "Na początku XVI wieku ten narożny dom u wylotu przecznicy, dziś ulicy św. Marka, należał do Jana Sznurowanego, który w 1510 roku sprzedał go Maciejowi Głowie – od nazwiska nabywcy kamienicę nazywano potem „Głowińską”. [1] W 1560 roku kupił ją rajca krakowski Erazm Czeczotka-Tłokiński i powierzył jej odnowienie murarzowi z Lugano Antoniemu De Ronchi, lecz w 1573 roku starsi cechu murarskiego stwierdzili w murach rysy pochodzące ze złego „ugruntowania” murów. [1] Renesansowy portal kamienicy, ujęty dwiema masywnymi szkarpami, Chmiel datuje na 1573 rok; jego trójkątny przyczółek Wikipedia uznaje za unikatowy w Krakowie. [1,2] W XVIII wieku domem władali m.in. cyrulik Jan Rychlicki i kupiec Andrzej Morbitzer, który po rewizji z 1753 roku przeprowadził remont, a w 1887 roku od strony ulicy św. Marka dobudowano dwupiętrowy budynek. [1]",
   "sources": [
+   {
+    "title": "Adam Chmiel, „Domy krakowskie. Ulica Floryańska”, cz. 2 (Biblioteka Krakowska nr 57–58), Kraków 1920, s. 109–117 – Dolnośląska Biblioteka Cyfrowa",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908"
+   },
    {
     "title": "Ulica Floriańska w Krakowie – Wikipedia",
     "url": "https://pl.wikipedia.org/wiki/Ulica_Floria%C5%84ska_w_Krakowie"
@@ -177,11 +181,18 @@
   ],
   "wikipedia": null,
   "status": "ai_draft_unverified",
-  "researched_at": "2026-11-19",
+  "researched_at": "2026-11-20",
   "verification": {
-   "verdict": "kept",
-   "removed": [],
+   "verdict": "trimmed",
+   "removed": [
+    "'który Chmiel łączy z tą przebudową z 1573 roku' – Chmiel (s. 117) only writes 'portal (z r. 1573 ob. wyżej)'; 1573 is the year of the guild inspection, not a dated rebuilding (De Ronchi's repair came before it). Reworded to 'Chmiel datuje na 1573 rok'.",
+    "'Wejście prowadzi przez' – neither source says this in these words; reworded to 'Renesansowy portal kamienicy' (Wikipedia: the house has the portal; Chmiel: renaissance).",
+    "'jedyny taki w Krakowie' softened to the source's own word 'unikatowy w Krakowie' (Wikipedia, 'Nr 26').",
+    "'pęknięcia spowodowane złym podmurowaniem' – Chmiel (s. 110) says 'rysy w murach, które pochodzą ze złego »ugruntowania« murów'; wording brought back to the source."
+   ],
    "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908",
+    "https://dbc.wroc.pl/Content/13908/download?format_id=1",
     "https://pl.wikipedia.org/w/index.php?title=Ulica_Floria%C5%84ska_w_Krakowie&action=raw"
    ]
   }
@@ -268,7 +279,7 @@
  {
   "entry_id": 1685,
   "address": "Grodzka 65",
-  "text": "Pałac stoi na rogu ul. Grodzkiej i Podzamcza, a od 1531 do 1805 roku, czyli przez blisko cztery stulecia, służył za krakowską siedzibę arcybiskupów gnieźnieńskich, prymasów Polski; nazywany jest też „pałacem prymasowskim” lub „kamienicą prymasowską”. [1] Murowana kamienica powstała w drugiej połowie XIV wieku, a w połowie XVI wieku przekształcono ją w piętrowy, trójskrzydłowy pałac renesansowy. [1] W 1943 roku budynek połączono z sąsiednią kamienicą nr 63; dziś mieści się w nim Urząd Skarbowy Kraków–Stare Miasto. [1]",
+  "text": "Pałac stoi na rogu ul. Grodzkiej i Podzamcza, a od 1531 do 1805 roku służył za krakowską siedzibę arcybiskupów gnieźnieńskich, prymasów Polski; nazywany jest też „pałacem prymasowskim” lub „kamienicą prymasowską”. [1] Murowana kamienica powstała w drugiej połowie XIV wieku, a w połowie XVI wieku przekształcono ją w piętrowy, trójskrzydłowy pałac renesansowy. [1] W 1943 roku budynek połączono z sąsiednią kamienicą nr 63; dziś mieści się w nim Urząd Skarbowy Kraków–Stare Miasto. [1]",
   "sources": [
    {
     "title": "Pałac arcybiskupów gnieźnieńskich w Krakowie – Wikipedia",
@@ -281,7 +292,8 @@
   "verification": {
    "verdict": "trimmed",
    "removed": [
-    "'stąd nazwy': the causal link is not stated. WP only lists the alternative names. Changed to a plain statement of the names."
+    "'stąd nazwy': the causal link is not stated. WP only lists the alternative names. Changed to a plain statement of the names.",
+    "editor: removed 'czyli przez blisko cztery stulecia' — 1531–1805 is under three centuries"
    ],
    "checked_urls": [
     "https://pl.wikipedia.org/w/index.php?title=Pa%C5%82ac_arcybiskup%C3%B3w_gnie%C5%BAnie%C5%84skich_w_Krakowie&action=raw"
@@ -340,7 +352,7 @@
  {
   "entry_id": 2105,
   "address": "Kanonicza 24",
-  "text": "Około 1400 roku stał tu gotycki murowany dom Klemensa Moskarzewskiego, który od 1407 roku należał do Kurozwęckich; ci w drugiej połowie XVI wieku połączyli dwie XV-wieczne kamienice w gotycko-renesansowy pałac. [1] Budynek był własnością prymasa Andrzeja Krzyckiego, sekretarza królowej Bony, a po jego śmierci sprzedano go Andrzejowi Górce – rodzina Górków przebudowała go w duchu manieryzmu, z krużgankami wokół dziedzińca. [1,2] W 1806 roku budynek przejęli Austriacy; mieściły się tu m.in. koszary, areszt policji i biuro telegraficzne, od którego wzięła się nazwa „Dom pod Telegrafem”; latem 1903 roku w tutejszym areszcie osadzono za włóczęgostwo czeskiego pisarza Jaroslava Haška, co upamiętnia tablica od strony ul. Podzamcze. [1,2] Od 2004 roku pałac jest siedzibą Wojewódzkiego Urzędu Ochrony Zabytków. [1,2]",
+  "text": "Około 1400 roku stał tu gotycki murowany dom Klemensa Moskarzewskiego, który od 1407 roku należał do Kurozwęckich; ci połączyli dwie XV-wieczne kamienice w gotycko-renesansowy pałac. [1] Budynek był własnością prymasa Andrzeja Krzyckiego, sekretarza królowej Bony, a po jego śmierci sprzedano go Andrzejowi Górce – rodzina Górków przebudowała go w duchu manieryzmu, z krużgankami wokół dziedzińca. [1,2] W 1806 roku budynek przejęli Austriacy; mieściły się tu m.in. koszary, areszt policji i biuro telegraficzne, od którego wzięła się nazwa „Dom pod Telegrafem”; latem 1903 roku w tutejszym areszcie osadzono za włóczęgostwo czeskiego pisarza Jaroslava Haška, co upamiętnia tablica od strony ul. Podzamcze. [1,2] Od 2004 roku pałac jest siedzibą Wojewódzkiego Urzędu Ochrony Zabytków. [1,2]",
   "sources": [
    {
     "title": "Pałac Górków w Krakowie – Wikipedia",
@@ -358,7 +370,8 @@
    "verdict": "trimmed",
    "removed": [
     "'Po 1806 roku Austriacy umieścili tu...' changed to 'W 1806 roku budynek przejęli Austriacy' – source [1] says the Austrians took the building over in 1806.",
-    "'w XVI wieku' made precise ('w drugiej połowie XVI wieku', two 15th-c. houses) per [1]; 'trafił do' changed to 'po jego śmierci sprzedano' per [1,2]. No facts added beyond the sources."
+    "'w XVI wieku' made precise ('w drugiej połowie XVI wieku', two 15th-c. houses) per [1]; 'trafił do' changed to 'po jego śmierci sprzedano' per [1,2]. No facts added beyond the sources.",
+    "editor: removed 'w drugiej połowie XVI wieku' — contradicts the next owner, primate Krzycki (d. 1537)"
    ],
    "checked_urls": [
     "https://pl.wikipedia.org/wiki/Pa%C5%82ac_G%C3%B3rk%C3%B3w_w_Krakowie",
@@ -416,7 +429,7 @@
  {
   "entry_id": 4780,
   "address": "Sławkowska 10",
-  "text": "Kamienica o pałacowym charakterze stoi na rogu ul. Sławkowskiej i św. Tomasza (nr 10). [1] Jej początki sięgają pierwszej połowy XIV wieku; po wielu przebudowach dwupiętrowy dom otrzymał rokokową fasadę i klasycystyczną attykę. [1] Od 1710 roku należał do rodziny Badenich, od której wziął nazwę. [1] Aż do lat 90. XX wieku na parterze działał antykwariat naukowy, określany jako największy w Krakowie. [1]",
+  "text": "Kamienica o pałacowym charakterze stoi na rogu ul. Sławkowskiej i św. Tomasza (nr 10). [1] Jej początki sięgają pierwszej połowy XIV wieku; po wielu przebudowach dwupiętrowy dom otrzymał rokokową fasadę i klasycystyczną attykę. [1] Od 1710 roku należał do rodziny Badenich. [1] Aż do lat 90. XX wieku na parterze działał antykwariat naukowy, określany jako największy w Krakowie. [1]",
   "sources": [
    {
     "title": "Kamienica Badeniowska w Krakowie – Wikipedia",
@@ -428,7 +441,9 @@
   "researched_at": "2026-11-19",
   "verification": {
    "verdict": "kept",
-   "removed": [],
+   "removed": [
+    "editor: removed 'od której wziął nazwę' — the researcher marked it as own inference, not in the source"
+   ],
    "checked_urls": [
     "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie"
    ]
@@ -654,6 +669,37 @@
    ],
    "checked_urls": [
     "https://muzeumkrakowa.pl/plik-do-pobrania/109"
+   ]
+  }
+ },
+ {
+  "entry_id": 5273,
+  "address": "Szeroka 6",
+  "text": "Mykwa, czyli żydowska łaźnia rytualna, istniała w Krakowie prawdopodobnie już na przełomie XV i XVI wieku, a pierwsza wzmianka o tej mykwie w dokumentach pochodzi z 1567 roku; w XVII wieku nazywano ją Wielką Mykwą. [2] Basen do rytualnych kąpieli leżał głęboko pod ziemią – schodziło się do niego po około czterdziestu stromych stopniach. [1,2] W czasie II wojny światowej Niemcy zdewastowali budynek, ale kształt basenu przetrwał; w latach 1974–1977 przebudowę i remont obiektu przeprowadziła Pracownia Konserwacji Zabytków. [1,2] W latach 90. XX wieku budynek wrócił do Gminy Wyznaniowej Żydowskiej, która ulokowała w nim restaurację i hotel Klezmer-Hois, a w latach 2004–2013 mieścił się tu Teatr BARAKAH. [1,2]",
+  "sources": [
+   {
+    "title": "Mykwa Wielka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Mykwa_Wielka_w_Krakowie"
+   },
+   {
+    "title": "Mykwa Wielka Kraków – VisitMalopolska",
+    "url": "https://visitmalopolska.pl/obiekt/-/poi/mykwa-wielka"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Mykwa_Wielka_w_Krakowie",
+  "status": "ai_draft_unverified",
+  "researched_at": "2026-11-19",
+  "verification": {
+   "verdict": "trimmed",
+   "removed": [
+    "'działała w tym miejscu prawdopodobnie już na przełomie XV i XVI wieku' changed to 'istniała w Krakowie ...' – visitmalopolska says a mykwa existed in Kraków (not necessarily on this site) probably by then; marker for sentence 1 changed to [2] (Wikipedia says only 'zbudowany w 1567').",
+    "Note: Wikipedia gives the PKZ renovation as 1974–1976, visitmalopolska as 1974–1977; the sentence keeps 1974–1977, which visitmalopolska states.",
+    "ADDRESS FLAG (nothing removed for it): both sources put Mykwa Wielka at ul. Szeroka 6. GEZ record 5273 ('d. mykwa zw. Wielką', A-306) is listed at Szeroka 5, and the site data already links this Wikipedia article / Wikidata Q11787595 to GEZ record 5274 (Szeroka 6, 'kamienica'). The text is about the building GEZ 5273 names; the owner should decide whether it belongs at 5 or 6.",
+    "editor: address moved from Szeroka 5 to 6 by owner decision (2026-11-20)"
+   ],
+   "checked_urls": [
+    "https://pl.wikipedia.org/wiki/Mykwa_Wielka_w_Krakowie",
+    "https://visitmalopolska.pl/obiekt/-/poi/mykwa-wielka"
    ]
   }
  }

@@ -11,6 +11,7 @@ Inputs:
     source-data/raw/wikidata_streets.json        street name origins, former names
     source-data/raw/osm_streets.json             OSM name:etymology / old_name tags
     source-data/raw/osm_districts.json           dzielnica boundaries (OSM)
+    source-data/raw/osm_municipalities.json      neighbouring gminy (OSM)
     source-data/raw/nid_krakow.json              NID register of monuments (Kraków rows)
     data/research/ai_drafts.json                 AI-researched texts (labelled)
 
@@ -419,6 +420,35 @@ def link_nid(entries, index: StreetIndex):
     return stats
 
 
+# ---------------------------------------------------------------- corrections
+def apply_corrections(records):
+    """Owner-approved fixes to register data (data/research/corrections.json).
+    The register's own text stays in address_raw; the entry records what
+    changed and why, and the page says so."""
+    path = RESEARCH / "corrections.json"
+    if not path.exists():
+        return
+    by_id = {str(r["id"]): r for r in records}
+    for c in load_json(path):
+        r = by_id.get(str(c["entry_id"]))
+        if not r or c["field"] != "building_number" or r["building_number"] != c["from"]:
+            print(f"! correction not applied: {c}")
+            continue
+        r["building_number"] = c["to"]
+        r["correction"] = {"field": c["field"], "from": c["from"], "to": c["to"],
+                           "reason": c["reason"], "sources": c["sources"]}
+
+
+def load_municipalities():
+    """Gminy around Kraków, for addresses with a Kraków postcode that lie
+    outside the city (the OSM import filters by postcode)."""
+    path = RAW / "osm_municipalities.json"
+    if not path.exists():
+        print("! municipalities skipped: run fetch_osm.py")
+        return None
+    return DistrictIndex([m for m in load_json(path) if normalize(m["name"]) != "krakow"])
+
+
 # ---------------------------------------------------------------- AI drafts
 def load_ai_drafts():
     path = RESEARCH / "ai_drafts.json"
@@ -441,6 +471,15 @@ def main():
     street_names = sorted({a["_street"] for a in osm if a["_street"]})
     index = StreetIndex(street_names)
     records, gez_stats = gez.load(index)
+    # The GEZ sheet reuses some ids (52 ids on 104 rows). The page looks
+    # entries up by id, so later duplicates get a suffix: "1939" -> "1939-2".
+    seen_ids = Counter()
+    for r in records:
+        seen_ids[str(r["id"])] += 1
+        if seen_ids[str(r["id"])] > 1:
+            r["id"] = f'{r["id"]}-{seen_ids[str(r["id"])]}'
+            gez_stats["duplicate_ids_renamed"] = gez_stats.get("duplicate_ids_renamed", 0) + 1
+    apply_corrections(records)
 
     # OSM address lookup: (street, number) -> osm record
     osm_by_key = {}
@@ -502,6 +541,14 @@ def main():
             for p in number_parts(number):
                 cands.extend(gez_by_key.get((street, p), []))
             cands = [c for c in {id(c): c for c in cands}.values() if compatible(c, item)]
+            if len(cands) > 1:
+                # Several plausible records at one address (e.g. a mikveh and a
+                # kamienica): prefer the single one that shares a real word with
+                # the item's name/type, not just "residential".
+                wd_text = " ".join([item.get("label", "")] + item.get("types", []))
+                named = [c for c in cands if _stems(c["type_and_name"]) & _stems(wd_text)]
+                if len(named) == 1:
+                    cands = named
             if len(cands) == 1:
                 target = cands[0]
             elif cands:
@@ -599,6 +646,13 @@ def main():
     all_entries = records + wd_entries
     nid_stats = link_nid(all_entries, index)
 
+    # A corrected number stays findable under the register's number.
+    for r in records:
+        c = r.get("correction")
+        if c and c["field"] == "building_number":
+            for p in number_parts(c["from"]):
+                streets[r["street"]]["numbers"].setdefault(p, {"moved_to": c["to"]})
+
     # ---- AI drafts (labelled, unverified) merged into their entries
     drafts = load_ai_drafts()
     draft_stats = Counter()
@@ -646,11 +700,13 @@ def main():
     street_list, used_slugs = [], set()
     nearby_counts = Counter()
     stories, story_stats = load_street_stories(index)
+    municipality_index = load_municipalities()
     for name, st in sorted(streets.items()):
         if not name:
             continue
         slug = slugify(name)
         street_districts = Counter()
+        street_munis = Counter()
         if district_index:
             for slot in st["numbers"].values():
                 if "lat" in slot:
@@ -661,6 +717,11 @@ def main():
                         district_stats["numbers_with_district"] += 1
                     else:
                         district_stats["numbers_outside"] += 1
+                        m = municipality_index.find(slot["lat"], slot["lon"]) if municipality_index else None
+                        if m:
+                            slot["municipality"] = m["name"]
+                            street_munis[m["name"]] += 1
+                            district_stats["outside_with_municipality"] += 1
         while slug in used_slugs:
             slug += "-2"
         used_slugs.add(slug)
@@ -699,6 +760,8 @@ def main():
         story = dict(stories.get(name, {}))
         if street_districts:
             story["districts"] = [n for n, _ in street_districts.most_common()]
+        if street_munis:
+            story["municipalities"] = [n for n, _ in street_munis.most_common()]
         out = {
             "name": name,
             "search": normalize(name),
@@ -849,7 +912,8 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         "",
         "## GEZ register records",
         "",
-        f"Excel rows: {gez_stats['rows']}, cross-reference rows skipped: {gez_stats['cross_refs']}.",
+        f"Excel rows: {gez_stats['rows']}, cross-reference rows skipped: {gez_stats['cross_refs']}, "
+        f"duplicate ids renamed (\"<id>-2\"): {gez_stats.get('duplicate_ids_renamed', 0)}.",
         "",
         "| Field | Records | Share |",
         "|---|---:|---:|",
@@ -870,7 +934,8 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"District check (GEZ district column vs. OSM boundary, records with coordinates): "
         f"agree {ds['gez_agree']}, disagree {ds['gez_disagree']}. "
         f"Entries that got their district from OSM: {ds['entries_filled']}. "
-        f"Addresses outside every district polygon: {ds['numbers_outside']}.",
+        f"Addresses outside every district polygon: {ds['numbers_outside']}, "
+        f"of which in a neighbouring gmina: {ds['outside_with_municipality']} (named on the page).",
         "",
         "## Other sources",
         "",

@@ -53,5 +53,21 @@ class AiDraftsFileTests(unittest.TestCase):
                 self.assertEqual(cited, set(range(1, len(d["sources"]) + 1)), "uncited source")
 
 
+
+class CorrectionsFileTests(unittest.TestCase):
+    PATH = ROOT / "data" / "research" / "corrections.json"
+
+    @unittest.skipUnless(PATH.exists(), "no corrections")
+    def test_schema(self):
+        for c in json.loads(self.PATH.read_text(encoding="utf-8")):
+            with self.subTest(entry=c.get("entry_id")):
+                self.assertEqual(c["field"], "building_number")
+                self.assertTrue(c["from"] and c["to"] and c["reason"].strip())
+                self.assertEqual(c["decided_by"], "owner")
+                self.assertTrue(c["sources"])
+                for s in c["sources"]:
+                    self.assertTrue(s["url"].startswith("https://"))
+
+
 if __name__ == "__main__":
     unittest.main()

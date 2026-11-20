@@ -1,0 +1,21 @@
+[
+ {
+  "entry_id": 5273,
+  "field": "building_number",
+  "from": "5",
+  "to": "6",
+  "reason": "Mykwa Wielka stoi pod nr 6 wg Wikipedii, VisitMalopolska i Wikidanych; GEZ (A-306) podaje nr 5. Decyzja właściciela serwisu.",
+  "decided_by": "owner",
+  "decided_at": "2026-11-20",
+  "sources": [
+   {
+    "title": "Mykwa Wielka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Mykwa_Wielka_w_Krakowie"
+   },
+   {
+    "title": "Mykwa Wielka Kraków – VisitMalopolska",
+    "url": "https://visitmalopolska.pl/obiekt/-/poi/mykwa-wielka"
+   }
+  ]
+ }
+]

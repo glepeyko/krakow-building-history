@@ -300,6 +300,11 @@
       sources.add("OpenStreetMap (granice dzielnic)");
     }
 
+    if (st.municipalities && st.municipalities.length) {
+      parts.push(`<p>${st.districts && st.districts.length ? "Część adresów leży poza Krakowem" : "Poza Krakowem"}: ${st.municipalities.map(esc).join(", ")}.</p>`);
+      sources.add("OpenStreetMap (granice gmin)");
+    }
+
     const links = [];
     if (st.wikipedia) links.push(extLink(st.wikipedia, "Artykuł o ulicy w Wikipedii"));
     if (st.wikidata) links.push(extLink(`https://www.wikidata.org/wiki/${st.wikidata}`, "Wikidane"));
@@ -376,6 +381,7 @@
       <h3>${esc(title)}</h3>
       ${subtitle ? `<p class="subtitle">${esc(subtitle)}</p>` : ""}
       <p class="address">${esc(e.address_raw)}</p>
+      ${e.correction ? `<p class="subtitle">Numer poprawiony: w ewidencji zabytków nr ${esc(e.correction.from)}, według źródeł nr ${esc(e.correction.to)} (${(e.correction.sources || []).map((src) => extLink(src.url, src.title)).join(", ")}).</p>` : ""}
       ${e.wd_description ? `<p class="description">${esc(e.wd_description)}</p>` : ""}
       <dl class="meta-grid">
         ${e.dating ? `<dt>Datowanie</dt><dd>${esc(e.dating)}</dd>` : ""}
@@ -402,7 +408,11 @@
       return `<p class="district-line">Dzielnica ${esc(districtName(slot.district, shard.districts[slot.district]))}</p>
         <p class="source">Źródło: granice dzielnic z OpenStreetMap</p>`;
     }
-    return `<p class="district-line">Adres leży poza granicami dzielnic Krakowa (sąsiednia gmina z krakowskim kodem pocztowym lub punkt na granicy).</p>
+    if (slot.municipality) {
+      return `<p class="district-line">Adres leży poza Krakowem: ${esc(slot.municipality)} (ma krakowski kod pocztowy).</p>
+        <p class="source">Źródło: granice gmin z OpenStreetMap</p>`;
+    }
+    return `<p class="district-line">Adres leży poza granicami dzielnic Krakowa (punkt na granicy lub poza mapą gmin).</p>
       <p class="source">Źródło: granice dzielnic z OpenStreetMap</p>`;
   }
 
@@ -503,6 +513,12 @@
       }
       prependStory(shard);
       return;
+    }
+
+    if (slot.moved_to && shard.numbers[slot.moved_to]) {
+      resultsEl.appendChild(note(`Obiekt podany w ewidencji zabytków pod nr ${shownNumber} stoi według źródeł pod nr ${slot.moved_to} — pokazujemy ${shard.name} ${slot.moved_to}.`));
+      shownNumber = slot.moved_to;
+      slot = shard.numbers[slot.moved_to];
     }
 
     const byId = new Map(shard.entries.map((e) => [String(e.id), e]));

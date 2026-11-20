@@ -4,7 +4,8 @@ Input:  the Małopolska extract (downloaded if missing) from Geofabrik, or
         from the openstreetmap.fr mirror if Geofabrik is unreachable.
 Output: source-data/raw/osm_addresses.json, osm_notable.json,
         osm_streets.json (name-origin tags of streets),
-        osm_districts.json (dzielnica boundaries, admin_level=9)
+        osm_districts.json (dzielnica boundaries, admin_level=9),
+        osm_municipalities.json (neighbouring gminy, admin_level=7)
 
 The public Overpass API often times out for a whole-city query, so we parse
 the regional extract locally with pyosmium. An element counts as "in Kraków"
@@ -102,16 +103,23 @@ class Handler(osmium.SimpleHandler):
             self._add("w", w.id, w.tags, lat, lon)
 
 
+# Gminy around Kraków: addresses with a Kraków postcode can lie in them.
+MUNICIPALITY_BBOX = (19.6, 49.85, 20.4, 50.25)
+
+
 class DistrictHandler(osmium.SimpleHandler):
-    """Kraków's 18 dzielnice: boundary=administrative, admin_level=9 relations."""
+    """Kraków's 18 dzielnice (boundary=administrative, admin_level=9) and the
+    neighbouring gminy (admin_level=7)."""
 
     def __init__(self):
         super().__init__()
         self.districts = []
+        self.municipalities = []
 
     def area(self, a):
         t = a.tags
-        if a.from_way() or t.get("boundary") != "administrative" or t.get("admin_level") != "9":
+        level = t.get("admin_level")
+        if a.from_way() or t.get("boundary") != "administrative" or level not in ("7", "9"):
             return
         polys = []
         for outer in a.outer_rings():
@@ -123,7 +131,14 @@ class DistrictHandler(osmium.SimpleHandler):
             return
         lons = [p[0] for poly in polys for p in poly[0]]
         lats = [p[1] for poly in polys for p in poly[0]]
-        if not (BBOX[0] <= sum(lons) / len(lons) <= BBOX[2] and BBOX[1] <= sum(lats) / len(lats) <= BBOX[3]):
+        clon, clat = sum(lons) / len(lons), sum(lats) / len(lats)
+        if level == "7":
+            mb = MUNICIPALITY_BBOX
+            if mb[0] <= clon <= mb[2] and mb[1] <= clat <= mb[3]:
+                self.municipalities.append({"osm": f"r{a.orig_id()}", "name": t.get("name", ""),
+                                            "polygons": polys})
+            return
+        if not (BBOX[0] <= clon <= BBOX[2] and BBOX[1] <= clat <= BBOX[3]):
             return
         self.districts.append({"osm": f"r{a.orig_id()}", "name": t.get("name", ""),
                                "ref": t.get("ref", ""), "wikidata": t.get("wikidata", ""),
@@ -165,6 +180,8 @@ def main():
     d.apply_file(str(PBF), locations=True, idx="flex_mem")
     (RAW / "osm_districts.json").write_text(json.dumps(d.districts, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"OSM admin_level=9 areas in the Krakow bbox: {len(d.districts)}")
+    (RAW / "osm_municipalities.json").write_text(json.dumps(d.municipalities, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"OSM gminy (admin_level=7) around Krakow: {len(d.municipalities)}")
 
 
 if __name__ == "__main__":
