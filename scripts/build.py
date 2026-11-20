@@ -13,6 +13,7 @@ Inputs:
     source-data/raw/osm_districts.json           dzielnica boundaries (OSM)
     source-data/raw/osm_municipalities.json      neighbouring gminy (OSM)
     source-data/raw/nid_krakow.json              NID register of monuments (Kraków rows)
+    source-data/raw/commons_images.json          photo thumbnails + author/licence
     data/research/ai_drafts.json                 AI-researched texts (labelled)
 
 Outputs:
@@ -420,6 +421,25 @@ def link_nid(entries, index: StreetIndex):
     return stats
 
 
+# ---------------------------------------------------------------- photos
+def attach_photos(entries):
+    """Medium Commons thumbnail + credit for entries with an image. Only
+    photos with a known author and licence are shown (CC licences require
+    the credit); the rest keep the plain Commons link."""
+    path = RAW / "commons_images.json"
+    if not path.exists():
+        print("! photos skipped: run scripts/sources/fetch_commons.py")
+        return 0
+    meta = load_json(path)
+    n = 0
+    for e in entries:
+        m = meta.get(e.get("image", ""))
+        if m and m["thumb"].startswith("https://") and m["author"] and m["license"]:
+            e["photo"] = {k: m[k] for k in ("thumb", "width", "height", "author", "license", "license_url", "page")}
+            n += 1
+    return n
+
+
 # ---------------------------------------------------------------- corrections
 def apply_corrections(records):
     """Owner-approved fixes to register data (data/research/corrections.json).
@@ -645,6 +665,7 @@ def main():
 
     all_entries = records + wd_entries
     nid_stats = link_nid(all_entries, index)
+    photo_count = attach_photos(all_entries)
 
     # A corrected number stays findable under the register's number.
     for r in records:
@@ -780,7 +801,7 @@ def main():
     if old.exists():
         old.unlink()
 
-    extra = {"nid_stats": nid_stats, "stories": stories, "story_stats": story_stats, "district_stats": district_stats,
+    extra = {"photo_count": photo_count, "nid_stats": nid_stats, "stories": stories, "story_stats": story_stats, "district_stats": district_stats,
              "draft_stats": draft_stats, "street_list": street_list}
     write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets, extra)
 
@@ -928,6 +949,7 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| Proper name (e.g. \"Kamienica Pod Jaszczurką\") | {c(lambda r: r.get('name'))} | {pct(c(lambda r: r.get('name')), n)} |",
         f"| Wikipedia article | {c(lambda r: r.get('wikipedia'))} | {pct(c(lambda r: r.get('wikipedia')), n)} |",
         f"| Photo (Wikimedia Commons) | {c(lambda r: r.get('image'))} | {pct(c(lambda r: r.get('image')), n)} |",
+        f"| … shown on the page (author + licence known) | {c(lambda r: r.get('photo'))} | {pct(c(lambda r: r.get('photo')), n)} |",
         f"| Linked to the NID register (official name, register date, zabytek.pl) | {c(lambda r: r.get('nid_name'))} | {pct(c(lambda r: r.get('nid_name')), n)} |",
         f"| AI-drafted description (unverified, labelled) | {c(lambda r: r.get('ai_description'))} | {pct(c(lambda r: r.get('ai_description')), n)} |",
         "",

@@ -47,6 +47,7 @@ Excel rows: 7333, cross-reference rows skipped: 959, duplicate ids renamed ("<id
 | Proper name (e.g. "Kamienica Pod Jaszczurką") | 455 | 7.1% |
 | Wikipedia article | 684 | 10.7% |
 | Photo (Wikimedia Commons) | 1207 | 19.0% |
+| … shown on the page (author + licence known) | 1203 | 18.9% |
 | Linked to the NID register (official name, register date, zabytek.pl) | 1039 | 16.3% |
 | AI-drafted description (unverified, labelled) | 27 | 0.4% |
 

@@ -350,6 +350,20 @@
       </section>`;
   }
 
+  // Medium photo from Wikimedia Commons, always with author and licence
+  // (required by the CC licences). Only https URLs from the data are used.
+  function photoBlock(e) {
+    const p = e.photo;
+    if (!p || !/^https:\/\//.test(p.thumb || "")) return "";
+    const lic = p.license_url && /^https?:\/\//.test(p.license_url) ? extLink(p.license_url, p.license) : esc(p.license);
+    const alt = `${e.name || e.type_and_name || "Budynek"}, ${e.address_raw || ""}`;
+    return `
+      <figure class="photo">
+        <img src="${esc(p.thumb)}" width="${esc(p.width)}" height="${esc(p.height)}" loading="lazy" decoding="async" alt="${esc(alt)}">
+        <figcaption>Fot. ${esc(p.author)}, ${lic}, ${p.page ? extLink(p.page, "Wikimedia Commons") : "Wikimedia Commons"}</figcaption>
+      </figure>`;
+  }
+
   function entryCard(e) {
     const card = document.createElement("article");
     card.className = "result-card";
@@ -362,7 +376,7 @@
 
     const links = [];
     if (e.wikipedia) links.push(`<a href="${esc(e.wikipedia)}" target="_blank" rel="noopener">Artykuł w Wikipedii</a>`);
-    if (e.image) links.push(`<a href="${esc(commonsLink(e.image))}" target="_blank" rel="noopener">Zdjęcie (Wikimedia Commons)</a>`);
+    if (e.image && !e.photo) links.push(`<a href="${esc(commonsLink(e.image))}" target="_blank" rel="noopener">Zdjęcie (Wikimedia Commons)</a>`);
     if (e.lat) links.push(`<a href="${esc(mapLink(e.lat, e.lon))}" target="_blank" rel="noopener">Na mapie</a>`);
     if (e.wikidata) links.push(`<a href="https://www.wikidata.org/wiki/${esc(e.wikidata)}" target="_blank" rel="noopener">Wikidane</a>`);
     if (e.nid_url) links.push(extLink(e.nid_url, "Karta w rejestrze zabytków (zabytek.pl)"));
@@ -371,6 +385,7 @@
     if (e.wikidata && e.source !== "Wikidata") sources.push("Wikidane");
     if (e.nid_name) sources.push("Rejestr zabytków NID");
     if (e.district_source === "OpenStreetMap") sources.push("dzielnica: OpenStreetMap");
+    if (e.photo) sources.push("zdjęcie: Wikimedia Commons");
     const nidName = e.nid_name && ![title, subtitle, e.type_and_name].some((t) => normalize(t) === normalize(e.nid_name))
       ? e.nid_name : "";
     const nidDate = /^\d{4}-\d{2}-\d{2}$/.test(e.nid_register_date || "")
@@ -382,6 +397,7 @@
       ${subtitle ? `<p class="subtitle">${esc(subtitle)}</p>` : ""}
       <p class="address">${esc(e.address_raw)}</p>
       ${e.correction ? `<p class="subtitle">Numer poprawiony: w ewidencji zabytków nr ${esc(e.correction.from)}, według źródeł nr ${esc(e.correction.to)} (${(e.correction.sources || []).map((src) => extLink(src.url, src.title)).join(", ")}).</p>` : ""}
+      ${photoBlock(e)}
       ${e.wd_description ? `<p class="description">${esc(e.wd_description)}</p>` : ""}
       <dl class="meta-grid">
         ${e.dating ? `<dt>Datowanie</dt><dd>${esc(e.dating)}</dd>` : ""}

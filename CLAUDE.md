@@ -67,9 +67,12 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
   4. `python scripts/sources/fetch_nid.py` → `nid_krakow.json`: Kraków rows
      of the NID register of immovable monuments (dane.gov.pl dataset 1130,
      CSV in Windows-1250; the URL is looked up via the dane.gov.pl API).
-  5. `python scripts/build.py` → reads the GEZ Excel + raw files +
+  5. `python scripts/sources/fetch_commons.py` (after step 1) →
+     `commons_images.json`: 960 px thumbnail URL, author, licence and file
+     page for every Commons photo our Wikidata items reference.
+  6. `python scripts/build.py` → reads the GEZ Excel + raw files +
      `data/research/ai_drafts.json`, writes `data/` and `reports/coverage.md`.
-  `source-data/raw/` is git-ignored; re-run steps 1–4 to refresh it. Each
+  `source-data/raw/` is git-ignored; re-run steps 1–5 to refresh it. Each
   step degrades gracefully: build.py skips stories/districts/NID with a
   warning if a raw file is missing.
 - The cloud environment `krakow-building-history` allows the hosts these
@@ -107,6 +110,8 @@ Optional fields (omitted when empty):
   `nid_chronology`, `nid_style` (skipped when "nieznany"/"inny"),
   `nid_url` (zabytek.pl record), `nid_inspire_id`.
 - iteration 2, corrections: `correction {field, from, to, reason, sources}`.
+- iteration 2, photos: `photo {thumb, width, height, author, license,
+  license_url, page}` — only when author and licence are known.
 - iteration 2, AI drafts: `ai_description`, `ai_sources [{title, url}]`,
   `ai_researched_at`. The page shows these only inside the block
   "Opis przygotowany przez AI — niezweryfikowany".
@@ -158,13 +163,18 @@ AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
   not perfect: the editor pass caught 3 slips it let through (a wrong
   "nearly four centuries", a date contradicting the next owner, an
   inferred name origin) — keep a human/editor read after verification.
-- Photos: only a link to the Commons file, no image on the page (design
-  decision pending with the owner).
+- Photos (owner decision 2026-11-20, option 2): a medium Commons photo on
+  the card (1,203 entries), always with "Fot. author, licence, Wikimedia
+  Commons". Images load from Wikimedia's thumbnail host in the visitor's
+  browser; the cloud environment cannot reach that host, so screenshots
+  there show empty photo boxes. Authors are plain text from Commons
+  metadata (truncated at 120 characters).
 - Contact form still opens the visitor's mail program (`mailto:` to
   `CONTACT_EMAIL` = contact@krakowhleb.pl in `script.js`); no form service.
 
 ## Working conventions — please follow these
-- Keep the site in Polish. Keep it text-focused. Keep it one page.
+- Keep the site in Polish. Keep it text-focused (medium photos on cards
+  are approved; every photo carries its author and licence). Keep it one page.
 - Keep the diacritic-normalized, substring-match autocomplete. Do not
   replace it with an exact-match-only search.
 - New building records must match the field names above. Open a file in
@@ -201,3 +211,5 @@ AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
   3 editorial fixes to drafts; addresses outside Kraków name their gmina;
   duplicate GEZ ids made unique; Wikidata links at one address tie-broken
   by name words (fixes a mikveh/kamienica mix-up and Floriańska 5).
+- 2026-11-20 — Photos: medium Commons photos with author/licence credit on
+  cards (fetch_commons.py, entry.photo); real contact e-mail.

@@ -413,3 +413,30 @@ footer {
 .ai-draft .ai-note { font-size: 0.8rem; color: var(--ink-soft); }
 
 .district-line { margin: 10px 0 0; font-size: 0.95rem; }
+
+/* ---------------------------------------------------------------
+   Photo (Wikimedia Commons, with credit) — medium size
+   ------------------------------------------------------------- */
+.photo {
+  margin: 4px 0 14px;
+  max-width: 520px;
+}
+
+.photo img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 520px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+
+.photo figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+  margin-top: 6px;
+}
