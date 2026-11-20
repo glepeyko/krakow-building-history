@@ -469,6 +469,62 @@ def load_municipalities():
     return DistrictIndex([m for m in load_json(path) if normalize(m["name"]) != "krakow"])
 
 
+
+# ---------------------------------------------------------------- same-named streets
+def split_outside_streets(osm, district_index, municipality_index):
+    """Streets whose name exists both in Kraków and in a neighbouring gmina
+    (e.g. "Krakowska" in Kraków and in Zielonki) are different streets that
+    share a name. Their addresses outside Kraków get their own street,
+    "Krakowska (gmina Zielonki)", so numbers do not collide and the Kraków
+    street's story is not shown for the other one."""
+    stats = Counter()
+    if not district_index or not municipality_index:
+        return stats
+    inside = defaultdict(int)
+    outside = []
+    for a in osm:
+        if not a["_street"]:
+            continue
+        if district_index.find(a["lat"], a["lon"]):
+            inside[a["_street"]] += 1
+        else:
+            m = municipality_index.find(a["lat"], a["lon"])
+            if m:
+                outside.append((a, m["name"]))
+    renamed = set()
+    for a, muni in outside:
+        if inside.get(a["_street"]):
+            a["_street_krakow"] = a["_street"]
+            a["_street"] = f'{a["_street"]} ({muni})'
+            renamed.add(a["_street"])
+            stats["addresses_moved"] += 1
+    stats["streets_split_off"] = len(renamed)
+    return stats
+
+
+# ---------------------------------------------------------------- street history (historians, Wikipedia)
+def merge_street_history(stories, street_names):
+    """Former names with dates from data/research/street_history.json
+    (facts gathered from Tomkowicz 1926 and the pl.wikipedia street articles,
+    each with its own source) -> story["history"] + story["history_sources"]."""
+    stats = Counter()
+    path = RESEARCH / "street_history.json"
+    if not path.exists():
+        return stats
+    for rec in load_json(path):
+        name = rec["street"]
+        if name not in street_names or not rec.get("names"):
+            stats["unmatched"] += 1
+            continue
+        st = stories.setdefault(name, {})
+        st["history"] = rec["names"]
+        st["history_sources"] = rec["sources"]
+        st["history_status"] = rec.get("status", "ai_draft_unverified")
+        stats["streets"] += 1
+        if any(s.get("library") for s in rec["sources"]):
+            stats["streets_from_historians"] += 1
+    return stats
+
 # ---------------------------------------------------------------- AI drafts
 def load_ai_drafts():
     path = RESEARCH / "ai_drafts.json"
@@ -492,6 +548,9 @@ def main():
 
     street_names = sorted({a["_street"] for a in osm if a["_street"]})
     index = StreetIndex(street_names)
+    district_index, districts_by_number = load_districts()
+    municipality_index = load_municipalities()
+    split_stats = split_outside_streets(osm, district_index, municipality_index)
     records, gez_stats = gez.load(index)
     # The GEZ sheet reuses some ids (52 ids on 104 rows). The page looks
     # entries up by id, so later duplicates get a suffix: "1939" -> "1939-2".
@@ -696,7 +755,6 @@ def main():
 
     # ---- District for every entry without one (Wikidata-only entries,
     # GEZ rows with an empty district column); compare where GEZ has one.
-    district_index, districts_by_number = load_districts()
     district_stats = Counter()
     if district_index:
         for e in all_entries:
@@ -726,7 +784,7 @@ def main():
     street_list, used_slugs = [], set()
     nearby_counts = Counter()
     stories, story_stats = load_street_stories(index)
-    municipality_index = load_municipalities()
+    history_stats = merge_street_history(stories, set(streets))
     for name, st in sorted(streets.items()):
         if not name:
             continue

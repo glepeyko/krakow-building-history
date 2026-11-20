@@ -1,0 +1,911 @@
+[
+ {
+  "group": "florianska",
+  "entry_id": 1378,
+  "address": "Floriańska 19",
+  "name": "kamienica",
+  "dating": "XV w., 1876",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1382,
+  "address": "Floriańska 23",
+  "name": "kamienica",
+  "dating": "XIV w., XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1390,
+  "address": "Floriańska 31",
+  "name": "kamienica (d. dom Haliczowski)",
+  "dating": "XIV w., XVIII w., 1888",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1391,
+  "address": "Floriańska 32",
+  "name": "kamienica czynszowa",
+  "dating": "1913 - 1914",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1405,
+  "address": "Floriańska 47",
+  "name": "kamienica",
+  "dating": "XIV w., 1 poł. XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1408,
+  "address": "Floriańska 53",
+  "name": "kamienica",
+  "dating": "XIV / XV w., XV/XVI w., XVII w., XVIII w., 1820. XIX/XX w.",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1360,
+  "address": "Floriańska 1",
+  "name": "Kamienica pod Murzynami",
+  "dating": "pocz. XIV w., k. XVII w., 1821",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Murzynami",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1361,
+  "address": "Floriańska 3",
+  "name": "Kamienica Korlansowska",
+  "dating": "ok. 1300, XV w., XVI w., 1821, 1921",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Korlansowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1362,
+  "address": "Floriańska 4",
+  "name": "Kamienica Pernusowska",
+  "dating": "1 pocz. XIV w., 1908- 1912",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pernusowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1365,
+  "address": "Floriańska 6",
+  "name": "Kamienica Pod Okiem Opatrzności",
+  "dating": "XIV / XV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Okiem_Opatrzno%C5%9Bci_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1366,
+  "address": "Floriańska 7",
+  "name": "Kamienica Pod Matką Boską",
+  "dating": "XIV w., XV w., 1 poł. XVI w., XVIII/XIX w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Matk%C4%85_Bosk%C4%85_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1367,
+  "address": "Floriańska 8",
+  "name": "Kamienica Dawidowska",
+  "dating": "2 pocz. XIV w., 1834, 1887, 1908",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Dawidowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1368,
+  "address": "Floriańska 9",
+  "name": "Kamienica Nagotowska",
+  "dating": "XIV / XV w., 2 poł. XVI w., 1890, 1937",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Nagotowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1370,
+  "address": "Floriańska 11",
+  "name": "Kamienica pod Aniołkiem",
+  "dating": "XV w., 2 poł. XVI w., 1840",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_pod_Anio%C5%82kiem_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1372,
+  "address": "Floriańska 13",
+  "name": "Pałac Kmitów",
+  "dating": "XIV w., 1933",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Kmit%C3%B3w_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1374,
+  "address": "Floriańska 15",
+  "name": "Kamienica Pod Wiewiórką",
+  "dating": "ok. połowy XIV w., 2 poł. XV w., 1856, 1903-1904, 1935",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Wiewi%C3%B3rk%C4%85_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1376,
+  "address": "Floriańska 17",
+  "name": "Kamienica Molendowska",
+  "dating": "1 pocz. XIV w., 3 ćw. XVIII w., 1930-1932",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Molendowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1380,
+  "address": "Floriańska 21",
+  "name": "Kamienica Pinkarusowska",
+  "dating": "XIV w., XIX w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pinkarusowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1383,
+  "address": "Floriańska 24",
+  "name": "Kamienica Podedzwony",
+  "dating": "XIV w., 2 poł. XIX w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Podedzwony_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1384,
+  "address": "Floriańska 25",
+  "name": "Kamienica Pod Świętą Teklą",
+  "dating": "XIV / XV w., XV/XVI w., pocz. XVII w., 1879",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Awi%C4%99t%C4%85_Tekl%C4%85_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "florianska",
+  "entry_id": 1394,
+  "address": "Floriańska 35",
+  "name": "kamienica",
+  "dating": "XIV w., XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4775,
+  "address": "Sławkowska 3",
+  "name": "Hotel Saski",
+  "dating": "1 ćw. XIX w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Saski_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4776,
+  "address": "Sławkowska 4",
+  "name": "Kamienica Zajdliczowska",
+  "dating": "XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Zajdliczowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4777,
+  "address": "Sławkowska 6",
+  "name": "Kamienica Pod Gankiem",
+  "dating": "XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Gankiem_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4778,
+  "address": "Sławkowska 8",
+  "name": "kamienica",
+  "dating": "XIV / XV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4779,
+  "address": "Sławkowska 9",
+  "name": "kamienica",
+  "dating": "XIV / XV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4781,
+  "address": "Sławkowska 11",
+  "name": "Pałac Tarnowskich-Sanguszków",
+  "dating": "XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Tarnowskich-Sanguszk%C3%B3w_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4782,
+  "address": "Sławkowska 12",
+  "name": "Kamienica Badeniowska",
+  "dating": "XIV / XV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4783,
+  "address": "Sławkowska 14",
+  "name": "Dom Dębiński",
+  "dating": "XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Dom_D%C4%99bi%C5%84ski_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4784,
+  "address": "Sławkowska 16",
+  "name": "kamienica",
+  "dating": "2 pocz. XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4785,
+  "address": "Sławkowska 18",
+  "name": "Kamienica Kuśnierzowska",
+  "dating": "k. XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Ku%C5%9Bnierzowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4787,
+  "address": "Sławkowska 19",
+  "name": "kamienica",
+  "dating": "XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4788,
+  "address": "Sławkowska 20",
+  "name": "kamienica",
+  "dating": "XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4789,
+  "address": "Sławkowska 21",
+  "name": "kamienica",
+  "dating": "XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4790,
+  "address": "Sławkowska 23",
+  "name": "kamienica",
+  "dating": "XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4793,
+  "address": "Sławkowska 25",
+  "name": "kamienica",
+  "dating": "XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4794,
+  "address": "Sławkowska 26",
+  "name": "kamienica",
+  "dating": "XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4796,
+  "address": "Sławkowska 28",
+  "name": "kamienica",
+  "dating": "XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "slawkowska",
+  "entry_id": 4797,
+  "address": "Sławkowska 30",
+  "name": "kamienica",
+  "dating": "XV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1873,
+  "address": "Świętego Jana 2-4",
+  "name": "Budynek Feniksa",
+  "dating": "1928 - 1932",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Budynek_Feniksa_w_Krakowie_(Rynek_G%C5%82%C3%B3wny)",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1874,
+  "address": "Świętego Jana 3",
+  "name": "Kamienica Goetzów-Okocimskich",
+  "dating": "1896 - 1897",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Goetz%C3%B3w-Okocimskich_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1875,
+  "address": "Świętego Jana 5",
+  "name": "kamienica",
+  "dating": "pocz. XIV w., XV w., XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1876,
+  "address": "Świętego Jana 6",
+  "name": "kamienica - pierwotnie zespół klasztorny bernardynów z kościołem pw. św. Urszuli (ob. dom mieszkalny i kino)",
+  "dating": "XIV w., 1 ćw., XIX w., XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1879,
+  "address": "Świętego Jana 9",
+  "name": "Kamienica Bajerowska",
+  "dating": "XIV w., XVIII w., XIX w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Bajerowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1880,
+  "address": "Świętego Jana 11",
+  "name": "Pałac Wodzickich",
+  "dating": "1740, 1781-1788,",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Wodzickich_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1881,
+  "address": "Świętego Jana 12",
+  "name": "Kamienica Krauzowska",
+  "dating": "2 pocz. XIV w., XV w., pocz. XVII w., 1906",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Krauzowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1882,
+  "address": "Świętego Jana 13",
+  "name": "Pałac Przebendowskich",
+  "dating": "XV w., ok. poł. XVII w., 1 poł. XIX w., 1928-1929",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Przebendowskich_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1883,
+  "address": "Świętego Jana 14",
+  "name": "kamienica Tencerowska",
+  "dating": "XIV w., 1824, 1876",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Tencerowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1884,
+  "address": "Świętego Jana 15",
+  "name": "Pałac Lubomirskich",
+  "dating": "XV / XVI w., ok. poł. XVIII w., 1840-1842, 1873- 1874",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Lubomirskich_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1885,
+  "address": "Świętego Jana 16",
+  "name": "Kamienica Hallerowska",
+  "dating": "XIV w., XIX w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Hallerowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1887,
+  "address": "Świętego Jana 18",
+  "name": "Kamienica Sasinowska",
+  "dating": "XIV w., XIX w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Sasinowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1888,
+  "address": "Świętego Jana 20",
+  "name": "Dom opatów cysterskich z Jędrzejowa",
+  "dating": "ok. 1735 - 1744",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Popiel%C3%B3w_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1890,
+  "address": "Świętego Jana 24",
+  "name": "kamienica",
+  "dating": "XIV w., XIX w.,",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1891,
+  "address": "Świętego Jana 26",
+  "name": "kamienica",
+  "dating": "XIV w., XIX w.,",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1892,
+  "address": "Świętego Jana 28",
+  "name": "kamienica",
+  "dating": "XIV w., XIX w.,",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "jana",
+  "entry_id": 1893,
+  "address": "Świętego Jana 30",
+  "name": "kamienica",
+  "dating": "XIV w., XIX w.,",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1631,
+  "address": "Grodzka 13",
+  "name": "kamienica",
+  "dating": "XIV / XV w., XVI w., XVII w., 1752, 1851, 1907, 1926, 1933",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1622,
+  "address": "Grodzka 4",
+  "name": "kamienica",
+  "dating": "XIV w., 1851, 1933",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1626,
+  "address": "Grodzka 8",
+  "name": "kamienica",
+  "dating": "XIV w., 1913",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1632,
+  "address": "Grodzka 14",
+  "name": "kamienica",
+  "dating": "XIV w., XVII /XVIII w., 1839, 1851, 1868, 1908, 1925",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1678,
+  "address": "Grodzka 60a",
+  "name": "kamienica, d. papiernia i drukarnia Józefa Fischera, (oficyna kamienicy przy ul. Grodzkiej 62)",
+  "dating": "ok. 1880",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1619,
+  "address": "Grodzka 1",
+  "name": "Kamienica Celestyńska",
+  "dating": "XV / XVI w., 1852, 1906- 1907",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Celesty%C5%84ska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1621,
+  "address": "Grodzka 3",
+  "name": "Kamienica Szarffenbergów",
+  "dating": "XIV / XV w., XVII w., po 1850",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Szarffenberg%C3%B3w_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1623,
+  "address": "Grodzka 5",
+  "name": "kamienica",
+  "dating": "XV w., XVIII w., 1850- 1851",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_przy_ulicy_Grodzkiej_5_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1627,
+  "address": "Grodzka 9",
+  "name": "Kamienica Jaschkego",
+  "dating": "1824, 1851, 1875",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Jaschkego_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1629,
+  "address": "Grodzka 11",
+  "name": "kamienica",
+  "dating": "XIV w., 2 poł. XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1633,
+  "address": "Grodzka 15",
+  "name": "kamienica",
+  "dating": "XIV / XV w., 2 poł. XVI w., 2 poł. XVII w., XVI/XVII w., 1823-1825, po 1850, 1874, 1931",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "grodzka",
+  "entry_id": 1635,
+  "address": "Grodzka 17",
+  "name": "kamienica",
+  "dating": "XIII w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 1946,
+  "address": "Józefa 40",
+  "name": "szkoła - d. heder (żydowska szkoła elemwntarna o charakterzeReligijnym)",
+  "dating": "XVI / XVII w.",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 1945,
+  "address": "Józefa 38",
+  "name": "Synagoga Wysoka",
+  "dating": "1556 - 1563",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Wysoka_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 1947,
+  "address": "Józefa 42",
+  "name": "Synagoga Kowea Itim le-Tora",
+  "dating": "XVIII w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Kowea_Itim_le-Tora_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 5294,
+  "address": "Szeroka 34",
+  "name": "kamienica",
+  "dating": "1873",
+  "wikipedia": null,
+  "batch1_unsourced": true
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": "wd-Q3511288",
+  "address": "Szeroka 16",
+  "name": "Synagoga Poppera",
+  "dating": "1620",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Poppera_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 5286,
+  "address": "Szeroka 22",
+  "name": "dom",
+  "dating": "1 pocz. XIX w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 5287,
+  "address": "Szeroka 24",
+  "name": "Synagoga Stara",
+  "dating": "XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Stara_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 5297,
+  "address": "Szeroka 40",
+  "name": "Synagoga Remu",
+  "dating": "1551 - 1558, k. XIX w. dom dozorcy, 1800 ogrodzenie",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Remu",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": "wd-Q9209330",
+  "address": "Szeroka 2",
+  "name": "Dom Landauów",
+  "dating": "XVI w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Dom_Landau%C3%B3w_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 5288,
+  "address": "Szeroka 28",
+  "name": "Synagoga Gmilus Chasidim Debais Hakneses",
+  "dating": "1822",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Gmilus_Chasidim_Debais_Hakneses_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": "3013-2",
+  "address": "Kupa 18",
+  "name": "Synagoga Izaaka Jakubowicza",
+  "dating": "1638 - 1644",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Izaaka_Jakubowicza_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 3546,
+  "address": "Miodowa 27",
+  "name": "Synagoga Kupa",
+  "dating": "ok. 1635",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Kupa_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "kazimierz",
+  "entry_id": 3542,
+  "address": "Miodowa 24",
+  "name": "Synagoga Tempel",
+  "dating": "1860 - 1862",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Tempel_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4454,
+  "address": "Rynek Główny 6",
+  "name": "Szara Kamienica",
+  "dating": "XVI w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Szara_Kamienica_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4455,
+  "address": "Rynek Główny 7",
+  "name": "Dom Włoski",
+  "dating": "1 pocz. XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Dom_W%C5%82oski_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4456,
+  "address": "Rynek Główny 8",
+  "name": "Kamienica Pod Jaszczurką",
+  "dating": "2 pocz. XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jaszczurk%C4%85_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4460,
+  "address": "Rynek Główny 12",
+  "name": "Kamienica Fontanowska",
+  "dating": "XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Fontanowska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4464,
+  "address": "Rynek Główny 16",
+  "name": "kamienica \"Mortynowska\", Morsztynowska, „Berowska\", \"Orlemusowska\", \"Tymowska\" (mylnie nazywana domem Wierzynka)",
+  "dating": "pocz. XVIII w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4465,
+  "address": "Rynek Główny 17",
+  "name": "Kamienica Hetmańska",
+  "dating": "1 pocz. XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Hetma%C5%84ska_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4467,
+  "address": "Rynek Główny 19",
+  "name": "Kamienica Pod Obrazem",
+  "dating": "XIII / XIV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Obrazem_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4470,
+  "address": "Rynek Główny 22",
+  "name": "kamienica \"Tuczoiwska\"„Tucowska\", \"Morsztynowska\", \"Straszewska\" (\"Strussowska\"), \"Zalewska\"",
+  "dating": "XIV w.",
+  "wikipedia": null,
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": 749,
+  "address": "Osiedle Centrum C 3",
+  "name": "Restauracja Stylowa",
+  "dating": "1952 - 1956",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Restauracja_Stylowa_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": 764,
+  "address": "Osiedle Centrum E 1",
+  "name": "Kino Światowid",
+  "dating": "1958",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kino_%C5%9Awiatowid_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": 5349,
+  "address": "Osiedle Szkolne 25",
+  "name": "Teatr Łaźnia Nowa",
+  "dating": "1952 - 1955",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Teatr_%C5%81a%C5%BAnia_Nowa",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": 5499,
+  "address": "Osiedle Teatralne 10",
+  "name": "Kino Świt",
+  "dating": "1953",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kino_%C5%9Awit_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": 5521,
+  "address": "Osiedle Teatralne 34",
+  "name": "Teatr Ludowy",
+  "dating": "1955",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Teatr_Ludowy_w_Krakowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": "wd-Q11745104",
+  "address": "Osiedle Szklane Domy 7",
+  "name": "Kościół Matki Boskiej Częstochowskiej w Krakowie (os. Szklane Domy)",
+  "dating": null,
+  "wikipedia": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Matki_Boskiej_Cz%C4%99stochowskiej_w_Krakowie_(os._Szklane_Domy)",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": "wd-Q11739393",
+  "address": "Osiedle Górali 5",
+  "name": "Kino Sfinks",
+  "dating": null,
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kino_Sfinks",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": "wd-Q25414049",
+  "address": "Osiedle Górali 24",
+  "name": "Nautilus",
+  "dating": null,
+  "wikipedia": "https://pl.wikipedia.org/wiki/Nautilus_(dom_aukcyjny)",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": 1265,
+  "address": "Benedykta Dybowskiego 2",
+  "name": "Pałac Wodzickich w Kościelnikach",
+  "dating": "1708",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Wodzickich_w_Ko%C5%9Bcielnikach",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": 4437,
+  "address": "Rusiecka 13",
+  "name": "Dwór Popielów w Ruszczy",
+  "dating": "ok. 1900",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Dw%C3%B3r_Popiel%C3%B3w_w_Ruszczy",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": "5228-2",
+  "address": "Suchy Jar 4",
+  "name": "Pałac Kirchmayerów w Pleszowie",
+  "dating": "2 ćw. XIX w. / ok. 1905 r. przebudowany",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Kirchmayer%C3%B3w_w_Pleszowie",
+  "batch1_unsourced": false
+ },
+ {
+  "group": "nowa-huta",
+  "entry_id": "wd-Q11745552",
+  "address": "Klasztorna 4",
+  "name": "Kościół Narodzenia Pańskiego i św. Bartłomieja Apostoła w Krakowie (Mogiła)",
+  "dating": "XV w.",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Narodzenia_Pa%C5%84skiego_i_%C5%9Bw._Bart%C5%82omieja_Aposto%C5%82a_w_Krakowie",
+  "batch1_unsourced": false
+ }
+]
