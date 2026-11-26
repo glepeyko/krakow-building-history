@@ -53,11 +53,11 @@ Excel rows: 7333, cross-reference rows skipped: 959, duplicate ids renamed ("<id
 | Dating | 6172 | 97.0% |
 | Architect (GEZ) | 2805 | 44.1% |
 | Architect (from Wikidata, GEZ empty) | 20 | 0.3% |
-| Linked to Wikidata | 1344 | 21.1% |
+| Linked to Wikidata | 1345 | 21.1% |
 | Proper name (e.g. "Kamienica Pod Jaszczurką") | 486 | 7.6% |
-| Wikipedia article | 717 | 11.3% |
-| Photo (Wikimedia Commons) | 1239 | 19.5% |
-| … shown on the page (author + licence known) | 1235 | 19.4% |
+| Wikipedia article | 716 | 11.3% |
+| Photo (Wikimedia Commons) | 1240 | 19.5% |
+| … shown on the page (author + licence known) | 1236 | 19.4% |
 | Linked to the NID register (official name, register date, zabytek.pl) | 1039 | 16.3% |
 | AI-drafted description (unverified, labelled) | 120 | 1.9% |
 | … of which approved by the owner (no AI label) | 120 | 1.9% |
@@ -68,7 +68,7 @@ District check (GEZ district column vs. OSM boundary, records with coordinates):
 
 - OSM address points in Kraków: 74950
 - Wikidata items with coordinates in the Kraków area: 5491
-- Wikidata → GEZ links: linked_by_address 412, linked_by_coords 215, linked_by_register 681
-- Wikidata → GEZ gap pass (article title / NID register number): ambiguous 8, linked_by_article_title 34, linked_by_nid_register 2, wd_entries_merged 14
+- Wikidata → GEZ links: linked_by_address 413, linked_by_coords 213, linked_by_register 681
+- Wikidata → GEZ gap pass (article title / NID register number): ambiguous 8, linked_by_article_title 36, linked_by_nid_register 2, wd_entries_merged 16
 - New building entries from Wikidata or the NID register (not in GEZ): 711 (of which from NID: 172)
 - NID register (dane.gov.pl): address_not_in_entries 172, ambiguous_address 86, entries_linked 1110, linked_by_address 146, linked_by_address+register 904, linked_by_address+type 35, linked_by_register 25, new_entries 172, new_entries_with_coordinates 156, no_address_no_unique_register 255, rows 1953

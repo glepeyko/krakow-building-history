@@ -209,9 +209,12 @@ promote their own texts.
   register number (ensembles, parks).
 - Wikidata ↔ GEZ: a gap pass (iteration 3) links 34 more famous houses by
   article title (name words + ≤60 m + same object type) and 2 by NID
-  register number; 8 stay ambiguous. Known wrong names from Wikidata:
-  Sławkowska 11 ("Pałac Tarnowskich-Sanguszków" is nos. 13–15) and
-  Sławkowska 12 ("Kamienica Badeniowska" is no. 10) — owner to decide.
+  register number; 8 stay ambiguous. Owner-decided overrides live in
+  `data/research/wd_link_overrides.json` (`{entry_id, wikidata, action:
+  "block", reason, decided_by, decided_at, sources}`), applied by build.py:
+  the wrong position-based links of Sławkowska 11 (Pałac
+  Tarnowskich-Sanguszków → now on św. Marka 13 / Sławkowska 13–15) and
+  Sławkowska 12 (Kamienica Badeniowska → now on Sławkowska 10) are blocked.
 - Old-number index (Nowolecki 1884): 1,650 rows, 1,249 modern addresses,
   78.7% of rows match a current OSM address. "Matched" uses 1884 street
   numbers, which changed later on some streets: confirm with the lc. number
@@ -318,6 +321,10 @@ promote their own texts.
   new coverage row "historian-sourced text" (1 → 89 addresses).
 - 2026-11-26 — Owner approved all 98 batch-2 texts (status `verified`,
   approved_by owner, approved_at 2026-11-26); rebuilt; spot-checks show
-  them without the AI label. Open owner decisions (in the review doc):
-  Sławkowska 11/12 Wikidata names, register vs. historians, adding the
-  blocked hosts, the split-street naming, approving the street names.
+  them without the AI label. Owner delegated the open decisions to
+  Claude: Sławkowska 11/12 wrong Wikidata links blocked
+  (wd_link_overrides.json); register fields stay as published where the
+  historians disagree (texts follow the historians); split-street naming
+  "X (gmina Y)" kept; street-name list NOT self-approved (only the owner
+  approves AI content); blocked research hosts proposed for the cloud
+  environment.

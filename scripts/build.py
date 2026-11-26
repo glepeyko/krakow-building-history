@@ -485,7 +485,7 @@ def distinctive(text: str) -> set:
     return _stems(text) - res
 
 
-def link_wd_gap(records, wd, wd_entries, index):
+def link_wd_gap(records, wd, wd_entries, index, blocked=frozenset()):
     """Second pass for Wikidata items with a pl.wikipedia article that found
     no GEZ record: (1) the NID register row at a GEZ address carries the
     item's register number (P3424); (2) the article title names the GEZ
@@ -557,6 +557,9 @@ def link_wd_gap(records, wd, wd_entries, index):
             continue
         it, how = lst[0]
         r = by_id[rid]
+        if (str(r["id"]), it["qid"]) in blocked:
+            stats["blocked_by_owner"] += 1
+            continue
         enrich_from_wd(r, it)
         it["_gez"] = r
         if "lat" not in r:
@@ -758,6 +761,9 @@ def main():
 
     wd_stats = Counter()
     wd_entries = []
+    # Owner decisions: Wikidata links known to be wrong (data/research/wd_link_overrides.json).
+    blocked_links = {(str(o["entry_id"]), o["wikidata"]) for o in load_json(RESEARCH / "wd_link_overrides.json")
+                     if o.get("action") == "block"} if (RESEARCH / "wd_link_overrides.json").exists() else set()
     for item in wd:
         types = set(item["types"])
         if types and types <= WD_SKIP_TYPES:
@@ -796,6 +802,9 @@ def main():
                 target = cands[0]
             elif cands:
                 wd_stats["ambiguous"] += 1
+        if target is not None and (str(target["id"]), item["qid"]) in blocked_links:
+            wd_stats["blocked_by_owner"] += 1
+            target = None
         if target is not None:
             # Several items can describe one building (e.g. "Hotel Pod Różą"
             # and the kamienica it occupies). Collect them; pick one below.
@@ -830,7 +839,7 @@ def main():
     # ---- Close the Wikidata <-> GEZ gap: famous houses whose item has a
     # Wikipedia article but no parsable address (or an address the register
     # writes differently) - match by article title or NID register number.
-    gap_stats = link_wd_gap(records, wd, wd_entries, index)
+    gap_stats = link_wd_gap(records, wd, wd_entries, index, blocked_links)
     wd_entries = [e for e in wd_entries if not e.get("_linked_later")]
 
     # ---- Points of interest for "nearby"
