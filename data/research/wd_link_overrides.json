@@ -54,5 +54,37 @@
     "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf"
    }
   ]
+ },
+ {
+  "entry_id": 1407,
+  "wikidata": "Q16558534",
+  "action": "block",
+  "reason": "Element Wikidanych i artykuł dotyczą kamienicy przy ul. Floriańskiej 38, nie 51 (tytuł artykułu; Chmiel opisuje nr 51 osobno).",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Kamienica przy ul. Floriańskiej 38 w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_przy_ul._Floria%C5%84skiej_38_w_Krakowie"
+   },
+   {
+    "title": "Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (1917)",
+    "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f"
+   }
+  ]
+ },
+ {
+  "entry_id": 1410,
+  "wikidata": "Q1363724",
+  "action": "block",
+  "reason": "Nr 57 to kamienica z oficynami (GEZ, NID; Chmiel: L. or. 57, dawny nr 371), nie Brama Floriańska; powiązanie powstało tylko z położenia.",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (1917)",
+    "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f"
+   }
+  ]
  }
 ]
