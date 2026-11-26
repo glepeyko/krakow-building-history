@@ -784,7 +784,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -805,7 +805,9 @@
     "S2: dropped Schmidt's 'trzecie piętro' — read next to Rzewuski adding the third floor in 1876 it looked like a contradiction (Chmiel: Schmidt's was a small room-sized storey over the middle only)",
     "S3: word order (who first, then death)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1382,
@@ -830,7 +832,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -848,7 +850,9 @@
     "S1: removed the repeated 'zachowało/zachowała'",
     "S5: smoother wording ('sklepie … sklepowe')"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1390,
@@ -877,7 +881,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -900,7 +904,9 @@
    "changes": [
     "S4: unclear 'z którego' replaced"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1391,
@@ -925,7 +931,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -942,7 +948,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1405,
@@ -967,7 +975,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -984,7 +992,9 @@
    "changes": [
     "S1: purchase dated as 'between 1573 and 1577' (Chmiel infers it), not as a span"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1408,
@@ -1005,7 +1015,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1021,7 +1031,9 @@
    "changes": [
     "S1: Chmiel's present tense put into past; simpler construction"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1360,
@@ -1050,7 +1062,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Murzynami",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1070,7 +1082,9 @@
    "changes": [
     "S4: sentence no longer starts with a digit"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1361,
@@ -1107,7 +1121,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Korlansowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1129,7 +1143,9 @@
    "changes": [
     "S1: clauses reordered so the Rostafiński aside does not split the sentence"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1362,
@@ -1158,7 +1174,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pernusowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1177,7 +1193,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1365,
@@ -1206,7 +1224,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Okiem_Opatrzno%C5%9Bci_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1227,7 +1245,9 @@
     "S3: ambiguous 'który' (rajca or ogród) fixed",
     "S4: dropped 'obecną' (Chmiel's 'today')"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1366,
@@ -1256,7 +1276,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Matk%C4%85_Bosk%C4%85_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1277,7 +1297,9 @@
    "changes": [
     "S1: run-on 'a … a' split with a semicolon"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1367,
@@ -1306,7 +1328,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1326,7 +1348,9 @@
    "changes": [
     "S5: word order"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1368,
@@ -1351,7 +1375,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1368,7 +1392,9 @@
    "changes": [
     "S2: repeated 'jego' removed"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1370,
@@ -1397,7 +1423,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1415,7 +1441,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1372,
@@ -1440,7 +1468,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1460,7 +1488,9 @@
    "changes": [
     "S4: 'według niego' made explicit (Chmiel)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1374,
@@ -1493,7 +1523,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1512,7 +1542,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1376,
@@ -1537,7 +1569,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1554,7 +1586,9 @@
    "changes": [
     "S2: gender agreement (dom … Molendowską)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1380,
@@ -1579,7 +1613,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1594,7 +1628,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1383,
@@ -1619,7 +1655,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1636,7 +1672,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1384,
@@ -1661,7 +1699,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1678,7 +1716,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1394,
@@ -1707,7 +1747,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1723,7 +1763,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4775,
@@ -1752,7 +1794,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Saski_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1770,7 +1812,9 @@
    "changes": [
     "S2: awkward object-first word order ('Narożną … rodzina ta posiadała') rewritten with the house as subject."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4776,
@@ -1807,7 +1851,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Zajdliczowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1825,7 +1869,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4777,
@@ -1862,7 +1908,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Gankiem_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1885,7 +1931,9 @@
    "changes": [
     "S2: removed the repeated 'jego' and moved the date next to the event."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4778,
@@ -1910,7 +1958,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1927,7 +1975,9 @@
    "changes": [
     "S3: unclear 'ten właściciel' (which of the two Hahns?) replaced by the couple, as Chmiel s. 56 refers to the Hahn spouses."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4779,
@@ -1960,7 +2010,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -1979,7 +2029,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4781,
@@ -2024,7 +2076,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2044,7 +2096,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4782,
@@ -2073,7 +2127,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2091,7 +2145,9 @@
    "changes": [
     "S4: marker order [5,1] -> [1,5]."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4783,
@@ -2116,7 +2172,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Dom_D%C4%99bi%C5%84ski_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2133,7 +2189,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4784,
@@ -2166,7 +2224,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2185,7 +2243,9 @@
    "changes": [
     "S2: 'W połowie XVII w. właścicielem był Sala' clashed with his widow owning it in 1656 and 1661 (Chmiel s. 76: Sala became owner after 1630 and died before 1656) – replaced by 'Później'."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4785,
@@ -2222,7 +2282,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Ku%C5%9Bnierzowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2243,7 +2303,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4787,
@@ -2272,7 +2334,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2288,7 +2350,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4788,
@@ -2317,7 +2381,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2335,7 +2399,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4789,
@@ -2364,7 +2430,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2384,7 +2450,9 @@
    "changes": [
     "S2: 'gdy … odbudował …, oświadczył' implied he made the statement during/after the rebuild; reworded so it no longer suggests a timing the text does not support."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4790,
@@ -2417,7 +2485,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2439,7 +2507,9 @@
     "S2: gender agreement – 'dom … zwany „Słodowską”' changed to 'kamienica … zwana „Słodowską”'.",
     "S3: pronoun follows the change ('go' -> 'ją')."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4793,
@@ -2472,7 +2542,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2491,7 +2561,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4794,
@@ -2516,7 +2588,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2533,7 +2605,9 @@
    "changes": [
     "S2: removed the redundant gloss 'piekarz pierników' (the sentence already says he baked gingerbread)."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4796,
@@ -2570,7 +2644,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2593,7 +2667,9 @@
    "changes": [
     "S4–S5: the 1884 owner record stood after the 1906 sale; moved into chronological order and split the long 1860–1906 sentence (1860 is on s. 142 = [4], kept with it)."
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4797,
@@ -2618,7 +2694,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2635,7 +2711,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1873,
@@ -2668,7 +2746,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Budynek_Feniksa_w_Krakowie_(Rynek_G%C5%82%C3%B3wny)",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2688,7 +2766,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1874,
@@ -2717,7 +2797,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2733,7 +2813,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1875,
@@ -2762,7 +2844,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2783,7 +2865,9 @@
     "S1: colon replaced (1487 is an example, not the mid-century start)",
     "S2: first name 'Jan' removed as the verifier intended (not on the cited page)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1876,
@@ -2832,7 +2916,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2853,7 +2937,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1879,
@@ -2886,7 +2972,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Bajerowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2909,7 +2995,9 @@
     "S3: inference attributed to Chmiel, past tense",
     "S5: Chmiel's present put into past"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1880,
@@ -2946,7 +3034,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Wodzickich_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -2968,7 +3056,9 @@
    "changes": [
     "S4: sentence no longer starts with a digit"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1881,
@@ -2993,7 +3083,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Krauzowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3008,7 +3098,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1882,
@@ -3037,7 +3129,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Przebendowskich_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3055,7 +3147,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1883,
@@ -3088,7 +3182,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Tencerowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3110,7 +3204,9 @@
     "S2: gender agreement (dom)",
     "S4: past tense"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1884,
@@ -3139,7 +3235,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Lubomirskich_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3157,7 +3253,9 @@
    "changes": [
     "S2: sentence no longer starts with a digit"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1885,
@@ -3186,7 +3284,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Hallerowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3206,7 +3304,9 @@
    "changes": [
     "S4: Chmiel's present marked as his time"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1887,
@@ -3231,7 +3331,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Sasinowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3251,7 +3351,9 @@
    "changes": [
     "S4: unclear 'Jego' made explicit"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1888,
@@ -3296,7 +3398,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Popiel%C3%B3w_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3318,7 +3420,9 @@
    "changes": [
     "S4: stray comma removed"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1890,
@@ -3343,7 +3447,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3358,7 +3462,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1891,
@@ -3387,7 +3493,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3405,7 +3511,9 @@
    "changes": [
     "S1: 'w niej' read as the malt house that ceased in the 1620s; clarified per the cited page (by 1635 the former malt house was a kamienica)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1892,
@@ -3434,7 +3542,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3452,7 +3560,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1893,
@@ -3485,7 +3595,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3506,7 +3616,9 @@
     "S3: sentence no longer starts with a digit",
     "S3: unclear 'należał do zajezdnych' rephrased as on the page"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1619,
@@ -3539,7 +3651,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Celesty%C5%84ska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3558,7 +3670,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1621,
@@ -3599,7 +3713,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Szarffenberg%C3%B3w_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3622,7 +3736,9 @@
    "changes": [
     "S3: unclear 'jego potomkowie' -> 'potomkowie Mikołaja'"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1623,
@@ -3671,7 +3787,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_przy_ulicy_Grodzkiej_5_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3697,7 +3813,9 @@
    "changes": [
     "S5: unclear 'należał on' -> 'dom należał'"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1627,
@@ -3730,7 +3848,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Jaschkego_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3752,7 +3870,9 @@
    "changes": [
     "S5: awkward 'W drugiej połowie XIX w. (1871)' -> 'W 1871 r.'"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1629,
@@ -3781,7 +3901,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3801,7 +3921,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1631,
@@ -3834,7 +3956,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3857,7 +3979,9 @@
     "S3: repeated 'przeszedł' reworded",
     "S4: 'nabył oba domy' contradicted S1 (separate owners until 1851) and Chmiel s. 116 (Schwartz already owned no. 225, got no. 226 in 1851); now 'oba domy przeszły w ręce', as Chmiel writes"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1633,
@@ -3894,7 +4018,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3914,7 +4038,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1635,
@@ -3947,7 +4073,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -3967,7 +4093,9 @@
     "S2/S3: name origin 'od którego zwano ją Jachymowską' is not stated by Chmiel (he only uses the name, s. 139 = source 4); moved the name into S3 without the origin claim",
     "S4: ambiguous '... wykuszem przez dwa piętra i trzecie piętro' reordered"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1626,
@@ -3988,7 +4116,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4002,7 +4130,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1632,
@@ -4023,7 +4153,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4037,7 +4167,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1946,
@@ -4058,7 +4190,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4077,7 +4209,9 @@
     "S3: name spelling unified to Horowitz (as in S2)",
     "S4: past tense for Bałaban's present"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1945,
@@ -4094,7 +4228,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Wysoka_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4112,7 +4246,9 @@
    "changes": [
     "S3: tense made consistent (była)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1947,
@@ -4133,7 +4269,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Kowea_Itim_le-Tora_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4151,7 +4287,9 @@
    "changes": [
     "Reordered: construction (1810, 1912–13) first, then the 1880/1884 owner lists, then WWII and the inscription — chronological order"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5294,
@@ -4180,7 +4318,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4196,7 +4334,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": "wd-Q3511288",
@@ -4225,7 +4365,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Poppera_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4248,7 +4388,9 @@
     "S4: past tense for Bałaban's present",
     "S5: later founding date clearly attributed to Nowolecki (contrasts with 1620 in S1)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5286,
@@ -4273,7 +4415,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4288,7 +4430,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5287,
@@ -4321,7 +4465,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Stara_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4343,7 +4487,9 @@
     "S1: 'najstarsza i największa' attributed to Bałaban (his words: 'najstarszą i najobszerniejszą', s. 410)",
     "S5: 1325 stated as Nowolecki's claim and flagged as differing from Bałaban's dating in S1 (no unattributed date left)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5297,
@@ -4360,7 +4506,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Remu",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4377,7 +4523,9 @@
     "S3: Bałaban's 1931 description in past tense, attributed",
     "S4: past tense (wspominał)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": "wd-Q9209330",
@@ -4406,7 +4554,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Dom_Landau%C3%B3w_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4427,7 +4575,9 @@
    "changes": [
     "S4: clearer reference ('jego' → 'domu')"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5288,
@@ -4456,7 +4606,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Gmilus_Chasidim_Debais_Hakneses_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4478,7 +4628,9 @@
     "S2: named the street ('na rogu ulicy' was unclear)",
     "S3: 'jego zięć' made explicit (Leib's son-in-law, per Bałaban n. 4a in notes)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": "3013-2",
@@ -4507,7 +4659,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Izaaka_Jakubowicza_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4523,7 +4675,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 3546,
@@ -4544,7 +4698,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Kupa_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4558,7 +4712,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 3542,
@@ -4579,7 +4735,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Synagoga_Tempel_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4597,7 +4753,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4454,
@@ -4622,7 +4780,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Szara_Kamienica_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4641,7 +4799,9 @@
    "changes": [
     "S1: 'obecnie' (from the 1642 record) -> 'wówczas', so it does not read as today"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4455,
@@ -4662,7 +4822,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Dom_W%C5%82oski_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4678,7 +4838,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4456,
@@ -4699,7 +4861,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jaszczurk%C4%85_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4717,7 +4879,9 @@
    "changes": [
     "S1: punctuation (dash) for clarity"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4460,
@@ -4738,7 +4902,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Fontanowska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4754,7 +4918,9 @@
    "changes": [
     "S3: declension 'Gutteter' -> 'Guttetera'"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4464,
@@ -4771,7 +4937,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4788,7 +4954,9 @@
    "changes": [
     "S2: trailing birth date moved into parentheses"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4465,
@@ -4805,7 +4973,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Hetma%C5%84ska_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4822,7 +4990,9 @@
    "changes": [
     "S4: two unrelated facts split into two sentences (5 sentences)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4467,
@@ -4843,7 +5013,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Obrazem_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4861,7 +5031,9 @@
    "changes": [
     "S2: word order ('z domu Wessel' at the end) fixed"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4470,
@@ -4878,7 +5050,7 @@
    }
   ],
   "wikipedia": null,
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4893,7 +5065,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 749,
@@ -4906,7 +5080,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Restauracja_Stylowa_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4920,7 +5094,9 @@
    "changes": [
     "S1: 'projektował przede wszystkim' -> 'głównym projektantem ... był'"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 764,
@@ -4933,7 +5109,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kino_%C5%9Awiatowid_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4949,7 +5125,9 @@
    "changes": [
     "S2: unclear subject ('Miało') -> 'Kino miało'"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5349,
@@ -4962,7 +5140,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Teatr_%C5%81a%C5%BAnia_Nowa",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -4976,7 +5154,9 @@
    "changes": [
     "S2: unclear 'kieruje nim' -> 'teatrem kieruje' (note: director is current only as of the article)"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5499,
@@ -4989,7 +5169,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kino_%C5%9Awit_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5003,7 +5183,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 5521,
@@ -5016,7 +5198,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Teatr_Ludowy_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5030,7 +5212,9 @@
    "changes": [
     "S2: awkward 'z reżyserem ... i scenografem' reworded as in Wikipedia ('Teatr prowadzony był przez ...'); 'pierwszą' dropped because the article's sentence does not say it"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": "wd-Q11745104",
@@ -5043,7 +5227,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Matki_Boskiej_Cz%C4%99stochowskiej_w_Krakowie_(os._Szklane_Domy)",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5060,7 +5244,9 @@
    "changes": [
     "S3: participle 'wybranego' (ambiguous) -> relative clause"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": "wd-Q11739393",
@@ -5073,7 +5259,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Kino_Sfinks",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5087,7 +5273,9 @@
    "changes": [
     "S1: clarified the link between 'od 1959' and the unknown opening date"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 1265,
@@ -5100,7 +5288,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Wodzickich_w_Ko%C5%9Bcielnikach",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5119,7 +5307,9 @@
     "S3: unrelated Matejko clause separated with a semicolon instead of 'a'",
     "S4: double 'a ... a' run-on split with a semicolon"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": 4437,
@@ -5132,7 +5322,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Dw%C3%B3r_Popiel%C3%B3w_w_Ruszczy",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5148,7 +5338,9 @@
    "changes": [
     "S1: convoluted word order fixed"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": "5228-2",
@@ -5161,7 +5353,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Kirchmayer%C3%B3w_w_Pleszowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5175,7 +5367,9 @@
   },
   "editor": {
    "changes": []
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  },
  {
   "entry_id": "wd-Q11745552",
@@ -5188,7 +5382,7 @@
    }
   ],
   "wikipedia": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Narodzenia_Pa%C5%84skiego_i_%C5%9Bw._Bart%C5%82omieja_Aposto%C5%82a_w_Krakowie",
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "researched_at": "2026-11-20",
   "batch": 2,
   "verification": {
@@ -5202,6 +5396,8 @@
    "changes": [
     "S1: dates out of order ('wzmiankowany od 1329', then 1266) — reordered as in Wikipedia (1266 parish handed over; first mention of the church 1329); S2: word order/commas; S3: 'To' -> 'Jest to'"
    ]
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-26"
  }
 ]

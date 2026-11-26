@@ -179,12 +179,14 @@ promote their own texts.
 
 ## Known limitations
 - Building descriptions exist for ~9% of addresses (GEZ + Wikidata + NID)
-  plus 125 AI-researched texts: 27 approved by the owner (2026-11-20, no AI
-  label) and 98 from batch 2 (iteration 3), `ai_draft_unverified`, waiting
-  for the owner in the doc "Opisy AI do sprawdzenia — iteracja 3"
-  (https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6; its copy of Józefa 38
-  has one typo, "srebr" for "sreber" — ai_drafts.json is correct and is the
-  reference). 89 addresses have a
+  plus 125 AI-researched texts, all approved by the owner and shown without
+  the AI label: 27 from batch 1 (2026-11-20) and 98 from batch 2
+  (iteration 3; owner approved all in chat on 2026-11-26, review doc
+  "Opisy AI do sprawdzenia — iteracja 3",
+  https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6 — its copy of Józefa 38
+  has one typo, "srebr" for "sreber"; ai_drafts.json is the reference). The
+  former street names (street_history.json) are NOT approved yet and keep
+  their AI note. 89 addresses have a
   historian-sourced text (cites a library page). Thanks to the 600 m fallback, ~95% of addresses show at least
   a nearby place; outer-district fallback places can be 400–600 m away.
 - Street stories cover 552 of 2,874 streets (25% of addresses). Former
@@ -314,3 +316,8 @@ promote their own texts.
   (101 buildings → 98 texts after verification, editor pass; status
   ai_draft_unverified); review doc "Opisy AI do sprawdzenia — iteracja 3";
   new coverage row "historian-sourced text" (1 → 89 addresses).
+- 2026-11-26 — Owner approved all 98 batch-2 texts (status `verified`,
+  approved_by owner, approved_at 2026-11-26); rebuilt; spot-checks show
+  them without the AI label. Open owner decisions (in the review doc):
+  Sławkowska 11/12 Wikidata names, register vs. historians, adding the
+  blocked hosts, the split-street naming, approving the street names.
