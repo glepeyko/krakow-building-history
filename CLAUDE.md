@@ -231,3 +231,8 @@ promote their own texts.
   street files were patched directly, not rebuilt. Note: the local
   `source-data/raw/` may be older than the committed data; re-run all
   fetchers before a full rebuild.
+- 2026-11-26 — Iteration 3, step A1 started: `scripts/sources/fetch_library.py`
+  (registry of sources, per-page text in git-ignored `source-data/raw/library/`,
+  committed manifest `data/research/library.json`). Routes: pdf (tested
+  locally), ia and djvu (untested). Source URLs are not set yet: pass
+  `--url ID=URL`; `research/sources-books.md` is not in the repo.
