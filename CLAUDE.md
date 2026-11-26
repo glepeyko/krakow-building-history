@@ -15,7 +15,7 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
   No backend. Preview locally with `python -m http.server 8000`
   (also in `.claude/launch.json` as "site").
 - Data the site reads:
-  - `data/streets.json` — 2,823 streets for the autocomplete:
+  - `data/streets.json` — 2,874 streets for the autocomplete:
     `{name, search, file, entries}`.
   - `data/streets/<file>.json` — one file per street, fetched when the
     visitor searches: `{name, search, story{}, districts{}, entries[],
@@ -182,7 +182,9 @@ promote their own texts.
   plus 125 AI-researched texts: 27 approved by the owner (2026-11-20, no AI
   label) and 98 from batch 2 (iteration 3), `ai_draft_unverified`, waiting
   for the owner in the doc "Opisy AI do sprawdzenia — iteracja 3"
-  (https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6). 89 addresses have a
+  (https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6; its copy of Józefa 38
+  has one typo, "srebr" for "sreber" — ai_drafts.json is correct and is the
+  reference). 89 addresses have a
   historian-sourced text (cites a library page). Thanks to the 600 m fallback, ~95% of addresses show at least
   a nearby place; outer-district fallback places can be 400–600 m away.
 - Street stories cover 552 of 2,874 streets (25% of addresses). Former
@@ -193,11 +195,12 @@ promote their own texts.
   Polona copy lacks the scans for pp. 126–127 (Stolarska). Patron
   birth/death years come from Wikidata and can be imprecise for early
   saints.
-- 2,968 addresses (4%) lie outside Kraków: neighbouring gminy with Kraków
+- 3,174 addresses (4%) lie outside Kraków: neighbouring gminy with Kraków
   postcodes (the OSM filter uses postcodes 30-/31-). Owner decision: keep
   them; the page names the gmina. Same-named streets in Kraków and in a
-  neighbouring gmina (e.g. "Krakowska") share one street file. 19 GEZ
-  records disagree with the OSM district (not checked).
+  neighbouring gmina are split since iteration 3 ("Krakowska (gmina
+  Mogilany)"; 51 streets, 972 addresses). 19 GEZ records disagree with the
+  OSM district (not checked).
 - NID register: 1,110 entries linked; 172 rows whose address had no entry
   are now entries of their own (16 without OSM coordinates); 86 are
   ambiguous at their address, 255 have neither an address nor a unique
