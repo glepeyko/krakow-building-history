@@ -1,10 +1,58 @@
 [
- {"entry_id": 4781, "wikidata": "Q11814869", "action": "block",
+ {
+  "entry_id": 4781,
+  "wikidata": "Q11814869",
+  "action": "block",
   "reason": "Pałac Tarnowskich-Sanguszków stoi pod nr. 13–15, nie 11 (Chmiel, Domy krakowskie: Sławkowska cz. 1, rozdział L. or. 13/15; artykuł w Wikipedii). Powiązanie powstało tylko z położenia.",
-  "decided_by": "owner (delegated to Claude, 2026-11-26)", "decided_at": "2026-11-26",
-  "sources": [{"title": "Pałac Tarnowskich-Sanguszków w Krakowie – Wikipedia", "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Tarnowskich-Sanguszk%C3%B3w_w_Krakowie"}]},
- {"entry_id": 4782, "wikidata": "Q11733997", "action": "block",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Pałac Tarnowskich-Sanguszków w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Tarnowskich-Sanguszk%C3%B3w_w_Krakowie"
+   }
+  ]
+ },
+ {
+  "entry_id": 4782,
+  "wikidata": "Q11733997",
+  "action": "block",
   "reason": "Kamienica Badeniowska to nr 10 (Wikipedia; Chmiel, Sławkowska cz. 2, rewizja z 1777 r. nazywa sąsiedni nr 10 kamienicą Badeniego). Powiązanie z nr. 12 powstało tylko z położenia.",
-  "decided_by": "owner (delegated to Claude, 2026-11-26)", "decided_at": "2026-11-26",
-  "sources": [{"title": "Kamienica Badeniowska w Krakowie – Wikipedia", "url": "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie"}]}
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Kamienica Badeniowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie"
+   }
+  ]
+ },
+ {
+  "entry_id": 4459,
+  "wikidata": "Q11734170",
+  "action": "block",
+  "reason": "Kamienica Pod Złotym Karpiem to Rynek Główny 10 (Katalog Zabytków Sztuki t. IV cz. 10, hasło NR 10); nr 11 to kamienica Pod Karpiem Szarym / Dom Wenecki (GEZ, NID, Katalog NR 11).",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Katalog Zabytków Sztuki w Polsce, t. IV cz. 10 (2016)",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf"
+   }
+  ]
+ },
+ {
+  "entry_id": 4493,
+  "wikidata": "Q11734162",
+  "action": "block",
+  "reason": "Kamienica Pod Orłem to Rynek Główny 45 (Katalog Zabytków Sztuki t. IV cz. 10, hasło NR 45); nr 46 to kamienica Czerwona / Dom Brendlarowski (GEZ, NID, Katalog NR 46).",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Katalog Zabytków Sztuki w Polsce, t. IV cz. 10 (2016)",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf"
+   }
+  ]
+ }
 ]
