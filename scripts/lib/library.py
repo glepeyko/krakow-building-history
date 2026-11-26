@@ -36,6 +36,9 @@ OLD_NUMBERS = ROOT / "data" / "research" / "old_numbers.json"
 LIB = ROOT / "source-data" / "raw" / "library"
 
 HEADING = re.compile(r"(?:^|\n)\s*L\s?\.\s?or\s?\.\s*(\d{1,3}[a-c]?)(?:\s*[/-]\s*(\d{1,3}))?\s*[.,]")
+# Katalog Zabytków Sztuki (IS PAN): "NR 12, kamienica Fontanowska …" at the start of a line.
+# A margin column of figure numbers ("82   NR 12, …", "72, 93   NR 24, …") may come first.
+HEADING_KZS = re.compile(r"(?:^|\n)[ \t]*(?:[\d, ]{1,12}[ \t]{2,})?NR\s+(\d{1,3}[a-c]?)(?:\s*[-–]\s*(\d{1,3}))?\s*,")
 PRINTED_PAGE = re.compile(r"^\s*[-—–_]*\s*(\d{1,3})\s*[-—–_.]*\s*$")
 PRINTED_PAGE_LOOSE = re.compile(r"^\s*[-—–_]+\s*(\d{1,3})\s*[-—–_.]*")
 
@@ -119,11 +122,12 @@ class Library:
     # ---- 1. Chmiel-style house sections ------------------------------------
     @lru_cache(maxsize=None)
     def house_sections(self, source_id: str) -> dict:
-        """{street number: [scans]} from 'L. or. N' headings, in page order.
+        """{street number: [scans]} from 'L. or. N' (Chmiel) or 'NR N,' (KZS) headings, in page order.
         A section runs from its heading page to the page holding the next one."""
         heads = []  # (scan, offset, number)
+        pattern = HEADING_KZS if source_id.startswith("kzs-") else HEADING
         for scan, text in self.pages(source_id).items():
-            for m in HEADING.finditer(text):
+            for m in pattern.finditer(text):
                 nums = [m.group(1)] + ([m.group(2)] if m.group(2) else [])
                 heads.append((scan, m.start(), nums))
         heads.sort()

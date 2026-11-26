@@ -385,9 +385,9 @@
    },
    "kind": "house histories",
    "fetch": {
-    "status": "blocked",
-    "error": "host repozytorium.ispan.pl not reachable from this environment",
-    "checked_at": "2026-11-20"
+    "status": "ok",
+    "pages": 354,
+    "fetched_at": "2026-11-26"
    }
   },
   {
@@ -406,9 +406,9 @@
    },
    "kind": "building portraits",
    "fetch": {
-    "status": "blocked",
-    "error": "host ruj.uj.edu.pl not reachable from this environment",
-    "checked_at": "2026-11-20"
+    "status": "ok",
+    "pages": 223,
+    "fetched_at": "2026-11-26"
    }
   },
   {
@@ -452,9 +452,9 @@
    },
    "kind": "address book",
    "fetch": {
-    "status": "blocked",
-    "error": "host www.mtg-malopolska.org.pl not reachable from this environment",
-    "checked_at": "2026-11-20"
+    "status": "ok",
+    "pages": 536,
+    "fetched_at": "2026-11-26"
    }
   },
   {
@@ -473,9 +473,9 @@
    },
    "kind": "article",
    "fetch": {
-    "status": "blocked",
-    "error": "host journals.akademicka.pl not reachable from this environment",
-    "checked_at": "2026-11-20"
+    "status": "ok",
+    "pages": 21,
+    "fetched_at": "2026-11-26"
    }
   }
  ]

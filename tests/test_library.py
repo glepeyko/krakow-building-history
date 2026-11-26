@@ -140,6 +140,15 @@ class KnownHousesTests(unittest.TestCase):
         self.assertEqual({r["old_number"] for r in rows}, {"209"})
 
 
+@unittest.skipUnless((REAL_LIB / "kzs-iv-10").is_dir(), "Katalog Zabytków not downloaded")
+class KatalogHeadingTests(unittest.TestCase):
+    def test_rynek_12_section(self):  # "NR 12, kamienica Fontanowska"
+        lib = Library()
+        hits = lib.find_address("Rynek Główny", "12")
+        self.assertEqual(hits[0].source, "kzs-iv-10")
+        self.assertIn("12", hits[0].reason)
+
+
 class OldNumbersFileTests(unittest.TestCase):
     def test_schema_and_stats(self):
         p = ROOT / "data" / "research" / "old_numbers.json"
