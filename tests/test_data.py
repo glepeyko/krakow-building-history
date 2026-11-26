@@ -65,7 +65,7 @@ class Batch2DraftsTests(unittest.TestCase):
     def test_batch2_rules(self):
         drafts = json.loads(self.PATH.read_text(encoding="utf-8"))
         for d in drafts:
-            if d.get("batch") != 2:
+            if (d.get("batch") or 0) < 2:
                 continue
             with self.subTest(entry=d["entry_id"]):
                 # Agents never approve their own texts; only the owner does.
