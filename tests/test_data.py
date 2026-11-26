@@ -58,6 +58,66 @@ class AiDraftsFileTests(unittest.TestCase):
 
 
 
+class Batch2DraftsTests(unittest.TestCase):
+    PATH = ROOT / "data" / "research" / "ai_drafts.json"
+
+    @unittest.skipUnless(PATH.exists(), "no AI drafts yet")
+    def test_batch2_rules(self):
+        drafts = json.loads(self.PATH.read_text(encoding="utf-8"))
+        for d in drafts:
+            if d.get("batch") != 2:
+                continue
+            with self.subTest(entry=d["entry_id"]):
+                # Agents never approve their own texts; only the owner does.
+                if d["status"] == "verified":
+                    self.assertEqual(d.get("approved_by"), "owner")
+                self.assertIn(d["verification"]["verdict"], ("kept", "corrected"))
+                self.assertTrue(d["verification"]["checked_urls"])
+                n = len(re.findall(r"\]\s*(?=\S|$)", d["text"]))
+                self.assertTrue(2 <= n <= 5, f"{n} sentences")
+
+
+class StreetHistoryFileTests(unittest.TestCase):
+    PATH = ROOT / "data" / "research" / "street_history.json"
+
+    @unittest.skipUnless(PATH.exists(), "no street history")
+    def test_schema(self):
+        names = {s["name"] for s in json.loads((ROOT / "data" / "streets.json").read_text(encoding="utf-8"))}
+        for rec in json.loads(self.PATH.read_text(encoding="utf-8")):
+            with self.subTest(street=rec["street"]):
+                self.assertIn(rec["street"], names)
+                self.assertIn(rec["status"], ("ai_draft_unverified", "verified"))
+                self.assertTrue(rec["names"])
+                used = set()
+                for n in rec["names"]:
+                    self.assertTrue(n["name"].strip())
+                    for k in ("from", "to"):
+                        self.assertTrue(n.get(k) is None or isinstance(n[k], int))
+                    if n.get("from") and n.get("to"):
+                        self.assertLessEqual(n["from"], n["to"])
+                    self.assertTrue(1 <= n["source"] <= len(rec["sources"]))
+                    used.add(n["source"])
+                self.assertEqual(used, set(range(1, len(rec["sources"]) + 1)), "unused source")
+                for s in rec["sources"]:
+                    self.assertTrue(s["url"].startswith("https://") and s["title"].strip())
+
+
+class NearbyDedupTests(unittest.TestCase):
+    def poi(self, title, lat=50.0, lon=20.0, street="", number=""):
+        return {"title": title, "lat": lat, "lon": lon, "street": street, "number": number}
+
+    def test_same_fort_named_differently(self):
+        self.assertTrue(build.same_place(self.poi("Fort 48a Mistrzejowice"), self.poi("Fort pancerny 48a", 50.0001)))
+
+    def test_different_buildings_same_address_kept(self):
+        a = self.poi("Synagoga Stara", street="Szeroka", number="24")
+        b = self.poi("kamienica", street="Szeroka", number="24")
+        self.assertFalse(build.same_place(a, b))
+
+    def test_far_apart_not_merged(self):
+        self.assertFalse(build.same_place(self.poi("Kościół św. Anny"), self.poi("Kościół św. Anny", 50.01)))
+
+
 class CorrectionsFileTests(unittest.TestCase):
     PATH = ROOT / "data" / "research" / "corrections.json"
 
