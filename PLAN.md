@@ -24,7 +24,7 @@ about its street, its block, and what stands nearby.
   checked, freely readable historians' works (ranked), plus 18 unusable
   ones with reasons. Iteration 3 is built around it.
 
-- **Iteration 3 — done (2026-11-26, PR open).** Library of 17 cached
+- **Iteration 3 — done (2026-11-26, PR open).** Library of 16 cached
   historians' texts (Polona, DBC; IS PAN, IA, RUJ, akademicka, MTG blocked
   here), old-number index (1,650 rows, 78.7% matched), former names for 121
   streets, 98 new verified texts (89 addresses with a historian-sourced

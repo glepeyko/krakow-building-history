@@ -301,8 +301,8 @@ promote their own texts.
   `source-data/raw/` may be older than the committed data; re-run all
   fetchers before a full rebuild.
 - 2026-11-20…26 — Iteration 3 (branch `iteration-3`, one PR into main):
-  host test; historians' library (fetch_library.py, 17 of 21 sources
-  cached: Chmiel ×10 volumes, Nowolecki ×3, Tomkowicz 1926, Bałaban ×2,
+  host test; historians' library (fetch_library.py, 16 of 21 sources
+  cached: Chmiel ×9 volumes, Nowolecki ×3, Tomkowicz 1926, Bałaban ×2,
   Grabowski 1900); old-number index from Nowolecki 1884; lib/library.py +
   library_search.py + tests; all fetchers re-run (fetch_wikidata*.py now
   tolerate control characters / truncated SPARQL JSON); street history for
