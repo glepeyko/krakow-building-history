@@ -1,0 +1,72 @@
+[
+ {
+  "group": "rynek",
+  "entry_id": "wd-Q11734033",
+  "address": "Rynek Główny 4",
+  "name": "Kamienica Czyncielów",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Czynciel%C3%B3w_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4453,
+  "address": "Rynek Główny 5",
+  "name": "Kamienica Bidermanowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Bidermanowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4457,
+  "address": "Rynek Główny 9",
+  "name": "Kino Pasaż",
+  "wikipedia": null
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4459,
+  "address": "Rynek Główny 11",
+  "name": "Kamienica Pod Złotym Karpiem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82otym_Karpiem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4462,
+  "address": "Rynek Główny 14",
+  "name": "Kamienica Pod św. Anną",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Bw._Ann%C4%85_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4463,
+  "address": "Rynek Główny 15",
+  "name": "Kamienica Pinocińska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pinoci%C5%84ska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4466,
+  "address": "Rynek Główny 18",
+  "name": "Kamienica Amodejowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Amodejowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4468,
+  "address": "Rynek Główny 20",
+  "name": "Pałac Zbaraskich",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Zbaraskich_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4469,
+  "address": "Rynek Główny 21",
+  "name": "Kamienica Pod Ewangelistami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Ewangelistami_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4471,
+  "address": "Rynek Główny 23",
+  "name": "Kamienica Kromerowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Kromerowska"
+ }
+]

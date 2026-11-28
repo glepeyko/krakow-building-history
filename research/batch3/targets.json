@@ -1,0 +1,541 @@
+[
+ {
+  "group": "rynek",
+  "entry_id": "wd-Q11734033",
+  "address": "Rynek Główny 4",
+  "name": "Kamienica Czyncielów",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Czynciel%C3%B3w_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4453,
+  "address": "Rynek Główny 5",
+  "name": "Kamienica Bidermanowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Bidermanowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4457,
+  "address": "Rynek Główny 9",
+  "name": "Kino Pasaż",
+  "wikipedia": null
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4459,
+  "address": "Rynek Główny 11",
+  "name": "Kamienica Pod Złotym Karpiem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Z%C5%82otym_Karpiem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4462,
+  "address": "Rynek Główny 14",
+  "name": "Kamienica Pod św. Anną",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Bw._Ann%C4%85_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4463,
+  "address": "Rynek Główny 15",
+  "name": "Kamienica Pinocińska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pinoci%C5%84ska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4466,
+  "address": "Rynek Główny 18",
+  "name": "Kamienica Amodejowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Amodejowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4468,
+  "address": "Rynek Główny 20",
+  "name": "Pałac Zbaraskich",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Zbaraskich_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4469,
+  "address": "Rynek Główny 21",
+  "name": "Kamienica Pod Ewangelistami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Ewangelistami_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4471,
+  "address": "Rynek Główny 23",
+  "name": "Kamienica Kromerowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Kromerowska"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4472,
+  "address": "Rynek Główny 24",
+  "name": "Kamienica Pod Kanarkiem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Kanarkiem"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4473,
+  "address": "Rynek Główny 25",
+  "name": "Kamienica Pod Krukami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Krukami_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4474,
+  "address": "Rynek Główny 26",
+  "name": "Kamienica Pod św. Janem Kapistranem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Bw._Janem_Kapistranem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4475,
+  "address": "Rynek Główny 27",
+  "name": "Pałac Pod Baranami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_%E2%80%9EPod_Baranami%E2%80%9D_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4476,
+  "address": "Rynek Główny 28",
+  "name": "Kamienica Pod Jagnięciem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jagni%C4%99ciem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4477,
+  "address": "Rynek Główny 29",
+  "name": "Kamienica Pod Blachą",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Blach%C4%85_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4478,
+  "address": "Rynek Główny 30",
+  "name": "Pałac Małachowskich",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Ma%C5%82achowskich_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4479,
+  "address": "Rynek Główny 31",
+  "name": "Budynek Banku Pekao",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Budynek_Banku_Pekao_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4480,
+  "address": "Rynek Główny 32",
+  "name": "Kamienica Pod Trzema Gwiazdami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_%E2%80%9EPod_Trzema_Gwiazdami%E2%80%9D_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4482,
+  "address": "Rynek Główny 34",
+  "name": "Pałac Spiski",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Spiski_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": "wd-Q111401069",
+  "address": "Rynek Główny 35",
+  "name": "hotel",
+  "wikipedia": null
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4483,
+  "address": "Rynek Główny 36",
+  "name": "Kamienica Pod Jeleniem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jeleniem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4484,
+  "address": "Rynek Główny 37",
+  "name": "Kamienica Wosińska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Wosi%C5%84ska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4485,
+  "address": "Rynek Główny 38",
+  "name": "Kamienica Kencowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Kencowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4486,
+  "address": "Rynek Główny 39",
+  "name": "Kamienica Pod Konikiem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Konikiem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4487,
+  "address": "Rynek Główny 40",
+  "name": "Kamienica Januszowiczowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Januszowiczowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": "nid-PL.1.9.ZIPOZ.NID_N_12_BK.194351",
+  "address": "Rynek Główny 41",
+  "name": "kamienica Feniks",
+  "wikipedia": null
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4488,
+  "address": "Rynek Główny 42",
+  "name": "Kamienica Zacherlowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Zacherlowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4490,
+  "address": "Rynek Główny 44-44a",
+  "name": "Kamienica Betmanowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Betmanowska_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4493,
+  "address": "Rynek Główny 46",
+  "name": "Kamienica Pod Orłem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Or%C5%82em_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4494,
+  "address": "Rynek Główny 47",
+  "name": "Kamienica Mennica",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Mennica_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1386,
+  "address": "Floriańska 27",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1388,
+  "address": "Floriańska 29",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1392,
+  "address": "Floriańska 33",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1396,
+  "address": "Floriańska 37",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1398,
+  "address": "Floriańska 39",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1400,
+  "address": "Floriańska 41",
+  "name": "Dom Jana Matejki",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Dom_Jana_Matejki_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1402,
+  "address": "Floriańska 43",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1404,
+  "address": "Floriańska 45",
+  "name": "Jama Michalika",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Jama_Michalika"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1406,
+  "address": "Floriańska 49",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1407,
+  "address": "Floriańska 51",
+  "name": "kamienica",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_przy_ul._Floria%C5%84skiej_38_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1409,
+  "address": "Floriańska 55",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1410,
+  "address": "Floriańska 57",
+  "name": "Brama Floriańska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Brama_Floria%C5%84ska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1369,
+  "address": "Floriańska 10",
+  "name": "Kamienica Barszczowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Barszczowska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1371,
+  "address": "Floriańska 12",
+  "name": "Kamienica Cyrusowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Cyrusowska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1373,
+  "address": "Floriańska 14",
+  "name": "Hotel Pod Różą",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Pod_R%C3%B3%C5%BC%C4%85_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1375,
+  "address": "Floriańska 16",
+  "name": "Kamienica Ochockich",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Ochockich_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1377,
+  "address": "Floriańska 18",
+  "name": "Kamienica Westfalewiczów",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Westfalewicz%C3%B3w_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1379,
+  "address": "Floriańska 20",
+  "name": "Kamienica Pod Świętym Józefem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Awi%C4%99tym_J%C3%B3zefem_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1381,
+  "address": "Floriańska 22",
+  "name": "Kamienica Pod Barankiem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Barankiem_w_Krakowie_(ul._Floria%C5%84ska)"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1389,
+  "address": "Floriańska 30",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1393,
+  "address": "Floriańska 34",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1395,
+  "address": "Floriańska 36",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1397,
+  "address": "Floriańska 38",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1399,
+  "address": "Floriańska 40",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1401,
+  "address": "Floriańska 42",
+  "name": "Kamienica Hotel Pod Białym Orłem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_przy_ul._Floria%C5%84skiej_42_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Floriańska",
+  "entry_id": 1403,
+  "address": "Floriańska 44",
+  "name": "kamienica - ob. \"Hotel Polski Pod Białym Orłem\"",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "wd-Q111401068",
+  "address": "Sławkowska 7",
+  "name": "hotel",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "nid-PL.1.9.ZIPOZ.NID_N_12_BK.200380",
+  "address": "Sławkowska 13",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "wd-Q134446125",
+  "address": "Sławkowska 17",
+  "name": "Pomnik Stanisława Kutrzeby",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pomnik_Stanis%C5%82awa_Kutrzeby_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "nid-PL.1.9.ZIPOZ.NID_N_12_BK.185161",
+  "address": "Sławkowska 22",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": 4791,
+  "address": "Sławkowska 24",
+  "name": "dom (ob.) wcześniej Zespół Klasztorny Marka",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "wd-Q134447375",
+  "address": "Sławkowska 32",
+  "name": "Kawiarnia Literacka",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kawiarnia_Literacka_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": 1877,
+  "address": "Świętego Jana 7",
+  "name": "Kościół św. Jana Chrzciciela i św. Jana Ewangelisty",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Chrzciciela_i_%C5%9Bw._Jana_Ewangelisty_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": 1886,
+  "address": "Świętego Jana 17-19",
+  "name": "Pałac Czartoryskich",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": "wd-Q111859011",
+  "address": "Świętego Jana 2",
+  "name": "hotel",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": "wd-Q30169046",
+  "address": "Świętego Jana 8",
+  "name": "św. Jana 8 / św. Tomasza 14",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": "wd-Q30169057",
+  "address": "Świętego Jana 10",
+  "name": "Świętego Jana 10",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": 1889,
+  "address": "Świętego Jana 22",
+  "name": "kamienica",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Kowalskiego_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1639,
+  "address": "Grodzka 21",
+  "name": "Kamienica Liberowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Liberowska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1641,
+  "address": "Grodzka 23",
+  "name": "Kamienica Swiechowiczowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Swiechowiczowska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1642,
+  "address": "Grodzka 25",
+  "name": "Kamienica Wojnarowicowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Wojnarowicowska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1644,
+  "address": "Grodzka 27",
+  "name": "Kamienica Markowicowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Markowicowska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1646,
+  "address": "Grodzka 29",
+  "name": "Kamienica Wikowicowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Wikowicowska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1647,
+  "address": "Grodzka 31",
+  "name": "Kamienica Pod Jednorożcem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jednoro%C5%BCcem_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1649,
+  "address": "Grodzka 33",
+  "name": "Kamienica Salomońska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Salomo%C5%84ska_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Grodzka",
+  "entry_id": 1651,
+  "address": "Grodzka 35",
+  "name": "Kamienica Fichauserowska",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Fichauserowska_w_Krakowie"
+ }
+]

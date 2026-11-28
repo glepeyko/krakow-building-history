@@ -1,0 +1,316 @@
+[
+ {
+  "entry_id": "wd-Q111401069",
+  "address": "Rynek Główny 35",
+  "text": "Do 1644 r. w miejscu pałacu stały dwie osobne kamienice: Morsztynowska od strony Rynku i Chmielowska od ulicy Szczepańskiej, a przy budynku frontowym pierwszej z nich umieszczono w 1380 r. kamienną figurę św. Krzysztofa. [1] W latach 40. XVII w. obie posesje należały do marszałka koronnego Adama Kazanowskiego, a w latach 1682–1684, gdy właścicielami byli Wodziccy, przebudowano je na miejski pałac z krużgankiem na parach kolumn i nowymi elewacjami według projektu Jakuba Solariego. [1,2] W 1697 r. Baltazar Fontana ze swoim warsztatem wykonał sztukaterie salonu na pierwszym piętrze. [2] W 1848 r., w czasie Wiosny Ludów, miał tu siedzibę Komitet Narodowy, a w latach 1856–1861 redakcja i drukarnia „Czasu”. [2] Zaniedbany na początku XX w. budynek uratowały przed rozbiórką protesty miłośników zabytków i interwencja arcyksięcia Franciszka Ferdynanda; od 1958 r. w piwnicach działała galeria „Krzysztofory” Grupy Krakowskiej, w latach 1961–1978 teatr Cricot 2, a w 1965 r. pałac przekazano Muzeum Historycznemu miasta Krakowa. [2]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 104",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=104"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 105",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=105"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Entry wd-Q111401069 is labelled only 'hotel' (Wikidata); it is the only entry at no. 35 besides Kawiarnia Europejska, and no. 35 is Pałac Pod Krzysztofory (OSM name). Text is about the palace (KZS 'NR 35, pałac Pod Krzysztofory'). Verifier may want to check whether the Wikidata 'hotel' item belongs here. Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests'). Verifier: text is about NR 35 pałac Pod Krzysztofory (scans 104-105); whether the Wikidata 'hotel' item belongs at no. 35 was not checked (not a cited source).",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: scan 104 says the figure stood 'przy' the front building ('znad wejścia' is only on scan 105, not cited by this sentence)",
+    "S2: Katalog: '1664-1711 Wodziccy ... 1682-4 przebudowana na pałac miejski' — rebuild during their ownership, merging not stated for 1682–84"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=104",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=105"
+   ]
+  }
+ },
+ {
+  "entry_id": 4483,
+  "address": "Rynek Główny 36",
+  "text": "Pierwotnie na tym miejscu stały trzy kamienice: od Rynku Ludwikowska (zwana też Jagniątkowską) i Waytmanowska, a od ulicy Sławkowskiej Żydowska. [1,2] W kamienicy Ludwikowskiej w 1438 r. wzmiankowano mennicę, a w latach 1627–1652 na jej parterze działała apteka „Pod Jeleniem” należąca do Piotra Gilowicza. [2] Od 1758 r. wszystkie trzy domy należały do Józefa Bartscha (Barszcza); po ich rozebraniu na połączonej działce wzniesiono w 1776 r. dwupiętrową kamienicę z klasycystyczną fasadą, w której mieścił się wtedy zajazd należący do małżeństwa Jeana Le Bona i Marianny. [2] W 1860 r. ówczesna właścicielka Anna Helclowa podarowała posesję Arcybractwu Miłosierdzia i Bankowi Pobożnemu. [2] Na fasadzie znajduje się tablica upamiętniająca pobyt Johanna Wolfganga Goethego w 1790 r. [3]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 107",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=107"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 108",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=108"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 109",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=109"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests'). Verifier: 'Arcybractwu Miłosierdzia i Bankowi Pobożnemu' is a 5-word run but consists of institution names; left as is.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: 'zwrócona na ul. Sławkowską' is on scan 108; marker [1] -> [1,2]",
+    "S3: rephrased near-verbatim run from the Katalog"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=107",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=108",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=109"
+   ]
+  }
+ },
+ {
+  "entry_id": 4484,
+  "address": "Rynek Główny 37",
+  "text": "Kamienicę wzniesiono w drugiej połowie XIV w.; od nazwisk właścicieli nazywano ją także Lukinowską. [1] Przed 1600 r. należała do Wojciecha Padniewskiego i mniej więcej wtedy przebudowano ją na renesansowy pałac z kamiennymi schodami, dachem ukrytym za ścianą oraz galeriami łączącymi dom frontowy z tylną oficyną. [1] W 1614 r. przeszła na własność rodziny Lucchinich, a w 1689 r. Wosińskich; po 1728 r. popadła w ruinę i w 1746 r. stała pusta. [1] W latach 1842–1887 posesja należała do Żeleńskich, a w 1887 r. podczas generalnego remontu według projektu Rajmunda Meusa usunięto attykę i dobudowano trzecie piętro. [1] Na fasadzie zachował się barokowy portal z ok. 1700 r. oraz stiukowy kartusz z monogramem Róży Żeleńskiej. [2]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 109",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=109"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 110",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=110"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=109",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=110"
+   ]
+  }
+ },
+ {
+  "entry_id": 4485,
+  "address": "Rynek Główny 38",
+  "text": "Kamienicę Kencowską wzniesiono około połowy XIV w.; w XVII w. należała do rodziny Chenczów (Kenców). [1] Od 1823 r. na parterze działała cukiernia Cortesiego; gdy w 1841 r. dom należał do cukierników Gaudentego Redolfiego i Parysa Maurizia, przebudowano parter i wyposażono cukiernię w biedermeierowskie meble wykonane przez stolarza Płoszyńskiego. [1] Po pożarze w 1879 r. odbudowano trzecie piętro i wykonano nową fasadę. [1] Z dawnego wyposażenia cukierni przetrwała m.in. biedermeierowska szafa z 1841 r., a nad drzwiami witraż z 1903 r. z sową i nazwiskiem Redolfi. [1,2] Na fasadzie w 1930 r. wmurowano tablicę poświęconą generałowi Józefowi Chłopickiemu. [2]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 110",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=110"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 111",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=111"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "'którzy urządzili' slightly interprets 'w tym czasie przebudowa parteru i biedermeierowskie wyposażenie cukierni' (done during their ownership). Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: Katalog does not state the name origin for no. 38; kept only ownership",
+    "S2: Katalog: '1841 właścicielami ...; w tym czasie przebudowa parteru i biedermeierowskie wyposażenie' — no purchase stated, works only dated to their ownership"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=110",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=111"
+   ]
+  }
+ },
+ {
+  "entry_id": 4486,
+  "address": "Rynek Główny 39",
+  "text": "Kamienica istniała już około połowy XIV w. jako piętrowy dom z oficynami; od nazwisk właścicieli nazywano ją także Markowiczowską, a w latach 1666–1672 należała do kupca korzennego i ławnika Jana Markiewicza. [1] W drugiej połowie XVIII w. należała do Stanisława Stachowicza, który w latach 1754–1758 prowadził drukarnię. [1,2] Gdy w 1854 r. kamienica przeszła na Fischerów, przeprowadzono generalny remont z dobudową trzeciego piętra i neoklasycystyczną fasadą, a w drugiej połowie XIX w. na parterze działał sklep papierniczy. [2] W latach 1882–1883 połączono ją z sąsiednią kamienicą Januszewiczowską (nr 40), a na parterze zachowała się kamienna płyta z wyrytym godłem domu z przełomu XVIII i XIX w. [2]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 111",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=111"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 112",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=112"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: Katalog does not link the name to Jan Markiewicz; kept name and ownership as separate facts",
+    "S3: Katalog: '1854 Fischerowie; w tym czasie remont generalny' — 'po 1854'/'za czasów' replaced by what the page says"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=111",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=112"
+   ]
+  }
+ },
+ {
+  "entry_id": 4487,
+  "address": "Rynek Główny 40",
+  "text": "Kamienicę wzniesiono około 1300 r.; od nazwisk kolejnych właścicieli nazywano ją także Behmowską i Ulbrychowską. [1] W 1639 r. należała do rajcy Stanisława Januszowicza. [2] W latach 1806–1836 właścicielem był biskup Andrzej Alojzy Ankwicz, a kaplica na pierwszym piętrze oficyny tylnej otrzymała wówczas dekorację sztukatorską. [2] Po 1850 r. dom gruntownie przebudowano według projektu F. von Pierreta; w sieni stanęły wtedy arkady na żeliwnych kolumnach, a w bocznej oficynie działał sklep galanteryjny „Pod Żyrafą”. [2] W 1883 r., gdy właścicielem był Władysław Fischer, kamienicę połączono z sąsiednią kamienicą Pod Konikiem i przebudowano; eklektyczna fasada z tego roku nosi jego inicjały. [2,3]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 112",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=112"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 113",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=113"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 114",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=114"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Ankwicz is 'bp lwowski i praski' in KZS; I wrote only 'biskup'. Fischer: KZS says 1883 owner W. Fischer, 'w tym czasie połączona ... przebudowana (proj. Antoni Siedek)'; facade dated 1883 with his monogram. Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S3: Katalog dates only the stucco decoration of the chapel, not the chapel itself",
+    "S4: the arcades had their own designer (Teofil Zebrawski); no longer attributed to Pierret",
+    "S5: Katalog: '1883 Władysław Fischer; w tym czasie połączona ... i przebudowana (proj. Antoni Siedek)' — Fischer was the owner, not the one who merged it"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=112",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=113",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=114"
+   ]
+  }
+ },
+ {
+  "entry_id": "nid-PL.1.9.ZIPOZ.NID_N_12_BK.194351",
+  "address": "Rynek Główny 41",
+  "text": "Do 1913–1914 r. na tym miejscu stały trzy kamienice: od Rynku Tryblowska i Fridrichszmalcowska (Krzeszowska), a od ulicy św. Jana kamienica Ważyńskich. [1] Około 1800 r. Fridrichszmalcowska należała do senatora Feliksa Radwańskiego, a do 1846 r. na jej pierwszym piętrze działała restauracja „Pod Trąbką”. [2] W latach 1913–1914 wszystkie trzy domy były własnością Tomasza Będzikowicza i wkrótce je rozebrano. [2] Obecny gmach powstał w latach 1928–1932 według projektu Adolfa Szyszko-Bohusza dla wiedeńskiego towarzystwa ubezpieczeniowego „Feniks”, które miało w nim siedzibę i od którego wziął nazwę; jako pierwszy w Krakowie miał klimatyzację i witryny w aluminiowych ramach, a od sterczyn na attyce nazywano go też Pod Kominami. [2] Aluminiowa rzeźba Hygei na narożniku została zdjęta po 1940 r. i wróciła na miejsce w 1996 r. podczas generalnego remontu. [2]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 114",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=114"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 115",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=115"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S4: rephrased an 8-word run copied from the Katalog"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=114",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=115"
+   ]
+  }
+ },
+ {
+  "entry_id": 4488,
+  "address": "Rynek Główny 42",
+  "text": "Kamienicę wzniesiono na początku XIV w.; w latach 1493–1562 należała do Bonerów, a ok. 1525 r. przebudowano ją na pałac. [1] Nazwę Zacherlowska zawdzięcza rodzinie Zecherlów, właścicielom od ok. 1630 do 1722 r.; w latach 1633–1640 dodano drugie piętro, kamienną klatkę schodową i boczną oficynę z kaplicą. [1] W 1878 r. właścicielami byli Pareńscy i w tym czasie zabudowę scalono w trójskrzydłowy pałac neorenesansowy z trzecim piętrem i nowymi elewacjami (architekt Karol Borkowski). [1] W latach 1864–1926 działał tu zakład fotograficzny Ignacego Kriegera, a w latach 1903–1929 na trzecim piętrze mieszkał Feliks Manggha Jasieński. [1] W pomieszczeniu frontowym parteru zachował się malowany renesansowy strop z ok. 1520 r. z motywami roślinnymi. [1]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 116",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=116"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "KZS heads it 'NR 42, kamienica Bonerowska, ... zw. także Zacherlowską'. 'za których ok. 1525' = Bonerowie owned 1493-1562. Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: 'za których' tie removed; Katalog only dates the rebuild within the Boner ownership",
+    "S3: Katalog: '1878 właścicielami Pareńscy, w tym czasie scalenie ... (arch. Karol Borkowski)'; 'po 1878, za Pareńskich' fixed"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=116"
+   ]
+  }
+ },
+ {
+  "entry_id": 4490,
+  "address": "Rynek Główny 44-44a",
+  "text": "Do 1841 r. stały tu dwie osobne kamienice: Bełzowska od zachodu i Betmanowska od wschodu, zwana również Pod Ściętą Głową. [1] Betmanowską przed 1600 r. przebudowano na renesansowy pałac z kolumnowymi krużgankami, a w 1693 r. jej właścicielem był aptekarz Paweł Soldadini. [2] W 1841 r., gdy obie kamienice należały do Wincentego Kirchmajera, połączono je i przebudowano, nadając im nową fasadę z płaskorzeźbą w attyce, przedstawiającą żaglowiec, parowóz oraz Merkurego, Cererę i Atenę z tarczą z jego monogramem. [2,3] W latach 1850–1947 na parterze działał sklep kolonialny Jawornickich, a w latach 1885–1914 kawiarnia Józefa Kijaka. [2] Podczas przebudowy w latach 1896–1898 odsłonięto gotycką płaskorzeźbę z XV w., przedstawiającą anioły podtrzymujące misę z głową św. Jana Chrzciciela – dawne godło kamienicy Betmanowskiej. [2,3]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 119",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=119"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 120",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=120"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 121",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=121"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "44-44a treated as one building (KZS 'NR 44, kamienica Kirchmajerów'). Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S3: Katalog: '1841 właścicielem obu kamienic Wincenty Kirchmajer; w tym czasie połączone i przebudowane' — ownership tie fixed",
+    "S5: rephrased an 8-word run copied from the Katalog"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=119",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=120",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=121"
+   ]
+  }
+ },
+ {
+  "entry_id": 4493,
+  "address": "Rynek Główny 46",
+  "text": "Kamienicę Czerwoną wzniesiono około połowy XIV w.; od nazwiska właścicieli z końca XV i pierwszej połowy XVI w., Brendlerów, nazywano ją także Brendlarowską. [1] Około 1690 r., gdy kamienica należała do Morsztynów, nadbudowano drugie piętro, a ok. 1800 r. na parterze działała cukiernia T. Maliszewskiego. [1] Obecna neoklasycystyczna fasada pochodzi z 1827 r., a modernistyczny wystrój parteru z ok. 1930 r. [1,2] Podczas remontu w 2004 r. odsłonięto na pierwszym piętrze stropy belkowe, na jednym z nich malowidła ze scenami myśliwskimi i datą 1622. [1]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 123",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=123"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 124",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=124"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "DATA PROBLEM: entry 4493 (GEZ: 'kamienica Czerwona, Dom Brendlarowski', NID 'kamienica Czerwona') carries name 'Kamienica Pod Orłem' and the Pod Orłem Wikipedia link, which belong to no. 45 (entry 4492, KZS 'NR 45, kamienica Kromerowska ... Pod Orłem'). Text is about no. 46 Kamienica Czerwona per KZS; wikipedia set null. 'W latach 90. XVII w.' = KZS 'ok. 1690 remont, m.i. nadbudowa II p.' with Morsztynowie owners in 4th quarter 17th c.; verifier may prefer 'ok. 1690'. Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests'). Verifier: confirmed NR 45 = kamienica Kromerowska 'Pod Orłem' (scan 121) and NR 46 = kamienica Czerwona (scan 123); agree the Pod Orłem name/link on 4493 is wrong.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: Katalog: 'koniec w. XV - 1. poł. w. XVI właścicielami Brendlerowie' (not 'przełom')",
+    "S2: Katalog: '4. ćw. w. XVII Morsztynowie. Ok. 1690 remont, m.i. nadbudowa II p.'"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=123",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=124"
+   ]
+  }
+ },
+ {
+  "entry_id": 4494,
+  "address": "Rynek Główny 47",
+  "text": "Kamienica stała już przed 1300 r. i należała do wójta sandomierskiego Witka; po buncie wójta Alberta król Władysław Łokietek skonfiskował ją w 1312 r. i przekazał pisarzowi miejskiemu Hankowi. [1] W 1391 r. mieściła się tu mennica, a do XVI w. był to największy dom przy Rynku. [1] W 1600 r., gdy należał do Myszkowskich (wtedy do marszałka wielkiego koronnego Zygmunta), przebudowano go na późnorenesansowy pałac, a po 1770 r. działał w nim zajazd Pod Opatrznością. [1] W latach 1816–1840 budynek przerobiono na Hotel Drezdeński, a do 1935 r. dostosowano na bank, zadaszając dziedziniec jako salę kasową według projektu Teodora Hoffmana. [1,2] Późnobarokowa fasada pochodzi z 1727 r. [2]",
+  "sources": [
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 124",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=124"
+   },
+   {
+    "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 125",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=125"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Main source: Katalog Zabytków Sztuki (IS PAN, copyrighted) - facts restated, no quotes. Wikipedia not fetched (API rate-limited, HTTP 'too many requests').",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S3: 'za Myszkowskich' replaced by what the page says (owners from 1591, in 1600 Zygmunt; rebuild 1600)"
+   ],
+   "checked_urls": [
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=124",
+    "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=125"
+   ]
+  }
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "group": "rynek",
+  "entry_id": 4472,
+  "address": "Rynek Główny 24",
+  "name": "Kamienica Pod Kanarkiem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Kanarkiem"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4473,
+  "address": "Rynek Główny 25",
+  "name": "Kamienica Pod Krukami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Krukami_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4474,
+  "address": "Rynek Główny 26",
+  "name": "Kamienica Pod św. Janem Kapistranem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Bw._Janem_Kapistranem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4475,
+  "address": "Rynek Główny 27",
+  "name": "Pałac Pod Baranami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_%E2%80%9EPod_Baranami%E2%80%9D_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4476,
+  "address": "Rynek Główny 28",
+  "name": "Kamienica Pod Jagnięciem",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jagni%C4%99ciem_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4477,
+  "address": "Rynek Główny 29",
+  "name": "Kamienica Pod Blachą",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Blach%C4%85_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4478,
+  "address": "Rynek Główny 30",
+  "name": "Pałac Małachowskich",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Ma%C5%82achowskich_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4479,
+  "address": "Rynek Główny 31",
+  "name": "Budynek Banku Pekao",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Budynek_Banku_Pekao_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4480,
+  "address": "Rynek Główny 32",
+  "name": "Kamienica Pod Trzema Gwiazdami",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_%E2%80%9EPod_Trzema_Gwiazdami%E2%80%9D_w_Krakowie"
+ },
+ {
+  "group": "rynek",
+  "entry_id": 4482,
+  "address": "Rynek Główny 34",
+  "name": "Pałac Spiski",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Spiski_w_Krakowie"
+ }
+]
