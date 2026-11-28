@@ -41,12 +41,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Biskupia_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 4
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Adama Chmielowskiego",
@@ -64,12 +66,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Adama_Chmielowskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Aleja Ignacego Daszyńskiego",
@@ -87,12 +91,14 @@
     "url": "https://pl.wikipedia.org/wiki/Aleja_Ignacego_Daszy%C5%84skiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Aleja Jerzego Waszyngtona",
@@ -111,12 +117,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%9Bw._Bronis%C5%82awy_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Aleja Juliusza Słowackiego",
@@ -142,12 +150,14 @@
     "url": "https://pl.wikipedia.org/wiki/Aleja_Juliusza_S%C5%82owackiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Aleja Powstania Warszawskiego",
@@ -165,12 +175,14 @@
     "url": "https://pl.wikipedia.org/wiki/Aleja_Powstania_Warszawskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Aleja Solidarności",
@@ -195,12 +207,14 @@
     "url": "https://pl.wikipedia.org/wiki/Aleja_Solidarno%C5%9Bci_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Aleksandra Lubomirskiego",
@@ -218,12 +232,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Aleksandra_Lubomirskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Andrzeja Potebni",
@@ -242,12 +258,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Andrzeja_Potebni_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Bartosza",
@@ -266,12 +284,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Bartosza_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Basztowa",
@@ -324,12 +344,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 5
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Beera Meiselsa",
@@ -349,12 +371,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Blich",
@@ -372,12 +396,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Blich_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Bonerowska",
@@ -396,12 +422,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Bonerowska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Bracka",
@@ -462,12 +490,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 7
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Bulwar Czerwieński",
@@ -485,12 +515,14 @@
     "url": "https://pl.wikipedia.org/wiki/Bulwar_Czerwie%C5%84ski_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Ciemna",
@@ -509,12 +541,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Ciemna_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Czapskich",
@@ -533,12 +567,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Czapskich_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Doktora Ludwika Zamenhofa",
@@ -556,12 +592,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Ludwika_Zamenhofa_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Dolnych Młynów",
@@ -580,12 +618,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Dolnych_M%C5%82yn%C3%B3w_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Długa",
@@ -605,12 +645,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Floriańska",
@@ -630,12 +672,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Garbarska",
@@ -665,12 +709,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Garncarska",
@@ -696,12 +742,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Garncarska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Gołębia",
@@ -745,12 +793,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Grodzka",
@@ -789,12 +839,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Hieronima Wietora",
@@ -819,12 +871,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Hieronima_Wietora_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Ignacego Jana Paderewskiego",
@@ -849,12 +903,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Ignacego_Paderewskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Izaaka",
@@ -879,12 +935,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Izaaka_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Jagiellońska",
@@ -916,12 +974,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Jakuba",
@@ -946,12 +1006,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Jakuba_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Jasnogórska",
@@ -969,12 +1031,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Jasnog%C3%B3rska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Juliana Dunajewskiego",
@@ -999,12 +1063,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Juliana_Dunajewskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Juliusza Lea",
@@ -1034,12 +1100,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Juliusza_Lea_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Józefa",
@@ -1084,12 +1152,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 4
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Józefa Sarego",
@@ -1107,12 +1177,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_J%C3%B3zefa_Sarego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Kalwaryjska",
@@ -1131,12 +1203,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Kalwaryjska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Kanonicza",
@@ -1168,12 +1242,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Karmelicka",
@@ -1200,12 +1276,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Kazimierza Brodzińskiego",
@@ -1224,12 +1302,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Kazimierza_Brodzi%C5%84skiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Koletek",
@@ -1249,12 +1329,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Krakowska",
@@ -1274,12 +1356,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Krowoderska",
@@ -1309,12 +1393,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Krowoderska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Krupnicza",
@@ -1334,12 +1420,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Królewska",
@@ -1374,12 +1462,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Kr%C3%B3lewska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Królowej Jadwigi",
@@ -1398,12 +1488,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Kr%C3%B3lowej_Jadwigi_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Księcia Józefa",
@@ -1429,12 +1521,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Ksi%C4%99cia_J%C3%B3zefa_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Kupa",
@@ -1472,12 +1566,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Kurniki",
@@ -1503,12 +1599,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Kurniki_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Legionów Józefa Piłsudskiego",
@@ -1561,12 +1659,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Legion%C3%B3w_J%C3%B3zefa_Pi%C5%82sudskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 6
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Loretańska",
@@ -1585,12 +1685,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Loreta%C5%84ska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Lwowska",
@@ -1616,12 +1718,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Lwowska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Marcina Borelowskiego-Lelewela",
@@ -1640,12 +1744,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Marcina_Borelowskiego-Lelewela_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Marszałka Józefa Piłsudskiego",
@@ -1664,12 +1770,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Marsza%C5%82ka_J%C3%B3zefa_Pi%C5%82sudskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Mały Rynek",
@@ -1725,12 +1833,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 6
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Melchiora Wańkowicza",
@@ -1762,12 +1872,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Melchiora_Wa%C5%84kowicza_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Mikołaja Kopernika",
@@ -1787,12 +1899,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Mikołaja Zyblikiewicza",
@@ -1810,12 +1924,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Miko%C5%82aja_Zyblikiewicza_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Mikołajska",
@@ -1835,12 +1951,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Mogilska",
@@ -1859,12 +1977,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Mogilska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Oboźna",
@@ -1882,12 +2002,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Obo%C5%BAna_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Ogrodowa",
@@ -1905,12 +2027,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Ogrodowa_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Paulińska",
@@ -1930,12 +2054,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Piwna",
@@ -1959,12 +2085,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Piwna_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Dominikański",
@@ -1984,12 +2112,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Emila Serkowskiego",
@@ -2007,12 +2137,14 @@
     "url": "https://pl.wikipedia.org/wiki/Plac_Emila_Serkowskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Inwalidów",
@@ -2031,12 +2163,14 @@
     "url": "https://pl.wikipedia.org/wiki/Plac_Inwalid%C3%B3w_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Jana Matejki",
@@ -2056,12 +2190,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Juliusza Kossaka",
@@ -2080,12 +2216,14 @@
     "url": "https://pl.wikipedia.org/wiki/Plac_Juliusza_Kossaka_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Lasoty",
@@ -2103,12 +2241,14 @@
     "url": "https://pl.wikipedia.org/wiki/Plac_Lasoty_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Mariacki",
@@ -2128,12 +2268,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Na Groblach",
@@ -2153,12 +2295,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Szczepański",
@@ -2178,12 +2322,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Wolnica",
@@ -2227,12 +2373,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Wszystkich Świętych",
@@ -2262,12 +2410,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Plac Świętej Marii Magdaleny",
@@ -2286,12 +2436,14 @@
     "url": "https://pl.wikipedia.org/wiki/Plac_%C5%9Bw._Marii_Magdaleny_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Podzamcze",
@@ -2311,12 +2463,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Pomorska",
@@ -2334,12 +2488,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_J%C3%B3zefa_Wybickiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Poselska",
@@ -2385,12 +2541,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 4
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Pędzichów",
@@ -2408,12 +2566,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_P%C4%99dzich%C3%B3w_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Rajska",
@@ -2432,12 +2592,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Rajska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Rynek Dębnicki",
@@ -2456,12 +2618,14 @@
     "url": "https://pl.wikipedia.org/wiki/Rynek_D%C4%99bnicki_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Rynek Główny",
@@ -2501,12 +2665,14 @@
     "url": "https://pl.wikipedia.org/wiki/Rynek_G%C5%82%C3%B3wny_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 4
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Rzeźnicza",
@@ -2524,12 +2690,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Rze%C5%BAnicza_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Senacka",
@@ -2549,12 +2717,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Sereno Fenn'a",
@@ -2572,12 +2742,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Sereno_Fenn%E2%80%99a_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Sienna",
@@ -2647,12 +2819,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 6
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Skawińska",
@@ -2695,12 +2869,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Skałeczna",
@@ -2733,12 +2909,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Starowiślna",
@@ -2769,12 +2947,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Stolarska",
@@ -2793,12 +2973,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Stolarska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Stradomska",
@@ -2830,12 +3012,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Strzelecka",
@@ -2855,12 +3039,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Studencka",
@@ -2879,12 +3065,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Studencka_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Szczepańska",
@@ -2904,12 +3092,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Szeroka",
@@ -2941,12 +3131,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Szewska",
@@ -2980,12 +3172,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Szlak",
@@ -3005,12 +3199,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Szpitalna",
@@ -3049,12 +3245,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Sławkowska",
@@ -3081,12 +3279,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Tadeusza Pawlikowskiego",
@@ -3105,12 +3305,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Tadeusza_Pawlikowskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Tyniecka",
@@ -3129,12 +3331,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Tyniecka_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Wadowicka",
@@ -3153,12 +3357,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Wadowicka_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Warszawska",
@@ -3178,12 +3384,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Wenecja",
@@ -3202,12 +3410,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Wenecja_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Westerplatte",
@@ -3239,12 +3449,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Westerplatte_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 3
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Wielopole",
@@ -3271,12 +3483,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Wiślna",
@@ -3296,12 +3510,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Wojciecha Bogusławskiego",
@@ -3320,12 +3536,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_Wojciecha_Bogus%C5%82awskiego_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Władysława Spasowskiego",
@@ -3343,12 +3561,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%81obzowska_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Władysława Warneńczyka",
@@ -3366,12 +3586,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_W%C5%82adys%C5%82awa_Warne%C5%84czyka_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Łobzowska",
@@ -3391,12 +3613,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętego Filipa",
@@ -3415,12 +3639,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%9Bw._Filipa_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętego Jana",
@@ -3439,12 +3665,14 @@
     "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%9Bw._Jana_w_Krakowie"
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętego Krzyża",
@@ -3464,12 +3692,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętego Marka",
@@ -3515,12 +3745,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 4
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętego Tomasza",
@@ -3602,12 +3834,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 8
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętego Wawrzyńca",
@@ -3627,12 +3861,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętej Anny",
@@ -3659,12 +3895,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 2
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętej Gertrudy",
@@ -3684,12 +3922,14 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  },
  {
   "street": "Świętej Katarzyny",
@@ -3709,11 +3949,13 @@
     "library": true
    }
   ],
-  "status": "ai_draft_unverified",
+  "status": "verified",
   "extracted_at": "2026-11-20",
   "verification": {
    "removed": [],
    "checked": 1
-  }
+  },
+  "approved_by": "owner",
+  "approved_at": "2026-11-28"
  }
 ]

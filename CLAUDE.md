@@ -179,23 +179,20 @@ promote their own texts.
 
 ## Known limitations
 - Building descriptions exist for ~9% of addresses (GEZ + Wikidata + NID)
-  plus 125 AI-researched texts, all approved by the owner and shown without
-  the AI label: 27 from batch 1 (2026-11-20) and 98 from batch 2
-  (iteration 3; owner approved all in chat on 2026-11-26, review doc
-  "Opisy AI do sprawdzenia — iteracja 3",
-  https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6 — its copy of Józefa 38
-  has one typo, "srebr" for "sreber"; ai_drafts.json is the reference). The
-  former street names (street_history.json) are NOT approved yet and keep
-  their AI note. Batch 3 (2026-11-26…28): 88 more texts (`"batch": 3`,
-  `ai_draft_unverified`, labelled) from the Katalog Zabytków (31 Rynek
-  houses), Chmiel (43 houses) and Klaś (14 Nowa Huta buildings), waiting for
-  the owner. 179 addresses have a historian-sourced text (cites a library
-  page). Thanks to the 600 m fallback, ~95% of addresses show at least
-  a nearby place; outer-district fallback places can be 400–600 m away.
+  plus 213 AI-researched texts, ALL approved by the owner and shown without
+  the AI label: 27 from batch 1 (2026-11-20), 98 from batch 2 (approved
+  2026-11-26) and 88 from batch 3 (approved in chat 2026-11-28). Review docs:
+  "Opisy AI do sprawdzenia — iteracja 3"
+  (https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6; its Józefa 38 copy has
+  a typo "srebr") and "… iteracja 3, partia 3"
+  (https://claude.ai/artifact/Aobbyq3VLbRpeKNVRH8cd4); ai_drafts.json is
+  the reference text. 179 addresses have a historian-sourced text (cites a
+  library page). Thanks to the 600 m fallback, ~95% of addresses show at
+  least a nearby place; outer-district fallback places can be 400–600 m away.
 - Street stories cover 552 of 2,874 streets (25% of addresses). Former
   names with dates for 121 streets (53 from Tomkowicz 1926 / Nowolecki 1884,
   the rest from pl.wikipedia articles), AI-extracted and verifier-checked,
-  shown with an AI note until the owner approves the list. Tomkowicz's
+  approved by the owner on 2026-11-28 (shown without the AI note). Tomkowicz's
   ranges are years a name is attested, not official naming dates; the
   Polona copy lacks the scans for pp. 126–127 (Stolarska). Patron
   birth/death years come from Wikidata and can be imprecise for early
@@ -343,3 +340,6 @@ promote their own texts.
   library.py; 88 new verified + edited texts (Rynek 31 from the Katalog,
   Chmiel 43, Nowa Huta 14 from Klaś; 1 dropped), status ai_draft_unverified;
   4 more wrong Wikidata links blocked; historian-sourced addresses 89 → 179.
+- 2026-11-28 — Owner approved all 88 batch-3 texts and the former street
+  names (121 streets): status `verified`, approved_by owner,
+  approved_at 2026-11-28; rebuilt; spot-checks show no AI labels.
