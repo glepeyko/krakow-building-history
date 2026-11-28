@@ -102,6 +102,23 @@ class StreetHistoryFileTests(unittest.TestCase):
                     self.assertTrue(s["url"].startswith("https://") and s["title"].strip())
 
 
+class ResidentsFileTests(unittest.TestCase):
+    PATH = ROOT / "data" / "research" / "residents_1913.json"
+
+    @unittest.skipUnless(PATH.exists(), "no residents file")
+    def test_schema(self):
+        for rec in json.loads(self.PATH.read_text(encoding="utf-8")):
+            with self.subTest(address=f'{rec["street"]} {rec["number"]}'):
+                self.assertTrue(rec["checked_on_image"])
+                self.assertIn(rec.get("status", "ai_draft_unverified"), ("ai_draft_unverified", "verified"))
+                scans = {s["url"].rsplit("#page=", 1)[-1] for s in rec["sources"]}
+                for s in rec["sources"]:
+                    self.assertTrue(s["url"].startswith("https://") and "#page=" in s["url"])
+                for e in rec["entries"]:
+                    self.assertTrue(e["name"].strip())
+                    self.assertIn(str(e["scan"]), scans, "entry without a cited page")
+
+
 class NearbyDedupTests(unittest.TestCase):
     def poi(self, title, lat=50.0, lon=20.0, street="", number=""):
         return {"title": title, "lat": lat, "lon": lon, "street": street, "number": number}

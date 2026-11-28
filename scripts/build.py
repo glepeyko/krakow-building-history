@@ -635,6 +635,34 @@ def same_place(p, q) -> bool:
         return True
     return bool(distinctive(a) & distinctive(b))
 
+
+# ---------------------------------------------------------------- residents (address books)
+def merge_residents(streets):
+    """data/research/residents_1913.json -> numbers[n]["residents"]
+    {year, entries[{name, occupation}], sources[], status}. Every entry was
+    read on the page image of the address book (checked_on_image)."""
+    stats = Counter()
+    path = RESEARCH / "residents_1913.json"
+    if not path.exists():
+        return stats
+    for rec in load_json(path):
+        if not rec.get("checked_on_image") or not rec.get("entries"):
+            stats["skipped"] += 1
+            continue
+        st = streets.get(rec["street"])
+        if st is None or rec["number"] not in st["numbers"]:
+            stats["unmatched"] += 1
+            continue
+        st["numbers"][rec["number"]]["residents"] = {
+            "year": rec.get("year", 1913),
+            "entries": [{"name": e["name"], "occupation": e.get("occupation", "")} for e in rec["entries"]],
+            "sources": rec["sources"],
+            "status": rec.get("status", "ai_draft_unverified"),
+        }
+        stats["addresses"] += 1
+        stats["entries"] += len(rec["entries"])
+    return stats
+
 # ---------------------------------------------------------------- same-named streets
 def split_outside_streets(osm, district_index, municipality_index):
     """Streets whose name exists both in Kraków and in a neighbouring gmina
@@ -921,6 +949,9 @@ def main():
             for p in number_parts(c["from"]):
                 streets[r["street"]]["numbers"].setdefault(p, {})["moved_to"] = c["to"]
 
+    # ---- "Who lived here": residents/businesses from old address books
+    residents_stats = merge_residents(streets)
+
     # ---- AI drafts (labelled, unverified) merged into their entries
     drafts = load_ai_drafts()
     draft_stats = Counter()
@@ -1050,7 +1081,7 @@ def main():
     if old.exists():
         old.unlink()
 
-    extra = {"gap_stats": gap_stats, "split_stats": split_stats, "history_stats": history_stats,
+    extra = {"residents_stats": residents_stats, "gap_stats": gap_stats, "split_stats": split_stats, "history_stats": history_stats,
              "nid_entries": len(nid_entries), "photo_count": photo_count, "nid_stats": nid_stats, "stories": stories, "story_stats": story_stats, "district_stats": district_stats,
              "draft_stats": draft_stats, "street_list": street_list}
     write_report(records, wd_entries + nid_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets, extra)
@@ -1218,6 +1249,8 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"({100 * old_numbers.get('match_rate', 0):.1f}%); confidence " +
         ", ".join(f"{k} {v}" for k, v in old_numbers.get("by_confidence", {}).items()) + ".",
         f"- Entries with a historian-sourced text: {len(hist_ids)}.",
+        f"- Addresses with residents/businesses from the 1913 address book (names checked on the page image): "
+        f"{extra['residents_stats'].get('addresses', 0)} ({extra['residents_stats'].get('entries', 0)} names).",
         "",
         "## GEZ register records",
         "",

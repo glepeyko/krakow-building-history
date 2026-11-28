@@ -490,6 +490,24 @@
       ${rows.length ? `<p class="source">Źródło: OpenStreetMap</p>` : ""}`;
   }
 
+  // "Who lived here": residents and businesses recorded at this address in
+  // an old address book; every name was checked on the page image.
+  function residentsBlock(slot) {
+    const r = slot.residents;
+    if (!r || !r.entries || !r.entries.length) return "";
+    const items = r.entries.map((p) => `<li>${esc(p.name)}${p.occupation ? ` — ${esc(p.occupation)}` : ""}</li>`).join("");
+    const refs = (r.sources || []).map((s) => `<li>${extLink(s.url, s.title)}</li>`).join("");
+    const label = r.status === "verified" ? ""
+      : ` <span class="ai-note">(wypisane przez AI z podanych stron, niezweryfikowane)</span>`;
+    return `
+      <section class="residents">
+        <h4>Mieszkańcy i firmy w ${esc(r.year)} r.</h4>
+        <ul>${items}</ul>
+        <p class="source">Źródło: Księga adresowa Krakowa ${esc(r.year)}${label}</p>
+        <ol class="sources">${refs}</ol>
+      </section>`;
+  }
+
   function nearbyBlock(slot, shard) {
     if (!slot.nearby || !slot.nearby.length) return "";
     const items = slot.nearby.map(([pid, dist]) => {
@@ -605,6 +623,12 @@
       resultsEl.appendChild(box);
     }
 
+    const residents = residentsBlock(slot);
+    if (residents) {
+      const wrap = document.createElement("div");
+      wrap.innerHTML = residents;
+      resultsEl.appendChild(wrap.firstElementChild);
+    }
     const near = nearbyBlock(slot, shard);
     if (near) {
       const wrap = document.createElement("div");
