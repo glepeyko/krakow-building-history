@@ -1,0 +1,246 @@
+[
+ {
+  "entry_id": 4454,
+  "address": "Rynek Główny 6",
+  "text": "Według Tomkowicza narożny dom przy Rynku i ulicy Siennej jeszcze blisko połowy XVII w. nazywano kamienicą Waissowską, a w aktach miejskich z 1642 r. opisano ją jako dawniej Waissowską, a obecnie zwaną Szarą. [1] Nazwa „Szara kamienica” należała wcześniej do innego domu przy ulicy Siennej i została przeniesiona na budynek przy Rynku. [1,2] Nowolecki podaje, że w 1607 r. kamienica należała do Mikołaja Zebrzydowskiego, wojewody krakowskiego i przywódcy rokoszu. [2] W 1884 r. właścicielem był Stanisław Feintuch, który według Wikipedii kupił dom w 1853 r., przyjął nazwisko Szarski i otworzył tu sklep, z którego wyrosła firma kolonialna „Szarski i Syn”. [3,4] Na fasadzie wiszą tablice upamiętniające sztab Tadeusza Kościuszki w 1794 r. i kwaterę Rządu Narodowego w 1846 r. [4]",
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 47",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=62"
+   },
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), s. 86",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=112"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), s. 74",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   },
+   {
+    "title": "Wikipedia: Szara Kamienica w Krakowie",
+    "url": "https://pl.wikipedia.org/wiki/Szara_Kamienica_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Szara_Kamienica_w_Krakowie",
+  "notes": "Nowolecki 1880 lists the house as hip. no. 45 (= Rynek 6; 1884 list: 45 Feintuch Stanisław, Szara kamienica). The Zebrzydowski fact are on s. 86 and the line 'w posiadaniu jego rodziny była jeszcze w 1672 roku' runs onto the top of s. 87 (page=113); I cite s. 86 only. Legend of Sara (s. 87) deliberately omitted. Verifier: 1884 list s. 74 maps orient. 6–13 to hip. 45–52 and orient. 14–23 to hip. 8–17; all eight houses confirmed by owner names.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S3: removed 'którego rodzina miała ją jeszcze w 1672 r.' — stated on s. 87 (page=113), not on the cited s. 86"
+   ],
+   "checked_urls": [
+    "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=62",
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=112",
+    "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68",
+    "https://pl.wikipedia.org/w/index.php?title=Szara_Kamienica_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 4455,
+  "address": "Rynek Główny 7",
+  "text": "W XVII w. kamienica należała do rodziny Montelupich, którzy spolszczyli nazwisko na Wilczogórskich; ich herb widniał na sklepieniu sieni. [1] Tomkowicz przytacza zapis z 1642 r., w którym dom pod nr 7 obok Szarej Kamienicy nazwano kamienicą Wilczogórską. [2] W 1666 r. właścicielem był Franciszek Kortyni, a w latach 1680–1763 dom należał do Bractwa Włoskiego przy kościele św. Franciszka. [1] Według Wikipedii Sebastian Montelupi prowadził tu od 1569 r. pocztę, której gońcy jeździli do Wenecji, co upamiętnia tablica wmurowana w 1969 r. [3] Nowolecki odnotował w 1880 r. gotycki portal i sklepienie w mieszczącym się w kamienicy sklepie korzennym Fuchsa. [1]",
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), s. 87",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=113"
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 47",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=62"
+   },
+   {
+    "title": "Wikipedia: Dom Włoski w Krakowie",
+    "url": "https://pl.wikipedia.org/wiki/Dom_Włoski_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Dom_W%C5%82oski_w_Krakowie",
+  "notes": "Nowolecki 1880 hip. no. 46 (1884: 46 Bartynowscy) = Rynek 7. OCR 'Montelupich ... Wilczogórskieh', 'Fuclisa' (Fuchs). Wikipedia article is flagged as needing sources.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S4: 'królewską pocztę' -> 'pocztę' (Wikipedia: Montelupi took over the post operating in Poland; the royal court was its main client, not 'royal post')"
+   ],
+   "checked_urls": [
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=113",
+    "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=62",
+    "https://pl.wikipedia.org/w/index.php?title=Dom_W%C5%82oski_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 4456,
+  "address": "Rynek Główny 8",
+  "text": "Już w XVI w. dom nazywano „Pod Jaszczurką” od piętnastowiecznej kamiennej rzeźby z dwiema jaszczurkami, umieszczonej pierwotnie nad bramą, a w 1880 r. nad wejściem do sklepu. [1] W 1595 r. należał do aptekarza Szymona Ronenberga, w latach 1607–1614 do Abrahama Ronenberga, a w 1763 r. do Bractwa Włoskiego, które sprzedało go w 1792 r. [1] W 1884 r. właścicielem kamienicy był Edward Fuchs. [2] Według Wikipedii w średniowieczu budynek tworzył zapewne całość z sąsiednią kamienicą Bonerowską, a dziś działa w nim studencki klub Pod Jaszczurami. [3]",
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), s. 87",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=113"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), s. 74",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   },
+   {
+    "title": "Wikipedia: Kamienica Pod Jaszczurką w Krakowie",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jaszczurką_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jaszczurk%C4%85_w_Krakowie",
+  "notes": "Nowolecki 1880 hip. no. 47 = Rynek 8 (1884: 47 Fuchs Edward, 'Pod Jaszczurką'). Owner in 1880 Helcel Anna de Sternstein not used.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: 'płaskorzeźby' -> 'rzeźby' (Nowolecki: 'rzeźba z XV w.')"
+   ],
+   "checked_urls": [
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=113",
+    "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68",
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Jaszczurk%C4%85_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 4460,
+  "address": "Rynek Główny 12",
+  "text": "Według Wikipedii dzisiejszy budynek powstał w 1830 r. z połączenia dwóch kamienic, Fontanowskiej i Gutteterowskiej, które kupił generał Henryk Dembiński i nadał im wspólną fasadę. [1] Nowolecki zapisał, że jedna z części, dom przechodni na ulicę Stolarską, należała w 1571 r. do Jana Chrzciciela Fontaniego, radcy krakowskiego pochodzenia włoskiego, a w 1642 r. do doktora medycyny Gabriela Ochockiego. [2] Druga część była w 1571 r. własnością doktora medycyny Stanisława Gutteter, a w 1642 r. Kaspra Denhofa, wojewody sieradzkiego. [2] W latach 1791–1890 na pierwszym piętrze działała cukiernia Wielandów, a w 1884 r. kamienica należała do Ferdynanda i Juliusza Epsteinów. [1,3]",
+  "sources": [
+   {
+    "title": "Wikipedia: Kamienica Fontanowska w Krakowie",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Fontanowska_w_Krakowie"
+   },
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), s. 88",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=114"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), s. 74",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Fontanowska_w_Krakowie",
+  "notes": "Nowolecki 1880 lists hip. no. 51 twice (both owned by Epstein Ferdynand i Juljusz), i.e. the two merged houses; 1884 list: 51 Epstein = Rynek 12 (library_search). Assigning the Fontani entry to the Fontanowska part and the Gutteter entry to the Gutteterowska part follows the names; Nowolecki himself does not label them.",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=114",
+    "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68",
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Fontanowska_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 4464,
+  "address": "Rynek Główny 16",
+  "text": "Nowolecki podaje, że w XVII w. kamienicę nazywano Orlemusowską i Tymowską od rodzin, do których należała. [1] Mieszkał w niej generał Józef Chłopicki, naczelny wódz wojsk polskich w 1831 r., urodzony 24 marca 1771 r. [1] W tym domu zmarł 21 listopada 1862 r., w 88. roku życia, Marcin Tarnowski, oficer z czasów kościuszkowskich, później pułkownik wojsk polskich. [1] W 1880 r. kamienica należała do Natalii Kirchmajer i Matyldy Lebowskiej, a w 1884 r. jej właścicielką była Matylda Lebowska z Morbitzerów. [1,2]",
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), skan 103",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=102"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), s. 74",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Nowolecki 1880 scan 103 has no printed page number (between s. 75 and s. 77) and the 'Nr. nowy' column is lost in OCR; the house is identified by owner Lebowska Matylda = 1884 lc. 10 = Rynek 16 (library_search), and by the names Orlemusowska/Tymowska which match the GEZ name. OCR: 'Orlemu5owska', 'tymow-ika'. Tarnowski's biography continues on s. 77 (not used).",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S3: 'w wieku 88 lat' -> 'w 88. roku życia' (Nowolecki: 'umarł w 88 roku życia', i.e. aged 87)"
+   ],
+   "checked_urls": [
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=102",
+    "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   ]
+  }
+ },
+ {
+  "entry_id": 4465,
+  "address": "Rynek Główny 17",
+  "text": "Nowolecki pisze, że w XVII w. i później dom zwano Starą Mennicą, a nazwę kamienicy hetmańskiej wziął od Jana Klemensa Branickiego, hetmana wielkiego koronnego. [1] Za Rzeczypospolitej Krakowskiej na pierwszym piętrze mieściła się dyrekcja loterii liczbowej, w której co środę ciągnięto losy; loterię dzierżawił Florian Straszewski, twórca Plant. [1] Według Wikipedii najstarsze mury budynku pochodzą prawdopodobnie z końca XIII w., a w XIV w. powstała tu sala ze zwornikami z herbami ziem Korony i wizerunkiem Kazimierza Wielkiego. [2] Nazwa Stara Mennica wiąże się z rodziną Beerów, z której Kasper Beer miał w XVI w. prawo bicia monety, a w 1850 r. kamienica spłonęła w wielkim pożarze miasta. [2]",
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), s. 77",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=103"
+   },
+   {
+    "title": "Wikipedia: Kamienica Hetmańska w Krakowie",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Hetmańska_w_Krakowie"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Hetma%C5%84ska_w_Krakowie",
+  "notes": "Nowolecki 1880 hip. no. 11 = Rynek 17 (1884 lc. 11 Komorniccy/Gulkowscy). Nowolecki dates Branicki's ownership to 'the end of the 18th century'; Wikipedia says the Branickis held it from after 1659 and the hetman rebuilt it 1733/1756 — I avoided giving a date. OCR 'Braniekiego'.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S3: added the hedge 'prawdopodobnie' (Wikipedia: 'najprawdopodobniej jeszcze z końca XIII w.')"
+   ],
+   "checked_urls": [
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=103",
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Hetma%C5%84ska_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 4467,
+  "address": "Rynek Główny 19",
+  "text": "Nazwa pochodzi od obrazu Najświętszej Maryi Panny na fasadzie, namalowanego w 1718 r. [1,2] W pierwszej połowie XVII w. dom należał do rodziny Cellarich, których herby Nowolecki widział na sklepieniu sklepu, potem do Stanisława Warszyckiego, kasztelana krakowskiego, a później do Marii, wdowy po królewiczu Konstantym Sobieskim, z domu Wessel. [1,2] W 1884 r. właścicielem był Konrad Wentzel. [3] Według Wikipedii kamienica spłonęła w pożarze 1850 r. i w 1851 r. odnowiono ją ze zmienioną fasadą; restauracja założona tu przez Jana Wentzla dała nazwę dzisiejszemu hotelowi. [2]",
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), s. 77",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=103"
+   },
+   {
+    "title": "Wikipedia: Kamienica Pod Obrazem w Krakowie",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Obrazem_w_Krakowie"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), s. 74",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Obrazem_w_Krakowie",
+  "notes": "Nowolecki 1880 hip. no. 13 (owner Wentzel Marya) = Rynek 19; 1884 list: 13 Wentzel Konrad ('Pod obrazem'). OCR 'Wesslowćj' = Wessel.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S2: marker [1] -> [1,2]: 'wdowy po królewiczu' is stated by Wikipedia (sold 1735 to the widow); Nowolecki says only 'królewiczowej Konstant. Sobieskiej'"
+   ],
+   "checked_urls": [
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=103",
+    "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68",
+    "https://pl.wikipedia.org/w/index.php?title=Kamienica_Pod_Obrazem_w_Krakowie&action=raw"
+   ]
+  }
+ },
+ {
+  "entry_id": 4470,
+  "address": "Rynek Główny 22",
+  "text": "Nowolecki zapisał, że w 1625 r. kamienica należała do Piotra Tuccego. [1] W 1880 i 1884 r. jej właścicielami byli Józef i Helena Trauczyńscy. [1,2]",
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Wykaz ulic, placów, kościołów i domów miasta Krakowa i Podgórza ułożony na podstawie ksiąg hipotecznych (1880), s. 78",
+    "url": "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=104"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), s. 74",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Nowolecki 1880 hip. no. 16 = Rynek 22 (1884 lc. 16 Trauczyńscy, confirmed by library_search). The house name is OCR-garbled ('Jjicowska'), read as 'Tucowska' because the owner is 'Piotra Tuc-cego' and the GEZ name lists 'Tucowska'; verifier please check the scan. Only short material available. Verifier: 1880 scan 105 confirms hip. no. 16 = Trauczyński (1884 hip. 16 = orient. 22). Side issue: the entry's register photo/image (Balicka 297 kuźnia folwarczna) belongs to another object.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: removed the house name 'Tucowską' — the OCR reads 'Jjicowska' and the scan image could not be checked; the name cannot be confirmed from the cited page. Owner spelled as in the source ('Piotra Tuc-cego')."
+   ],
+   "checked_urls": [
+    "https://polona.pl/item-view/d01c8711-8acb-4c77-9fce-d7225282250d?page=104",
+    "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=68"
+   ]
+  }
+ }
+]

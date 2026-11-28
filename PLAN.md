@@ -24,6 +24,13 @@ about its street, its block, and what stands nearby.
   checked, freely readable historians' works (ranked), plus 18 unusable
   ones with reasons. Iteration 3 is built around it.
 
+- **Iteration 3 — done (2026-11-26, PR open).** Library of 16 cached
+  historians' texts (Polona, DBC; IS PAN, IA, RUJ, akademicka, MTG blocked
+  here), old-number index (1,650 rows, 78.7% matched), former names for 121
+  streets, 98 new verified texts (89 addresses with a historian-sourced
+  text), NID rows as entries, Wikidata↔GEZ gap pass, nearby de-duplication,
+  split same-named streets. Waiting: owner review of the 98 texts.
+
 ### Iteration 3 plan — a historical source library + research batch 2
 
 Goal: move from "a few famous houses" to systematic, sourced histories,

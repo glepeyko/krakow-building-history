@@ -1,0 +1,404 @@
+[
+ {
+  "entry_id": 1381,
+  "address": "Floriańska 22",
+  "text": "Wiadomości o tym domu sięgają połowy XVI w.; przez cały XVII w. był on tylko częściowo murowany, a od drugiej połowy tego stulecia nazywano go domem „pod Barankiem”. [1] W połowie XVI w. należał do kowala Jakuba, w 1577 r. do mistrza kowalskiego Szymona Krzyżka i jego żony Zofii, a w 1637 r. do aptekarza Andrzeja Sasnowicza, od którego zwano go „Sasinowskim”. [1,2] W 1682 r. kotlarz Jan Pfaff, właściciel sąsiedniej kamienicy „pod dzwony”, przejął zrujnowany dom z pochyloną drewnianą ścianą od ulicy, a rewizja z 1700 r. opisuje już kamienicę niedawno wymurowaną od fundamentów przez Pfaffów i wycenioną na 8000 złotych. [2,3,4,5] Około 1770 r. kamienica przeszła do mydlarza Józefa Cerchy, który jeszcze w 1791 r. prowadził tu swój zakład. [6] W 1880 r. właścicielka Stefania Strzelecka przebudowała ją według planów Karola Żychonia: nadbudowano drugie piętro i wykonano nową fasadę jego projektu, a w 1908 r., za właściciela Gustawa Hauslera, fabrykanta instrumentów muzycznych, zmieniono dolną część fasady i dodano murowany portal sklepowy projektu M. Krawczyńskiego. [7,8]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 91 (skan 35)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=35"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 92 (skan 36)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=36"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 93 (skan 37)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=37"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 94 (skan 38)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=38"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 95 (skan 39)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=39"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 98 (skan 42)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=42"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 99 (skan 43)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=43"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 100 (skan 45)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=45"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Barankiem_w_Krakowie_(ul._Floria%C5%84ska)",
+  "notes": "Chapter L. or. 22, sp. 331 (scans 35–45). Scans 43 and 44 are the same page 99 scanned twice; scan 43 cited. Wikipedia not used as a source.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S5: \"przerobiono parter\" -> \"zmieniono dolną część fasady\" (s. 99-100: only the lower part of the facade was changed in 1908, plus the new shop portal)."
+   ],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=35",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=36",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=37",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=38",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=39",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=42",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=43",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=45"
+   ]
+  },
+  "editor": {
+   "changes": [
+    "S5: \"za Gustawa Hauslera\" -> \"za właściciela Gustawa Hauslera\" and commas, for clarity.",
+    "S5: Żychoń designed, did not build himself; rephrased so the architect is not the subject of \"nadbudował\"."
+   ]
+  }
+ },
+ {
+  "entry_id": 1389,
+  "address": "Floriańska 30",
+  "text": "W 1564 r. ta skromna kamienica o trzech oknach frontu należała do karczmarza Jana Konia, a od końca XVI do połowy XVIII w. pozostawała w rękach jednej rodziny. [1] Po śmierci kowala Hanusa Kosli dom, który miał wtedy murowany tylko parter, a piętra drewniane, podzielono w 1592 r. na trzy części między jego trzy córki. [2] Od rodziny prasoła Stanisława Pieska, męża jednej z nich, nazywano go później kamienicą „Pieskowiczowską”. [3] W 1788 r. należała do kotlarza Józefa Stattlera, a w 1845 r. kotlarz Józef Kossowski przebudował tylną oficynę na murowany budynek jednopiętrowy, w którym mieściła się pracownia kotlarska. [4,5] Przez 12 lat, do września 1909 r., na drugim piętrze mieszkał tu sam Adam Chmiel, którego do 1906 r. niemal codziennie odwiedzał Stanisław Wyspiański; omawiali wtedy razem pomysły dzieł literackich i malarskich Wyspiańskiego. [6]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 131 (skan 80)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=80"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 132 (skan 81)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=81"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 133 (skan 82)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=82"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 137 (skan 86)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=86"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 138 (skan 87)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=87"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 139 (skan 88)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=88"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Chapter L. or. 30, sp. 335 (scans 80–88). library_search prints 's. 138' for scan 82 (OCR of the page number); the real page is 133 (between 132 on scan 81 and 134 on scan 83), corrected in the title. Verifier: scan 82 checked - OCR prints \"138\", but scans 81 and 83 are s. 132 and s. 134 and the text runs on (Kosla daughters, Piesek); page 133 in the title is correct.",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=80",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=81",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=82",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=86",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=87",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=88"
+   ]
+  },
+  "editor": {
+   "changes": [
+    "S1: reordered so the dates run chronologically (1564 owner first, then the one-family period).",
+    "S5: unclear \"swoich dzieł\" (whose?) made explicit as Wyspiański's works, as on s. 139 (\"dzieł Jego\")."
+   ]
+  }
+ },
+ {
+  "entry_id": 1393,
+  "address": "Floriańska 34",
+  "text": "W 1564 r. dom należał do karczmarza Mikołaja Ząbka, a w 1577 r. do krawca Stanisława Goślińskiego; nazywano go wówczas „domem Goslinowskim”. [1] W 1626 r. córki zmarłego Jana Dilągowicza podzieliły między siebie kamienicę, wtedy jeszcze jednopiętrową: jednej przypadło piętro, drugiej parter. [1] Około 1800 r. właścicielem był kotlarz Joachim Stattler, syn Józefa, właściciela kamienicy nr 30, który w 1794 r. był w obozie Tadeusza Kościuszki i zmarł we własnej kamienicy w 1825 r.; jego synem był malarz Wojciech Korneli Stattler, urodzony w Krakowie w 1800 r. [2,3] Wojciech Korneli Stattler po nauce malarstwa w Rzymie przyjechał w 1823 r. do Krakowa i do połowy 1824 r. mieszkał w kamienicy ojca. [4] W 1876 r. zbudowano od fundamentów nową klatkę schodową w tylnej części domu, a od 1897 r. kamienica należała do lekarza i radcy miejskiego dr. Ludwika Schneidera. [4,5]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 144 (skan 95)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=95"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 145 (skan 96)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=96"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 146 (skan 97)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=97"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 147 (skan 98)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=98"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 148 (skan 99)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=99"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Chapter L. or. 34, sp. 337 (scans 95–99). Chmiel (s. 145, footnote) says M. Szukiewicz wrongly placed the Stattler house at Floriańska 19; Chmiel puts it at no. 34.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: \"od którego zwano go\" -> \"dom nazywano wówczas\" (s. 144 gives the name \"Dom Goslinowski, jak go nazywano\" but does not state the derivation)."
+   ],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=95",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=96",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=97",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=98",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=99"
+   ]
+  },
+  "editor": {
+   "changes": [
+    "S3: \"syn Józefa z kamienicy nr 30\" -> \"syn Józefa, właściciela kamienicy nr 30\" (clearer).",
+    "S4: full name repeated at the start of the sentence.",
+    "S1: removed repeated \"dom\"."
+   ]
+  }
+ },
+ {
+  "entry_id": 1395,
+  "address": "Floriańska 36",
+  "text": "W połowie XVI w. kamienica należała do mieszczańskiej rodziny Różanków: w 1544 r. do karczmarza Różanki, a w 1564 r. do kuśnierza Jana Różanki. [1] Później odziedziczył ją Stanisław Różanka, doktor filozofii i medycyny, lekarz hetmana Jana Tarnowskiego, gorliwy arianin i rajca krakowski w 1570 r., który zmarł na przełomie 1571 i 1572 r. [2] W 1656 r. właścicielem był Jan Ścibor Chełmski, łowczy krakowski, a pod koniec XVII w. Marcjan Ścibor Chełmski, pułkownik gwardii królewskiej i uczestnik bitwy pod Wiedniem w 1683 r. [3] W latach 1814–1815 w zrujnowanej kamienicy kwaterowali żołnierze rosyjscy, a od 1818 r. Marcin Olechowski przerabiał ją na dom zajezdny. [4] W latach 1822–1824 Małgorzata Grudkowska odnowiła fasadę według planów majstra murarskiego Wawrzyńca Borońskiego i kamienica zachowała ten wygląd jeszcze w czasach Chmiela, choć straciła attykę. [4,5]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 148 (skan 99)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=99"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 149 (skan 100)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=100"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 151 (skan 102)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=102"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 152 (skan 103)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=103"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 153 (skan 104)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=104"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Chapter L. or. 36, sp. 338 (scans 99–105).",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=99",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=100",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=102",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=103",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=104"
+   ]
+  },
+  "editor": {
+   "changes": []
+  }
+ },
+ {
+  "entry_id": 1397,
+  "address": "Floriańska 38",
+  "text": "W 1564 r. kamienica należała do karczmarza Pawła Kijaka, a w 1593 r. mieszkał w niej drukarz Stefan. [1] Od karczmarza Andrzeja Głowy (1607) nazywano ją „Głowińską”, a w 1674 r. jej właścicielem był kotlarz Kazimierz Janicki, przy którego nazwisku spis czynszów z 1706 r. odnotował ubóstwo. [2,3] W 1732 r. przeszła do Piotra Bianchiego, podczaszego liwskiego z rodziny pochodzenia włoskiego, a rewizje z 1732 i 1750 r. opisują ją jako bardzo zniszczoną. [3,4] W 1823 r. spustoszałą kamienicę kupił na licytacji Tomasz Obrębski, ale odnowił ją dopiero następny właściciel, Wincenty Kalisiński (Kaliciński), w latach 1838–1840. [5] W 1897 r. przebudowano klatkę schodową i fasadę, a w 1907 r. właścicielem został masarz i radca miejski Józef Bialik. [6]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 154 (skan 105)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=105"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 155 (skan 106)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=106"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 156 (skan 107)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=107"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 157 (skan 108)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=108"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 158 (skan 109)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=109"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 159 (skan 110)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=110"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Chapter L. or. 38, sp. 339 (scans 105–110). The heading OCR reads 'Gm. VI' (all neighbours are Gm. IV); not used in the text.",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=105",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=106",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=107",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=108",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=109",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=110"
+   ]
+  },
+  "editor": {
+   "changes": [
+    "S2: \"zanotował\" -> \"odnotował\" (word choice)."
+   ]
+  }
+ },
+ {
+  "entry_id": 1399,
+  "address": "Floriańska 40",
+  "text": "W 1564 r. kamienica należała do karczmarza Jana Pierzchały, a w 1577 r. do jego syna Jakuba; nazywano ją wtedy „Pierzchalińską”. [1] Od 1607 r. aż do lat 1762–1764 była własnością księży wikariuszy kościoła św. Floriana na Kleparzu, którzy zarządzali nią przez administratorów i często spierali się z sąsiadami o jej zły stan. [2] W 1788 r. była jeszcze jednopiętrowa, a jej fasadę podpierał pośrodku filar (szkarpa), który stał także w czasach Chmiela. [3] Pod koniec XVIII w. należała do mosiężnika Piotra Waygnera, a w tylnej oficynie działała kuźnia kotlarska, którą w 1841 r. przerobiono na stajnię i wozownię. [4,5] W 1879 r. Michalina Pagaczewska nadbudowała drugie piętro w tylnej części domu; przez długi czas mieściła się tu piekarnia M. Opidowicza, a w 1920 r. kamienica należała do niej i jej syna, profesora historii sztuki Uniwersytetu Jagiellońskiego Juliana Pagaczewskiego. [6]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 159 (skan 110)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=110"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 160 (skan 111)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=111"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 161 (skan 112)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=112"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 162 (skan 113)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=113"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 163 (skan 114)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=114"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 164 (skan 115)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=115"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Chapter L. or. 40, sp. 340 (scans 110–115). Owner 'w końcu XVIII wieku (1791 r.)' starts at the bottom of s. 162 and the name Piotr Waygner is on s. 163.",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S1: \"od nich nazywano ją\" -> \"nazywano ją wtedy\" (s. 159 calls it \"kamienica Pierzchalińska\" without stating the derivation)."
+   ],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=110",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=111",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=112",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=113",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=114",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=115"
+   ]
+  },
+  "editor": {
+   "changes": []
+  }
+ },
+ {
+  "entry_id": 1401,
+  "address": "Floriańska 42",
+  "text": "W 1564 r. kamienica należała do Wojciecha Zdunka, a w 1609 r. do krawca Jana Dzierzka; w czasach Chmiela znano ją jako „Hotel Polski” lub „Hotel pod Białym Orłem” (godło hotelu jest znane od 1858 r.). [1,2] Około 1670 r. przeszła do skrzypka Grzegorza Axona, a w 1702 r. jego spadkobiercy podzielili ją wraz z ogrodem na pięć części. [2,3] W 1821 r. należała do Macieja Kossowicza, który wydzierżawił ją Franciszkowi Staniszewskiemu na oberżę; w 1836 r. ten dom zajezdny miał 24 pokoje i sklepioną stajnię na 24 konie. [3,4,5] W 1876 r. Feliks Bojanowski odnowił fasadę, a do Hotelu Polskiego zajeżdżali powozami ziemianie z okolicy i z Królestwa Polskiego. [5] W 1910 r. nad wejściem zawieszono żelazną markizę z orłem i Pogonią, a w październiku 1913 r. kamienicę kupił książę Adam Ludwik Czartoryski, by powiększyć zespół budynków Muzeum Czartoryskich przy ul. św. Jana, choć nadal była ona wydzierżawiona hotelowi. [5,6]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 164 (skan 115)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=115"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 165 (skan 116)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=116"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 166 (skan 117)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=117"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 167 (skan 118)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=118"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 168 (skan 119)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=119"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 169 (skan 120)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=120"
+   }
+  ],
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_przy_ul._Floria%C5%84skiej_42_w_Krakowie",
+  "notes": "Chapter L. or. 42, sp. 341 (scans 115–120). Wikipedia article read but not cited: it dates the house to the 14th c. with Kossowicz as 'first owner' and the lease to 1825, which contradicts Chmiel (lease in 1821). Wikipedia also mentions Waryński's arrest here in 1879 (not in Chmiel; left out).",
+  "verification": {
+   "verdict": "corrected",
+   "removed": [
+    "S3: s. 166 dates Kossowicz's ownership to 1821, not the lease itself; reworded."
+   ],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=115",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=116",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=117",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=118",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=119",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=120"
+   ]
+  },
+  "editor": {
+   "changes": [
+    "S1: split the long opening clause; owners first, the later hotel name after.",
+    "S5: dangling participle replaced with a clause."
+   ]
+  }
+ },
+ {
+  "entry_id": 1403,
+  "address": "Floriańska 44",
+  "text": "Ta narożna kamienica przy dawnych murach miejskich od połowy XVI do drugiej połowy XVIII w. miała murowany tylko parter, a piętro drewniane, więc urzędowo nazywano ją domem, a nie kamienicą. [1] W 1564 r. należała do Wawrzyńca Stypuły, a w 1677 r. do białoskórnika Pawła Festy, zwanego Paulfestą, od którego nazywano ją „Paulfeścińską”. [1,2] Około 1689 r. mieszkał tu i dzierżawił dom kupiec Michał Kikulinus, wytwórca miodu, który na początku XVIII w. został jego właścicielem. [2] Pod koniec XVIII w. (1788) kamienica należała do kupca win i ławnika Karola Tacla, a w 1827 r. Antoni Sapalski poszerzył bramę dla wjazdu i odnowił fasadę. [3,4] W sierpniu 1914 r. właścicielki z rodziny Wodaków umieściły na narożniku, na wysokości pierwszego piętra, drewnianą polichromowaną figurkę Matki Boskiej, która wcześniej stała w kruchcie kościoła pijarów. [4,5]",
+  "sources": [
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 169 (skan 120)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=120"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 171 (skan 122)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=122"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 174 (skan 125)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=125"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 175 (skan 126)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=126"
+   },
+   {
+    "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 176 (skan 127)",
+    "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=127"
+   }
+  ],
+  "wikipedia": null,
+  "notes": "Chapter L. or. 44, sp. 342 (scans 120–127): the corner house by the city walls (corner of Pijarska). The register name says 'ob. Hotel Polski Pod Białym Orłem', but Chmiel's Hotel Polski is no. 42 (1920); the hotel probably expanded into no. 44 later. The text says nothing about the hotel. Verifier: please check the register name is not a mix-up. Verifier: Chmiel (1920) places Hotel Polski at no. 42 only; the register name cannot be checked from the cited pages. Text does not mention the hotel, so nothing to fix; flag for the owner.",
+  "verification": {
+   "verdict": "kept",
+   "removed": [],
+   "checked_urls": [
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=120",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=122",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=125",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=126",
+    "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=127"
+   ]
+  },
+  "editor": {
+   "changes": []
+  }
+ }
+]

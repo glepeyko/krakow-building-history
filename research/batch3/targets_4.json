@@ -1,0 +1,65 @@
+[
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "wd-Q111401068",
+  "address": "Sławkowska 7",
+  "name": "hotel",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "nid-PL.1.9.ZIPOZ.NID_N_12_BK.200380",
+  "address": "Sławkowska 13",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "wd-Q134446125",
+  "address": "Sławkowska 17",
+  "name": "Pomnik Stanisława Kutrzeby",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Pomnik_Stanis%C5%82awa_Kutrzeby_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "nid-PL.1.9.ZIPOZ.NID_N_12_BK.185161",
+  "address": "Sławkowska 22",
+  "name": "kamienica",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": 4791,
+  "address": "Sławkowska 24",
+  "name": "dom (ob.) wcześniej Zespół Klasztorny Marka",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Sławkowska",
+  "entry_id": "wd-Q134447375",
+  "address": "Sławkowska 32",
+  "name": "Kawiarnia Literacka",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kawiarnia_Literacka_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": 1877,
+  "address": "Świętego Jana 7",
+  "name": "Kościół św. Jana Chrzciciela i św. Jana Ewangelisty",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Chrzciciela_i_%C5%9Bw._Jana_Ewangelisty_w_Krakowie"
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": 1886,
+  "address": "Świętego Jana 17-19",
+  "name": "Pałac Czartoryskich",
+  "wikipedia": null
+ },
+ {
+  "group": "chmiel-Świętego Jana",
+  "entry_id": 1889,
+  "address": "Świętego Jana 22",
+  "name": "kamienica",
+  "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Kowalskiego_w_Krakowie"
+ }
+]

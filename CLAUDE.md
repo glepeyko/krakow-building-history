@@ -10,12 +10,12 @@ address. See `PLAN.md` for the phased plan and what is done.
 
 Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
 
-## Current state (after iteration 2, 2026-11-19)
+## Current state (after iteration 3, 2026-11-26; PR open, not merged)
 - Static site: `index.html`, `assets/style.css`, `assets/script.js`.
   No backend. Preview locally with `python -m http.server 8000`
   (also in `.claude/launch.json` as "site").
 - Data the site reads:
-  - `data/streets.json` — 2,823 streets for the autocomplete:
+  - `data/streets.json` — 2,874 streets for the autocomplete:
     `{name, search, file, entries}`.
   - `data/streets/<file>.json` — one file per street, fetched when the
     visitor searches: `{name, search, story{}, districts{}, entries[],
@@ -49,6 +49,25 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
     is a Claude doc "Opisy AI do sprawdzenia — iteracja 2"
     (https://claude.ai/artifact/PujNgMBMoB1S9aJiHntC9o); carry edits made
     there back into this file.
+  - Iteration 3 research files (committed):
+    - `data/research/library.json` — manifest of the historians' library
+      (author, title, year, licence, route polona|ia|pdf|djvu, `page_url`
+      with `{scan}`/`{scan0}`, `covers`, `fetch.status`). Texts are cached
+      one file per scanned page in git-ignored `source-data/raw/library/<id>/p0001.txt`.
+      Polona: `?page=` is the 0-based scan index (`{scan0}`); DBC has no page
+      links, so its citation names the scan.
+    - `data/research/old_numbers.json` — Nowolecki 1884 owner list parsed:
+      `{street, street_1884, number, old_number (lc.), owner, year, source,
+      scan, page, page_url, confidence high|medium|low, matched}` + `stats`.
+      lc. numbers restart per district; 1884 street numbers differ from
+      today's on some streets (odd side of Sławkowska, Szeroka).
+    - `data/research/street_history.json` — former street names with dates:
+      `[{street, names:[{name, from, to, note, source}], sources:[{title, url,
+      library?}], status, extracted_at, verification}]`; build.py puts them in
+      `story.history` / `history_sources` / `history_status`; the page shows
+      them with numbered sources and an AI note until the owner approves.
+    - `research/batch2/` — batch-2 working files (targets, briefs, research,
+      verified and edited outputs), kept for the audit trail.
   - `data/research/corrections.json` — owner-approved fixes to register data
     (`{entry_id, field: "building_number", from, to, reason, decided_by,
     decided_at, sources[]}`), applied by build.py; the entry gets
@@ -73,6 +92,19 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
   5. `python scripts/sources/fetch_commons.py` (after step 1) →
      `commons_images.json`: 960 px thumbnail URL, author, licence and file
      page for every Commons photo our Wikidata items reference.
+  6a. `python scripts/sources/fetch_library.py` → historians' texts per
+     page into `source-data/raw/library/` (Polona full-text ZIP, IA
+     `_djvu.txt`, PDF via `pdftotext -enc UTF-8 -layout`, DjVu via `djvutxt`;
+     `apt-get install djvulibre-bin`). `--check-hosts` tests reachability.
+  6b. `python scripts/sources/parse_old_numbers.py` (after 6a and a build) →
+     `data/research/old_numbers.json`.
+  6c. `python scripts/sources/fetch_street_articles.py` → caches the
+     pl.wikipedia street articles (4 s apart) in `source-data/raw/wiki_streets/`
+     and naming sentences in `wiki_street_names.json` (input for agents).
+  - Research tools: `scripts/lib/library.py` (find_address: Chmiel house
+    chapters by "L. or. N" headings, old numbers, full-text mentions;
+    find_name; cite) and the CLI `python scripts/library_search.py Floriańska 19 [--text]`,
+    `--name "Pod Jaszczurką"`, `--page <source-id> <scan>`.
   6. `python scripts/build.py` → reads the GEZ Excel + raw files +
      `data/research/ai_drafts.json`, writes `data/` and `reports/coverage.md`.
   `source-data/raw/` is git-ignored; re-run steps 1–5 to refresh it. Each
@@ -85,6 +117,16 @@ Repo: https://github.com/glepeyko/krakow-building-history (branch `main`).
   DjVu with a text layer; `apt-get install djvulibre-bin` for `djvutxt`)
   and bazhum.muzhp.pl. sztetl.org.pl answers 403 and krakow.travel is
   unreachable from it.
+  Host test 2026-11-20 (iteration 3): reachable — polona.pl, dbc.wroc.pl,
+  pl.wikipedia.org, zabytek.pl, muzeumkrakowa.pl, bazhum.muzhp.pl,
+  dane.gov.pl, download.openstreetmap.fr. BLOCKED (not in the allowlist) —
+  archive.org (all IA routes), repozytorium.ispan.pl (Katalog Zabytków),
+  journals.akademicka.pl (Rocznik Krakowski, Krzysztofory), ruj.uj.edu.pl
+  (Klaś, Nowa Huta), www.mtg-malopolska.org.pl (address books 1906–1932),
+  sbc.org.pl (address book 1933/34), old.mbc.malopolska.pl, jbc.bj.uj.edu.pl,
+  upload.wikimedia.org. download.geofabrik.de is allowed but drops the
+  connection. Their manifest records stay in library.json with
+  `fetch.status: "blocked"`; adding the hosts would unlock them.
 - `scripts/lib/address.py` — the one place for address normalization and
   street matching. `scripts/lib/geo.py` — point-in-polygon district lookup.
   Tests: `python -m unittest discover tests`.
@@ -119,7 +161,12 @@ Optional fields (omitted when empty):
   `ai_researched_at`. The page shows these only inside the block
   "Opis przygotowany przez AI — niezweryfikowany".
 Entries that exist only in Wikidata have `id: "wd-Q…"` and
-`source: "Wikidata"`.
+`source: "Wikidata"`. Entries that exist only in the NID register
+(iteration 3; 172 rows whose address had no entry) have `id: "nid-<INSPIRE
+id>"`, `source: "Rejestr zabytków NID"`, `type_and_name` = NID name and the
+`nid_*` fields. AI drafts from iteration 3 carry `"batch": 2` in
+ai_drafts.json. Same-named streets outside Kraków (51, e.g. "Krakowska
+(gmina Mogilany)") are separate street files since iteration 3.
 `status`: `verified` = taken from a published source (GEZ, Wikidata), not
 AI-written. `ai_draft_unverified` = the entry carries an AI-drafted text
 (its GEZ/Wikidata fields are still register data). Planned: `not_researched`.
@@ -131,29 +178,66 @@ as a normal description with its numbered sources and NO public AI label
 promote their own texts.
 
 ## Known limitations
-- Building descriptions exist for ~9% of addresses (GEZ + Wikidata) plus 27
-  AI-researched texts (all approved by the owner on 2026-11-20, shown
-  without the AI label). Thanks to the 600 m fallback, ~95% of addresses show at least
-  a nearby place; outer-district fallback places can be 400–600 m away.
-- Street stories cover 550 of 2,823 streets (25% of addresses): only
-  streets with a Wikidata item or OSM name:etymology/old_name tags. Dated
-  name histories exist for only 5 streets (Wikidata rarely has P1448 with
-  dates); former names from Wikipedia articles are not parsed yet. Patron
+- Building descriptions exist for ~9% of addresses (GEZ + Wikidata + NID)
+  plus 213 AI-researched texts, ALL approved by the owner and shown without
+  the AI label: 27 from batch 1 (2026-11-20), 98 from batch 2 (approved
+  2026-11-26) and 88 from batch 3 (approved in chat 2026-11-28). Review docs:
+  "Opisy AI do sprawdzenia — iteracja 3"
+  (https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6; its Józefa 38 copy has
+  a typo "srebr") and "… iteracja 3, partia 3"
+  (https://claude.ai/artifact/Aobbyq3VLbRpeKNVRH8cd4); ai_drafts.json is
+  the reference text. 179 addresses have a historian-sourced text (cites a
+  library page). Thanks to the 600 m fallback, ~95% of addresses show at
+  least a nearby place; outer-district fallback places can be 400–600 m away.
+- Street stories cover 552 of 2,874 streets (25% of addresses). Former
+  names with dates for 121 streets (53 from Tomkowicz 1926 / Nowolecki 1884,
+  the rest from pl.wikipedia articles), AI-extracted and verifier-checked,
+  approved by the owner on 2026-11-28 (shown without the AI note). Tomkowicz's
+  ranges are years a name is attested, not official naming dates; the
+  Polona copy lacks the scans for pp. 126–127 (Stolarska). Patron
   birth/death years come from Wikidata and can be imprecise for early
   saints.
-- 2,968 addresses (4%) lie outside Kraków: neighbouring gminy with Kraków
+- 3,174 addresses (4%) lie outside Kraków: neighbouring gminy with Kraków
   postcodes (the OSM filter uses postcodes 30-/31-). Owner decision: keep
   them; the page names the gmina. Same-named streets in Kraków and in a
-  neighbouring gmina (e.g. "Krakowska") share one street file. 19 GEZ
-  records disagree with the OSM district (not checked).
-- NID register: 1,113 entries linked. 166 NID rows have an address that is
-  not in our entries (could become new entries), 89 are ambiguous at their
-  address, 255 have neither an address nor a unique register number
-  (ensembles, parks).
+  neighbouring gmina are split since iteration 3 ("Krakowska (gmina
+  Mogilany)"; 51 streets, 972 addresses). 19 GEZ records disagree with the
+  OSM district (not checked).
+- NID register: 1,110 entries linked; 172 rows whose address had no entry
+  are now entries of their own (16 without OSM coordinates); 86 are
+  ambiguous at their address, 255 have neither an address nor a unique
+  register number (ensembles, parks).
+- Wikidata ↔ GEZ: a gap pass (iteration 3) links 34 more famous houses by
+  article title (name words + ≤60 m + same object type) and 2 by NID
+  register number; 8 stay ambiguous. Owner-decided overrides live in
+  `data/research/wd_link_overrides.json` (`{entry_id, wikidata, action:
+  "block", reason, decided_by, decided_at, sources}`), applied by build.py:
+  the wrong position-based links of Sławkowska 11 (Pałac
+  Tarnowskich-Sanguszków → now on św. Marka 13 / Sławkowska 13–15) and
+  Sławkowska 12 (Kamienica Badeniowska → now on Sławkowska 10) are blocked,
+  and (batch 3) Rynek 11 (Pod Złotym Karpiem → no. 10), Rynek 46 (Pod Orłem
+  → no. 45), Floriańska 51 (item of no. 38) and Floriańska 57 (Brama
+  Floriańska). Research agents keep finding such position-based mistakes;
+  check `wikidata` on entries before trusting their name.
+- Old-number index (Nowolecki 1884): 1,650 rows, 1,249 modern addresses,
+  78.7% of rows match a current OSM address. "Matched" uses 1884 street
+  numbers, which changed later on some streets: confirm with the lc. number
+  in the house chapter. The 1884 street tables (pp. 110–187) are not parsed.
+- Library: since 2026-11-26 the environment allows repozytorium.ispan.pl,
+  ruj.uj.edu.pl, journals.akademicka.pl, www.mtg-malopolska.org.pl and
+  sbc.org.pl; 20 of 21 sources are cached (only the IA copy is missing —
+  archive.org serves files from changing per-server hosts). library.py also
+  finds Katalog house entries ("NR N," headings). "Who lived here" lines from
+  the 1913 address book are still not done: its OCR is too noisy to state
+  names without checking the page image. Chmiel covers Floriańska, Sławkowska, św. Jana and odd
+  Grodzka only; Grodzka even numbers have 1880/1884 owner facts at most.
+- Research agents ran into the account's 5-hour usage limit twice during
+  iteration 3; resuming them with SendMessage continued their work.
 - Mykwa Wielka: GEZ says Szeroka 5; owner decided Szeroka 6 (as Wikipedia,
   VisitMalopolska, Wikidata). Fixed via corrections.json; no. 5 shows a link to no. 6.
-- The same object can appear 2–3 times in "W pobliżu" when GEZ, Wikidata
-  and OSM name it differently (e.g. Fort 48a Mistrzejowice).
+- "W pobliżu" de-duplicates places within 40 m that share a name word or
+  number (iteration 3); objects named with no word in common can still
+  appear twice.
 - 223 GEZ records have no parsed building number (forts, viaducts, parks,
   areas); 214 GEZ streets did not match an OSM street. They are still listed
   when a visitor searches the street without a number.
@@ -231,3 +315,31 @@ promote their own texts.
   street files were patched directly, not rebuilt. Note: the local
   `source-data/raw/` may be older than the committed data; re-run all
   fetchers before a full rebuild.
+- 2026-11-20…26 — Iteration 3 (branch `iteration-3`, one PR into main):
+  host test; historians' library (fetch_library.py, 16 of 21 sources
+  cached: Chmiel ×9 volumes, Nowolecki ×3, Tomkowicz 1926, Bałaban ×2,
+  Grabowski 1900); old-number index from Nowolecki 1884; lib/library.py +
+  library_search.py + tests; all fetchers re-run (fetch_wikidata*.py now
+  tolerate control characters / truncated SPARQL JSON); street history for
+  121 streets; same-named streets outside Kraków split (51); Wikidata↔GEZ
+  gap pass; 172 NID rows → entries; nearby de-duplication; research batch 2
+  (101 buildings → 98 texts after verification, editor pass; status
+  ai_draft_unverified); review doc "Opisy AI do sprawdzenia — iteracja 3";
+  new coverage row "historian-sourced text" (1 → 89 addresses).
+- 2026-11-26 — Owner approved all 98 batch-2 texts (status `verified`,
+  approved_by owner, approved_at 2026-11-26); rebuilt; spot-checks show
+  them without the AI label. Owner delegated the open decisions to
+  Claude: Sławkowska 11/12 wrong Wikidata links blocked
+  (wd_link_overrides.json); register fields stay as published where the
+  historians disagree (texts follow the historians); split-street naming
+  "X (gmina Y)" kept; street-name list NOT self-approved (only the owner
+  approves AI content); blocked research hosts proposed for the cloud
+  environment.
+- 2026-11-26…28 — Batch 3: unblocked sources downloaded (Katalog Zabytków
+  cz. 10, Klaś, 1913 address book, Rocznik article); KZS headings in
+  library.py; 88 new verified + edited texts (Rynek 31 from the Katalog,
+  Chmiel 43, Nowa Huta 14 from Klaś; 1 dropped), status ai_draft_unverified;
+  4 more wrong Wikidata links blocked; historian-sourced addresses 89 → 179.
+- 2026-11-28 — Owner approved all 88 batch-3 texts and the former street
+  names (121 streets): status `verified`, approved_by owner,
+  approved_at 2026-11-28; rebuilt; spot-checks show no AI labels.

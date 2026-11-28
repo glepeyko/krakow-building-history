@@ -303,6 +303,26 @@
       sources.add("Wikidane");
     }
 
+    // Former names gathered from historians (Tomkowicz 1926 …) and the
+    // Wikipedia street article: each name cites its numbered source.
+    let historyHtml = "";
+    if (st.history && st.history.length && st.history_sources) {
+      const hs = st.history_sources;
+      const items = st.history.map((n) => {
+        const span = yearSpan(n);
+        const when = [span, n.note].filter(Boolean).join(", ");
+        const ref = Number.isInteger(n.source) && hs[n.source - 1] ? ` [${n.source}]` : "";
+        return `${esc(n.name)}${when ? ` (${esc(when)})` : ""}${esc(ref)}`;
+      });
+      const refs = hs.map((s, i) => `<li>${extLink(s.url, s.title)}</li>`).join("");
+      const label = st.history_status === "verified" ? ""
+        : ` <span class="ai-note">(zestawienie przygotowane przez AI na podstawie podanych źródeł, niezweryfikowane)</span>`;
+      historyHtml = `<p>Dawne nazwy w źródłach historycznych: ${items.join("; ")}.${label}</p>
+        <ol class="sources">${refs}</ol>`;
+      parts.push(historyHtml);
+      sources.add("źródła ponumerowane powyżej");
+    }
+
     if (st.old_names && st.old_names.length) {
       parts.push(`<p>${st.old_names.length > 1 ? "Dawne nazwy" : "Dawna nazwa"}: ${st.old_names.map(esc).join(", ")}.</p>`);
       sources.add("OpenStreetMap (old_name)");

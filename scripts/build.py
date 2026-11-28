@@ -469,6 +469,227 @@ def load_municipalities():
     return DistrictIndex([m for m in load_json(path) if normalize(m["name"]) != "krakow"])
 
 
+
+
+# ---------------------------------------------------------------- Wikidata <-> GEZ gap
+def title_of(url: str) -> str:
+    from urllib.parse import unquote
+    t = unquote(url.rsplit("/wiki/", 1)[-1]).replace("_", " ")
+    t = re.sub(r"\s*\(.*?\)\s*$", "", t)
+    return re.sub(r"\s+w Krakowie.*$", "", t).strip()
+
+
+def distinctive(text: str) -> set:
+    """Name stems that identify an object: not 'kamienica', 'dom', 'Kraków'."""
+    res = {w[:5] for w in RESIDENTIAL}
+    return _stems(text) - res
+
+
+def link_wd_gap(records, wd, wd_entries, index, blocked=frozenset()):
+    """Second pass for Wikidata items with a pl.wikipedia article that found
+    no GEZ record: (1) the NID register row at a GEZ address carries the
+    item's register number (P3424); (2) the article title names the GEZ
+    record ("Kamienica Pod Jaszczurką" <-> "kamienica Pod Jaszczurką") and
+    they stand within 60 m. Only one-to-one matches are taken."""
+    stats = Counter()
+    unlinked = [it for it in wd if not it.get("_skip") and not it.get("_gez") and it.get("wikipedia")]
+    free = [r for r in records if not r.get("wikidata")]
+    claims = defaultdict(list)  # record id -> [(item, how)]
+
+    # (1) NID register number
+    path = RAW / "nid_krakow.json"
+    items_by_reg = defaultdict(list)
+    for it in unlinked:
+        k = register_key(it.get("nid", ""))
+        if k:
+            items_by_reg[k].append(it)
+    if path.exists():
+        free_by_key = defaultdict(list)
+        for r in free:
+            for p in r["_parts"]:
+                free_by_key[(r["street"], p)].append(r)
+        for row in load_json(path)["rows"]:
+            street = index.resolve(row["ULICA"]) if row["ULICA"] else None
+            if not street:
+                continue
+            cands = {id(c): c for p in number_parts(row["NR_ADRESOWY"]) for c in free_by_key.get((street, p), [])}
+            items = {it["qid"]: it for a in nid_numbers(row["WYKAZ_DOKUMENTOW"]) for it in items_by_reg.get(a, [])}
+            if len(items) == 1 and cands:
+                it = next(iter(items.values()))
+                cs = [c for c in cands.values() if compatible(c, it)]
+                if len(cs) == 1:
+                    claims[id(cs[0])].append((it, "nid_register"))
+    # (2) article title + position
+    grid = Grid()
+    for r in free:
+        if "lat" in r:
+            grid.add(r["lat"], r["lon"], r)
+    for it in unlinked:
+        title = title_of(it["wikipedia"])
+        tstems = distinctive(title)
+        if not tstems:
+            continue
+        # The first word of an article title usually names the kind of object
+        # ("Cmentarz…", "Biblioteka…", "Hotel…"); it must appear in the record
+        # too, unless it is just "Kamienica"/"Dom".
+        first = re.findall(r"[a-z]{4,}", normalize(title))
+        head = first[0][:5] if first and first[0] not in GENERIC_WORDS else ""
+        head_free = not head or head in {w[:5] for w in RESIDENTIAL}
+        hits = []
+        for d, r in grid.near(it["lat"], it["lon"], 60):
+            rtext = " ".join([r["type_and_name"], r.get("name", "")])
+            rstems = distinctive(rtext)
+            common = tstems & rstems
+            if (common and len(common) * 3 >= len(tstems) * 2 and (head_free or head in _stems(rtext))
+                    and compatible(r, it)):
+                hits.append(r)
+        hits = list({id(h): h for h in hits}.values())
+        if len(hits) == 1:
+            claims[id(hits[0])].append((it, "article_title"))
+    by_id = {id(r): r for r in free}
+    used = Counter(it["qid"] for lst in claims.values() for it, _ in lst)
+    wd_entry_ids = {e["id"]: e for e in wd_entries}
+    for rid, lst in claims.items():
+        lst = [(it, how) for it, how in lst if used[it["qid"]] == 1]
+        qids = {it["qid"] for it, _ in lst}
+        if len(qids) != 1:
+            stats["ambiguous"] += 1
+            continue
+        it, how = lst[0]
+        r = by_id[rid]
+        if (str(r["id"]), it["qid"]) in blocked:
+            stats["blocked_by_owner"] += 1
+            continue
+        enrich_from_wd(r, it)
+        it["_gez"] = r
+        if "lat" not in r:
+            r["lat"], r["lon"] = it["lat"], it["lon"]
+        stats[f"linked_by_{how}"] += 1
+        e = wd_entry_ids.get(f'wd-{it["qid"]}')
+        if e:  # it had become a separate Wikidata-only entry: fold it in
+            e["_linked_later"] = True
+            stats["wd_entries_merged"] += 1
+    return stats
+
+
+# ---------------------------------------------------------------- NID rows -> new entries
+def nid_new_entries(entries, index, osm_by_key, nid_stats):
+    """NID register rows whose address has no entry yet become entries of
+    their own (source "Rejestr zabytków NID"), placed at the OSM address."""
+    path = RAW / "nid_krakow.json"
+    if not path.exists():
+        return []
+    have = {(e["street"], p) for e in entries for p in number_parts(e["building_number"])}
+    out, seen = [], set()
+    for row in load_json(path)["rows"]:
+        street = index.resolve(row["ULICA"]) if row["ULICA"] else None
+        number = normalize_number(row["NR_ADRESOWY"] or "")
+        parts = number_parts(number)
+        if not street or not parts or any((street, p) in have for p in parts):
+            continue
+        key = (street, number, normalize(row["NAZWA"]))
+        if key in seen:
+            continue
+        seen.add(key)
+        o = next((osm_by_key[(street, p)] for p in parts if (street, p) in osm_by_key), None)
+        e = {
+            "id": f'nid-{row["INSPIRE_ID"] or len(out)}'.replace("/", "-"),
+            "street": street, "street_search": normalize(street), "building_number": number,
+            "address_raw": f'{row["ULICA"]} {row["NR_ADRESOWY"]}'.strip(), "alt_address": "",
+            "district_number": None, "district_name": "",
+            "type_and_name": row["NAZWA"], "dating": row["CHRONOLOGIA"], "author": "",
+            "register_number": ", ".join(sorted(nid_numbers(row["WYKAZ_DOKUMENTOW"]))),
+            "source": "Rejestr zabytków NID", "status": "verified",
+            "nid_name": row["NAZWA"], "nid_register": row["WYKAZ_DOKUMENTOW"],
+            "nid_register_date": row["DATA_WPISU"], "nid_chronology": row["CHRONOLOGIA"],
+            "nid_inspire_id": row["INSPIRE_ID"],
+        }
+        if row["STYL_ARCHITEKTONICZNY"] not in NID_STYLE_SKIP:
+            e["nid_style"] = row["STYL_ARCHITEKTONICZNY"]
+        if row["LINK"].startswith("https://zabytek.pl/"):
+            e["nid_url"] = row["LINK"]
+        if o:
+            e["lat"], e["lon"], e["osm"] = o["lat"], o["lon"], o["osm"]
+        out.append(e)
+    nid_stats["new_entries"] = len(out)
+    nid_stats["new_entries_with_coordinates"] = sum(1 for e in out if "lat" in e)
+    return out
+
+
+# ---------------------------------------------------------------- nearby de-duplication
+def same_place(p, q) -> bool:
+    """Two POIs that are one object named differently by GEZ, Wikidata, NID
+    and OSM ("Fort 48a Mistrzejowice" / "Fort pancerny 48a"): close together
+    and sharing a distinctive name word or a number token."""
+    if dist_m(p["lat"], p["lon"], q["lat"], q["lon"]) > 40:
+        return False
+    if p["street"] and q["street"] and (p["street"], p["number"]) != (q["street"], q["number"]):
+        return False
+    a, b = normalize(p["title"]), normalize(q["title"])
+    if not a or not b:
+        return False
+    if a in b or b in a:
+        return True
+    nums = lambda t: set(re.findall(r"\b\d+[a-z]?\b", t))
+    if nums(a) & nums(b):
+        return True
+    return bool(distinctive(a) & distinctive(b))
+
+# ---------------------------------------------------------------- same-named streets
+def split_outside_streets(osm, district_index, municipality_index):
+    """Streets whose name exists both in Kraków and in a neighbouring gmina
+    (e.g. "Krakowska" in Kraków and in Zielonki) are different streets that
+    share a name. Their addresses outside Kraków get their own street,
+    "Krakowska (gmina Zielonki)", so numbers do not collide and the Kraków
+    street's story is not shown for the other one."""
+    stats = Counter()
+    if not district_index or not municipality_index:
+        return stats
+    inside = defaultdict(int)
+    outside = []
+    for a in osm:
+        if not a["_street"]:
+            continue
+        if district_index.find(a["lat"], a["lon"]):
+            inside[a["_street"]] += 1
+        else:
+            m = municipality_index.find(a["lat"], a["lon"])
+            if m:
+                outside.append((a, m["name"]))
+    renamed = set()
+    for a, muni in outside:
+        if inside.get(a["_street"]):
+            a["_street_krakow"] = a["_street"]
+            a["_street"] = f'{a["_street"]} ({muni})'
+            renamed.add(a["_street"])
+            stats["addresses_moved"] += 1
+    stats["streets_split_off"] = len(renamed)
+    return stats
+
+
+# ---------------------------------------------------------------- street history (historians, Wikipedia)
+def merge_street_history(stories, street_names):
+    """Former names with dates from data/research/street_history.json
+    (facts gathered from Tomkowicz 1926 and the pl.wikipedia street articles,
+    each with its own source) -> story["history"] + story["history_sources"]."""
+    stats = Counter()
+    path = RESEARCH / "street_history.json"
+    if not path.exists():
+        return stats
+    for rec in load_json(path):
+        name = rec["street"]
+        if name not in street_names or not rec.get("names"):
+            stats["unmatched"] += 1
+            continue
+        st = stories.setdefault(name, {})
+        st["history"] = rec["names"]
+        st["history_sources"] = rec["sources"]
+        st["history_status"] = rec.get("status", "ai_draft_unverified")
+        stats["streets"] += 1
+        if any(s.get("library") for s in rec["sources"]):
+            stats["streets_from_historians"] += 1
+    return stats
+
 # ---------------------------------------------------------------- AI drafts
 def load_ai_drafts():
     path = RESEARCH / "ai_drafts.json"
@@ -492,6 +713,9 @@ def main():
 
     street_names = sorted({a["_street"] for a in osm if a["_street"]})
     index = StreetIndex(street_names)
+    district_index, districts_by_number = load_districts()
+    municipality_index = load_municipalities()
+    split_stats = split_outside_streets(osm, district_index, municipality_index)
     records, gez_stats = gez.load(index)
     # The GEZ sheet reuses some ids (52 ids on 104 rows). The page looks
     # entries up by id, so later duplicates get a suffix: "1939" -> "1939-2".
@@ -537,6 +761,9 @@ def main():
 
     wd_stats = Counter()
     wd_entries = []
+    # Owner decisions: Wikidata links known to be wrong (data/research/wd_link_overrides.json).
+    blocked_links = {(str(o["entry_id"]), o["wikidata"]) for o in load_json(RESEARCH / "wd_link_overrides.json")
+                     if o.get("action") == "block"} if (RESEARCH / "wd_link_overrides.json").exists() else set()
     for item in wd:
         types = set(item["types"])
         if types and types <= WD_SKIP_TYPES:
@@ -575,6 +802,9 @@ def main():
                 target = cands[0]
             elif cands:
                 wd_stats["ambiguous"] += 1
+        if target is not None and (str(target["id"]), item["qid"]) in blocked_links:
+            wd_stats["blocked_by_owner"] += 1
+            target = None
         if target is not None:
             # Several items can describe one building (e.g. "Hotel Pod Różą"
             # and the kamienica it occupies). Collect them; pick one below.
@@ -605,6 +835,12 @@ def main():
                 r["image"] = commons_file(other["image"])
         if "lat" not in r:
             r["lat"], r["lon"] = best["lat"], best["lon"]
+
+    # ---- Close the Wikidata <-> GEZ gap: famous houses whose item has a
+    # Wikipedia article but no parsable address (or an address the register
+    # writes differently) - match by article title or NID register number.
+    gap_stats = link_wd_gap(records, wd, wd_entries, index, blocked_links)
+    wd_entries = [e for e in wd_entries if not e.get("_linked_later")]
 
     # ---- Points of interest for "nearby"
     pois, poi_grid = [], Grid()
@@ -667,6 +903,14 @@ def main():
 
     all_entries = records + wd_entries
     nid_stats = link_nid(all_entries, index)
+    nid_entries = nid_new_entries(all_entries, index, osm_by_key, nid_stats)
+    for e in nid_entries:
+        if "lat" not in e:
+            continue
+        add_poi({"lat": e["lat"], "lon": e["lon"], "kind": "nid", "title": e["type_and_name"],
+                 "street": e["street"], "number": e["building_number"], "dating": e["dating"],
+                 "wikipedia": "", "self": {(e["street"], p) for p in number_parts(e["building_number"])}})
+    all_entries += nid_entries
     photo_count = attach_photos(all_entries)
 
     # The register's old number keeps its own page (whatever we know about
@@ -696,7 +940,6 @@ def main():
 
     # ---- District for every entry without one (Wikidata-only entries,
     # GEZ rows with an empty district column); compare where GEZ has one.
-    district_index, districts_by_number = load_districts()
     district_stats = Counter()
     if district_index:
         for e in all_entries:
@@ -726,7 +969,7 @@ def main():
     street_list, used_slugs = [], set()
     nearby_counts = Counter()
     stories, story_stats = load_street_stories(index)
-    municipality_index = load_municipalities()
+    history_stats = merge_street_history(stories, set(streets))
     for name, st in sorted(streets.items()):
         if not name:
             continue
@@ -756,7 +999,7 @@ def main():
         for num, slot in st["numbers"].items():
             if "lat" not in slot:
                 continue
-            near, seen = [], set()
+            near, seen, picked = [], set(), []
             found = poi_grid.near(slot["lat"], slot["lon"], NEARBY_RADIUS_M)
             limit = NEARBY_MAX
             if not any(not ((name, num) in p["self"] or any((name, q) in p["self"] for q in number_parts(num)))
@@ -769,9 +1012,10 @@ def main():
                 # Two GEZ rows for one address (e.g. a house and its annex with
                 # the same title) would otherwise show as identical lines.
                 key = (normalize(p["title"]), p["street"], p["number"])
-                if key in seen:
+                if key in seen or any(same_place(p, q) for q in picked):
                     continue
                 seen.add(key)
+                picked.append(p)
                 near.append([p["pid"], round(d)])
                 shard_pois[p["pid"]] = p
                 if len(near) >= limit:
@@ -806,9 +1050,10 @@ def main():
     if old.exists():
         old.unlink()
 
-    extra = {"photo_count": photo_count, "nid_stats": nid_stats, "stories": stories, "story_stats": story_stats, "district_stats": district_stats,
+    extra = {"gap_stats": gap_stats, "split_stats": split_stats, "history_stats": history_stats,
+             "nid_entries": len(nid_entries), "photo_count": photo_count, "nid_stats": nid_stats, "stories": stories, "story_stats": story_stats, "district_stats": district_stats,
              "draft_stats": draft_stats, "street_list": street_list}
-    write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets, extra)
+    write_report(records, wd_entries + nid_entries, osm, wd, wd_stats, gez_stats, street_list, nearby_counts, streets, extra)
 
 
 def enrich_from_wd(r, item):
@@ -880,6 +1125,23 @@ def public_entry(e):
             or k in ("id", "street", "building_number", "type_and_name")}
 
 
+def library_prefixes():
+    """URL prefixes of the historians' library (data/research/library.json)."""
+    path = RESEARCH / "library.json"
+    if not path.exists():
+        return ()
+    out = set()
+    for src in load_json(path)["sources"]:
+        for u in (src.get("item_url", ""), re.split(r"[?#{]", src.get("page_url", ""))[0]):
+            if u:
+                out.add(u.rstrip("/"))
+    return tuple(sorted(out))
+
+
+def historian_sourced(e, prefixes) -> bool:
+    return bool(prefixes) and any(s.get("url", "").startswith(prefixes) for s in e.get("ai_sources", []))
+
+
 def pct(a, b):
     return f"{(100 * a / b):.1f}%" if b else "–"
 
@@ -903,6 +1165,12 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
     ai_ids = {str(e["id"]) for e in records + wd_entries if e.get("ai_description")}
     numbers_ai = sum(1 for s in streets.values() for v in s["numbers"].values()
                      if any(str(i) in ai_ids for i in v.get("entries", [])))
+    prefixes = library_prefixes()
+    hist_ids = {str(e["id"]) for e in records + wd_entries if historian_sourced(e, prefixes)}
+    numbers_hist = sum(1 for s in streets.values() for v in s["numbers"].values()
+                       if any(str(i) in hist_ids for i in v.get("entries", [])))
+    old_numbers = load_json(RESEARCH / "old_numbers.json")["stats"] if (RESEARCH / "old_numbers.json").exists() else {}
+    hs, gs, ss = extra["history_stats"], extra["gap_stats"], extra["split_stats"]
     lines = [
         f"# Coverage report — {date.today().isoformat()}",
         "",
@@ -922,7 +1190,8 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| … with none within {NEARBY_RADIUS_M} m but some within {NEARBY_FALLBACK_M} m (shown instead) | {nearby_counts['with_fallback']} | {pct(nearby_counts['with_fallback'], numbers_total)} |",
         f"| … with a district (dzielnica) | {ds['numbers_with_district']} | {pct(ds['numbers_with_district'], numbers_total)} |",
         f"| … on a street with a street story (\"O ulicy\") | {numbers_story} | {pct(numbers_story, numbers_total)} |",
-        f"| … with an AI-drafted description (unverified) | {numbers_ai} | {pct(numbers_ai, numbers_total)} |",
+        f"| … with an AI-researched description (labelled until the owner approves it) | {numbers_ai} | {pct(numbers_ai, numbers_total)} |",
+        f"| … with a historian-sourced text (cites a page of the historians' library) | {numbers_hist} | {pct(numbers_hist, numbers_total)} |",
         "",
         "## Streets (\"O ulicy\")",
         "",
@@ -933,8 +1202,22 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"| … with dated name history (Wikidata) | {sc('names')} | {pct(sc('names'), len(street_list))} |",
         f"| … with a former name (OSM old_name) | {sc('old_names')} | {pct(sc('old_names'), len(street_list))} |",
         f"| … with a Wikipedia article about the street | {sc('wikipedia')} | {pct(sc('wikipedia'), len(street_list))} |",
+        f"| … with former names from historians / street articles (data/research/street_history.json) | {sc('history')} | {pct(sc('history'), len(street_list))} |",
+        f"| … of which citing Tomkowicz (1926) or another library book | {hs.get('streets_from_historians', 0)} | {pct(hs.get('streets_from_historians', 0), len(street_list))} |",
         "",
         "Street items from Wikidata: " + ", ".join(f"{k} {v}" for k, v in sorted(extra["story_stats"].items())) + ".",
+        "",
+        f"Same-named streets outside Kraków split into their own street files: {ss.get('streets_split_off', 0)} "
+        f"(addresses moved: {ss.get('addresses_moved', 0)}).",
+        "",
+        "## Historians' library (iteration 3)",
+        "",
+        f"- Old-number index (Nowolecki 1884, `data/research/old_numbers.json`): {old_numbers.get('rows', 0)} rows, "
+        f"{old_numbers.get('distinct_modern_addresses', 0)} distinct modern addresses, "
+        f"matched to a current OSM address: {old_numbers.get('matched_modern_address', 0)} rows "
+        f"({100 * old_numbers.get('match_rate', 0):.1f}%); confidence " +
+        ", ".join(f"{k} {v}" for k, v in old_numbers.get("by_confidence", {}).items()) + ".",
+        f"- Entries with a historian-sourced text: {len(hist_ids)}.",
         "",
         "## GEZ register records",
         "",
@@ -970,7 +1253,8 @@ def write_report(records, wd_entries, osm, wd, wd_stats, gez_stats, street_list,
         f"- OSM address points in Kraków: {len(osm)}",
         f"- Wikidata items with coordinates in the Kraków area: {len(wd)}",
         f"- Wikidata → GEZ links: " + ", ".join(f"{k} {v}" for k, v in sorted(wd_stats.items()) if k.startswith("linked")),
-        f"- New building entries from Wikidata (not in GEZ): {len(wd_entries)}",
+        f"- Wikidata → GEZ gap pass (article title / NID register number): " + ", ".join(f"{k} {v}" for k, v in sorted(gs.items())),
+        f"- New building entries from Wikidata or the NID register (not in GEZ): {len(wd_entries)} (of which from NID: {extra['nid_entries']})",
         f"- NID register (dane.gov.pl): " + ", ".join(f"{k} {v}" for k, v in sorted(extra["nid_stats"].items())),
         "",
     ]

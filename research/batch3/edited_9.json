@@ -1,0 +1,531 @@
+[
+  {
+    "entry_id": 756,
+    "address": "Osiedle Centrum D 1",
+    "text": "Blok nr 1 osiedla D-31, stojący przy placu Centralnym, był pierwszym ważnym budynkiem sektora D i wyznacza granicę między starszą, socrealistyczną a nowszą, poodwilżową zabudową Nowej Huty. [1] Jak pozostałe domy wokół placu zaprojektował go Janusz Ingarden: w parterze z przeszkloną ścianą arkadową umieszczono sklepy i usługi, a na wyższych kondygnacjach mieszkania. [1] W bloku działało pięć lokali, m.in. sklep z ceramiką i szkłem „Ceramika” oraz sklep z jedwabiami, oba z wnętrzami Marii Michajłow, a także Klub Międzynarodowej Prasy i Książki, czyli Empik, urządzony przez Krystynę Strachocką-Zgud i Halinę Garzyńską-Kańską. [1] Ostatni lokal zajmował punkt naprawy wiecznych piór, a później sklep filatelistyczny. [1]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 94",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=94"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Klaś s. 92 (skan 94), rozdział 'Osiedla sektora D' (M. Smaga), podrozdział 'Blok nr 1 przy placu Centralnym'. NID name 'budynek mieszkalny D-1' matches. Kwiaciarnia (Pać-Zaleśna) left out: not certain it is one of the five units of this block. Verifier: identification by the printed block number (blok nr 1, os. D-31, at pl. Centralny) plus NID name \"budynek mieszkalny D-1\"; all claims on skan 94.",
+    "verification": {
+      "verdict": "kept",
+      "removed": [],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=94"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 763,
+    "address": "Osiedle Centrum D 8",
+    "text": "Blok przy os. Centrum D 8, zwany „Helikopterem”, to dawny blok nr 7 osiedla D-31, zbudowany już w poodwilżowej formie według projektu Kazimierza Chodorowskiego, Stefana Golonki, Anny Anlauf i Michała Wędziagolskiego, zatwierdzonego w lipcu 1957 r. [1] Ośmiopiętrowy wieżowiec, połączony łącznikiem z niższym blokiem klatkowym, wieńczy charakterystyczny „uskrzydlony” dach w duchu Le Corbusiera, a szklany pas sklepów w parterze sprawia, że budynek zdaje się unosić. [1] Na piętrach parzystych obok mieszkań zaprojektowano pracownie artystyczne, w których pracowali m.in. rzeźbiarz Marian Kruczek, twórca galerii Pod Chmurką przed blokiem, jego żona Józefa Sobór-Kruczek, Ewa Buczyńska i Walenty Gabrysiak. [1,2] W narożnym przeszklonym pawilonie działała cukiernia Bambo, o której otwarciu pisał w 1961 r. „Głos Nowej Huty”, a sam blok wygrał ogłoszony przez tę gazetę w 1959 r. konkurs na najlepszy dom mieszkalny w dzielnicy. [2]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 94",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=94"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 95",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=95"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Book: '„Helikopter”, czyli blok nr 7 (obecnie nr 8) na os. Centrum D-31' (skan 94). OSM levels 9 fits an 8-storey tower. GEZ dating 1956 is earlier than the 1957 approval of the design. Verifier: identification printed on skan 94: \"blok nr 7 (obecnie nr 8) na os. Centrum D-31\".",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1: removed \"modernistycznej\" (book says only \"nowej, poodwilżowej formie\"); \"zatwierdzonego do realizacji w lipcu 1957 r.\" shortened (5-word run from the book).",
+        "S4: contest name paraphrased (\"w dzielnicy\").",
+        "S1: \"już w nowej, poodwilżowej formie\" shortened (5-word run)."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=94",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=95"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 760,
+    "address": "Osiedle Centrum D 5",
+    "text": "Blok przy os. Centrum D 5 to pierwszy nowohucki dom wzniesiony z wielkiej płyty. [1,2] Według rozdziału o sektorze D zaprojektował go w latach 1961–1963 Stefan Golonka, twórca systemu prefabrykacji Domino-60, w którym go zbudowano. [1,2] Biogram architekta podaje, że ten pięciokondygnacyjny dom bez piwnic, liczący 220 izb mieszkalnych, wznoszono jako doświadczalny prototyp między czerwcem 1961 a październikiem 1963 r. [2] Golonka rozwinął później swój system w odmianach Domino 63 i Domino 68. [2]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 97",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=97"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 190",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Address explicit in the book: 'pierwszy w Nowej Hucie budynek wielkopłytowy (os. Centrum D 5)' (skan 97); details from Golonka's biogram (skan 190). GEZ dating '1956' contradicts the book (1961–1963).",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1/S2: rephrased runs copied from the book (\"pierwszy w Nowej Hucie budynek wielkopłytowy\", \"w którym blok został wybudowany/wzniesiony\").",
+        "S2/S3: the book gives 1961–1963 as design years (chapter, skan 97) and June 1961–Oct 1963 as construction (Golonka biogram, skan 190); both are now attributed to their place in the book instead of being merged silently."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=97",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 735,
+    "address": "Osiedle Centrum B 10",
+    "text": "Blok przy os. Centrum B 10, znany jako Blok Francuski, powstał w latach 1956–1959 i razem z pobliskim Blokiem Szwedzkim stał się architektonicznym znakiem politycznej odwilży w Nowej Hucie. [1,4] Zaprojektował go Kazimierz Chodorowski; modernistyczna bryła domyka od wschodu socrealistyczny kwartał osiedla Centrum B, a tylną elewacją styka się bezpośrednio z historyzującymi budynkami. [2] Ośmiokondygnacyjny blok o szkielecie z prefabrykatów z wytrzymałego betonu odpowietrzonego należał wówczas do najwyższych w Nowej Hucie, a jego frontowa elewacja ma 74 m szerokości. [3] W całkowicie przeszklonym parterze, z zachowanymi do dziś zaokrąglonymi szybami na narożnikach, mieściły się biuro Orbisu, salon meblowy i klub PTTK, a nowoczesna, pastelowa architektura i wnętrza jak z paryskich żurnali przyniosły budynkowi jego przydomek. [3] Blok wziął też udział w ogłoszonym w 1959 r. przez „Głos Nowej Huty” konkursie na najlepszy dom mieszkalny w dzielnicy. [4]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 84",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=84"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 86",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=86"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 88",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=88"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 95",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=95"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Number from skan 95: 'nr 10 na os. Centrum B (B-31, Blok Francuski)'. The chapter calls the sector unit B-31 on skan 84 and B-32 on skan 86 (book inconsistency; not used). OSM levels=6 vs book 'ośmiokondygnacyjny' — kept the book. GEZ dating 1952–1956 differs from the book (1956–1959). Verifier: identification printed on skan 95: \"nr 10 na os. Centrum B (B-31, Blok Francuski)\".",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S4: the nickname came from the modern, pastel architecture and the interiors \"jak wyjęty z paryskich żurnali\" together (skan 88), not from the interiors alone; reworded."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=84",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=86",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=88",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=95"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 5044,
+    "address": "Osiedle Stalowe 16",
+    "text": "Budynek przy os. Stalowym 16 to dawny Dom Młodego Robotnika (DMR), ważna część osiedla Stalowego. [1] Jego pałacowa, osiowa bryła z ryzalitem pośrodku fasady, zwieńczonym attyką, kryła w rzeczywistości skromny hotel robotniczy. [1] Razem z gmachem technikum na osiedlu Szkolnym i masywnymi blokami narożnymi tworzy od wschodu tzw. Bramę Nowej Huty przy al. Solidarności (dawniej al. Lenina), witającą robotników wracających z kombinatu. [1,2] Przed 2018 r. prywatny inwestor przebudował dawny hotel na budynek mieszkalny. [1]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 33",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 63",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=63"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "The book (skan 33) says DMR was 'zrealizowany w 1951 r.', which conflicts with GEZ 1954–1955 and with the osiedle Stalowe being built from 1954 (skan 65) — year left out. Identification: GEZ entry names it 'pierwotnie hotel (Dom Młodego Robotnika)'. Verifier: identification by the unique name \"Dom Młodego Robotnika\", which the GEZ entry carries; the book's year 1951 (skan 33) is left out of the text, as the researcher did; no other year in the book to conflict with.",
+    "verification": {
+      "verdict": "kept",
+      "removed": [],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=63"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "\"W ostatnich latach\" (relative to the 2018 book) -> \"Przed 2018 r.\" so the time reference does not age."
+      ]
+    }
+  },
+  {
+    "entry_id": 5361,
+    "address": "Osiedle Szkolne 37",
+    "text": "Gmach przy os. Szkolnym 37 zbudowano dla ówczesnego Technikum Hutniczo-Mechanicznego; dziś mieści się w nim Zespół Szkół Mechanicznych nr 3. [1] Zaprojektował go Jan Suliga, a wnętrza Kazimierz Karasiński. [1] Szkoła rozrosła się do ponad 50 oddziałów i 2 tys. uczniów, a z czasem zaczęły w niej przeważać klasy o profilu mechanicznym. [1] Czteroskrzydłowy budynek z wewnętrznym dziedzińcem nawiązuje do gmachu Politechniki Lwowskiej, a główne wejście mieści się w ryzalicie w formie portyku z sześcioma parami gładkich kolumn sięgających przez dwa piętra. [1] Razem z Domem Młodego Robotnika na osiedlu Stalowym gmach tworzy od strony Zalewu Nowohuckiego tzw. bramę do Nowej Huty. [1,2]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 63",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=63"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 33",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Address explicit on skan 63 ('Zespół Szkół Mechanicznych nr 3, os. Szkolne 37'). Suliga's biogram (skan 200) says 'szkołę hutniczą (do 1957)' — differs from the chapter's 1951–1952 and GEZ 1952–1955; text attributes the date to the chapter. Verifier: address printed on skan 63.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S2: removed \"według rozdziału o osiedlu Szkolnym budynek zrealizowano w latach 1951–1952\": the book also dates the school to \"do 1957\" (Suliga biogram, skan 200, not cited), so the text picked one of the book's dates; with no room to cite both, the date is left out."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=63",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=200"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "\"dawnego\" -> \"ówczesnego\" (the school was not yet former when the building went up)."
+      ]
+    }
+  },
+  {
+    "entry_id": 5350,
+    "address": "Osiedle Szkolne 26",
+    "text": "Budynek przy os. Szkolnym 26, zaprojektowany przez Jana Suligę, był siedzibą Zasadniczej Szkoły Metalowej założonej w 1951 r.; dziś mieści się w nim Zespół Szkół Elektrycznych nr 2. [1] Szkoła przeniosła się tu z osiedla Willowego w grudniu 1954 r., do budynku jeszcze częściowo niewykończonego, a według wspomnień przeprowadzkę wykonali w dużej mierze sami uczniowie. [1] W nowoczesnym gmachu wprowadzono system gabinetowy z zapleczem przy salach lekcyjnych, były w nim też sala kinowa i dwie sale gimnastyczne, a szkolne warsztaty zajmowały 4,5 tys. m kw. [1] W dawnych halach warsztatowych tej szkoły (os. Szkolne 25) działa dziś Teatr Łaźnia Nowa. [1]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 64",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=64"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Address explicit on skan 64 ('Zespół Szkół Elektrycznych nr 2, os. Szkolne 26'). Verifier: address printed on skan 64; \"J. Suliga\" on skan 64 = Jan Suliga (skan 63).",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S3: rephrased a run copied from the book (\"salę kinową, dwie sale gimnastyczne i własne warsztaty\")."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=64"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 5522,
+    "address": "Osiedle Teatralne 35",
+    "text": "Szkoła Podstawowa nr 87 stoi na działce obok Teatru Ludowego, na rogu dzisiejszych ulic Ludźmierskiej i Obrońców Krzyża, gdzie mieszkańcy chcieli zbudować pierwszy kościół Nowej Huty. [1,2] Komitet budowy otrzymał zgodę władz miasta 14 lutego 1957 r., a konkurs wygrał projekt Zbigniewa Solawy, lecz pozwolenie cofnięto, a próba usunięcia stojącego tu krzyża 27 kwietnia 1960 r. wywołała zamieszki stłumione przez milicję. [1,2] Zamiast kościoła powstała tu modernistyczna szkoła tysiąclecia według projektu Józefa Gołąba, architekta specjalizującego się w budynkach szkolnych; rozdział o osiedlu datuje ją na lata 1960–1961, a jego biogram na 1962 r. [2,3] Dwukondygnacyjny budynek tworzy szereg niewielkich pawilonów z dużymi oknami, ustawionych grzebieniowo wzdłuż wąskiego przeszklonego łącznika, z małymi dziedzińcami pomiędzy nimi i ażurowymi prześwitami w elewacjach. [2] Kościół stanął ostatecznie tuż obok szkoły dopiero w latach 1998–2001. [2]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 72",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=72"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 73",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=73"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 190",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "The book does not print the house number. Identification: GEZ Teatralne 35 = 'szkoła podstawowa', dated 1958–1961; it lies ~50 m from the church at Ludźmierska 2 (corner with Obrońców Krzyża, 1998–2001), which the book places 'tuż obok szkoły'. Neighbouring Teatralne 33 is ZSO nr 2 (1950–1955), not the tysiąclatka. Verifier: please confirm SP 87 = os. Teatralne 35 if a source is at hand. Verifier: dropped under the batch rule that the cited pages must identify this building.",
+    "verification": {
+      "verdict": "dropped",
+      "removed": [
+        "Dropped: none of the cited pages (skan 72, 73, 190) prints the house number or a name our entry carries (GEZ: only \"szkoła podstawowa\"); the book identifies the school as SP nr 87 / tysiąclatka on os. Teatralne, and the match to no. 35 is the researcher's own inference from the map. Claims themselves were not the reason."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=72",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=73",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      ]
+    }
+  },
+  {
+    "entry_id": 765,
+    "address": "Osiedle Centrum E 2",
+    "text": "Budynek przy os. Centrum E 2 to siedziba Państwowej Szkoły Muzycznej im. Mieczysława Karłowicza, która rozpoczęła działalność w 1958 r., a do początku lat 70. korzystała z lokali zastępczych na osiedlu Centrum B. [1,2] Projekt Marka Jabłońskiego powstał w latach 1959–1961, ale budowa trwała 15 lat i gotowy gmach szkoła otrzymała dopiero w 1974 r. [2] Zespół tworzą dwa równoległe parterowe pawilony z zielonym dziedzińcem, połączone głównym budynkiem częściowo uniesionym na smukłych filarach, oraz sala koncertowa na 500 osób, na której zachodniej ścianie architekt wspólnie ze swoim bratem Jerzym Jabłońskim, malarzem, i rzeźbiarzem Zygmuntem Jansohnem wykonał w 1975 r. abstrakcyjną mozaikę z ceramicznych kafli. [2] Aż do ukończenia budowy Opery Krakowskiej w 2008 r. była to największa i najnowocześniejsza sala tego rodzaju w Krakowie, a we wnętrzach szkoły z lat 70. zachowały się pierwotne elementy wystroju. [3] W 2012 r. szkołę rozbudowano według projektu Agencji Projektowej A4 z Nowego Sącza, m.in. o kilkadziesiąt sal i bibliotekę liczącą 50 tys. woluminów. [3]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 77",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=77"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 80",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=80"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 81",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=81"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "GEZ: 'szkoła - Zespół Szkół Muzycznych', 1959 (= design start). Book caption skan 79: 'SZKOŁA MUZYCZNA NA OS. CENTRUM E'. Not the Światowid cinema (Centrum E 1, done in batch 2). Verifier: identification: the book's only music school on os. Centrum E (caption skan 79 \"SZKOŁA MUZYCZNA NA OS. CENTRUM E\"); GEZ entry is the music-school complex at Centrum E 2 (Centrum E 1 = kino Światowid).",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S2: rephrased \"Szkołę oddano do użytku dopiero w 1974 r.\" (verbatim from skan 80).",
+        "S3: rephrased \"z bratem, malarzem Jerzym Jabłońskim\" (verbatim run).",
+        "S4: \"do otwarcia Opery\" -> \"do ukończenia budowy Opery\" (book: \"ukończenie w 2008 r. budowy\"); \"zachowały oryginalny wystrój\" -> \"zachowały się oryginalne elementy wystroju\" (book lists elements, not the whole décor). Then reworded to avoid a 5-word run."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=77",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=80",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=81",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=79"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "\"działała od 1958 r.\" -> \"rozpoczęła działalność w 1958 r.\" (clearer next to the later move)."
+      ]
+    }
+  },
+  {
+    "entry_id": 3680,
+    "address": "Osiedle Na Skarpie 8",
+    "text": "Budynek przy os. Na Skarpie 8 mieści Szkołę Podstawową nr 80, pierwszą szkołę w Nowej Hucie. [1] Stanął po zachodniej stronie osiedla; projekt przygotował Franciszek Adamski, a budowa trwała w latach 1949–1953. [1] Ten warszawski architekt był też autorem popularnego projektu typowego, według którego budowano niewielkie ceglane bloki osiedla Na Skarpie – jednego z trzech pierwszych osiedli dzielnicy, obok Wandy i Willowego. [2]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 41",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=41"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 39",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=39"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "School named in the book: 'pierwsza nowohucka szkoła (Szkoła Podstawowa nr 80)' (skan 41); GEZ Na Skarpie 8 = SP nr 80, 1949–1953. Verifier: identification by the name \"Szkoła Podstawowa nr 80\", carried by the GEZ entry.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S2: rephrased \"w latach 1949–1953 według projektu Franciszka Adamskiego\" (verbatim run from skan 41)."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=41",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=39"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 5926,
+    "address": "Osiedle Willowe 29",
+    "text": "Budynek przy os. Willowym 29 to dawny dom handlowy otwarty w 1951 r., w którym działał zespół lokali gastronomicznych pod nazwą Gigant: restauracja, kawiarnia, cukiernia i bar mleczny. [1] Razem z sąsiednią pocztą zamykał od północy i zachodu pierwszy plac w Nowej Hucie, pełniący rolę rynku osiedla A-1. [1] Wystrój restauracji zaprojektował Marian Sigmund wspólnie z Marianem Steczowiczem; dawne zdjęcia pokazują salę z dwoma rzędami kolumn pokrytych ceramiczną dekoracją i ze stiukami na suficie. [1] W ciągu kilku lat lokal zyskał złą sławę, a odżył dopiero w 1978 r., gdy przejęło go Socjalistyczne Stowarzyszenie Studentów Polskich i urządziło w nim klub studencki FAMA z koncertami m.in. Maanamu i Tomasza Stańki. [2] Klub podupadł w czasie stanu wojennego, a dziś w dawnym Gigancie ma siedzibę Kościół Zielonoświątkowy. [2]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 29",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=29"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 30",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=30"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "GEZ entry name: 'dom towarowy i restauracja Gigant (dawne)'. Organisation name kept as printed in the book ('Socjalistyczne Stowarzyszenie Studentów Polskich'). Verifier: identification by the unique name \"Gigant\", carried by the GEZ entry.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S2: rephrased \"północną i zachodnią pierzeję pierwszego\" (verbatim run).",
+        "S4: \"szybko zyskał złą sławę\" -> \"w ciągu kilku lat\" (book: \"w ciągu paru lat\")."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=29",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=30"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "\"z\" -> \"wspólnie z\" (reads as co-authors)."
+      ]
+    }
+  },
+  {
+    "entry_id": 1817,
+    "address": "Osiedle Hutnicze 10",
+    "text": "Blok przy os. Hutniczym 10 należy do czterech bloków nr 10–13, które według biogramów architektów zaprojektowali Adam Fołtyn i Zbigniew Sieradzki. [3,4] Najpewniej to te bloki rozdział o sektorze A opisuje jako wzniesiony wzdłuż ul. Stanisława Mierzwy zespół czterech bloków Fołtyna, jeden z najciekawszych eksperymentów formalnych osiedla: uproszczone geometryczne podziały elewacji przypominają boniowanie, ale zapowiadają już powrót do modernizmu po 1956 r. [1] Szczególnie efektowne są obramienia wejść do klatek schodowych w postaci ażurowych betonowych kratownic. [1] Bloki zbudowano w technologii tzw. II stopnia uprzemysłowienia: w czterech blokach osiedla, według książki najprawdopodobniej właśnie nr 10–13, oprócz prefabrykatów znanych z osiedla Stalowego użyto także prefabrykowanych ław fundamentowych, murów piwnicznych, elementów elewacji, łazienek i ubikacji. [2,3,4] Książka podaje dla zespołu różne daty: rozdział o sektorze A lata 1953–1955, biogram Fołtyna rok 1958, a biogram Sieradzkiego „do 1956”. [1,3,4]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 33",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 185",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 190",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 198",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Numbers 10–13 from the biograms of Fołtyn (skan 190, continuation from skan 189) and Sieradzki (skan 198, continuation from skan 197); the chapter (skan 33) names the four-block group along ul. Mierzwy without numbers; the annex (skan 185) says 'najprawdopodobniej nr 10–13'. Dates in the book disagree (1953–1955 / do 1956 / 1958) — text reports all. Same text for all four blocks (only the first sentence varies). Verifier: rule 2: every sentence tying the group description or the technology to nos. 10–13 keeps a hedge; the design attribution to nos. 10–13 is printed in both biograms.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1: removed \"otwiera/zamyka zespół\" (an order the book does not give); the numbers 10–13 and the joint design are printed in the biograms (Fołtyn skan 189–190, Sieradzki skan 197–198), now attributed to them.",
+        "S2: the chapter (skan 33) describes the four Fołtyn blocks along ul. Mierzwy without numbers; tying that description to nos. 10–13 is an inference, so the sentence now carries the hedge \"Najpewniej\".",
+        "S4: removed \"po raz pierwszy\" and \"m.in.\" (on skan 185 \"po raz pierwszy\" refers to the elements first used on os. Stalowe; the list of new prefabricates is complete); hedge \"najprawdopodobniej\" now attributed to the book.",
+        "S5: \"odpowiednio\" made explicit (Fołtyn 1958, Sieradzki \"do 1956\")."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=189",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=197"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 1818,
+    "address": "Osiedle Hutnicze 11",
+    "text": "Blok przy os. Hutniczym 11 należy do czterech bloków nr 10–13, które według biogramów architektów zaprojektowali Adam Fołtyn i Zbigniew Sieradzki. [3,4] Najpewniej to te bloki rozdział o sektorze A opisuje jako wzniesiony wzdłuż ul. Stanisława Mierzwy zespół czterech bloków Fołtyna, jeden z najciekawszych eksperymentów formalnych osiedla: uproszczone geometryczne podziały elewacji przypominają boniowanie, ale zapowiadają już powrót do modernizmu po 1956 r. [1] Szczególnie efektowne są obramienia wejść do klatek schodowych w postaci ażurowych betonowych kratownic. [1] Bloki zbudowano w technologii tzw. II stopnia uprzemysłowienia: w czterech blokach osiedla, według książki najprawdopodobniej właśnie nr 10–13, oprócz prefabrykatów znanych z osiedla Stalowego użyto także prefabrykowanych ław fundamentowych, murów piwnicznych, elementów elewacji, łazienek i ubikacji. [2,3,4] Książka podaje dla zespołu różne daty: rozdział o sektorze A lata 1953–1955, biogram Fołtyna rok 1958, a biogram Sieradzkiego „do 1956”. [1,3,4]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 33",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 185",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 190",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 198",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Numbers 10–13 from the biograms of Fołtyn (skan 190, continuation from skan 189) and Sieradzki (skan 198, continuation from skan 197); the chapter (skan 33) names the four-block group along ul. Mierzwy without numbers; the annex (skan 185) says 'najprawdopodobniej nr 10–13'. Dates in the book disagree (1953–1955 / do 1956 / 1958) — text reports all. Same text for all four blocks (only the first sentence varies). Verifier: rule 2: every sentence tying the group description or the technology to nos. 10–13 keeps a hedge; the design attribution to nos. 10–13 is printed in both biograms.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1: removed \"otwiera/zamyka zespół\" (an order the book does not give); the numbers 10–13 and the joint design are printed in the biograms (Fołtyn skan 189–190, Sieradzki skan 197–198), now attributed to them.",
+        "S2: the chapter (skan 33) describes the four Fołtyn blocks along ul. Mierzwy without numbers; tying that description to nos. 10–13 is an inference, so the sentence now carries the hedge \"Najpewniej\".",
+        "S4: removed \"po raz pierwszy\" and \"m.in.\" (on skan 185 \"po raz pierwszy\" refers to the elements first used on os. Stalowe; the list of new prefabricates is complete); hedge \"najprawdopodobniej\" now attributed to the book.",
+        "S5: \"odpowiednio\" made explicit (Fołtyn 1958, Sieradzki \"do 1956\")."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=189",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=197"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 1819,
+    "address": "Osiedle Hutnicze 12",
+    "text": "Blok przy os. Hutniczym 12 to jeden z czterech bloków nr 10–13, które według biogramów architektów zaprojektowali Adam Fołtyn i Zbigniew Sieradzki. [3,4] Najpewniej to te bloki rozdział o sektorze A opisuje jako wzniesiony wzdłuż ul. Stanisława Mierzwy zespół czterech bloków Fołtyna, jeden z najciekawszych eksperymentów formalnych osiedla: uproszczone geometryczne podziały elewacji przypominają boniowanie, ale zapowiadają już powrót do modernizmu po 1956 r. [1] Szczególnie efektowne są obramienia wejść do klatek schodowych w postaci ażurowych betonowych kratownic. [1] Bloki zbudowano w technologii tzw. II stopnia uprzemysłowienia: w czterech blokach osiedla, według książki najprawdopodobniej właśnie nr 10–13, oprócz prefabrykatów znanych z osiedla Stalowego użyto także prefabrykowanych ław fundamentowych, murów piwnicznych, elementów elewacji, łazienek i ubikacji. [2,3,4] Książka podaje dla zespołu różne daty: rozdział o sektorze A lata 1953–1955, biogram Fołtyna rok 1958, a biogram Sieradzkiego „do 1956”. [1,3,4]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 33",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 185",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 190",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 198",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Numbers 10–13 from the biograms of Fołtyn (skan 190, continuation from skan 189) and Sieradzki (skan 198, continuation from skan 197); the chapter (skan 33) names the four-block group along ul. Mierzwy without numbers; the annex (skan 185) says 'najprawdopodobniej nr 10–13'. Dates in the book disagree (1953–1955 / do 1956 / 1958) — text reports all. Same text for all four blocks (only the first sentence varies). Verifier: rule 2: every sentence tying the group description or the technology to nos. 10–13 keeps a hedge; the design attribution to nos. 10–13 is printed in both biograms.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1: removed \"otwiera/zamyka zespół\" (an order the book does not give); the numbers 10–13 and the joint design are printed in the biograms (Fołtyn skan 189–190, Sieradzki skan 197–198), now attributed to them.",
+        "S2: the chapter (skan 33) describes the four Fołtyn blocks along ul. Mierzwy without numbers; tying that description to nos. 10–13 is an inference, so the sentence now carries the hedge \"Najpewniej\".",
+        "S4: removed \"po raz pierwszy\" and \"m.in.\" (on skan 185 \"po raz pierwszy\" refers to the elements first used on os. Stalowe; the list of new prefabricates is complete); hedge \"najprawdopodobniej\" now attributed to the book.",
+        "S5: \"odpowiednio\" made explicit (Fołtyn 1958, Sieradzki \"do 1956\")."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=189",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=197"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 1820,
+    "address": "Osiedle Hutnicze 13",
+    "text": "Blok przy os. Hutniczym 13 to jeden z czterech bloków nr 10–13, które według biogramów architektów zaprojektowali Adam Fołtyn i Zbigniew Sieradzki. [3,4] Najpewniej to te bloki rozdział o sektorze A opisuje jako wzniesiony wzdłuż ul. Stanisława Mierzwy zespół czterech bloków Fołtyna, jeden z najciekawszych eksperymentów formalnych osiedla: uproszczone geometryczne podziały elewacji przypominają boniowanie, ale zapowiadają już powrót do modernizmu po 1956 r. [1] Szczególnie efektowne są obramienia wejść do klatek schodowych w postaci ażurowych betonowych kratownic. [1] Bloki zbudowano w technologii tzw. II stopnia uprzemysłowienia: w czterech blokach osiedla, według książki najprawdopodobniej właśnie nr 10–13, oprócz prefabrykatów znanych z osiedla Stalowego użyto także prefabrykowanych ław fundamentowych, murów piwnicznych, elementów elewacji, łazienek i ubikacji. [2,3,4] Książka podaje dla zespołu różne daty: rozdział o sektorze A lata 1953–1955, biogram Fołtyna rok 1958, a biogram Sieradzkiego „do 1956”. [1,3,4]",
+    "sources": [
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 33",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 185",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 190",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190"
+      },
+      {
+        "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 198",
+        "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Numbers 10–13 from the biograms of Fołtyn (skan 190, continuation from skan 189) and Sieradzki (skan 198, continuation from skan 197); the chapter (skan 33) names the four-block group along ul. Mierzwy without numbers; the annex (skan 185) says 'najprawdopodobniej nr 10–13'. Dates in the book disagree (1953–1955 / do 1956 / 1958) — text reports all. Same text for all four blocks (only the first sentence varies). Verifier: rule 2: every sentence tying the group description or the technology to nos. 10–13 keeps a hedge; the design attribution to nos. 10–13 is printed in both biograms.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1: removed \"otwiera/zamyka zespół\" (an order the book does not give); the numbers 10–13 and the joint design are printed in the biograms (Fołtyn skan 189–190, Sieradzki skan 197–198), now attributed to them.",
+        "S2: the chapter (skan 33) describes the four Fołtyn blocks along ul. Mierzwy without numbers; tying that description to nos. 10–13 is an inference, so the sentence now carries the hedge \"Najpewniej\".",
+        "S4: removed \"po raz pierwszy\" and \"m.in.\" (on skan 185 \"po raz pierwszy\" refers to the elements first used on os. Stalowe; the list of new prefabricates is complete); hedge \"najprawdopodobniej\" now attributed to the book.",
+        "S5: \"odpowiednio\" made explicit (Fołtyn 1958, Sieradzki \"do 1956\")."
+      ],
+      "checked_urls": [
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=33",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=185",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=190",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=198",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=189",
+        "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=197"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  }
+]

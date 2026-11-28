@@ -64,7 +64,7 @@ def sparql(query):
     for attempt in range(3):
         r = requests.post(ENDPOINT, data={"query": query}, headers=HEADERS, timeout=120)
         if r.status_code == 200:
-            return r.json()["results"]["bindings"]
+            return json.loads(r.text, strict=False)["results"]["bindings"]  # labels may hold raw control chars
         print(f"  HTTP {r.status_code}, retry {attempt + 1}")
         time.sleep(5 * (attempt + 1))
     r.raise_for_status()

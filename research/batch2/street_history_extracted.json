@@ -1,0 +1,3326 @@
+[
+ {
+  "street": "Adama Asnyka",
+  "names": [
+   {
+    "name": "Łazienna",
+    "from": 1878,
+    "to": 1912,
+    "note": "na planach z 1878, 1885 i 1906 r.",
+    "source": 1
+   },
+   {
+    "name": "Na Łazienkach",
+    "from": 1878,
+    "to": 1912,
+    "note": "wariant nazwy Łazienna na planach z 1878, 1885 i 1906 r.",
+    "source": 1
+   },
+   {
+    "name": "Górnych Młynów",
+    "from": 1900,
+    "to": 1900,
+    "note": "na planie z 1900 r.",
+    "source": 1
+   },
+   {
+    "name": "Biskupia",
+    "from": null,
+    "to": null,
+    "note": "XIX w.; nazwa używana obok ulicy Biskupiej",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Adama Asnyka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Adama_Asnyka_w_Krakowie"
+   },
+   {
+    "title": "Ulica Biskupia w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Biskupia_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Adama Chmielowskiego",
+  "names": [
+   {
+    "name": "Uczniowska",
+    "from": 1970,
+    "to": 1972,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Adama Chmielowskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Adama_Chmielowskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Aleja Ignacego Daszyńskiego",
+  "names": [
+   {
+    "name": "Wiślisko",
+    "from": null,
+    "to": 1937,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleja Ignacego Daszyńskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Aleja_Ignacego_Daszy%C5%84skiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Aleja Jerzego Waszyngtona",
+  "names": [
+   {
+    "name": "Świętej Bronisławy",
+    "from": 1912,
+    "to": 1932,
+    "note": "zachodnia część ulicy Świętej Bronisławy",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica św. Bronisławy w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%9Bw._Bronis%C5%82awy_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Aleja Juliusza Słowackiego",
+  "names": [
+   {
+    "name": "Wałowa",
+    "from": null,
+    "to": 1890,
+    "note": "nazwa zwyczajowa",
+    "source": 1
+   },
+   {
+    "name": "Jana Kilińskiego",
+    "from": 1890,
+    "to": 1912,
+    "note": "nazwa oficjalna nadana przez Radę Miasta",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleja Juliusza Słowackiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Aleja_Juliusza_S%C5%82owackiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Aleja Powstania Warszawskiego",
+  "names": [
+   {
+    "name": "Aleja Powstańców Warszawy",
+    "from": 1957,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleja Powstania Warszawskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Aleja_Powstania_Warszawskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Aleja Solidarności",
+  "names": [
+   {
+    "name": "Aleja Przodowników Pracy",
+    "from": null,
+    "to": 1959,
+    "note": "od powstania ulicy",
+    "source": 1
+   },
+   {
+    "name": "Aleja Lenina",
+    "from": 1959,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleja Solidarności w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Aleja_Solidarno%C5%9Bci_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Aleksandra Lubomirskiego",
+  "names": [
+   {
+    "name": "Andrzeja Frycza Modrzewskiego",
+    "from": 1952,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Aleksandra Lubomirskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Aleksandra_Lubomirskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Andrzeja Potebni",
+  "names": [
+   {
+    "name": "Braci Dudzińskich",
+    "from": 1937,
+    "to": null,
+    "note": "patronami byli bracia Dudzińscy, legioniści z Podgórza",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Andrzeja Potebni w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Andrzeja_Potebni_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Bartosza",
+  "names": [
+   {
+    "name": "Wysoka",
+    "from": null,
+    "to": 1890,
+    "note": "lata 80. XIX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Bartosza w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Bartosza_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Basztowa",
+  "names": [
+   {
+    "name": "Podwale",
+    "from": 1744,
+    "to": 1744,
+    "note": "część przy Rondlu bramy Floriańskiej, na planie Kleparza",
+    "source": 1
+   },
+   {
+    "name": "Górnych Młynów",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   },
+   {
+    "name": "Targowisko",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   },
+   {
+    "name": "Targowisko drzewa",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   },
+   {
+    "name": "Widok",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 188",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=205",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Beera Meiselsa",
+  "names": [
+   {
+    "name": "Miedzuch",
+    "from": null,
+    "to": null,
+    "note": "XIX w., prawie do jego końca",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 223",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=244",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Blich",
+  "names": [
+   {
+    "name": "Blichowa",
+    "from": 1836,
+    "to": 1913,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Blich w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Blich_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Bonerowska",
+  "names": [
+   {
+    "name": "Stillegasse",
+    "from": 1940,
+    "to": 1945,
+    "note": "okupacja niemiecka (pisownia Stillegaße)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Bonerowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Bonerowska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Bonifraterska",
+  "names": [
+   {
+    "name": "Rybna",
+    "from": null,
+    "to": 1881,
+    "note": "odcinek dochodzący do brzegu Wisły",
+    "source": 1
+   },
+   {
+    "name": "Trynitarska",
+    "from": 1881,
+    "to": 1903,
+    "note": "odcinek dochodzący do brzegu Wisły",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Bonifraterska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Bonifraterska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Bracka",
+  "names": [
+   {
+    "name": "Platea Fratrum Minorum",
+    "from": 1302,
+    "to": 1396,
+    "note": "od klasztoru franciszkanów (braci mniejszych)",
+    "source": 1
+   },
+   {
+    "name": "Barwuzenbrudergasse",
+    "from": 1310,
+    "to": 1311,
+    "note": "nazwa niemiecka",
+    "source": 1
+   },
+   {
+    "name": "Brudergasse",
+    "from": 1329,
+    "to": 1429,
+    "note": "nazwa niemiecka",
+    "source": 1
+   },
+   {
+    "name": "Platea s. Francisci",
+    "from": 1336,
+    "to": 1464,
+    "note": "ulica św. Franciszka",
+    "source": 1
+   },
+   {
+    "name": "Barfussengasse",
+    "from": 1421,
+    "to": 1421,
+    "note": "nazwa niemiecka",
+    "source": 1
+   },
+   {
+    "name": "Platea Fraternitatis",
+    "from": 1456,
+    "to": 1468,
+    "source": 1
+   },
+   {
+    "name": "Bratska",
+    "from": 1465,
+    "to": 1465,
+    "note": "pierwsza polska forma nazwy („plat. Fratrum alias Bratska”)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 75",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=90",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Bulwar Czerwieński",
+  "names": [
+   {
+    "name": "Bulwar Juliusza Lea",
+    "from": 1980,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Bulwar Czerwieński w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Bulwar_Czerwie%C5%84ski_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Ciemna",
+  "names": [
+   {
+    "name": "Kącik",
+    "from": 1912,
+    "to": 1915,
+    "note": "w 1915 r. przywrócono nazwę Ciemna",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Ciemna w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Ciemna_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Czapskich",
+  "names": [
+   {
+    "name": "Zgoda",
+    "from": 1890,
+    "to": 1912,
+    "note": "nazwa oficjalna; odrzucono propozycję „Sporna”",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Czapskich w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Czapskich_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Doktora Ludwika Zamenhofa",
+  "names": [
+   {
+    "name": "Niecała",
+    "from": null,
+    "to": 1931,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Ludwika Zamenhofa w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Ludwika_Zamenhofa_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Dolnych Młynów",
+  "names": [
+   {
+    "name": "Thal Gasse",
+    "from": 1807,
+    "to": 1858,
+    "note": "zapis niemiecki na planie z 1807 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Dolnych Młynów w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Dolnych_M%C5%82yn%C3%B3w_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Długa",
+  "names": [
+   {
+    "name": "Fabryczna",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Floriańska",
+  "names": [
+   {
+    "name": "Platea sancti Floriani",
+    "from": null,
+    "to": null,
+    "note": "łacińska forma nazwy w aktach miejskich",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), skan 58",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=57",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Garbarska",
+  "names": [
+   {
+    "name": "Tasemberk",
+    "from": 1632,
+    "to": 1632,
+    "source": 2
+   },
+   {
+    "name": "Pańska",
+    "from": null,
+    "to": 1858,
+    "note": "jedna z nazw używanych przed oficjalnym nadaniem nazwy Garbarska",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Garbarska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Garbarska_w_Krakowie"
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 175",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=192",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Garncarska",
+  "names": [
+   {
+    "name": "Krupnicza",
+    "from": null,
+    "to": null,
+    "note": "od XVI w.",
+    "source": 1
+   },
+   {
+    "name": "Krupniki",
+    "from": null,
+    "to": null,
+    "note": "od XVI w., od dawnej osady",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Garncarska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Garncarska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Gołębia",
+  "names": [
+   {
+    "name": "Platea Ultima",
+    "from": 1312,
+    "to": 1350,
+    "note": "ulica Ostatnia; po niemiecku Hinderste gasse",
+    "source": 1
+   },
+   {
+    "name": "Platea Lutifigulorum",
+    "from": 1331,
+    "to": null,
+    "note": "ulica Garncarska, też plat. Figulorum; XIV–XV w.",
+    "source": 2
+   },
+   {
+    "name": "Gołębia wyższa i niższa",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 3
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 138",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=153",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 139",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=154",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Grodzka",
+  "names": [
+   {
+    "name": "Burchgassen",
+    "from": 1308,
+    "to": 1310,
+    "note": "nazwa niemiecka",
+    "source": 1
+   },
+   {
+    "name": "Platea Castrensis",
+    "from": 1313,
+    "to": 1394,
+    "note": "też platea Castri; nazwy łacińska i niemiecka używane naprzemian w XIV–XV w.",
+    "source": 1
+   },
+   {
+    "name": "Okół",
+    "from": 1336,
+    "to": null,
+    "note": "południowa część ulicy („nova civitas in Okol”)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 65",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=80",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), skan 82",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=81",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Hieronima Wietora",
+  "names": [
+   {
+    "name": "Skawińska Boczna",
+    "from": 1925,
+    "to": 1966,
+    "note": "od powstania ulicy ok. 1925 r.",
+    "source": 1
+   },
+   {
+    "name": "Małgorzaty Fornalskiej",
+    "from": 1966,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Hieronima Wietora w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Hieronima_Wietora_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Ignacego Jana Paderewskiego",
+  "names": [
+   {
+    "name": "Quergasse des Pferdemarkts",
+    "from": 1807,
+    "to": 1807,
+    "note": "bezimienna przecznica, opis z 1807 r.",
+    "source": 1
+   },
+   {
+    "name": "Adama Asnyka",
+    "from": 1903,
+    "to": null,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Ignacego Paderewskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Ignacego_Paderewskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Izaaka",
+  "names": [
+   {
+    "name": "Plac Izaaka",
+    "from": 1880,
+    "to": 1881,
+    "source": 1
+   },
+   {
+    "name": "Plac Rybny",
+    "from": null,
+    "to": null,
+    "note": "zachodnia część ulicy, XIX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Izaaka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Izaaka_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Jagiellońska",
+  "names": [
+   {
+    "name": "Bezimienna",
+    "from": 1785,
+    "to": 1785,
+    "note": "na planie kołłątajowskim",
+    "source": 1
+   },
+   {
+    "name": "Teatralna",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 143",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=160",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Jakuba",
+  "names": [
+   {
+    "name": "Mały Plac",
+    "from": 1785,
+    "to": 1785,
+    "source": 1
+   },
+   {
+    "name": "Kierków",
+    "from": null,
+    "to": 1878,
+    "note": "XIX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Jakuba w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Jakuba_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Jasnogórska",
+  "names": [
+   {
+    "name": "Jurija Gagarina",
+    "from": null,
+    "to": 1991,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Jasnogórska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Jasnog%C3%B3rska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Juliana Dunajewskiego",
+  "names": [
+   {
+    "name": "Podwale",
+    "from": 1881,
+    "to": null,
+    "note": "jak cała droga wzdłuż murów miejskich",
+    "source": 1
+   },
+   {
+    "name": "1 Maja",
+    "from": 1951,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Juliana Dunajewskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Juliana_Dunajewskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Juliusza Lea",
+  "names": [
+   {
+    "name": "Kościelna",
+    "from": null,
+    "to": 1912,
+    "source": 1
+   },
+   {
+    "name": "Królewska",
+    "from": 1912,
+    "to": 1925,
+    "source": 1
+   },
+   {
+    "name": "Feliksa Dzierżyńskiego",
+    "from": 1952,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Juliusza Lea w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Juliusza_Lea_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Józefa",
+  "names": [
+   {
+    "name": "Platea Iudeorum",
+    "from": 1500,
+    "to": 1785,
+    "note": "ulica Żydowska; na planie z 1785 r.",
+    "source": 2
+   },
+   {
+    "name": "In der christlichen-Judengasse",
+    "from": 1807,
+    "to": 1807,
+    "note": "ulica Chrześcijańsko-Żydowska, zapis niemiecki",
+    "source": 1
+   },
+   {
+    "name": "Żydowska",
+    "from": null,
+    "to": 1866,
+    "note": "od XVI w. wschodnia część, na przełomie XVIII i XIX w. cała ulica",
+    "source": 1
+   },
+   {
+    "name": "Wysoka",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 3
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Józefa w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_J%C3%B3zefa_w_Krakowie"
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 219",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=240",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Józefa Sarego",
+  "names": [
+   {
+    "name": "Zielona",
+    "from": 1882,
+    "to": 1932,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Józefa Sarego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_J%C3%B3zefa_Sarego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Kalwaryjska",
+  "names": [
+   {
+    "name": "Zakopanerstrasse",
+    "from": 1940,
+    "to": 1945,
+    "note": "okupacja niemiecka",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Kalwaryjska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kalwaryjska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Kanonicza",
+  "names": [
+   {
+    "name": "Contrata castrensis",
+    "from": 1373,
+    "to": 1399,
+    "note": "też vicus platee Castri – „uliczka Grodzkiej”",
+    "source": 1
+   },
+   {
+    "name": "Thumgasse",
+    "from": 1442,
+    "to": 1442,
+    "note": "nazwa niemiecka; łac. contrata Canonicorum od 1401 r.",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 151",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=168",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 152",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=169",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Karmelicka",
+  "names": [
+   {
+    "name": "Szeroka",
+    "from": 1392,
+    "to": 1836,
+    "note": "plat. Lata, Breite gasse; część od Plant do mostku na Rudawie",
+    "source": 1
+   },
+   {
+    "name": "Czarna",
+    "from": 1836,
+    "to": 1836,
+    "note": "dalsza, zachodnia część ulicy na planie z 1836 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 173",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=190",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Kazimierza Brodzińskiego",
+  "names": [
+   {
+    "name": "Krakowska",
+    "from": null,
+    "to": 1917,
+    "note": "nazwa początkowa",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Kazimierza Brodzińskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kazimierza_Brodzi%C5%84skiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Koletek",
+  "names": [
+   {
+    "name": "Mikołaja Kopernika",
+    "from": null,
+    "to": null,
+    "note": "pierwsza połowa XIX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 213",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=232",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Krakowska",
+  "names": [
+   {
+    "name": "Wielicka",
+    "from": 1550,
+    "to": 1792,
+    "note": "część ulicy (plat. Wieliciensis); w XIX w. nazwa Krakowska dla całości",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), skan 250",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=249",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Krowoderska",
+  "names": [
+   {
+    "name": "Piekarska",
+    "from": null,
+    "to": 1858,
+    "note": "część północna, bliżej Krowodrzy",
+    "source": 2
+   },
+   {
+    "name": "Biskupia",
+    "from": null,
+    "to": null,
+    "note": "do końca XVIII w.; główny trakt jurydyki Biskupie",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Biskupia w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Biskupia_w_Krakowie"
+   },
+   {
+    "title": "Ulica Krowoderska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Krowoderska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Krupnicza",
+  "names": [
+   {
+    "name": "Garncarska",
+    "from": null,
+    "to": 1800,
+    "note": "jeszcze ok. 1800 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 172",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=189",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Królewska",
+  "names": [
+   {
+    "name": "Józefa Wybickiego",
+    "from": 1924,
+    "to": 1946,
+    "source": 1
+   },
+   {
+    "name": "18 Stycznia",
+    "from": 1946,
+    "to": 1991,
+    "source": 2
+   },
+   {
+    "name": "Reichstrasse",
+    "from": null,
+    "to": null,
+    "note": "okupacja niemiecka",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Józefa Wybickiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_J%C3%B3zefa_Wybickiego_w_Krakowie"
+   },
+   {
+    "title": "Ulica Królewska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kr%C3%B3lewska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Królowej Jadwigi",
+  "names": [
+   {
+    "name": "Wolska",
+    "from": 1933,
+    "to": 1948,
+    "note": "zachodni odcinek ulicy",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Królowej Jadwigi w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kr%C3%B3lowej_Jadwigi_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Księcia Józefa",
+  "names": [
+   {
+    "name": "Droga do Bielan",
+    "from": null,
+    "to": 1912,
+    "note": "początek XX w.",
+    "source": 1
+   },
+   {
+    "name": "Tadeusza Kościuszki",
+    "from": null,
+    "to": 1912,
+    "note": "początek XX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Księcia Józefa w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Ksi%C4%99cia_J%C3%B3zefa_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Kupa",
+  "names": [
+   {
+    "name": "Wielki Plac",
+    "from": null,
+    "to": null,
+    "note": "XVIII w.",
+    "source": 1
+   },
+   {
+    "name": "Szeroka",
+    "from": null,
+    "to": null,
+    "note": "od początku XIX w.",
+    "source": 1
+   },
+   {
+    "name": "Mała",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Kupa w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kupa_w_Krakowie"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Kurniki",
+  "names": [
+   {
+    "name": "Droga do Strzelnicy Wielkiej",
+    "from": null,
+    "to": null,
+    "note": "XVIII w.",
+    "source": 1
+   },
+   {
+    "name": "Mogilska",
+    "from": null,
+    "to": null,
+    "note": "pierwsza połowa XIX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Kurniki w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Kurniki_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Legionów Józefa Piłsudskiego",
+  "names": [
+   {
+    "name": "3 Maja",
+    "from": null,
+    "to": 1917,
+    "note": "od powstania ulicy",
+    "source": 1
+   },
+   {
+    "name": "Brückenstraße",
+    "from": 1940,
+    "to": 1945,
+    "note": "okupacja niemiecka",
+    "source": 1
+   },
+   {
+    "name": "Zygmunta Wróblewskiego",
+    "from": 1951,
+    "to": 1959,
+    "source": 1
+   },
+   {
+    "name": "Stanisława Cekiery",
+    "from": 1959,
+    "to": 1990,
+    "note": "odcinek między ul. Rollego a Kalwaryjską",
+    "source": 1
+   },
+   {
+    "name": "Antoniego Stawarza",
+    "from": 1959,
+    "to": 1990,
+    "note": "odcinek od ul. Kalwaryjskiej do Zamojskiego",
+    "source": 1
+   },
+   {
+    "name": "Legionów",
+    "from": null,
+    "to": 1991,
+    "note": "nazwa przedwojenna, przywrócona w 1945 i 1990 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Legionów Józefa Piłsudskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Legion%C3%B3w_J%C3%B3zefa_Pi%C5%82sudskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Loretańska",
+  "names": [
+   {
+    "name": "Platea parva",
+    "from": 1431,
+    "to": 1431,
+    "note": "uliczka „mała”, „wąska” (też enge gasse, cleyn gasse)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Loretańska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Loreta%C5%84ska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Lwowska",
+  "names": [
+   {
+    "name": "Juliusza Słowackiego",
+    "from": null,
+    "to": 1917,
+    "note": "początek XX w.",
+    "source": 1
+   },
+   {
+    "name": "Salinarna",
+    "from": null,
+    "to": null,
+    "note": "od lokacji Podgórza pod koniec XVIII w.; przywrócona w 1917 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Lwowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Lwowska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Marcina Borelowskiego-Lelewela",
+  "names": [
+   {
+    "name": "Joachima Lelewela",
+    "from": 1912,
+    "to": null,
+    "note": "do lat 50. XX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Marcina Borelowskiego-Lelewela w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Marcina_Borelowskiego-Lelewela_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Marszałka Józefa Piłsudskiego",
+  "names": [
+   {
+    "name": "Wolska",
+    "from": 1807,
+    "to": 1933,
+    "note": "w 1807 r. zapisana też po niemiecku: Wohler Gasse",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Marszałka Józefa Piłsudskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Marsza%C5%82ka_J%C3%B3zefa_Pi%C5%82sudskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Mały Rynek",
+  "names": [
+   {
+    "name": "Vendeta",
+    "from": 1533,
+    "to": 1591,
+    "note": "używana jeszcze w XVII w.",
+    "source": 1
+   },
+   {
+    "name": "Forum antiquum",
+    "from": 1548,
+    "to": 1548,
+    "source": 1
+   },
+   {
+    "name": "Tandeta",
+    "from": 1548,
+    "to": 1578,
+    "note": "też Tendetha",
+    "source": 2
+   },
+   {
+    "name": "Forum Scrutarium",
+    "from": 1563,
+    "to": 1590,
+    "source": 1
+   },
+   {
+    "name": "Forum Antiquarium",
+    "from": 1567,
+    "to": 1581,
+    "source": 1
+   },
+   {
+    "name": "Forum veterarium",
+    "from": 1590,
+    "to": 1590,
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), skan 139",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=138",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 124",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=139",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Melchiora Wańkowicza",
+  "names": [
+   {
+    "name": "Na Wzgórza",
+    "from": null,
+    "to": 1962,
+    "note": "nazwa potoczna ulicy bezimiennej",
+    "source": 1
+   },
+   {
+    "name": "Przy Dworze",
+    "from": null,
+    "to": 1962,
+    "note": "nazwa potoczna ulicy bezimiennej",
+    "source": 1
+   },
+   {
+    "name": "Leona Kruczkowskiego",
+    "from": 1962,
+    "to": 1991,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Melchiora Wańkowicza w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Melchiora_Wa%C5%84kowicza_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Mikołaja Kopernika",
+  "names": [
+   {
+    "name": "Platea s. Nicolai",
+    "from": 1446,
+    "to": 1446,
+    "note": "ulica Mikołajska – może tylko część bliższa śródmieścia",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 195",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=212",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Mikołaja Zyblikiewicza",
+  "names": [
+   {
+    "name": "Bitwy pod Lenino",
+    "from": 1953,
+    "to": 1990,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Mikołaja Zyblikiewicza w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Miko%C5%82aja_Zyblikiewicza_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Mikołajska",
+  "names": [
+   {
+    "name": "Platea Carnificum",
+    "from": 1326,
+    "to": 1340,
+    "note": "ulica Rzeźnicza",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 116",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=131",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Mogilska",
+  "names": [
+   {
+    "name": "Mogilenstrasse",
+    "from": 1942,
+    "to": 1945,
+    "note": "okupacja niemiecka",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Mogilska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Mogilska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Oboźna",
+  "names": [
+   {
+    "name": "Miechowska",
+    "from": 1912,
+    "to": null,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Oboźna w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Obo%C5%BAna_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Ogrodowa",
+  "names": [
+   {
+    "name": "Pawia",
+    "from": 1881,
+    "to": 1893,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Ogrodowa w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Ogrodowa_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Osiedle Niepodległości",
+  "names": [
+   {
+    "name": "Plac Powstańców Śląskich",
+    "from": 1965,
+    "to": 1991,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Plac Niepodległości w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Plac_Niepodleg%C5%82o%C5%9Bci_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Paulińska",
+  "names": [
+   {
+    "name": "Miedzuch",
+    "from": null,
+    "to": 1912,
+    "note": "XIX w., wspólna nazwa z dzisiejszą ul. Meiselsa",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 223",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=244",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Piwna",
+  "names": [
+   {
+    "name": "Wąska",
+    "from": 1880,
+    "to": 1917,
+    "source": 1
+   },
+   {
+    "name": "Wita Stwosza",
+    "from": 1917,
+    "to": 1952,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Piwna w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Piwna_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Dominikański",
+  "names": [
+   {
+    "name": "Szeroka",
+    "from": 1435,
+    "to": 1682,
+    "note": "plat. Lata, Breite gasse; obecna nazwa po połowie XIX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 128",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=141",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Emila Serkowskiego",
+  "names": [
+   {
+    "name": "Plac Sienny",
+    "from": null,
+    "to": 1908,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Plac Emila Serkowskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Plac_Emila_Serkowskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Inwalidów",
+  "names": [
+   {
+    "name": "Plac Wolności",
+    "from": 1955,
+    "to": 1990,
+    "note": "według tablic na domu nr 7–8",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Plac Inwalidów w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Plac_Inwalid%C3%B3w_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Jana Matejki",
+  "names": [
+   {
+    "name": "Plac Główny",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Juliusza Kossaka",
+  "names": [
+   {
+    "name": "Latarnia",
+    "from": null,
+    "to": 1899,
+    "note": "od patrycjuszy Laternów (XVI w.)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Plac Juliusza Kossaka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Plac_Juliusza_Kossaka_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Lasoty",
+  "names": [
+   {
+    "name": "Plac Kostki Napierskiego",
+    "from": 1952,
+    "to": 1991,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Plac Lasoty w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Plac_Lasoty_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Mariacki",
+  "names": [
+   {
+    "name": "Cmentarz Najświętszej Marii Panny (cimiterium b. Marie virginis)",
+    "from": 1313,
+    "to": null,
+    "note": "cmentarz przykościelny, tak nazywany do końca XVIII w.; zniesiony w 1800 lub 1801 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), skan 60",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=59",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Na Groblach",
+  "names": [
+   {
+    "name": "Portowa",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Szczepański",
+  "names": [
+   {
+    "name": "Plac Gwardii Narodowej",
+    "from": 1811,
+    "to": null,
+    "note": "nazwa nadana przy otwarciu placu",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 89",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=104",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Wolnica",
+  "names": [
+   {
+    "name": "Circulus",
+    "from": 1385,
+    "to": 1550,
+    "note": "Rynek; też forum liberum (1550), Rynek (1611, plan z 1785)",
+    "source": 1
+   },
+   {
+    "name": "Targowa",
+    "from": 1792,
+    "to": 1792,
+    "note": "w spisach urzędowych obok nazwy Wolnica",
+    "source": 2
+   },
+   {
+    "name": "Rynek Wolnica",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 3
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 215",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=234",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), skan 236",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=235",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Wszystkich Świętych",
+  "names": [
+   {
+    "name": "Plac Wiosny Ludów",
+    "from": 1955,
+    "to": 1990,
+    "source": 1
+   },
+   {
+    "name": "Psi Rynek",
+    "from": null,
+    "to": null,
+    "note": "XVI–XVII w., wąska uliczka przy kościele Wszystkich Świętych",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Plac Wszystkich Świętych w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Plac_Wszystkich_%C5%9Awi%C4%99tych_w_Krakowie"
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 131",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=144",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Plac Świętej Marii Magdaleny",
+  "names": [
+   {
+    "name": "Plac Wita Stwosza",
+    "from": 1952,
+    "to": 1990,
+    "note": "patronem placu był Wit Stwosz",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Plac św. Marii Magdaleny w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Plac_%C5%9Bw._Marii_Magdaleny_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Podzamcze",
+  "names": [
+   {
+    "name": "Nad Wisłą",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Pomorska",
+  "names": [
+   {
+    "name": "Józefa Wybickiego",
+    "from": 1946,
+    "to": 1981,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Józefa Wybickiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_J%C3%B3zefa_Wybickiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Poselska",
+  "names": [
+   {
+    "name": "Platea Legati",
+    "from": 1369,
+    "to": 1393,
+    "note": "od domu legata papieskiego; 1375 r. vicus Legati",
+    "source": 1
+   },
+   {
+    "name": "Leghatska",
+    "from": 1424,
+    "to": null,
+    "note": "u Długosza „łegaczska”",
+    "source": 1
+   },
+   {
+    "name": "Legatengasse",
+    "from": 1481,
+    "to": 1481,
+    "note": "nazwa niemiecka",
+    "source": 1
+   },
+   {
+    "name": "Świętego Józefa",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 146",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=163",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Przyjaźni Polsko-Węgierskiej",
+  "names": [
+   {
+    "name": "Przyjaźni",
+    "from": 1959,
+    "to": null,
+    "note": "nazwa skrócona w 1959 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleja Przyjaźni w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Aleja_Przyja%C5%BAni_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Pędzichów",
+  "names": [
+   {
+    "name": "Pędzichowska",
+    "from": 1785,
+    "to": 1880,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Pędzichów w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_P%C4%99dzich%C3%B3w_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Rajska",
+  "names": [
+   {
+    "name": "Dolna",
+    "from": null,
+    "to": 1850,
+    "note": "pierwsza połowa XIX w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Rajska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Rajska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Rynek Dębnicki",
+  "names": [
+   {
+    "name": "Plac Dębnicki",
+    "from": 1900,
+    "to": 1912,
+    "note": "od ukształtowania ok. 1900 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Rynek Dębnicki w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Rynek_D%C4%99bnicki_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Rynek Główny",
+  "names": [
+   {
+    "name": "Rynek",
+    "from": 1300,
+    "to": 1882,
+    "note": "Wikipedia podaje też datę 1900 r.",
+    "source": 1
+   },
+   {
+    "name": "Circulus",
+    "from": 1300,
+    "to": 1882,
+    "note": "nazwa łacińska",
+    "source": 1
+   },
+   {
+    "name": "Ring",
+    "from": 1300,
+    "to": 1882,
+    "note": "nazwa niemiecka",
+    "source": 1
+   },
+   {
+    "name": "Forum",
+    "from": 1300,
+    "to": 1882,
+    "note": "nazwa łacińska",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Rynek Główny w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Rynek_G%C5%82%C3%B3wny_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Rzeźnicza",
+  "names": [
+   {
+    "name": "Droga do rzezalni",
+    "from": null,
+    "to": 1912,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Rzeźnicza w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Rze%C5%BAnicza_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Senacka",
+  "names": [
+   {
+    "name": "Świętego Michała",
+    "from": 1785,
+    "to": null,
+    "note": "na planie kołłątajowskim; obecna nazwa z czasów Wolnego Miasta Krakowa",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 149",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=166",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Sereno Fenn'a",
+  "names": [
+   {
+    "name": "Stefana Jaracza",
+    "from": 1950,
+    "to": 1991,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Sereno Fenn’a w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Sereno_Fenn%E2%80%99a_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Sienna",
+  "names": [
+   {
+    "name": "Platea scolae s. Mariae",
+    "from": 1391,
+    "to": 1392,
+    "note": "ulica Szkolna, od szkoły mariackiej; przypisanie do ul. Siennej prawdopodobne",
+    "source": 1
+   },
+   {
+    "name": "Platea Scolarum",
+    "from": 1394,
+    "to": 1432,
+    "note": "ulica Szkolna; przypisanie prawdopodobne",
+    "source": 1
+   },
+   {
+    "name": "Verlorne gasse",
+    "from": 1426,
+    "to": 1432,
+    "note": "ulica Zagubiona; zapis „plat. Scolae alias Verlorne gasse”",
+    "source": 1
+   },
+   {
+    "name": "Platea Perdita",
+    "from": 1515,
+    "to": 1545,
+    "note": "ulica Zagubiona; jeszcze w spisie z 1544 r.",
+    "source": 2
+   },
+   {
+    "name": "Thyrgassen",
+    "from": null,
+    "to": null,
+    "note": "w zapisce z 1551 r. wymieniona jako nazwa dawna („quondam”)",
+    "source": 3
+   },
+   {
+    "name": "Pod Nową Bramą",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 4
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 45",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=60",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), skan 62",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=61",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 47",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=62",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Skawińska",
+  "names": [
+   {
+    "name": "Platea major s. Jacobi",
+    "from": 1385,
+    "to": 1550,
+    "note": "prawdopodobnie ta ulica",
+    "source": 2
+   },
+   {
+    "name": "Jakóbska",
+    "from": 1602,
+    "to": 1626,
+    "note": "na planie z 1785 r. już Skawińska",
+    "source": 3
+   },
+   {
+    "name": "Świętego Jakuba",
+    "from": null,
+    "to": null,
+    "note": "do końca XVIII w., od kościoła św. Jakuba",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Skawińska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Skawi%C5%84ska_w_Krakowie"
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 222",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=243",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 223",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=244",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Skałeczna",
+  "names": [
+   {
+    "name": "Platea s. Stanislai",
+    "from": 1442,
+    "to": 1550,
+    "note": "prawdopodobnie ta ulica",
+    "source": 1
+   },
+   {
+    "name": "Świętego Stanisława",
+    "from": 1785,
+    "to": 1785,
+    "note": "na planie kołłątajowskim",
+    "source": 1
+   },
+   {
+    "name": "Stanisławska",
+    "from": 1792,
+    "to": 1792,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 218",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=239",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Starowiślna",
+  "names": [
+   {
+    "name": "5 Listopada",
+    "from": 1916,
+    "to": 1926,
+    "note": "dla uczczenia aktu 5 listopada 1916 r.",
+    "source": 1
+   },
+   {
+    "name": "Wałowa",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Starowiślna w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Starowi%C5%9Blna_w_Krakowie"
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Stolarska",
+  "names": [
+   {
+    "name": "Platea fratrum Praedicatorum",
+    "from": 1305,
+    "to": 1542,
+    "note": "od kościoła i klasztoru dominikanów",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Stolarska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Stolarska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Stradomska",
+  "names": [
+   {
+    "name": "Platea et contrata Pontis regalis",
+    "from": 1419,
+    "to": 1419,
+    "note": "prawdopodobnie ta ulica; od 1501 r. też vicus Stradomia",
+    "source": 1
+   },
+   {
+    "name": "Stradom",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 210",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=229",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Strzelecka",
+  "names": [
+   {
+    "name": "Krzyżowa",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Studencka",
+  "names": [
+   {
+    "name": "Diethmargasse",
+    "from": 1940,
+    "to": 1945,
+    "note": "okupacja niemiecka",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Studencka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Studencka_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Szczepańska",
+  "names": [
+   {
+    "name": "Platea s. Stephani",
+    "from": null,
+    "to": null,
+    "note": "od początku XIV w.; po niemiecku sinte Stepanisgasse",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 89",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=104",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Szeroka",
+  "names": [
+   {
+    "name": "Wielka ulica",
+    "from": 1785,
+    "to": 1792,
+    "note": "na planie kołłątajowskim i w spisie z 1792 r.",
+    "source": 1
+   },
+   {
+    "name": "Plac Żydowski",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 226",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=247",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Szewska",
+  "names": [
+   {
+    "name": "Platea Proscriptionum",
+    "from": 1721,
+    "to": 1721,
+    "note": "mylne tłumaczenie nazwy „Świecka”",
+    "source": 1
+   },
+   {
+    "name": "Platea Sutorum",
+    "from": null,
+    "to": null,
+    "note": "od początku XIV w.; po niemiecku Schugasse",
+    "source": 1
+   },
+   {
+    "name": "Szewcza",
+    "from": null,
+    "to": null,
+    "note": "XVI i XVII w.; czasem też „Świecka”",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 86",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=101",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Szlak",
+  "names": [
+   {
+    "name": "Tania",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Szpitalna",
+  "names": [
+   {
+    "name": "Des heligen Crucis gasse",
+    "from": 1306,
+    "to": 1355,
+    "note": "ulica Świętego Krzyża; po łacinie platea s. Crucis",
+    "source": 1
+   },
+   {
+    "name": "Spitlergasse",
+    "from": 1310,
+    "to": 1412,
+    "note": "też platea hospitalis; polska forma „Szpytalna” od 1464 r.",
+    "source": 1
+   },
+   {
+    "name": "Platea s. Spiritus",
+    "from": 1336,
+    "to": 1580,
+    "note": "ulica Świętego Ducha, częstsza w XVI w.",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 113",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=128",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 114",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=129",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Sławkowska",
+  "names": [
+   {
+    "name": "Slacovse gasse",
+    "from": 1307,
+    "to": null,
+    "note": "pierwsza wzmianka; 1365 r. platea Slaucoviensis",
+    "source": 1
+   },
+   {
+    "name": "Sinte Markus gasse",
+    "from": 1311,
+    "to": 1392,
+    "note": "dalsza od Rynku część ulicy, przy kościele św. Marka",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 90",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=105",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Tadeusza Pawlikowskiego",
+  "names": [
+   {
+    "name": "Ambrożego Grabowskiego Boczna",
+    "from": null,
+    "to": 1951,
+    "note": "nazwa początkowa",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Tadeusza Pawlikowskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Tadeusza_Pawlikowskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Tyniecka",
+  "names": [
+   {
+    "name": "Nadwiślańska",
+    "from": null,
+    "to": null,
+    "note": "na planach z ok. 1912 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Tyniecka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Tyniecka_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Wadowicka",
+  "names": [
+   {
+    "name": "Wadowska",
+    "from": 1880,
+    "to": null,
+    "note": "ok. 1880 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Wadowicka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Wadowicka_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Warszawska",
+  "names": [
+   {
+    "name": "Na Szlaku",
+    "from": 1577,
+    "to": 1744,
+    "note": "w 1744 r. jako „Szlak”; od 1836 r. Warszawska",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 191",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=208",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Wenecja",
+  "names": [
+   {
+    "name": "Venedigstraße",
+    "from": 1941,
+    "to": 1945,
+    "note": "okupacja niemiecka",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Wenecja w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Wenecja_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Westerplatte",
+  "names": [
+   {
+    "name": "Józefa Stalina",
+    "from": 1948,
+    "to": 1956,
+    "source": 1
+   },
+   {
+    "name": "Kolejowa",
+    "from": null,
+    "to": null,
+    "note": "nazwa początkowa, od dworca kolejowego",
+    "source": 1
+   },
+   {
+    "name": "Ostring",
+    "from": null,
+    "to": null,
+    "note": "okupacja niemiecka",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Westerplatte w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Westerplatte_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Wielopole",
+  "names": [
+   {
+    "name": "Grzegórzki",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   },
+   {
+    "name": "Rzeźnicza",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Wiślna",
+  "names": [
+   {
+    "name": "Visselgasse",
+    "from": 1311,
+    "to": null,
+    "note": "też plat. Vizlae, „ubi itur ad Wiszlam”",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 76",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=91",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Wojciecha Bogusławskiego",
+  "names": [
+   {
+    "name": "Jasna",
+    "from": 1878,
+    "to": null,
+    "note": "na planie z 1878 r., zatwierdzona w 1882 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Wojciecha Bogusławskiego w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Wojciecha_Bogus%C5%82awskiego_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Władysława Spasowskiego",
+  "names": [
+   {
+    "name": "Łobzowska Boczna",
+    "from": null,
+    "to": 1965,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Łobzowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%81obzowska_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Władysława Warneńczyka",
+  "names": [
+   {
+    "name": "Tadeusza Kościuszki",
+    "from": null,
+    "to": 1917,
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Władysława Warneńczyka w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_W%C5%82adys%C5%82awa_Warne%C5%84czyka_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Zamkowa",
+  "names": [
+   {
+    "name": "Schloßstraße",
+    "from": 1941,
+    "to": 1944,
+    "note": "okupacja niemiecka",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica Zamkowa w Wieliczce – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_Zamkowa_w_Wieliczce"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Łobzowska",
+  "names": [
+   {
+    "name": "Świętego Piotra",
+    "from": 1836,
+    "to": 1842,
+    "note": "na planie Żebrawskiego z 1836 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 176",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=193",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętego Filipa",
+  "names": [
+   {
+    "name": "Krowia",
+    "from": null,
+    "to": null,
+    "note": "od początku XVI w.; ulicą pędzono bydło na pastwiska",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica św. Filipa w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%9Bw._Filipa_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętego Jana",
+  "names": [
+   {
+    "name": "Sente Iohannis Gasse",
+    "from": null,
+    "to": null,
+    "note": "XIV w.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica św. Jana w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%9Bw._Jana_w_Krakowie"
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętego Krzyża",
+  "names": [
+   {
+    "name": "Świętego Rocha",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętego Marka",
+  "names": [
+   {
+    "name": "Szrotarska",
+    "from": 1445,
+    "to": 1549,
+    "note": "wschodnia część ulicy; też Schrotgasse, plat. Schrotariorum",
+    "source": 1
+   },
+   {
+    "name": "Akademicka",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   },
+   {
+    "name": "Rogacka",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   },
+   {
+    "name": "Scholastyki",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 2
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 107",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=122",
+    "library": true
+   },
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętego Tomasza",
+  "names": [
+   {
+    "name": "Platea retro s. Stephanum",
+    "from": 1316,
+    "to": 1326,
+    "note": "zachodnia część ulicy, „za kościołem św. Szczepana”",
+    "source": 2
+   },
+   {
+    "name": "Spieglergasse",
+    "from": 1357,
+    "to": null,
+    "note": "też plat. Speculatorum; część od Sławkowskiej ku Szpitalnej, XV–XVI w.",
+    "source": 2
+   },
+   {
+    "name": "Spyglarska",
+    "from": 1469,
+    "to": 1469,
+    "note": "zachodnia część ulicy",
+    "source": 2
+   },
+   {
+    "name": "Żydowska",
+    "from": 1537,
+    "to": 1785,
+    "note": "zachodni koniec ulicy; na planie z 1785 r. cała ulica",
+    "source": 3
+   },
+   {
+    "name": "Wolbromska",
+    "from": 1870,
+    "to": null,
+    "note": "część między Sławkowską a św. Jana, ok. 1870 r., krótko",
+    "source": 4
+   },
+   {
+    "name": "Kącik",
+    "from": null,
+    "to": 1878,
+    "note": "załamanie ulicy przy kościele św. Jana; nazwa dawna, jeszcze w spisach z 1859 i 1878 r.",
+    "source": 4
+   },
+   {
+    "name": "Ludwika Solskiego",
+    "from": 1955,
+    "to": 1990,
+    "source": 1
+   },
+   {
+    "name": "Różana",
+    "from": null,
+    "to": null,
+    "note": "wschodnia część ulicy, jeszcze po połowie XIX w.",
+    "source": 4
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ulica św. Tomasza w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Ulica_%C5%9Bw._Tomasza_w_Krakowie"
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 100",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=115",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 101",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=116",
+    "library": true
+   },
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 102",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=117",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętego Wawrzyńca",
+  "names": [
+   {
+    "name": "Wawrzyniecka",
+    "from": 1792,
+    "to": 1792,
+    "note": "w spisach urzędowych; 1385 r. plat. s. Laurentii",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 217",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=238",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętej Anny",
+  "names": [
+   {
+    "name": "Judengasse",
+    "from": 1304,
+    "to": 1311,
+    "note": "ulica Żydowska",
+    "source": 1
+   },
+   {
+    "name": "Platea Judeorum",
+    "from": 1312,
+    "to": 1462,
+    "note": "też contrata judeorum; nazwa św. Anny ustaliła się od 1473 r.",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 79",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=94",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętej Gertrudy",
+  "names": [
+   {
+    "name": "Polna",
+    "from": null,
+    "to": null,
+    "note": "nazwa zniesiona przed 1884 r. (wykaz zmienionych nazw u Nowoleckiego)",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Aleksander Nowolecki, Nowy wykaz ulic, placów, kościołów i właścicieli domów miasta Krakowa i jego przedmieść (1884), skan 11",
+    "url": "https://polona.pl/item-view/9ee2b213-1bd9-4b66-87bb-c489c0a987d4?page=10",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ },
+ {
+  "street": "Świętej Katarzyny",
+  "names": [
+   {
+    "name": "Krakowska",
+    "from": 1785,
+    "to": 1785,
+    "note": "na planie kołłątajowskim",
+    "source": 1
+   }
+  ],
+  "sources": [
+   {
+    "title": "Stanisław Tomkowicz, Ulice i place Krakowa w ciągu dziejów: ich nazwy i zmiany postaci (1926), s. 225",
+    "url": "https://polona.pl/item-view/199fcdeb-c01d-4c30-8874-a5296572674b?page=246",
+    "library": true
+   }
+  ],
+  "status": "ai_draft_unverified",
+  "extracted_at": "2026-11-20"
+ }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "entry_id": 4472,
+    "address": "Rynek Główny 24",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 84",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=84"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 85",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=85"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Kanarkiem",
+    "text": "Dom zbudowano około 1300 r. jako jednopiętrowy; od nazwisk dawnych właścicieli nazywano go również Czeczotczyńską kamienicą albo kamienicą Węgrzynowiczów. [1] Na początku XVII w. rodzina Biffingów (Bippingów) przerobiła go na późnorenesansowy pałac, dodając drugie piętro, klatkę schodową doświetloną latarnią i nową fasadę z attyką. [1] W latach 1796–1806 mieściła się tu apteka polowa wojska austriackiego, a w latach 1807–1813 polska apteka skarbowa. [1] Po pożarze z 1851 r. kamienicę odbudowano i podwyższono o trzecie piętro, a w 1877 r., gdy należała do Jana Grossego, gruntownie ją odnowiono i dano jej nową fasadę. [1] We fryzie nad środkowym oknem drugiego piętra umieszczono tablicę z datą 1877, a wejście ma boniowany portal z pierwszej ćwierci XVII w. [1,2]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Portal description starts at the foot of scan 84 and continues on 85; 1877 tablet on 85. Nowolecki 1884 lists Juljusz Grosse as owner (not used). Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S5: 'Rok tej przebudowy upamiętnia' is an inference (the Katalog only describes a tablet with the date 1877 in the frieze); rephrased. Portal description starts on scan 84, marker [2] -> [1,2]."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=84",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=85"
+      ]
+    }
+  },
+  {
+    "entry_id": 4473,
+    "address": "Rynek Główny 25",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 85",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=85"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 86",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=86"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Krukami_w_Krakowie",
+    "text": "Do 1842 r. stały tu dwie osobne kamienice: Kłosowicowska (zwana też Scheidtowską) i Pod Krukami. [1] Tę drugą w XV w. posiadali Turzonowie, a po nich Fuggerowie, zaś w ostatniej ćwierci XVI w. wojewoda sandomierski Stanisław Szafraniec przebudował ją na renesansowy pałac. [1] W 1842 r. kupiła ją Anna z Tyszkiewiczów Wąsowiczowa i na stałe połączyła z sąsiednim domem, a po pożarze, w latach 1851–1855, budynek otrzymał neorenesansową fasadę według projektu Stanisława Gołębiowskiego. [1] W 1872 r. nabył go Bank Galicyjski dla Handlu i Przemysłu, a w latach 1879–1881 na pierwszym piętrze działała resursa mieszczańska. [1] Przebudowa z 1908 r. zatarła ostatecznie granicę między obiema dawnymi kamienicami, a w 1921 r. dobudowano trzecie piętro; sale parteru łączą arkady na żeliwnych kolumnach z fabryki Ludwika Zieleniewskiego. [1,2]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S5: the 1908 rebuilding that ended the separateness of the two houses is stated at the foot of scan 85; marker [2] -> [1,2]."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=85",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=86"
+      ]
+    }
+  },
+  {
+    "entry_id": 4474,
+    "address": "Rynek Główny 26",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 86",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=86"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 87",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=87"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 88",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=88"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Bw._Janem_Kapistranem_w_Krakowie",
+    "text": "Narożna kamienica, której zachodnia elewacja wychodzi na ulicę Wiślną, powstała w pierwszej połowie XIV w.; nazywano ją także Książęcą, Podpartą lub Starą Kamienicą. [1] W czasie pobytu w Krakowie w latach 1453–1454 mieszkał w niej św. Jan Kapistran, a w 1494 r. zatrzymało się tu poselstwo tureckie. [1] Zrujnowane około 1600 r. budynki przebudowano w latach 1602–1614 na pałac o trzech skrzydłach. [1] W XVII w. dom należał do Gostkowiczów, a potem do rodziny Huntley-Gordonów; po pożarze, w latach 1851–1852, całą zabudowę działki połączono w jeden gmach i podwyższono o trzecie piętro. [2] W kamiennej przyporze na narożniku stoi w półkolistej niszy późnobarokowa figura św. Jana Kapistrana z około 1770 r. [3]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. 'Książęta mazowieccy (?)' as owners is marked uncertain in the Katalog, so omitted. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S5: 'od której pochodzi nazwa domu' not stated on the cited page; removed."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=86",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=87",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=88"
+      ]
+    }
+  },
+  {
+    "entry_id": 4475,
+    "address": "Rynek Główny 27",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 88",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=88"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 89",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=89"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_%E2%80%9EPod_Baranami%E2%80%9D_w_Krakowie",
+    "text": "Do drugiej ćwierci XVII w. na miejscu pałacu stały dwie kamienice: narożna Pod Barany (zwana też Karniowską) i dom rajcy Stanisława Różanki. [1] W 1577 r. narożną kamienicę kupił król Stefan Batory i dwa lata później podarował ją Kasprowi Bekieszowi, staroście lanckorońskiemu; nazwę i godło domu poświadcza w 1587 r. drzeworyt z satyry Marcina Bielskiego. [1] Od drugiej ćwierci XVI do XVII w. działała tu drukarnia, prowadzona kolejno m.in. przez Wolfganga Lerma i Jana Bajera. [1] W 1822 r. pałac kupili Artur i Zofia Potoccy, a podczas remontu w latach 1853–1854 fasadę ozdobiono balkonem opartym na rzeźbionych głowach baranów według projektu Franciszka Marii Lanciego. [2] Od 1956 r. w budynku ma siedzibę kabaret „Piwnica pod Baranami”, a w 1990 r. pałac wrócił do Potockich. [2]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S2: 5-word run copied from the Katalog ('drzeworyt w satyrze Marcina Bielskiego'); rephrased."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=88",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=89"
+      ]
+    }
+  },
+  {
+    "entry_id": 4476,
+    "address": "Rynek Główny 28",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 92",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=92"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 93",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=93"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Jagni%C4%99ciem_w_Krakowie",
+    "text": "Kamienica, od nazwiska dawnych właścicieli zwana też Fihauzerowską, powstała około połowy XIV w. [1] W 1570 r. należała do Różanków, m.in. do doktora filozofii i medycyny Stanisława, a od trzeciej ćwierci XVI do połowy XVII w. do rodziny Fihauzerów. [1] W latach 1871–1880 przeszła gruntowną przebudowę według projektu Jacka Matusińskiego: otrzymała nową fasadę i wnętrza naśladujące gdańskie kamienice, odsłonięto też jej średniowieczne i renesansowe detale; w 1879 r. przeszła na własność Potockich. [1] Z dawnego wystroju zachowały się m.in. renesansowy strop z drugiej połowy XVI w. w tylnej części parteru oraz manierystyczna umywalnia w formie niszy z muszlą z około 1600 r. przy wyjściu z sieni. [1,2]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Lavabo description starts on scan 92 and ends on 93. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S4: 'malowany' dropped — the Katalog dates the polychromy of this ceiling to the 19th/20th c., not the Renaissance."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=92",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=93"
+      ]
+    }
+  },
+  {
+    "entry_id": 4477,
+    "address": "Rynek Główny 29",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 93",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=93"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 94",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=94"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 95",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=95"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_Blach%C4%85_w_Krakowie",
+    "text": "Kamienica, nazywana też Pod Miedzią, stała tu już przed 1300 r.; około 1450 r. dobudowano oficyny, tworząc z domem frontowym układ trzech skrzydeł. [1] Przed 1537 r. jej właścicielem był Leonard Fogelweder, a w ostatniej ćwierci XVI w. rodzina Fihauzerów. [1] Około 1700 r. wnętrza urządzono na nowo ze sztukateriami z pracowni Baltazara Fontany, a w 1773 r. dom należał do Małachowskich. [2] W latach 1865–1871, za właściciela Ksawerego Milieskiego, całkowicie przebudowano wnętrza, a fasadę z 1871 r. zaprojektował Teofil Hansen. [2] W pokoju od strony Rynku na pierwszym piętrze przetrwały klasycystyczne malowidła na ścianach, utrzymane w stylu pompejańskim, z około 1820 r. [3]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Scan 94 carries a floor-plan caption instead of a page header but continues the NR 29 entry. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S5: 6-word run copied from the Katalog; rephrased."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=93",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=94",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=95"
+      ]
+    }
+  },
+  {
+    "entry_id": 4478,
+    "address": "Rynek Główny 30",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 96",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=96"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 97",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=97"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Ma%C5%82achowskich_w_Krakowie",
+    "text": "Narożny pałac od strony ulicy Szewskiej stoi na miejscu trzech kamienic, które do 1799 r. miały osobne działki: Kortynowskiej, Cyglerowskiej i Ryntowskiej. [1] Z około połowy XIII w. pochodzi mieszkalna wieża z łamanego kamienia, później włączona do kamienicy Cyglerowskiej, a jednym z dawnych właścicieli kamienicy Kortynowskiej był Marcin Krokier, rektor Akademii Krakowskiej. [1] Wszystkie trzy domy kupił w 1795 r. wojewoda krakowski Piotr Małachowski, w 1799 r. przeszły na Teklę z Wodzickich Małachowską, a w 1809 r. połączoną zabudowę przebudowano w stylu klasycystycznym według projektu Feliksa Radwańskiego i Jana Drachnego. [1] Około 1870 r. elewację ozdobiono fryzem z orłami wykonanym przez Karola Holera, którego sygnaturę odkryto podczas remontu w 2001 r. [1,2] Do 1989 r. na parterze działała kawiarnia „Alvorada”, a przy adaptacji piwnic w latach 1995–1998 wyeksponowano pozostałości dawnej wieży. [2]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Krokier listed under the Kortynowska (Krokierowska) house. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S2: 'Najstarszą jego częścią jest' is an inference; restated as the Katalog gives it (tower c. mid-13th c., incorporated into the Cyglerowska house)."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=96",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=97"
+      ]
+    }
+  },
+  {
+    "entry_id": 4479,
+    "address": "Rynek Główny 31",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 99",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=99"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Budynek_Banku_Pekao_w_Krakowie",
+    "text": "Kamienicę na tym narożniku z ulicą Szewską wzniesiono w połowie XIV w.; w 1369 r. należała do Kunczona Tenczera, a w 1525 r. strawił ją pożar. [1] Wśród późniejszych właścicieli byli m.in. złotnik Jakub Soszyc (1627), aptekarz Jan Różyc (1645) i biskup krakowski Kajetan Sołtyk (1773). [1] W latach 1912–1913 starą kamienicę rozebrano i w jej miejscu stanął nowy, czteropiętrowy dom według projektu Ludwika Wojtyczki i Kazimierza Wyczyńskiego, a obecną fasadę zaprojektowali w 1938 r. Tadeusz Tombiński i Stefan Świszczowski. [1] Modernistyczne elewacje zdobią stylizowane rogi obfitości, pawie pióra oraz motyw parzenicy, a pod budynkiem przetrwały gotyckie piwnice z XIV w. [1]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. The Katalog does not mention the bank (Pekao), so the text does not either. 'Obecną fasadę' = as described in the 2016 Katalog. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1: 'Pierwszą' not stated by the Katalog (it only dates the house to the mid-14th c.); removed."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=99"
+      ]
+    }
+  },
+  {
+    "entry_id": 4480,
+    "address": "Rynek Główny 32",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 100",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=100"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_%E2%80%9EPod_Trzema_Gwiazdami%E2%80%9D_w_Krakowie",
+    "text": "Kamienica powstała w pierwszej połowie XIV w.; od nazwiska jednego z dawnych właścicieli nazywano ją również Wolfklajnowską. [1] W 1570 r. należała do Wolfa Kleina, a o nim przypominają manierystyczne kartusze na sklepieniu sieni, z jego gmerkiem, monogramem i datą 1570. [1] Około 1600 r. dom przebudowano w stylu renesansowym, w XVII w. przyłączono do niego posesję przy ulicy Szewskiej 3, a w 1736 r. dobudowano trzecie piętro. [1] W drugiej połowie XVIII w. właścicielem był biskup krakowski Kajetan Sołtyk, w 1824 r. kamienica dostała klasycystyczną fasadę, a podczas remontu w latach 1985–1995 połączono ją z sąsiednim domem i nadbudowano czwarte piętro. [1]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S1: 5-word run copied from the Katalog; rephrased."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=100"
+      ]
+    }
+  },
+  {
+    "entry_id": 4482,
+    "address": "Rynek Główny 34",
+    "sources": [
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 102",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=102"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 103",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=103"
+      },
+      {
+        "title": "Instytut Sztuki PAN (red.), Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny (2016), skan 104",
+        "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=104"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Spiski_w_Krakowie",
+    "text": "Do 1662 r. były tu dwie osobne posesje: pałac Spiski i kamienica Schedlowska, nazwana od drukarzy Schedlów. [1] Nazwa pałacu pochodzi od Kacpra Maciejowskiego, koniuszego koronnego i starosty spiskiego, który około 1570 r. przebudował dom na pałac z arkadowym krużgankiem na dziedzińcu; w XVII w. należał on do Lubomirskich. [1] W latach 1725–1727 wystawiano tu pierwsze w mieście publiczne spektakle teatralne, a w 1781 r. działał w budynku teatr zawodowy. [1] Na początku XX w. na parterze i pierwszym piętrze mieściła się restauracja „U Hawełki”, w 1913 r. otwarto sklep delikatesowy „Pod Palmą”, a w latach 1908–1919 w parterowej przybudówce działało „Kineton”, pierwsze kino w Krakowie. [2] W tzw. Sali Tetmajerowskiej nowej oficyny Włodzimierz Tetmajer namalował w 1920 r. fryz ze scenami z poematu Adama Mickiewicza „Pani Twardowska”. [2,3]",
+    "notes": "Katalog Zabytków (kzs-iv-10) only; facts restated, no quotes. Wikipedia not used as a source. Verifier: all cited Katalog scans re-read via library_search.py --page kzs-iv-10; claims confirmed under this NR heading.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S3: wording close to the Katalog; rephrased.",
+        "S5: the new oficyna (built 1911–20) is stated on scan 103; marker [3] -> [2,3]."
+      ],
+      "checked_urls": [
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=102",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=103",
+        "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf#page=104"
+      ]
+    }
+  }
+]

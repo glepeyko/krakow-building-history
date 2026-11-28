@@ -1,0 +1,90 @@
+[
+ {
+  "entry_id": 4781,
+  "wikidata": "Q11814869",
+  "action": "block",
+  "reason": "Pałac Tarnowskich-Sanguszków stoi pod nr. 13–15, nie 11 (Chmiel, Domy krakowskie: Sławkowska cz. 1, rozdział L. or. 13/15; artykuł w Wikipedii). Powiązanie powstało tylko z położenia.",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Pałac Tarnowskich-Sanguszków w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Tarnowskich-Sanguszk%C3%B3w_w_Krakowie"
+   }
+  ]
+ },
+ {
+  "entry_id": 4782,
+  "wikidata": "Q11733997",
+  "action": "block",
+  "reason": "Kamienica Badeniowska to nr 10 (Wikipedia; Chmiel, Sławkowska cz. 2, rewizja z 1777 r. nazywa sąsiedni nr 10 kamienicą Badeniego). Powiązanie z nr. 12 powstało tylko z położenia.",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Kamienica Badeniowska w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_Badeniowska_w_Krakowie"
+   }
+  ]
+ },
+ {
+  "entry_id": 4459,
+  "wikidata": "Q11734170",
+  "action": "block",
+  "reason": "Kamienica Pod Złotym Karpiem to Rynek Główny 10 (Katalog Zabytków Sztuki t. IV cz. 10, hasło NR 10); nr 11 to kamienica Pod Karpiem Szarym / Dom Wenecki (GEZ, NID, Katalog NR 11).",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Katalog Zabytków Sztuki w Polsce, t. IV cz. 10 (2016)",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf"
+   }
+  ]
+ },
+ {
+  "entry_id": 4493,
+  "wikidata": "Q11734162",
+  "action": "block",
+  "reason": "Kamienica Pod Orłem to Rynek Główny 45 (Katalog Zabytków Sztuki t. IV cz. 10, hasło NR 45); nr 46 to kamienica Czerwona / Dom Brendlarowski (GEZ, NID, Katalog NR 46).",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Katalog Zabytków Sztuki w Polsce, t. IV cz. 10 (2016)",
+    "url": "https://repozytorium.ispan.pl/Content/31773/kzs-t04-z08.pdf"
+   }
+  ]
+ },
+ {
+  "entry_id": 1407,
+  "wikidata": "Q16558534",
+  "action": "block",
+  "reason": "Element Wikidanych i artykuł dotyczą kamienicy przy ul. Floriańskiej 38, nie 51 (tytuł artykułu; Chmiel opisuje nr 51 osobno).",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Kamienica przy ul. Floriańskiej 38 w Krakowie – Wikipedia",
+    "url": "https://pl.wikipedia.org/wiki/Kamienica_przy_ul._Floria%C5%84skiej_38_w_Krakowie"
+   },
+   {
+    "title": "Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (1917)",
+    "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f"
+   }
+  ]
+ },
+ {
+  "entry_id": 1410,
+  "wikidata": "Q1363724",
+  "action": "block",
+  "reason": "Nr 57 to kamienica z oficynami (GEZ, NID; Chmiel: L. or. 57, dawny nr 371), nie Brama Floriańska; powiązanie powstało tylko z położenia.",
+  "decided_by": "owner (delegated to Claude, 2026-11-26)",
+  "decided_at": "2026-11-26",
+  "sources": [
+   {
+    "title": "Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (1917)",
+    "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f"
+   }
+  ]
+ }
+]

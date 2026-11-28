@@ -63,11 +63,15 @@ QID = re.compile(r"^Q\d+$")
 
 
 def sparql(query):
-    for attempt in range(4):
+    for attempt in range(6):
         r = requests.post(ENDPOINT, data={"query": query}, headers=HEADERS, timeout=180)
         if r.status_code == 200:
-            return r.json()["results"]["bindings"]
-        print(f"  HTTP {r.status_code}, retry {attempt + 1}")
+            try:  # labels may hold raw control chars; a WDQS timeout truncates the stream
+                return json.loads(r.text, strict=False)["results"]["bindings"]
+            except ValueError as e:
+                print(f"  truncated/invalid JSON ({e}), retry {attempt + 1}")
+        else:
+            print(f"  HTTP {r.status_code}, retry {attempt + 1}")
         time.sleep(5 * (attempt + 1))
     r.raise_for_status()
 

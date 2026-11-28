@@ -1,0 +1,440 @@
+[
+  {
+    "entry_id": 1407,
+    "address": "Floriańska 51",
+    "text": "Kamienica (dawniej nr 368) była w 1917 r. jednopiętrowa i bez ozdób, co Adam Chmiel uważał za wyjątek na tak ważnej ulicy jak Floriańska. [1] Przyczyną było okno strychowe z prawem światła w murze sąsiedniego domu nr 53, przez które właściciele, choć chcieli tego już od 1829 r., nie mogli dobudować drugiego piętra. [1] Około 1628 r. dom należał do Jana Olkuskiego i od tej rodziny długo nazywano go „na Olkuskiem”. [1] Po 1657 r. przeszedł na konwent księży św. Ducha (duchaków), a od 1858 r. był w rękach rzeźnika i masarza Jana Armółowicza, którego syn Wiktor w 1874 r. bezskutecznie próbował nadbudować drugie piętro. [2] Józef Bialik, były starszy cechu rzeźników i masarzy, król kurkowy i radca miejski, właściciel od 1902 r., urządził tu w 1907 r. wzorowy sklep masarski z nową żelazną bramą w dawnym półokrągłym, barokowym obramieniu. [2,3]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 177",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=196"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 178",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=197"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 179",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=198"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Target's Wikipedia link points to Kamienica przy ul. Floriańskiej 38 (wrong building) - not used; wikipedia set to null. Old number 368 confirmed by Chmiel heading and Nowolecki 1884.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S5: Chmiel writes 'b. starszy cechu' (były) – changed 'starszy cechu' to 'były starszy cechu'."
+      ],
+      "checked_urls": [
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=196",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=197",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=198"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S2: clarified the awkward 'do którego przysługiwało prawo światła' and the logic (they wanted to add a floor from 1829 but could not).",
+        "S4: 'piętro' → 'drugie piętro' (consistent with S2)."
+      ]
+    }
+  },
+  {
+    "entry_id": 1409,
+    "address": "Floriańska 55",
+    "text": "Kamienica (dawniej nr 370) powstała w pierwszej połowie XIX w. z połączenia dwóch sąsiednich domów, oznaczonych wtedy numerami 530 A i 530 B; z sześciu okien pierwszego piętra na każdy z dawnych domów przypadały po trzy. [1] Były to niegdyś domy mniej zamożnych rzemieślników: część od strony nr 57 należała w połowie XVI w. do Stanisława Cianowskiego, a druga w 1583 r. do Zygmunta Rossołka. [1] W 1630 r. część Cianowskich była jednopiętrowa, a w jej podwórzu działał browar, dlatego w następnych latach przechodziła do rąk piwowarów i karczmarzy. [2] W 1835 r. właściciele, Wincenty i Scholastyka Tarnawscy, nabyli pusty plac miejski przy ul. Szpitalnej za kamienicą, na którym Tarnawski w 1841 r. wzniósł budynek. [3,4] Po Antonim Zagórskim, właścicielu w 1878 r., kamienicę nabył Józef Kulczyński i prowadził w niej znaną w Krakowie destylarnię wódek, którą w czasach Chmiela utrzymywali jego spadkobiercy. [4]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 182",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=205"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 183",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=206"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 184",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=207"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 185",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=208"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "No Nowolecki 1884 row for this number; old number 370 from Chmiel's heading only.",
+    "verification": {
+      "verdict": "kept",
+      "removed": [],
+      "checked_urls": [
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=205",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=206",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=207",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=208"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S3: 'dom Cianowskich' → 'część Cianowskich' to match S2 (two parts of the later house)."
+      ]
+    }
+  },
+  {
+    "entry_id": 1410,
+    "address": "Floriańska 57",
+    "text": "Narożna kamienica przy Bramie Floriańskiej (dawniej nr 371) należała w drugiej połowie XVI w. do karczmarza Mateusza Kassuby, zmarłego przed 1568 r. [1] W latach 1620–1643 jej właścicielem był ks. Błażej Blosiusz (Bloży), kanonik kościoła św. Floriana, i od niego nazywano ją kamienicą „Blozowską” lub „akademicką”. [1,2] Od 1691 do 1752 r. należała do rodziny kotlarzy Musiałowiczów, a potem długo do mydlarzy Kucharskich, dla których dom w zaułku przy murach miejskich był dogodnym miejscem rzemiosła. [2,3] W 1835 r. kupił ją na licytacji Antoni Feliks Rozmanith, który do 1842 r. wzniósł nowy murowany budynek tylny przy bocznej uliczce wzdłuż murów. [3,4] W drugiej połowie XIX w., za Rozmanithów, dobudowano drugie piętro, a wejście przeniesiono z ul. Floriańskiej na dzisiejszą ul. Pijarską. [4]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 185",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=208"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 186",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=209"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 188",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=211"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 1 (liczby or. nieparzyste 1–57) (1917), s. 189",
+        "url": "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=212"
+      }
+    ],
+    "wikipedia": null,
+    "notes": "Entry 1410 is the kamienica Floriańska 57 / Pijarska 19-21 (GEZ: kamienica z oficynami), but its name/wikipedia link point to Brama Floriańska - likely a wrong Wikidata link; text is about the house (Chmiel L. or. 57, sp. 371 = Nowolecki 1884 lc. 371, owner Rozmanith). wikipedia set to null.",
+    "verification": {
+      "verdict": "kept",
+      "removed": [],
+      "checked_urls": [
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=208",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=209",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=211",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=212",
+        "https://polona.pl/item-view/50db8941-9445-4c8f-82a1-592381887c0f?page=210"
+      ]
+    },
+    "editor": {
+      "changes": []
+    }
+  },
+  {
+    "entry_id": 1369,
+    "address": "Floriańska 10",
+    "text": "Ta wąska kamienica o dwóch oknach frontu (dawniej nr 325) należała w 1552 r. do Aichlera, a w 1577 r. do krawca Marcina Firleja. [1] W latach ok. 1628–1630 miał ją krótko ławnik Sebastian Cyrus, a od 1636 r. Wawrzyniec Barszcz, od którego nazwiska nazywano ją później kamienicą „Barszczowską”. [1] W 1689 r. jej właścicielem był Stanisław Słowakowic, doktor medycyny, rajca i późniejszy burmistrz Krakowa. [2] W 1874 r. Bernard Kritzler otrzymał pozwolenie na nadbudowę trzeciego piętra, a później zasłonił cały parter drewnianą witryną sklepową, przez co wejścia do domu nie było widać z ulicy. [3,4] Od 1909 r. kamienica należała do Arona Berwalda. [4]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 33",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=35"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 34",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=36"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), skan 41",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=40"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 39",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=41"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Barszczowska_w_Krakowie",
+    "notes": "Old number 325 matches Nowolecki 1884 (owner Krytzler Bernard).",
+    "verification": {
+      "verdict": "kept",
+      "removed": [],
+      "checked_urls": [
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=35",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=36",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=40",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=41"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S2: smoother date phrasing."
+      ]
+    }
+  },
+  {
+    "entry_id": 1371,
+    "address": "Floriańska 12",
+    "text": "Narożna kamienica przy ul. św. Tomasza była w XVII i XVIII w. znana jako „Cyrusowska”. [1] W połowie XVI w. należała do Jana Cerasinusa (Kiersteina), wójta wyższego prawa na zamku krakowskim, którego pomnik dłuta Jana Michałowicza z Urzędowa umieszczono na zewnętrznej ścianie kościoła Mariackiego. [1,2] Po jego śmierci w 1561 r. dom należał do wdowy, Anny Cerasinowej, a potem przez jej córkę, również Annę, przeszedł na rodzinę Cyrusów, od której przez dwa stulecia brał nazwę. [2] Podczas przebudowy w 1790 r., za instygatora Zielińskiego, dobudowano drugie piętro i attykę, która przetrwała do czasów Chmiela; w jej środkowej części znajdowała się płaskorzeźba z Okiem Opatrzności wśród główek aniołków. [3,4] Mąż Józefy Knowiakowskiej, właścicielki w 1887 r., prowadził tu cukiernię, a w 1904 r. wejście do kamienicy przeniesiono z ul. Floriańskiej na ul. św. Tomasza, zamieniając dawną sień na sklep. [1,5]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 39",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=41"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 40",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=42"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 45",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=47"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), skan 52",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=51"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), skan 51",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=50"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Cyrusowska_w_Krakowie",
+    "notes": "Chmiel's heading reads 'sp. 320' (OCR) while Nowolecki 1884 gives lc. 326 - old number deliberately not mentioned.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S3: s. 40 says the house first passed to the widow Anna Cerasinowa (d. 1584) and only then via her daughter Anna to the Cyrus family – corrected the shortcut 'po jego śmierci … przez córkę'.",
+        "S4: present tense 'jest płaskorzeźba' (Chmiel's 'today', 1919) changed to past tense."
+      ],
+      "checked_urls": [
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=41",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=42",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=47",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=51",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=50"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S2: avoided Chmiel's present tense ('znajduje się') – 'umieszczono'."
+      ]
+    }
+  },
+  {
+    "entry_id": 1373,
+    "address": "Floriańska 14",
+    "text": "W XVI w. kamienica należała do Prowanów, szlacheckiej rodziny pochodzenia włoskiego, która w 1557 r. otrzymała polski indygenat; przez małżeństwo Barbary Prowanówny przeszła na Dębińskich. [1] Od połowy XVII w. (1652) rejestry czynszów wymieniają ją jako własność starosty średzkiego i do połowy XVIII w. nazywano ją kamienicą „średzką”. [2] W 1750 r. zawaliła się sąsiednia kamienica nr 16, uszkadzając także ten dom, który miał wtedy wieżę od strony sąsiada; rewizja nakazała obniżyć ją do wysokości muru sąsiedniej kamienicy. [3,4] Na początku XIX w. Jan Alojzy Szydłowski urządził tu zajazd, w którym w 1805 r. zatrzymali się wielki książę Konstanty i car Aleksander I; na pamiątkę tych gości Szydłowski nazwał zajazd „Hôtel de Russie”, a po 1897 r. przemianowano go na „Hotel pod Różą”, co Chmiel tłumaczył podobnym brzmieniem obu nazw. [5,6,7] W 1829 r., jeszcze przed zmianą nazwy, zajazd kupili na licytacji Zofia i Hilary Meciszewscy; Hilary był deputowanym na sejm Rzeczypospolitej Krakowskiej, redaktorem czasopism i dyrektorem teatru krakowskiego. [8]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), skan 53",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=52"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 51",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=53"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), skan 55",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=54"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 53",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=55"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), skan 60",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=59"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 58",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=60"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), skan 62",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=61"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 2–14) (1919), s. 62",
+        "url": "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=64"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Hotel_Pod_R%C3%B3%C5%BC%C4%85_w_Krakowie",
+    "notes": "Chapter L. or. 14 (sp. 327 = Nowolecki 1884 lc. 327) runs from skan 52 to ~s. 63; library_search listed only the heading page, the rest was read with --page.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S2: s. 51 – 1652 is the year the rent registers name the owner as 'starosta średzki' (the house was sold to Piotr Grudziński earlier); 'Od 1652 r. była własnością' rephrased accordingly.",
+        "S3: s. 53 – the 1750 inspection said the tower must be 'złamać od góry równo z murem Żulińskich' (cut down to the neighbour's wall), not demolished; corrected.",
+        "6 sentences > 5: merged the Szydłowski-inn sentence with the 'Hôtel de Russie' sentence (markers [5,6,7])."
+      ],
+      "checked_urls": [
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=52",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=53",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=54",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=55",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=59",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=60",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=61",
+        "https://polona.pl/item-view/31b7a477-c974-4ebb-ad41-c7b4640c9e5b?page=64"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S4: broke the double 'a … a' chain with a semicolon.",
+        "S5: 1829 follows the 1897 rename in the text – added 'jeszcze przed zmianą nazwy' and named the object ('zajazd' instead of 'go')."
+      ]
+    }
+  },
+  {
+    "entry_id": 1375,
+    "address": "Floriańska 16",
+    "text": "Wąska kamieniczka o dwóch oknach frontu (dawniej nr 328) należała w 1577 r. do kuśnierza Seweryna Glacza. [1] Jego córka Anna wyszła za Aleksandra Węgrzynowicza, doktora filozofii i medycyny zwanego w Krakowie Gallusem, a dom nazywano potem kamienicą „doktora Gallusa”. [1] W 1609 r. podzielono ją między pięcioro potomków Anny i jej późniejszego męża, Macieja Sybeneichera; była już wtedy dwupiętrowa, z jednopiętrową oficyną. [2,3] Od 1637 r. należała do Piotra Ochockiego, a rodzina Ochockich posiadała ją do końca XVII w., stąd w XVIII w. mówiono o „kamienicy Ochockich”. [3,4] W sierpniu 1750 r. kamienica zawaliła się niemal w całości, a po odbudowie w drugiej połowie XVIII w. nie przechodziła większych przeróbek poza wysoką witryną sklepową z 1908 r. [5,6]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), skan 9",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=9"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 66 (skan 10)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=10"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 67 (skan 11)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=11"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 68 (skan 12)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=12"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 69 (skan 13)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=13"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 70 (skan 14)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=14"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Ochockich_w_Krakowie",
+    "notes": "OCR on s. 66 is unclear whether Sybeneicher was Anna's second or third husband - written as 'późniejszego męża'.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "S3: s. 66 says the 1609 division was among the descendants of Maciej Sybeneicher AND his wife Anna (the house was hers) – wording corrected."
+      ],
+      "checked_urls": [
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=9",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=10",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=11",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=12",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=13",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=14"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S2: smoother connector."
+      ]
+    }
+  },
+  {
+    "entry_id": 1377,
+    "address": "Floriańska 18",
+    "text": "Kamienica powstała w latach 1834–1836 z połączenia dwóch starszych domów, oznaczanych dawniej numerami 506 i 507: w 1833 r. właściciel domu nr 506, Stanisław Westfalewicz, kupił na licytacji dom nr 507 i połączył oba według planów budowniczego Hercoka z 1834 r. [1,7,8] Dom nr 506 kupił w 1602 r. pasamonik i pisarz dochodów miejskich Marcin Raysik, który w 1606 r. wraz z kupcem Jerzym Więckowiczem ufundował kaplicę Imienia Jezus przy kościele św. Barbary. [2,3] Dom nr 507 nosił w 1419 r. nazwę „Ikusz”, a w XVI w. „pod Koniem” – według Chmiela od kowala Stanisława Gostkowicza, właściciela w 1577 r.; w XVII w. mieściła się w nim apteka. [4,5] Około 1793 r. drukarnię w domu nr 507 kupił Jan May, który od 1796 r. aż do śmierci w 1831 r. wydawał i redagował „Gazetę Krakowską”. [6,7] Od 1895 r. masarz Wincenty Satalecki przebudował oficynę i piwnice na swój zakład masarski, który według Chmiela stał się pierwszorzędnym warsztatem. [8,9]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 71 (skan 15)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=15"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 72 (skan 16)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=16"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 73 (skan 17)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=17"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 74 (skan 18)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=18"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 75 (skan 19)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=19"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 79 (skan 23)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=23"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 80 (skan 24)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=24"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 81 (skan 25)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=25"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 82 (skan 26)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=26"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Westfalewicz%C3%B3w_w_Krakowie",
+    "notes": "506/507 are the old Gmina IV numbers Chmiel uses; no Nowolecki 1884 row matched this address.",
+    "verification": {
+      "verdict": "corrected",
+      "removed": [
+        "6 sentences > 5: merged the Westfalewicz purchase/merger sentence into the opening sentence (markers [1,7,8]).",
+        "S3: the origin of the name 'pod Koniem' from the smith Gostkowicz is Chmiel's inference ('pochodzi oczywiście') – marked 'według Chmiela'.",
+        "Last sentence: 'jednym z najlepszych w mieście' went beyond s. 82 ('pierwszorzędnym warsztatem co do dobroci wyrobów') – reworded to what the page says."
+      ],
+      "checked_urls": [
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=15",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=16",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=17",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=18",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=19",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=23",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=24",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=25",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=26"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S4: 'w tym domu' was ambiguous (506 or 507) – Chmiel places the printing house in no. 507."
+      ]
+    }
+  },
+  {
+    "entry_id": 1379,
+    "address": "Floriańska 20",
+    "text": "W pierwszej połowie XVI w. kamienica należała do ks. Stanisława Borka, kantora katedry poznańskiej i kanonika krakowskiego, fundatora stypendiów dla ubogich studentów zwanych „Borkane”. [1] W 1530 r. zapisał on na niej po 100 złotych dla nowego szpitala św. Rocha za murami miasta i dla klasztoru św. Agnieszki na Stradomiu; zmarł w 1556 r., a w katedrze na Wawelu upamiętniła go brązowa płyta nagrobna. [1] Przed 1682 r. dom spłonął i według rewizji z tego roku był częściowo murowany, a częściowo drewniany. [2] Na początku XIX w. nazywano go kamienicą „pod św. Józefem” od płaskorzeźby św. Józefa z Dzieciątkiem nad środkowym oknem drugiego piętra. [3,4] W 1896 r. Stanisław Banaś nadbudował trzecie piętro i zmienił fasadę według projektu Jana Hercoka; obraz św. Józefa za szkłem umieszczono wtedy nad środkowym oknem pierwszego piętra. [4,5]",
+    "sources": [
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 83 (skan 27)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=27"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 84 (skan 28)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=28"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 87 (skan 31)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=31"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 88 (skan 32)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=32"
+      },
+      {
+        "title": "Adam Chmiel, Domy krakowskie: ulica Floryańska, cz. 2 (liczby or. parzyste 16–44) (1920), s. 90 (skan 34)",
+        "url": "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=34"
+      }
+    ],
+    "wikipedia": "https://pl.wikipedia.org/wiki/Kamienica_Pod_%C5%9Awi%C4%99tym_J%C3%B3zefem_w_Krakowie",
+    "notes": "Chmiel's heading reads 'sp. 320' (OCR?) while Nowolecki 1884 gives lc. 330 - old number not mentioned.",
+    "verification": {
+      "verdict": "kept",
+      "removed": [],
+      "checked_urls": [
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=27",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=28",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=31",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=32",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=34",
+        "https://dbc.wroc.pl/dlibra/publication/6422/edition/13908/content#scan=33"
+      ]
+    },
+    "editor": {
+      "changes": [
+        "S2: avoided Chmiel's present tense ('znajduje się').",
+        "S3: 'ówczesnej rewizji' unclear – 'rewizji z tego roku' (1682)."
+      ]
+    }
+  }
+]
