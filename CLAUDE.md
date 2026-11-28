@@ -186,8 +186,11 @@ promote their own texts.
   https://claude.ai/artifact/JtCt3SjPBGepuK8DgruPH6 — its copy of Józefa 38
   has one typo, "srebr" for "sreber"; ai_drafts.json is the reference). The
   former street names (street_history.json) are NOT approved yet and keep
-  their AI note. 89 addresses have a
-  historian-sourced text (cites a library page). Thanks to the 600 m fallback, ~95% of addresses show at least
+  their AI note. Batch 3 (2026-11-26…28): 88 more texts (`"batch": 3`,
+  `ai_draft_unverified`, labelled) from the Katalog Zabytków (31 Rynek
+  houses), Chmiel (43 houses) and Klaś (14 Nowa Huta buildings), waiting for
+  the owner. 179 addresses have a historian-sourced text (cites a library
+  page). Thanks to the 600 m fallback, ~95% of addresses show at least
   a nearby place; outer-district fallback places can be 400–600 m away.
 - Street stories cover 552 of 2,874 streets (25% of addresses). Former
   names with dates for 121 streets (53 from Tomkowicz 1926 / Nowolecki 1884,
@@ -214,15 +217,22 @@ promote their own texts.
   "block", reason, decided_by, decided_at, sources}`), applied by build.py:
   the wrong position-based links of Sławkowska 11 (Pałac
   Tarnowskich-Sanguszków → now on św. Marka 13 / Sławkowska 13–15) and
-  Sławkowska 12 (Kamienica Badeniowska → now on Sławkowska 10) are blocked.
+  Sławkowska 12 (Kamienica Badeniowska → now on Sławkowska 10) are blocked,
+  and (batch 3) Rynek 11 (Pod Złotym Karpiem → no. 10), Rynek 46 (Pod Orłem
+  → no. 45), Floriańska 51 (item of no. 38) and Floriańska 57 (Brama
+  Floriańska). Research agents keep finding such position-based mistakes;
+  check `wikidata` on entries before trusting their name.
 - Old-number index (Nowolecki 1884): 1,650 rows, 1,249 modern addresses,
   78.7% of rows match a current OSM address. "Matched" uses 1884 street
   numbers, which changed later on some streets: confirm with the lc. number
   in the house chapter. The 1884 street tables (pp. 110–187) are not parsed.
-- Library gaps: no IS PAN Katalog, Klaś, Rocznik Krakowski or address books
-  (hosts blocked, see above), so Rynek texts rest on Nowolecki 1880 notes +
-  Wikipedia, Nowa Huta texts on Wikipedia only, and there are no "who lived
-  here" lines. Chmiel covers Floriańska, Sławkowska, św. Jana and odd
+- Library: since 2026-11-26 the environment allows repozytorium.ispan.pl,
+  ruj.uj.edu.pl, journals.akademicka.pl, www.mtg-malopolska.org.pl and
+  sbc.org.pl; 20 of 21 sources are cached (only the IA copy is missing —
+  archive.org serves files from changing per-server hosts). library.py also
+  finds Katalog house entries ("NR N," headings). "Who lived here" lines from
+  the 1913 address book are still not done: its OCR is too noisy to state
+  names without checking the page image. Chmiel covers Floriańska, Sławkowska, św. Jana and odd
   Grodzka only; Grodzka even numbers have 1880/1884 owner facts at most.
 - Research agents ran into the account's 5-hour usage limit twice during
   iteration 3; resuming them with SendMessage continued their work.
@@ -328,3 +338,8 @@ promote their own texts.
   "X (gmina Y)" kept; street-name list NOT self-approved (only the owner
   approves AI content); blocked research hosts proposed for the cloud
   environment.
+- 2026-11-26…28 — Batch 3: unblocked sources downloaded (Katalog Zabytków
+  cz. 10, Klaś, 1913 address book, Rocznik article); KZS headings in
+  library.py; 88 new verified + edited texts (Rynek 31 from the Katalog,
+  Chmiel 43, Nowa Huta 14 from Klaś; 1 dropped), status ai_draft_unverified;
+  4 more wrong Wikidata links blocked; historian-sourced addresses 89 → 179.

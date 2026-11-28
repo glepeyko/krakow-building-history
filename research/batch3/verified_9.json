@@ -22,7 +22,7 @@
   {
     "entry_id": 763,
     "address": "Osiedle Centrum D 8",
-    "text": "Blok przy os. Centrum D 8, zwany „Helikopterem”, to dawny blok nr 7 osiedla D-31, zbudowany już w nowej, poodwilżowej formie według projektu Kazimierza Chodorowskiego, Stefana Golonki, Anny Anlauf i Michała Wędziagolskiego, zatwierdzonego w lipcu 1957 r. [1] Ośmiopiętrowy wieżowiec, połączony łącznikiem z niższym blokiem klatkowym, wieńczy charakterystyczny „uskrzydlony” dach w duchu Le Corbusiera, a szklany pas sklepów w parterze sprawia, że budynek zdaje się unosić. [1] Na piętrach parzystych obok mieszkań zaprojektowano pracownie artystyczne, w których pracowali m.in. rzeźbiarz Marian Kruczek, twórca galerii Pod Chmurką przed blokiem, jego żona Józefa Sobór-Kruczek, Ewa Buczyńska i Walenty Gabrysiak. [1,2] W narożnym przeszklonym pawilonie działała cukiernia Bambo, o której otwarciu pisał w 1961 r. „Głos Nowej Huty”, a sam blok wygrał ogłoszony przez tę gazetę w 1959 r. konkurs na najlepszy dom mieszkalny w dzielnicy. [2]",
+    "text": "Blok przy os. Centrum D 8, zwany „Helikopterem”, to dawny blok nr 7 osiedla D-31, zbudowany już w poodwilżowej formie według projektu Kazimierza Chodorowskiego, Stefana Golonki, Anny Anlauf i Michała Wędziagolskiego, zatwierdzonego w lipcu 1957 r. [1] Ośmiopiętrowy wieżowiec, połączony łącznikiem z niższym blokiem klatkowym, wieńczy charakterystyczny „uskrzydlony” dach w duchu Le Corbusiera, a szklany pas sklepów w parterze sprawia, że budynek zdaje się unosić. [1] Na piętrach parzystych obok mieszkań zaprojektowano pracownie artystyczne, w których pracowali m.in. rzeźbiarz Marian Kruczek, twórca galerii Pod Chmurką przed blokiem, jego żona Józefa Sobór-Kruczek, Ewa Buczyńska i Walenty Gabrysiak. [1,2] W narożnym przeszklonym pawilonie działała cukiernia Bambo, o której otwarciu pisał w 1961 r. „Głos Nowej Huty”, a sam blok wygrał ogłoszony przez tę gazetę w 1959 r. konkurs na najlepszy dom mieszkalny w dzielnicy. [2]",
     "sources": [
       {
         "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 94",
@@ -39,7 +39,8 @@
       "verdict": "corrected",
       "removed": [
         "S1: removed \"modernistycznej\" (book says only \"nowej, poodwilżowej formie\"); \"zatwierdzonego do realizacji w lipcu 1957 r.\" shortened (5-word run from the book).",
-        "S4: contest name paraphrased (\"w dzielnicy\")."
+        "S4: contest name paraphrased (\"w dzielnicy\").",
+        "S1: \"już w nowej, poodwilżowej formie\" shortened (5-word run)."
       ],
       "checked_urls": [
         "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=94",
@@ -222,7 +223,7 @@
   {
     "entry_id": 765,
     "address": "Osiedle Centrum E 2",
-    "text": "Budynek przy os. Centrum E 2 to siedziba Państwowej Szkoły Muzycznej im. Mieczysława Karłowicza, która działała od 1958 r., a do początku lat 70. korzystała z lokali zastępczych na osiedlu Centrum B. [1,2] Projekt Marka Jabłońskiego powstał w latach 1959–1961, ale budowa trwała 15 lat i gotowy gmach szkoła otrzymała dopiero w 1974 r. [2] Zespół tworzą dwa równoległe parterowe pawilony z zielonym dziedzińcem, połączone głównym budynkiem częściowo uniesionym na smukłych filarach, oraz sala koncertowa na 500 osób, na której zachodniej ścianie architekt wspólnie ze swoim bratem Jerzym Jabłońskim, malarzem, i rzeźbiarzem Zygmuntem Jansohnem wykonał w 1975 r. abstrakcyjną mozaikę z ceramicznych kafli. [2] Aż do ukończenia budowy Opery Krakowskiej w 2008 r. była to największa i najnowocześniejsza sala tego rodzaju w Krakowie, a we wnętrzach szkoły zachowały się oryginalne elementy wystroju z lat 70. [3] W 2012 r. szkołę rozbudowano według projektu Agencji Projektowej A4 z Nowego Sącza, m.in. o kilkadziesiąt sal i bibliotekę liczącą 50 tys. woluminów. [3]",
+    "text": "Budynek przy os. Centrum E 2 to siedziba Państwowej Szkoły Muzycznej im. Mieczysława Karłowicza, która działała od 1958 r., a do początku lat 70. korzystała z lokali zastępczych na osiedlu Centrum B. [1,2] Projekt Marka Jabłońskiego powstał w latach 1959–1961, ale budowa trwała 15 lat i gotowy gmach szkoła otrzymała dopiero w 1974 r. [2] Zespół tworzą dwa równoległe parterowe pawilony z zielonym dziedzińcem, połączone głównym budynkiem częściowo uniesionym na smukłych filarach, oraz sala koncertowa na 500 osób, na której zachodniej ścianie architekt wspólnie ze swoim bratem Jerzym Jabłońskim, malarzem, i rzeźbiarzem Zygmuntem Jansohnem wykonał w 1975 r. abstrakcyjną mozaikę z ceramicznych kafli. [2] Aż do ukończenia budowy Opery Krakowskiej w 2008 r. była to największa i najnowocześniejsza sala tego rodzaju w Krakowie, a we wnętrzach szkoły z lat 70. zachowały się pierwotne elementy wystroju. [3] W 2012 r. szkołę rozbudowano według projektu Agencji Projektowej A4 z Nowego Sącza, m.in. o kilkadziesiąt sal i bibliotekę liczącą 50 tys. woluminów. [3]",
     "sources": [
       {
         "title": "Jarosław Klaś (red.), Nowa Huta: architektoniczny portret miasta drugiej połowy XX wieku (2018), skan 77",
@@ -244,7 +245,7 @@
       "removed": [
         "S2: rephrased \"Szkołę oddano do użytku dopiero w 1974 r.\" (verbatim from skan 80).",
         "S3: rephrased \"z bratem, malarzem Jerzym Jabłońskim\" (verbatim run).",
-        "S4: \"do otwarcia Opery\" -> \"do ukończenia budowy Opery\" (book: \"ukończenie w 2008 r. budowy\"); \"zachowały oryginalny wystrój\" -> \"zachowały się oryginalne elementy wystroju\" (book lists elements, not the whole décor)."
+        "S4: \"do otwarcia Opery\" -> \"do ukończenia budowy Opery\" (book: \"ukończenie w 2008 r. budowy\"); \"zachowały oryginalny wystrój\" -> \"zachowały się oryginalne elementy wystroju\" (book lists elements, not the whole décor). Then reworded to avoid a 5-word run."
       ],
       "checked_urls": [
         "https://ruj.uj.edu.pl/server/api/core/bitstreams/007a4b1d-31a8-487b-918f-4e477f49304b/content#page=77",
