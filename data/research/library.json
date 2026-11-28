@@ -368,6 +368,132 @@
    }
   },
   {
+   "id": "kzs-iv-2",
+   "author": "Instytut Sztuki PAN (red.)",
+   "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 2: Kościoły i klasztory Śródmieścia, cz. 1",
+   "short": "Katalog Zabytków Sztuki, t. IV cz. 2",
+   "year": null,
+   "licence": "© Instytut Sztuki PAN, open access",
+   "route": "pdf",
+   "url": "https://repozytorium.ispan.pl/Content/31757/kzs-t04-z02.pdf",
+   "item_url": "https://repozytorium.ispan.pl/dlibra/publication/edition/31757",
+   "page_url": "https://repozytorium.ispan.pl/Content/31757/kzs-t04-z02.pdf#page={scan}",
+   "covers": {
+    "area": "Śródmieście (Old Town) churches and monasteries"
+   },
+   "kind": "church and monument entries",
+   "fetch": {
+    "status": "ok",
+    "pages": 927,
+    "fetched_at": "2026-11-28"
+   }
+  },
+  {
+   "id": "kzs-iv-3",
+   "author": "Instytut Sztuki PAN (red.)",
+   "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 3: Kościoły i klasztory Śródmieścia, cz. 2",
+   "short": "Katalog Zabytków Sztuki, t. IV cz. 3",
+   "year": null,
+   "licence": "© Instytut Sztuki PAN, open access",
+   "route": "pdf",
+   "url": "https://repozytorium.ispan.pl/Content/31759/kzs-t04-z03.pdf",
+   "item_url": "https://repozytorium.ispan.pl/dlibra/publication/edition/31759",
+   "page_url": "https://repozytorium.ispan.pl/Content/31759/kzs-t04-z03.pdf#page={scan}",
+   "covers": {
+    "area": "Śródmieście (Old Town) churches and monasteries"
+   },
+   "kind": "church and monument entries",
+   "fetch": {
+    "status": "ok",
+    "pages": 1081,
+    "fetched_at": "2026-11-28"
+   }
+  },
+  {
+   "id": "kzs-iv-4",
+   "author": "Instytut Sztuki PAN (red.)",
+   "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 4: Kazimierz i Stradom. Kościoły i klasztory, cz. 1",
+   "short": "Katalog Zabytków Sztuki, t. IV cz. 4",
+   "year": null,
+   "licence": "© Instytut Sztuki PAN, open access",
+   "route": "pdf",
+   "url": "https://repozytorium.ispan.pl/Content/31763/kzs-t04-z04.pdf",
+   "item_url": "https://repozytorium.ispan.pl/dlibra/publication/edition/31763",
+   "page_url": "https://repozytorium.ispan.pl/Content/31763/kzs-t04-z04.pdf#page={scan}",
+   "covers": {
+    "area": "Kazimierz and Stradom churches"
+   },
+   "kind": "church and monument entries",
+   "fetch": {
+    "status": "ok",
+    "pages": 904,
+    "fetched_at": "2026-11-28"
+   }
+  },
+  {
+   "id": "kzs-iv-5",
+   "author": "Instytut Sztuki PAN (red.)",
+   "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 5: Kazimierz i Stradom. Kościoły i klasztory, cz. 2",
+   "short": "Katalog Zabytków Sztuki, t. IV cz. 5",
+   "year": null,
+   "licence": "© Instytut Sztuki PAN, open access",
+   "route": "pdf",
+   "url": "https://repozytorium.ispan.pl/Content/31764/kzs-t04-z05.pdf",
+   "item_url": "https://repozytorium.ispan.pl/dlibra/publication/edition/31764",
+   "page_url": "https://repozytorium.ispan.pl/Content/31764/kzs-t04-z05.pdf#page={scan}",
+   "covers": {
+    "area": "Kazimierz and Stradom churches"
+   },
+   "kind": "church and monument entries",
+   "fetch": {
+    "status": "ok",
+    "pages": 580,
+    "fetched_at": "2026-11-28"
+   }
+  },
+  {
+   "id": "kzs-iv-6",
+   "author": "Instytut Sztuki PAN (red.)",
+   "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 6: Kazimierz i Stradom. Judaica: bóżnice, budynki instytucji i domy mieszkalne",
+   "short": "Katalog Zabytków Sztuki, t. IV cz. 6",
+   "year": null,
+   "licence": "© Instytut Sztuki PAN, open access",
+   "route": "pdf",
+   "url": "https://repozytorium.ispan.pl/Content/31771/S_04_06.pdf",
+   "item_url": "https://repozytorium.ispan.pl/dlibra/publication/edition/31771",
+   "page_url": "https://repozytorium.ispan.pl/Content/31771/S_04_06.pdf#page={scan}",
+   "covers": {
+    "area": "Kazimierz Judaica: synagogues, institutions, houses"
+   },
+   "kind": "church and monument entries",
+   "fetch": {
+    "status": "ok",
+    "pages": 405,
+    "fetched_at": "2026-11-28"
+   }
+  },
+  {
+   "id": "kzs-iv-7",
+   "author": "Instytut Sztuki PAN (red.)",
+   "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 7: Zwierzyniec, Nowy Świat, Półwsie Zwierzynieckie",
+   "short": "Katalog Zabytków Sztuki, t. IV cz. 7",
+   "year": null,
+   "licence": "© Instytut Sztuki PAN, open access",
+   "route": "pdf",
+   "url": "https://repozytorium.ispan.pl/Content/31772/kzs-t04-z07.pdf",
+   "item_url": "https://repozytorium.ispan.pl/dlibra/publication/edition/31772",
+   "page_url": "https://repozytorium.ispan.pl/Content/31772/kzs-t04-z07.pdf#page={scan}",
+   "covers": {
+    "area": "Zwierzyniec, Nowy Świat"
+   },
+   "kind": "church and monument entries",
+   "fetch": {
+    "status": "ok",
+    "pages": 410,
+    "fetched_at": "2026-11-28"
+   }
+  },
+  {
    "id": "kzs-iv-10",
    "author": "Instytut Sztuki PAN (red.)",
    "title": "Katalog Zabytków Sztuki w Polsce, t. IV: Miasto Kraków, cz. 10: Mury obronne, Planty, Rynek Główny",
